@@ -1,8 +1,7 @@
 # MXene Geometry
 
-A pipeline for filtering MXene research literature entries using an LLM
-([m3rg-iitd/llamat-3-chat](https://huggingface.co/m3rg-iitd/llamat-3-chat)),
-a materials-science fine-tuned LLaMA-3 model.
+A pipeline for filtering MXene research literature entries by formula and synthesis method.
+Matching is rule-based — deterministic, instant, no GPU required.
 
 ---
 
@@ -48,16 +47,6 @@ source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-> **GPU note:** the script uses `device_map="auto"` and will use any available
-> CUDA GPU automatically. A GPU with at least 16 GB VRAM is recommended for
-> full-precision inference; use `--quantize` (see below) to reduce this to ~6 GB.
-
-### 4. HuggingFace access
-
-The model is downloaded from HuggingFace on first run and cached locally.
-If the model repository is gated, generate a token at
-<https://huggingface.co/settings/tokens> and pass it via `--hf-token`.
-
 ---
 
 ## Input CSV format
@@ -93,27 +82,14 @@ python scripts/filter_mxene.py --csv <filename>
 
 ### Arguments
 
-| Argument | Required | Default | Description |
-|---|---|---|---|
-| `--csv` | Yes | — | Filename inside `data/raw/`, e.g. `5.csv` |
-| `--batch-size` | No | `8` | Number of rows sent to the GPU per inference call |
-| `--quantize` | No | off | Load model in 4-bit (bitsandbytes) — reduces VRAM from ~14 GB to ~6 GB |
-| `--hf-token` | No | — | HuggingFace access token for gated model repositories |
+| Argument | Required | Description |
+|---|---|---|
+| `--csv` | Yes | Filename inside `data/raw/`, e.g. `5.csv` |
 
 ### Examples
 
 ```bash
-# Standard run
 python scripts/filter_mxene.py --csv 5.csv
-
-# Larger batch on a high-VRAM GPU (A100 80 GB)
-python scripts/filter_mxene.py --csv 5.csv --batch-size 16
-
-# Low-VRAM machine (4-bit quantisation)
-python scripts/filter_mxene.py --csv 5.csv --quantize
-
-# Gated model with HF token
-python scripts/filter_mxene.py --csv 5.csv --hf-token hf_xxxxxxxxxxxxxxxx
 ```
 
 ---

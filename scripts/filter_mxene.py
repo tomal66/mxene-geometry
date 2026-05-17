@@ -1,275 +1,131 @@
 #!/usr/bin/env python3
 """
-Filter MXene CSV rows using m3rg-iitd/llamat-3-chat.
+Filter MXene CSV rows by formula (Ti₃C₂Tₓ / Ti₃C₂) and synthesis (LiF + HCl).
+
+Matching is rule-based — deterministic, fast, no GPU required.
 
 Usage
 -----
     python scripts/filter_mxene.py --csv 5.csv
-    python scripts/filter_mxene.py --csv 5.csv --batch-size 16
-    python scripts/filter_mxene.py --csv 5.csv --quantize
-    python scripts/filter_mxene.py --csv 5.csv --hf-token <token>
-
-Criteria (both must hold to PASS)
-----------------------------------
-  1. MXene formula  : Ti₃C₂Tₓ or Ti₃C₂ (all unicode / ascii variants)
-  2. Synthesis      : explicitly mentions BOTH LiF and HCl
 
 Outputs  →  data/filtered/<stem>_filtered.csv / _ambiguous.csv / _reasoning.csv
 """
 
 import argparse
-import json
 import re
 import sys
+import unicodedata
 from pathlib import Path
 
 import pandas as pd
-import torch
 from tqdm import tqdm
-from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig
 
 RAW_DIR = Path("data/raw")
 OUT_DIR = Path("data/filtered")
-MODEL_ID = "m3rg-iitd/llamat-3-chat"
 
-SYSTEM_PROMPT = (
-    "You are an expert materials scientist specialising in MXene synthesis and "
-    "characterisation. You evaluate research database entries against strict "
-    "inclusion criteria. You respond ONLY with a valid JSON object — no preamble, "
-    "no explanation outside the JSON."
-)
-
-USER_TEMPLATE = """Evaluate the MXene research entry below against two mandatory criteria.
-
-━━━ CRITERION 1 — MXene Formula ━━━
-Accept ONLY Ti₃C₂Tₓ  or  Ti₃C₂  as the primary MXene formula.
-All ASCII / unicode / subscript variants are equivalent:
-  Ti3C2Tx, Ti₃C₂Tₓ, Ti3C2, Ti₃C₂  →  all accepted.
-A cell may list multiple MXenes (e.g. "Ti₃C₂Tₓ (primary); Ti₂CTₓ (secondary)").
-It PASSES if Ti₃C₂Tₓ or Ti₃C₂ is labelled as PRIMARY, or is the only formula.
-Any other stoichiometry as the primary entry (Ta₄C₃, Ti₂C, Mo₂C, Nb₂C, V₂C …) FAILS.
-
-━━━ CRITERION 2 — Synthesis Method ━━━
-The synthesis description must explicitly mention BOTH:
-  • LiF  (lithium fluoride — the mild fluoride salt source)
-  • HCl  (hydrochloric acid)
-Mentioning only one of them, or using HF / other acids without LiF, FAILS this criterion.
-
-━━━ Entry ━━━
-MXene Formula    : {formula}
-Synthesis Method : {synthesis}
-
-━━━ Response format ━━━
-Respond ONLY with this JSON and nothing else:
-{{
-  "formula_match":      true | false | null,
-  "formula_reasoning":  "<one concise sentence>",
-  "synthesis_match":    true | false | null,
-  "synthesis_reasoning":"<one concise sentence>",
-  "overall":            "PASS" | "FAIL" | "AMBIGUOUS",
-  "overall_reasoning":  "<one concise sentence>"
-}}
-
-Rules for "overall":
-  "PASS"      → formula_match is true  AND synthesis_match is true
-  "FAIL"      → formula_match is false OR  synthesis_match is false  (neither is null)
-  "AMBIGUOUS" → any field is null, or you cannot assess with confidence"""
+# Unicode subscript → ASCII digit/letter
+_SUBSCRIPT_MAP = str.maketrans("₀₁₂₃₄₅₆₇₈₉ₓ", "0123456789x")
 
 
-# ── helpers ──────────────────────────────────────────────────────────────────
+# ── rule-based checks ─────────────────────────────────────────────────────────
 
-def build_prompt(formula: str, synthesis: str) -> str:
-    return USER_TEMPLATE.format(
-        formula=formula or "(empty)",
-        synthesis=synthesis or "(empty)",
-    )
+def _normalise(s: str) -> str:
+    """NFKC normalisation + subscript collapse, lowercased."""
+    return unicodedata.normalize("NFKC", s).translate(_SUBSCRIPT_MAP).lower()
 
 
-def _fix_single_quotes(s: str) -> str:
+def check_formula(formula: str) -> tuple[bool | None, str]:
     """
-    Normalize a Python-style / mixed-quote dict string to valid JSON.
-    Handles patterns the model produces:
-      'key'  : value  →  "key": value
-      'key"  : value  →  "key": value   (open single, close double)
+    Returns (match, reasoning).
+    True  → primary formula is Ti₃C₂Tₓ or Ti₃C₂
+    False → primary formula is something else
+    None  → genuinely ambiguous (e.g. composite label, no clear primary)
     """
-    # Strip special tokens that leak into output (ChatML / LLaMA-3 / Phi style)
-    s = re.sub(r"<\|[^|>]+\|>", "", s)
-    # Replace single-quoted keys (both 'k' and 'k" variants) with double-quoted keys
-    s = re.sub(r"'(\w+)['\"](\s*:)", r'"\1"\2', s)
-    return s
+    norm = _normalise(formula)
+
+    # Extract the primary formula: text before the first semicolon, slash,
+    # comma, or "(secondary)" / "(minor)" qualifier
+    primary = re.split(r";|/|,|\(secondary\)|\(minor\)|\(second", norm)[0].strip()
+
+    ti3c2_pat = re.compile(r"ti3c2")
+
+    if ti3c2_pat.search(primary):
+        return True, f"Primary formula '{formula.strip()}' contains Ti₃C₂ (Ti₃C₂Tₓ or Ti₃C₂)."
+
+    # If not in primary but present elsewhere (e.g. secondary), it still fails
+    if ti3c2_pat.search(norm):
+        return False, (
+            f"Ti₃C₂ appears in '{formula.strip()}' but is not the primary formula."
+        )
+
+    if not norm.strip():
+        return None, "Formula cell is empty."
+
+    return False, f"Primary formula '{formula.strip()}' is not Ti₃C₂Tₓ or Ti₃C₂."
 
 
-def _regex_fields(raw: str) -> dict | None:
-    """Last-resort: extract individual fields with regex, no JSON parser."""
-    bool_map = {"true": True, "false": False, "null": None, "none": None}
-    result: dict = {}
-
-    for key in ("formula_match", "synthesis_match"):
-        m = re.search(rf"""['"]?{key}['"]?\s*:\s*(\w+)""", raw, re.IGNORECASE)
-        if m:
-            result[key] = bool_map.get(m.group(1).lower(), None)
-
-    for key in ("formula_reasoning", "synthesis_reasoning", "overall_reasoning"):
-        m = re.search(rf"""['"]?{key}['"]?\s*:\s*['"]([^'"]*?)['"]""", raw, re.IGNORECASE)
-        result[key] = m.group(1) if m else ""
-
-    m = re.search(r"""['"]?overall['"]?\s*:\s*['"]?(\w+)['"]?""", raw, re.IGNORECASE)
-    if m:
-        result["overall"] = m.group(1).upper()
-
-    return result if len(result) >= 4 else None
-
-
-def extract_json(raw: str) -> dict | None:
+def check_synthesis(synthesis: str) -> tuple[bool | None, str]:
     """
-    Parse the LLM response to a dict. Tries in order:
-      1. Standard JSON (double quotes)
-      2. After fixing single-quoted / mixed-quoted keys
-      3. Regex field extraction (model-agnostic fallback)
+    Returns (match, reasoning).
+    True  → synthesis mentions both LiF and HCl
+    False → one or both are absent
+    None  → synthesis cell is empty
     """
-    raw = raw.strip()
+    if not synthesis.strip():
+        return None, "Synthesis cell is empty."
 
-    # Strip special tokens and markdown fences up front
-    raw = re.sub(r"<\|[^|>]+\|>", "", raw)
-    raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
-    raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
+    lif_pat = re.compile(r"\blif\b|lithium[\s\-]?fluoride", re.IGNORECASE)
+    hcl_pat = re.compile(r"\bhcl\b|hydrochloric[\s\-]?acid", re.IGNORECASE)
 
-    # Isolate the first { … } block (take the earliest { and latest })
-    start = raw.find("{")
-    end = raw.rfind("}")
-    candidate = raw[start : end + 1] if start != -1 and end > start else raw
+    has_lif = bool(lif_pat.search(synthesis))
+    has_hcl = bool(hcl_pat.search(synthesis))
 
-    # Pass 1 — standard JSON
-    try:
-        return json.loads(candidate)
-    except json.JSONDecodeError:
-        pass
-
-    # Pass 2 — fix single / mixed quoting then retry
-    try:
-        return json.loads(_fix_single_quotes(candidate))
-    except json.JSONDecodeError:
-        pass
-
-    # Pass 3 — regex extraction on the full raw string (not just candidate)
-    return _regex_fields(raw)
+    if has_lif and has_hcl:
+        return True, "Synthesis explicitly mentions both LiF and HCl."
+    if not has_lif and not has_hcl:
+        return False, "Synthesis mentions neither LiF nor HCl."
+    if not has_lif:
+        return False, "Synthesis mentions HCl but not LiF."
+    return False, "Synthesis mentions LiF but not HCl."
 
 
-def normalise_verdict(parsed: dict) -> dict:
-    """Override 'overall' to be logically consistent with the per-criterion fields."""
-    fm = parsed.get("formula_match")
-    sm = parsed.get("synthesis_match")
+def evaluate_row(formula: str, synthesis: str) -> dict:
+    fm, fr = check_formula(formula)
+    sm, sr = check_synthesis(synthesis)
 
     if fm is None or sm is None:
-        parsed["overall"] = "AMBIGUOUS"
-    elif fm is True and sm is True:
-        parsed["overall"] = "PASS"
-    elif fm is False or sm is False:
-        parsed["overall"] = "FAIL"
-
-    return parsed
-
-
-def fallback_record(raw_output: str) -> dict:
-    clean = re.sub(r"<\|[^|>]+\|>", "", raw_output).strip()
-    return {
-        "formula_match": None,
-        "formula_reasoning": "All parsing strategies failed; could not assess.",
-        "synthesis_match": None,
-        "synthesis_reasoning": "All parsing strategies failed; could not assess.",
-        "overall": "AMBIGUOUS",
-        "overall_reasoning": f"Unparseable model output. Raw: {clean[:300]}",
-    }
-
-
-# ── model ────────────────────────────────────────────────────────────────────
-
-def load_model(quantize: bool, hf_token: str | None):
-    print(f"Loading tokenizer  : {MODEL_ID}")
-    tokenizer = AutoTokenizer.from_pretrained(
-        MODEL_ID,
-        token=hf_token,
-        trust_remote_code=True,
-        clean_up_tokenization_spaces=False,  # suppress BPE warning
-    )
-
-    # Left-padding is required for batched decoder-only generation.
-    # Padding on the right would shift the start-of-generation position.
-    if tokenizer.pad_token is None:
-        tokenizer.pad_token = tokenizer.eos_token
-    tokenizer.padding_side = "left"
-
-    kwargs: dict = dict(
-        token=hf_token,
-        trust_remote_code=True,
-        device_map="auto",
-    )
-
-    if quantize:
-        print("Loading model      : 4-bit quantised (bitsandbytes)")
-        kwargs["quantization_config"] = BitsAndBytesConfig(
-            load_in_4bit=True,
-            bnb_4bit_compute_dtype=torch.bfloat16,
-        )
+        overall = "AMBIGUOUS"
+    elif fm and sm:
+        overall = "PASS"
     else:
-        print("Loading model      : full precision")
-        kwargs["dtype"] = torch.bfloat16
+        overall = "FAIL"
 
-    model = AutoModelForCausalLM.from_pretrained(MODEL_ID, **kwargs)
-    model.eval()
-    print("Model ready.\n")
-    return model, tokenizer
+    parts = []
+    if fm is True and sm is True:
+        parts.append("Passes both criteria.")
+    else:
+        if fm is False:
+            parts.append("Formula does not match.")
+        if sm is False:
+            parts.append("Synthesis does not match.")
+        if fm is None or sm is None:
+            parts.append("One or more fields are empty.")
 
-
-def call_model_batch(model, tokenizer, entries: list[tuple[str, str]]) -> list[str]:
-    """
-    Run inference on a batch of (formula, synthesis) pairs.
-    Returns one decoded string per entry (new tokens only).
-    """
-    prompt_texts = [
-        tokenizer.apply_chat_template(
-            [
-                {"role": "system", "content": SYSTEM_PROMPT},
-                {"role": "user", "content": build_prompt(formula, synthesis)},
-            ],
-            tokenize=False,
-            add_generation_prompt=True,
-        )
-        for formula, synthesis in entries
-    ]
-
-    inputs = tokenizer(
-        prompt_texts,
-        return_tensors="pt",
-        padding=True,          # pad shorter prompts to the longest in the batch
-        truncation=True,
-        max_length=2048,
-    ).to(model.device)
-
-    input_len = inputs["input_ids"].shape[1]
-
-    with torch.no_grad():
-        output_ids = model.generate(
-            **inputs,
-            max_new_tokens=512,
-            do_sample=False,
-        )
-
-    # Slice off the shared input prefix; decode only new tokens per item
-    return [
-        tokenizer.decode(output_ids[i][input_len:], skip_special_tokens=True)
-        for i in range(len(entries))
-    ]
+    return {
+        "formula_match": fm,
+        "formula_reasoning": fr,
+        "synthesis_match": sm,
+        "synthesis_reasoning": sr,
+        "overall": overall,
+        "overall_reasoning": " ".join(parts) or overall,
+    }
 
 
 # ── main ─────────────────────────────────────────────────────────────────────
 
 def parse_args() -> argparse.Namespace:
-    p = argparse.ArgumentParser(description="Filter MXene rows with llamat-3-chat.")
+    p = argparse.ArgumentParser(description="Filter MXene rows by formula and synthesis method.")
     p.add_argument("--csv", required=True, help="CSV filename inside data/raw/ (e.g. 5.csv)")
-    p.add_argument("--batch-size", type=int, default=8, help="Rows per inference batch (default: 8)")
-    p.add_argument("--quantize", action="store_true", help="Load model in 4-bit (bitsandbytes)")
-    p.add_argument("--hf-token", default=None, help="HuggingFace access token (if model is gated)")
     return p.parse_args()
 
 
@@ -290,51 +146,23 @@ def main():
     if missing:
         sys.exit(f"ERROR: CSV is missing columns: {missing}\nFound: {list(df.columns)}")
 
-    model, tokenizer = load_model(args.quantize, args.hf_token)
-    print(f"Batch size         : {args.batch_size}\n")
-
     passed_rows: list[dict] = []
     ambiguous_rows: list[dict] = []
     reasoning_rows: list[dict] = []
 
-    rows = list(df.iterrows())
-    batches = [rows[i : i + args.batch_size] for i in range(0, len(rows), args.batch_size)]
+    for row_index, row in tqdm(df.iterrows(), total=len(df), desc="Filtering"):
+        formula = str(row.get("Mxene formula", "")).strip()
+        synthesis = str(row.get("Synthesis method", "")).strip()
 
-    with tqdm(total=len(rows), desc="Evaluating rows") as pbar:
-        for batch in batches:
-            indices = [int(idx) for idx, _ in batch]
-            entries = [
-                (str(row.get("Mxene formula", "")).strip(),
-                 str(row.get("Synthesis method", "")).strip())
-                for _, row in batch
-            ]
+        verdict = evaluate_row(formula, synthesis)
 
-            raw_outputs = call_model_batch(model, tokenizer, entries)
+        reasoning_rows.append({"row_index": row_index, **verdict})
 
-            for (row_index, row), (formula, synthesis), raw_output in zip(
-                batch, entries, raw_outputs
-            ):
-                parsed = extract_json(raw_output)
-                verdict = normalise_verdict(parsed) if parsed is not None else fallback_record(raw_output)
-
-                reasoning_rows.append({
-                    "row_index": row_index,
-                    "formula_match": verdict.get("formula_match"),
-                    "formula_reasoning": verdict.get("formula_reasoning", ""),
-                    "synthesis_match": verdict.get("synthesis_match"),
-                    "synthesis_reasoning": verdict.get("synthesis_reasoning", ""),
-                    "overall": verdict.get("overall", "AMBIGUOUS"),
-                    "overall_reasoning": verdict.get("overall_reasoning", ""),
-                })
-
-                base_row = {"row_index": row_index, **row.to_dict()}
-                overall = verdict.get("overall", "AMBIGUOUS")
-                if overall == "PASS":
-                    passed_rows.append(base_row)
-                elif overall == "AMBIGUOUS":
-                    ambiguous_rows.append(base_row)
-
-            pbar.update(len(batch))
+        base_row = {"row_index": row_index, **row.to_dict()}
+        if verdict["overall"] == "PASS":
+            passed_rows.append(base_row)
+        elif verdict["overall"] == "AMBIGUOUS":
+            ambiguous_rows.append(base_row)
 
     stem = csv_path.stem
     filtered_path = OUT_DIR / f"{stem}_filtered.csv"
