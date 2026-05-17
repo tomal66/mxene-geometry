@@ -85,26 +85,74 @@ def build_prompt(formula: str, synthesis: str) -> str:
     )
 
 
+def _fix_single_quotes(s: str) -> str:
+    """
+    Normalize a Python-style / mixed-quote dict string to valid JSON.
+    Handles patterns the model produces:
+      'key'  : value  →  "key": value
+      'key"  : value  →  "key": value   (open single, close double)
+    """
+    # Strip special tokens that leak into output (ChatML / LLaMA-3 / Phi style)
+    s = re.sub(r"<\|[^|>]+\|>", "", s)
+    # Replace single-quoted keys (both 'k' and 'k" variants) with double-quoted keys
+    s = re.sub(r"'(\w+)['\"](\s*:)", r'"\1"\2', s)
+    return s
+
+
+def _regex_fields(raw: str) -> dict | None:
+    """Last-resort: extract individual fields with regex, no JSON parser."""
+    bool_map = {"true": True, "false": False, "null": None, "none": None}
+    result: dict = {}
+
+    for key in ("formula_match", "synthesis_match"):
+        m = re.search(rf"""['"]?{key}['"]?\s*:\s*(\w+)""", raw, re.IGNORECASE)
+        if m:
+            result[key] = bool_map.get(m.group(1).lower(), None)
+
+    for key in ("formula_reasoning", "synthesis_reasoning", "overall_reasoning"):
+        m = re.search(rf"""['"]?{key}['"]?\s*:\s*['"]([^'"]*?)['"]""", raw, re.IGNORECASE)
+        result[key] = m.group(1) if m else ""
+
+    m = re.search(r"""['"]?overall['"]?\s*:\s*['"]?(\w+)['"]?""", raw, re.IGNORECASE)
+    if m:
+        result["overall"] = m.group(1).upper()
+
+    return result if len(result) >= 4 else None
+
+
 def extract_json(raw: str) -> dict | None:
-    """Parse JSON from LLM output; tolerates markdown fences and leading text."""
+    """
+    Parse the LLM response to a dict. Tries in order:
+      1. Standard JSON (double quotes)
+      2. After fixing single-quoted / mixed-quoted keys
+      3. Regex field extraction (model-agnostic fallback)
+    """
     raw = raw.strip()
+
+    # Strip special tokens and markdown fences up front
+    raw = re.sub(r"<\|[^|>]+\|>", "", raw)
     raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
     raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
 
+    # Isolate the first { … } block (take the earliest { and latest })
+    start = raw.find("{")
+    end = raw.rfind("}")
+    candidate = raw[start : end + 1] if start != -1 and end > start else raw
+
+    # Pass 1 — standard JSON
     try:
-        return json.loads(raw)
+        return json.loads(candidate)
     except json.JSONDecodeError:
         pass
 
-    start = raw.find("{")
-    end = raw.rfind("}")
-    if start != -1 and end > start:
-        try:
-            return json.loads(raw[start : end + 1])
-        except json.JSONDecodeError:
-            pass
+    # Pass 2 — fix single / mixed quoting then retry
+    try:
+        return json.loads(_fix_single_quotes(candidate))
+    except json.JSONDecodeError:
+        pass
 
-    return None
+    # Pass 3 — regex extraction on the full raw string (not just candidate)
+    return _regex_fields(raw)
 
 
 def normalise_verdict(parsed: dict) -> dict:
@@ -123,13 +171,14 @@ def normalise_verdict(parsed: dict) -> dict:
 
 
 def fallback_record(raw_output: str) -> dict:
+    clean = re.sub(r"<\|[^|>]+\|>", "", raw_output).strip()
     return {
         "formula_match": None,
-        "formula_reasoning": "JSON parsing failed; could not assess.",
+        "formula_reasoning": "All parsing strategies failed; could not assess.",
         "synthesis_match": None,
-        "synthesis_reasoning": "JSON parsing failed; could not assess.",
+        "synthesis_reasoning": "All parsing strategies failed; could not assess.",
         "overall": "AMBIGUOUS",
-        "overall_reasoning": f"Model output was not valid JSON. Raw: {raw_output[:200]}",
+        "overall_reasoning": f"Unparseable model output. Raw: {clean[:300]}",
     }
 
 
