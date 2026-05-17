@@ -93,11 +93,12 @@ python scripts/filter_mxene.py --csv <filename>
 
 ### Arguments
 
-| Argument | Required | Description |
-|---|---|---|
-| `--csv` | Yes | Filename inside `data/raw/`, e.g. `5.csv` |
-| `--quantize` | No | Load model in 4-bit (bitsandbytes) — lower VRAM, slightly lower quality |
-| `--hf-token` | No | HuggingFace access token for gated model repositories |
+| Argument | Required | Default | Description |
+|---|---|---|---|
+| `--csv` | Yes | — | Filename inside `data/raw/`, e.g. `5.csv` |
+| `--batch-size` | No | `8` | Number of rows sent to the GPU per inference call |
+| `--quantize` | No | off | Load model in 4-bit (bitsandbytes) — reduces VRAM from ~14 GB to ~6 GB |
+| `--hf-token` | No | — | HuggingFace access token for gated model repositories |
 
 ### Examples
 
@@ -105,14 +106,14 @@ python scripts/filter_mxene.py --csv <filename>
 # Standard run
 python scripts/filter_mxene.py --csv 5.csv
 
+# Larger batch on a high-VRAM GPU (A100 80 GB)
+python scripts/filter_mxene.py --csv 5.csv --batch-size 16
+
 # Low-VRAM machine (4-bit quantisation)
 python scripts/filter_mxene.py --csv 5.csv --quantize
 
 # Gated model with HF token
 python scripts/filter_mxene.py --csv 5.csv --hf-token hf_xxxxxxxxxxxxxxxx
-
-# Combined
-python scripts/filter_mxene.py --csv 5.csv --quantize --hf-token hf_xxxxxxxxxxxxxxxx
 ```
 
 ---

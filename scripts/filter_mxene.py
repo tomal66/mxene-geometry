@@ -5,18 +5,16 @@ Filter MXene CSV rows using m3rg-iitd/llamat-3-chat.
 Usage
 -----
     python scripts/filter_mxene.py --csv 5.csv
-    python scripts/filter_mxene.py --csv 5.csv --quantize          # 4-bit
-    python scripts/filter_mxene.py --csv 5.csv --hf-token <token>  # gated model
+    python scripts/filter_mxene.py --csv 5.csv --batch-size 16
+    python scripts/filter_mxene.py --csv 5.csv --quantize
+    python scripts/filter_mxene.py --csv 5.csv --hf-token <token>
 
 Criteria (both must hold to PASS)
 ----------------------------------
   1. MXene formula  : Ti₃C₂Tₓ or Ti₃C₂ (all unicode / ascii variants)
   2. Synthesis      : explicitly mentions BOTH LiF and HCl
 
-Outputs  →  data/filtered/
-  filtered.csv   – rows the LLM is confident PASS
-  ambiguous.csv  – rows the LLM is uncertain about
-  reasoning.csv  – full per-row LLM reasoning (covers every input row)
+Outputs  →  data/filtered/<stem>_filtered.csv / _ambiguous.csv / _reasoning.csv
 """
 
 import argparse
@@ -90,17 +88,14 @@ def build_prompt(formula: str, synthesis: str) -> str:
 def extract_json(raw: str) -> dict | None:
     """Parse JSON from LLM output; tolerates markdown fences and leading text."""
     raw = raw.strip()
-    # Strip ```json ... ``` fences
     raw = re.sub(r"^```(?:json)?\s*", "", raw, flags=re.MULTILINE)
     raw = re.sub(r"\s*```$", "", raw, flags=re.MULTILINE)
 
-    # Try the whole string first
     try:
         return json.loads(raw)
     except json.JSONDecodeError:
         pass
 
-    # Find the first balanced { … } block
     start = raw.find("{")
     end = raw.rfind("}")
     if start != -1 and end > start:
@@ -113,7 +108,7 @@ def extract_json(raw: str) -> dict | None:
 
 
 def normalise_verdict(parsed: dict) -> dict:
-    """Override 'overall' to be consistent with the individual match fields."""
+    """Override 'overall' to be logically consistent with the per-criterion fields."""
     fm = parsed.get("formula_match")
     sm = parsed.get("synthesis_match")
 
@@ -123,13 +118,11 @@ def normalise_verdict(parsed: dict) -> dict:
         parsed["overall"] = "PASS"
     elif fm is False or sm is False:
         parsed["overall"] = "FAIL"
-    # else leave whatever the model returned (shouldn't happen)
 
     return parsed
 
 
-def fallback_record(formula: str, synthesis: str, raw_output: str) -> dict:
-    """Return an AMBIGUOUS record when JSON parsing fails entirely."""
+def fallback_record(raw_output: str) -> dict:
     return {
         "formula_match": None,
         "formula_reasoning": "JSON parsing failed; could not assess.",
@@ -148,7 +141,14 @@ def load_model(quantize: bool, hf_token: str | None):
         MODEL_ID,
         token=hf_token,
         trust_remote_code=True,
+        clean_up_tokenization_spaces=False,  # suppress BPE warning
     )
+
+    # Left-padding is required for batched decoder-only generation.
+    # Padding on the right would shift the start-of-generation position.
+    if tokenizer.pad_token is None:
+        tokenizer.pad_token = tokenizer.eos_token
+    tokenizer.padding_side = "left"
 
     kwargs: dict = dict(
         token=hf_token,
@@ -164,7 +164,7 @@ def load_model(quantize: bool, hf_token: str | None):
         )
     else:
         print("Loading model      : full precision")
-        kwargs["torch_dtype"] = torch.bfloat16  # saves memory, no quality loss on A100/H100
+        kwargs["dtype"] = torch.bfloat16
 
     model = AutoModelForCausalLM.from_pretrained(MODEL_ID, **kwargs)
     model.eval()
@@ -172,31 +172,45 @@ def load_model(quantize: bool, hf_token: str | None):
     return model, tokenizer
 
 
-def call_model(model, tokenizer, formula: str, synthesis: str) -> str:
-    messages = [
-        {"role": "system", "content": SYSTEM_PROMPT},
-        {"role": "user", "content": build_prompt(formula, synthesis)},
+def call_model_batch(model, tokenizer, entries: list[tuple[str, str]]) -> list[str]:
+    """
+    Run inference on a batch of (formula, synthesis) pairs.
+    Returns one decoded string per entry (new tokens only).
+    """
+    prompt_texts = [
+        tokenizer.apply_chat_template(
+            [
+                {"role": "system", "content": SYSTEM_PROMPT},
+                {"role": "user", "content": build_prompt(formula, synthesis)},
+            ],
+            tokenize=False,
+            add_generation_prompt=True,
+        )
+        for formula, synthesis in entries
     ]
 
-    # apply_chat_template handles special tokens for llamat-3-chat (LLaMA-3 base)
-    prompt_text = tokenizer.apply_chat_template(
-        messages,
-        tokenize=False,
-        add_generation_prompt=True,
-    )
+    inputs = tokenizer(
+        prompt_texts,
+        return_tensors="pt",
+        padding=True,          # pad shorter prompts to the longest in the batch
+        truncation=True,
+        max_length=2048,
+    ).to(model.device)
 
-    inputs = tokenizer(prompt_text, return_tensors="pt").to(model.device)
+    input_len = inputs["input_ids"].shape[1]
 
     with torch.no_grad():
         output_ids = model.generate(
             **inputs,
             max_new_tokens=512,
-            do_sample=False,   # greedy — deterministic, no temperature needed
+            do_sample=False,
         )
 
-    # Return only the newly generated tokens
-    new_ids = output_ids[0][inputs["input_ids"].shape[1] :]
-    return tokenizer.decode(new_ids, skip_special_tokens=True)
+    # Slice off the shared input prefix; decode only new tokens per item
+    return [
+        tokenizer.decode(output_ids[i][input_len:], skip_special_tokens=True)
+        for i in range(len(entries))
+    ]
 
 
 # ── main ─────────────────────────────────────────────────────────────────────
@@ -204,6 +218,7 @@ def call_model(model, tokenizer, formula: str, synthesis: str) -> str:
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(description="Filter MXene rows with llamat-3-chat.")
     p.add_argument("--csv", required=True, help="CSV filename inside data/raw/ (e.g. 5.csv)")
+    p.add_argument("--batch-size", type=int, default=8, help="Rows per inference batch (default: 8)")
     p.add_argument("--quantize", action="store_true", help="Load model in 4-bit (bitsandbytes)")
     p.add_argument("--hf-token", default=None, help="HuggingFace access token (if model is gated)")
     return p.parse_args()
@@ -218,59 +233,61 @@ def main():
 
     OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-    # ── load data ────────────────────────────────────────────────────────────
     df = pd.read_csv(csv_path, dtype=str).fillna("")
-    print(f"Loaded {len(df)} rows from {csv_path}\n")
+    print(f"Loaded {len(df)} rows from {csv_path}")
 
     required = {"Mxene formula", "Synthesis method"}
     missing = required - set(df.columns)
     if missing:
         sys.exit(f"ERROR: CSV is missing columns: {missing}\nFound: {list(df.columns)}")
 
-    # ── load model ───────────────────────────────────────────────────────────
     model, tokenizer = load_model(args.quantize, args.hf_token)
+    print(f"Batch size         : {args.batch_size}\n")
 
-    # ── process rows ─────────────────────────────────────────────────────────
     passed_rows: list[dict] = []
     ambiguous_rows: list[dict] = []
     reasoning_rows: list[dict] = []
 
-    for row_index, row in tqdm(df.iterrows(), total=len(df), desc="Evaluating rows"):
-        formula = str(row.get("Mxene formula", "")).strip()
-        synthesis = str(row.get("Synthesis method", "")).strip()
+    rows = list(df.iterrows())
+    batches = [rows[i : i + args.batch_size] for i in range(0, len(rows), args.batch_size)]
 
-        raw_output = call_model(model, tokenizer, formula, synthesis)
-        parsed = extract_json(raw_output)
+    with tqdm(total=len(rows), desc="Evaluating rows") as pbar:
+        for batch in batches:
+            indices = [int(idx) for idx, _ in batch]
+            entries = [
+                (str(row.get("Mxene formula", "")).strip(),
+                 str(row.get("Synthesis method", "")).strip())
+                for _, row in batch
+            ]
 
-        if parsed is None:
-            verdict = fallback_record(formula, synthesis, raw_output)
-        else:
-            verdict = normalise_verdict(parsed)
+            raw_outputs = call_model_batch(model, tokenizer, entries)
 
-        verdict["row_index"] = int(row_index)
+            for (row_index, row), (formula, synthesis), raw_output in zip(
+                batch, entries, raw_outputs
+            ):
+                parsed = extract_json(raw_output)
+                verdict = normalise_verdict(parsed) if parsed is not None else fallback_record(raw_output)
 
-        # Reasoning CSV: every row
-        reasoning_rows.append({
-            "row_index": row_index,
-            "formula_match": verdict.get("formula_match"),
-            "formula_reasoning": verdict.get("formula_reasoning", ""),
-            "synthesis_match": verdict.get("synthesis_match"),
-            "synthesis_reasoning": verdict.get("synthesis_reasoning", ""),
-            "overall": verdict.get("overall", "AMBIGUOUS"),
-            "overall_reasoning": verdict.get("overall_reasoning", ""),
-        })
+                reasoning_rows.append({
+                    "row_index": row_index,
+                    "formula_match": verdict.get("formula_match"),
+                    "formula_reasoning": verdict.get("formula_reasoning", ""),
+                    "synthesis_match": verdict.get("synthesis_match"),
+                    "synthesis_reasoning": verdict.get("synthesis_reasoning", ""),
+                    "overall": verdict.get("overall", "AMBIGUOUS"),
+                    "overall_reasoning": verdict.get("overall_reasoning", ""),
+                })
 
-        # Route to filtered or ambiguous
-        base_row = {"row_index": row_index, **row.to_dict()}
-        overall = verdict.get("overall", "AMBIGUOUS")
-        if overall == "PASS":
-            passed_rows.append(base_row)
-        elif overall == "AMBIGUOUS":
-            ambiguous_rows.append(base_row)
-        # FAIL rows appear only in reasoning.csv
+                base_row = {"row_index": row_index, **row.to_dict()}
+                overall = verdict.get("overall", "AMBIGUOUS")
+                if overall == "PASS":
+                    passed_rows.append(base_row)
+                elif overall == "AMBIGUOUS":
+                    ambiguous_rows.append(base_row)
 
-    # ── write outputs ────────────────────────────────────────────────────────
-    stem = csv_path.stem  # e.g. "5" from "5.csv"
+            pbar.update(len(batch))
+
+    stem = csv_path.stem
     filtered_path = OUT_DIR / f"{stem}_filtered.csv"
     ambiguous_path = OUT_DIR / f"{stem}_ambiguous.csv"
     reasoning_path = OUT_DIR / f"{stem}_reasoning.csv"
