@@ -101,9 +101,10 @@ filename stem (e.g. input `5.csv` → prefix `5_`).
 
 | File | Contents |
 |---|---|
-| `<stem>_filtered.csv` | Rows the LLM is **confident PASS** both criteria. Includes all original columns plus `row_index`. |
-| `<stem>_ambiguous.csv` | Rows where the LLM is **uncertain** about one or both criteria. Includes all original columns plus `row_index`. |
-| `<stem>_reasoning.csv` | Full LLM reasoning for **every input row** (PASS, FAIL, and AMBIGUOUS). |
+| `<stem>_filtered.csv` | Rows that **PASS** both criteria. Includes all original columns plus `row_index`. |
+| `<stem>_failed.csv` | Rows that **FAIL** one or both criteria. Includes all original columns plus `row_index`. |
+| `<stem>_ambiguous.csv` | Rows where one or more fields are **empty** and a decision cannot be made. Includes all original columns plus `row_index`. |
+| `<stem>_reasoning.csv` | Per-criterion reasoning for **every input row** (PASS, FAIL, and AMBIGUOUS). |
 
 ### `reasoning.csv` columns
 

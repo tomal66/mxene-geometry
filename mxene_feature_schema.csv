@@ -1,0 +1,111 @@
+level,feature,category,tier,description,preferred_unit,literature_basis
+electrode,mxene_formula,identity,core,"Normalized MXene formula, e.g. Ti3C2Tx or Mo2TiC2Tx",,Krishna 2024; Kawai 2025
+electrode,parent_max_phase,identity,extended,Parent MAX-phase formula used to synthesize the MXene,,MXene literature
+electrode,composition,identity,core,Complete active-material composition including MXene and all partners,,Mishra 2023; Saad 2022
+electrode,mxene_family,identity,extended,"Carbide, nitride, or carbonitride and M_n+1X_n family",,MXene literature
+electrode,composite_partner,identity,core,"Non-MXene active component or support, e.g. rGO, CNT, MnO2, polymer",,Saad 2022; Vasistha 2026
+electrode,composite_ratio,identity,core,"Reported mass, molar, or volume ratio among active components",,Saad 2022
+electrode,mxene_weight_fraction,identity,core,MXene content in the active electrode or composite,wt%,Krishna 2024
+electrode,dopant_elements,identity,extended,Intentionally introduced dopant element or elements,,Su 2019; Mishra 2023
+electrode,dopant_content,identity,extended,Reported dopant loading or concentration,at% or wt%,Su 2019; Mishra 2023
+electrode,intercalant,identity,core,"Molecule, ion, polymer, or species intentionally inserted between layers",,Kawai 2025; MXene literature
+electrode,preintercalated_ion,identity,core,Ion present before electrochemical testing as a pillar or pre-intercalant,,Kawai 2025
+electrode,surface_termination_summary,surface chemistry,core,"Reported surface terminations or functional groups, such as -O, -OH, -F, -Cl",,Kawai 2025; MXene literature
+electrode,electrode_architecture,identity,core,"Film, paper, hydrogel, aerogel, foam, fiber, printed structure, coating, or powder electrode",,Mishra 2023
+electrode,morphology,identity,core,"Reported morphology, e.g. accordion-like, nanosheet, porous network, aligned lamellae",,Mishra 2023; Saad 2022
+electrode,layer_state,identity,core,"Single-layer, few-layer, multilayer, delaminated, or restacked state",,MXene literature
+electrode,synthesis_method,synthesis,core,Overall route from precursor to final active material,,Vasistha 2026; MXene literature
+electrode,etchant,synthesis,core,"Etching chemistry, e.g. HF, LiF/HCl, NH4HF2, molten salt, alkali",,MXene literature
+electrode,etchant_concentration,synthesis,extended,Etchant concentration or component amounts,"M, wt%, or reported",MXene literature
+electrode,etching_temperature,synthesis,extended,Temperature used during MAX-phase etching,degC,MXene literature
+electrode,etching_time,synthesis,extended,Duration of etching,h,MXene literature
+electrode,delamination_method,synthesis,core,Method used to delaminate or exfoliate multilayer MXene,,MXene literature
+electrode,delamination_agent,synthesis,extended,Chemical or ion used to assist delamination,,MXene literature
+electrode,sonication_time,synthesis,extended,Sonication duration associated with delamination or dispersion,min or h,MXene literature
+electrode,washing_endpoint_ph,synthesis,extended,Final pH or washing criterion after etching,,MXene literature
+electrode,post_treatment,synthesis,core,"Chemical, thermal, electrochemical, plasma, freeze-drying, templating, or other post-treatment",,Vasistha 2026
+electrode,annealing_temperature,synthesis,extended,Post-synthesis annealing temperature,degC,MXene literature
+electrode,annealing_time,synthesis,extended,Post-synthesis annealing duration,h,MXene literature
+electrode,composite_fabrication_method,synthesis,extended,"Mixing, in-situ growth, self-assembly, filtration, printing, coating, or other composite route",,Saad 2022
+electrode,drying_method,synthesis,extended,"Vacuum, ambient, freeze, supercritical, or other drying method",,MXene literature
+electrode,drying_temperature,synthesis,extended,Drying temperature for material or fabricated electrode,degC,MXene literature
+electrode,interlayer_spacing,structure,core,"Basal-plane d-spacing, normally derived from the XRD (002) reflection",angstrom or nm,Kawai 2025
+electrode,xrd_002_peak,structure,extended,Position of the MXene (002) diffraction peak,degree 2theta,Kawai 2025
+electrode,flake_size,structure,core,Lateral sheet or flake dimension,nm or um,MXene literature
+electrode,sheet_thickness,structure,core,Thickness of an individual MXene sheet or stack when explicitly reported,nm,Krishna 2024
+electrode,electrode_thickness,structure,core,Thickness of the fabricated film or electrode,um or mm,Krishna 2024
+electrode,mass_loading,structure,core,Active-material loading normalized by geometric area,mg cm-2,Mishra 2023; Vasistha 2026
+electrode,electrode_density,structure,extended,"Packing, film, or apparent electrode density",g cm-3,MXene literature
+electrode,specific_surface_area,structure,core,BET or otherwise reported specific surface area,m2 g-1,Su 2019; Saad 2022; Mishra 2023; Krishna 2024
+electrode,total_pore_volume,structure,core,Total pore volume,cm3 g-1,Su 2019; Saad 2022; Mishra 2023
+electrode,micropore_volume,structure,extended,Micropore volume,cm3 g-1,Porous-carbon ML literature
+electrode,mesopore_volume,structure,extended,Mesopore volume,cm3 g-1,Porous-carbon ML literature
+electrode,pore_diameter,structure,core,"Average, modal, or median pore diameter with statistic retained in evidence",nm,Su 2019; Saad 2022; Mishra 2023
+electrode,porosity,structure,extended,Total open or apparent porosity,%,MXene literature
+electrode,tortuosity,structure,extended,Reported ion-transport tortuosity,,Electrode transport literature
+electrode,raman_id_ig,structure,core,Raman D-to-G intensity ratio for carbon-containing electrodes,,Su 2019; Saad 2022; Mishra 2023
+electrode,electrical_conductivity,transport,core,"Electronic conductivity of the material, film, or electrode",S cm-1 or S m-1,MXene literature
+electrode,sheet_resistance,transport,extended,Electrical sheet resistance,ohm sq-1,MXene film literature
+electrode,contact_angle,transport,extended,Water or electrolyte contact angle,degree,Surface-wetting literature
+electrode,carbon_atomic_pct,surface chemistry,core,Carbon atomic percentage from XPS or elemental analysis,at%,Saad 2022
+electrode,nitrogen_atomic_pct,surface chemistry,core,Nitrogen atomic percentage,at%,Su 2019; Saad 2022; Mishra 2023
+electrode,oxygen_atomic_pct,surface chemistry,core,Oxygen atomic percentage,at%,Su 2019; Saad 2022; Mishra 2023
+electrode,fluorine_atomic_pct,surface chemistry,core,Fluorine atomic percentage,at%,MXene termination literature
+electrode,sulfur_atomic_pct,surface chemistry,extended,Sulfur atomic percentage,at%,Heteroatom-doping literature
+electrode,other_heteroatom_atomic_pct,surface chemistry,extended,Other reported heteroatom percentage; preserve element in value,at%,Heteroatom-doping literature
+electrode,o_termination_pct,surface chemistry,extended,Quantified =O or O termination fraction,% or at%,MXene termination literature
+electrode,oh_termination_pct,surface chemistry,extended,Quantified -OH termination fraction,% or at%,MXene termination literature
+electrode,f_termination_pct,surface chemistry,extended,Quantified -F termination fraction,% or at%,MXene termination literature
+electrode,oxidation_or_tio2_fraction,surface chemistry,extended,Reported oxidation level or TiO2 fraction in the electrode,% or ratio,MXene oxidation literature
+electrode,freestanding,fabrication,core,Whether the tested electrode is binder-free and self-supporting,yes/no,MXene electrode literature
+electrode,binder,fabrication,core,Binder identity,,Electrode formulation literature
+electrode,binder_fraction,fabrication,extended,Binder fraction in the electrode formulation,wt%,Electrode formulation literature
+electrode,conductive_additive,fabrication,core,Conductive additive identity,,Electrode formulation literature
+electrode,conductive_additive_fraction,fabrication,extended,Conductive additive fraction,wt%,Electrode formulation literature
+electrode,active_material_fraction,fabrication,extended,Active-material fraction in slurry or electrode,wt%,Electrode formulation literature
+electrode,current_collector,fabrication,core,Current collector material,,Electrochemical methods
+electrode,substrate,fabrication,extended,Supporting substrate if different from current collector,,Electrochemical methods
+electrode,electrode_area,fabrication,extended,Geometric tested area,cm2,Electrochemical methods
+electrode,pressing_pressure,fabrication,extended,Pressure used to compact or laminate the electrode,MPa,Electrode fabrication literature
+measurement,test_type,test protocol,core,"GCD, CV, EIS, cycling, rate capability, or other test",,All capacitance ML studies
+measurement,capacitance_calculation_method,test protocol,core,"Method used to calculate capacitance, including equation basis if stated",,Mishra 2023
+measurement,cell_configuration,cell,core,Two-electrode or three-electrode configuration,,Saad 2022; Mishra 2023; Krishna 2024
+measurement,device_configuration,cell,core,"Symmetric, asymmetric, hybrid, micro-supercapacitor, or single working electrode",,Mishra 2023
+measurement,electrode_role_in_cell,cell,extended,"Positive, negative, both, or working-electrode role",,Electrochemical methods
+measurement,electrolyte,electrolyte,core,Full electrolyte identity as reported,,Mishra 2023; Krishna 2024; Vasistha 2026
+measurement,electrolyte_concentration,electrolyte,core,Electrolyte concentration,"M, m, wt%, or reported",Saad 2022; Krishna 2024; Vasistha 2026
+measurement,solvent,electrolyte,extended,Electrolyte solvent or solvent mixture,,Electrolyte literature
+measurement,cation,electrolyte,core,Primary mobile cation,,Krishna 2024; Kawai 2025
+measurement,anion,electrolyte,core,Primary mobile anion,,Krishna 2024
+measurement,cation_valence,electrolyte,extended,Formal charge of the mobile cation,,Electrolyte descriptor engineering
+measurement,cation_ionic_radius,electrolyte,extended,Ionic radius explicitly reported or supplied by the paper,pm or angstrom,Electrolyte descriptor engineering
+measurement,cation_mobility,electrolyte,core,Cation mobility used as an ML descriptor,cm2 V-1 s-1,Krishna 2024
+measurement,anion_mobility,electrolyte,core,Anion mobility used as an ML descriptor,cm2 V-1 s-1,Krishna 2024
+measurement,electrolyte_ionic_conductivity,electrolyte,core,Ionic conductivity of the electrolyte,S cm-1,Saad 2022
+measurement,electrolyte_ph,electrolyte,extended,Electrolyte pH,,Electrochemical methods
+measurement,counter_electrode,cell,extended,Counter-electrode identity,,Electrochemical methods
+measurement,reference_electrode,cell,extended,Reference-electrode identity,,Electrochemical methods
+measurement,separator,cell,extended,Separator or membrane identity,,Device methods
+measurement,test_temperature,test protocol,extended,Electrochemical test temperature,degC or K,Testing-protocol literature
+measurement,potential_lower,test protocol,core,Lower potential or voltage bound,V,Mishra 2023
+measurement,potential_upper,test protocol,core,Upper potential or voltage bound,V,Mishra 2023
+measurement,potential_window,test protocol,core,Absolute operating potential or voltage window,V,Su 2019; Saad 2022; Mishra 2023; Krishna 2024
+measurement,scan_rate,test protocol,core,CV scan rate associated with this observation,mV s-1,Krishna 2024
+measurement,current_density,test protocol,core,GCD current density associated with this observation,A g-1 or mA cm-2,Saad 2022; Mishra 2023; Krishna 2024; Vasistha 2026
+measurement,cycle_number,test protocol,extended,Cycle index at which this observation was recorded,,Cycling literature
+measurement,gravimetric_capacitance,target,core,Specific or gravimetric capacitance,F g-1,All capacitance ML studies
+measurement,areal_capacitance,target,core,Areal capacitance,F cm-2 or mF cm-2,Supercapacitor literature
+measurement,volumetric_capacitance,target,core,Volumetric capacitance,F cm-3,MXene literature
+measurement,specific_capacity,target,extended,Specific capacity when the material is reported in battery-type units,C g-1 or mAh g-1,Hybrid-electrode literature
+measurement,energy_density,target,core,Reported energy density with normalization basis retained,"Wh kg-1, Wh L-1, or uWh cm-2",Soni 2025
+measurement,power_density,target,core,Reported power density with normalization basis retained,"W kg-1, W L-1, or mW cm-2",Soni 2025
+measurement,capacitance_retention,target,core,Capacitance retained after cycling,%,Soni 2025
+measurement,rate_retention,target,extended,Capacitance or capacity retained at a higher rate relative to a stated baseline,%,Rate-capability literature
+measurement,cycles_tested,target,core,Total cycle count associated with the reported retention,,Soni 2025
+measurement,coulombic_efficiency,target,extended,Coulombic efficiency,%,Cycling literature
+measurement,esr,impedance,core,Equivalent series resistance,ohm,Saad 2022
+measurement,charge_transfer_resistance,impedance,core,Charge-transfer resistance Rct,ohm,Saad 2022
+measurement,relaxation_time,impedance,extended,Characteristic relaxation time,s,EIS literature
+measurement,diffusion_coefficient,impedance,extended,Reported ion diffusion coefficient,cm2 s-1,Transport literature
+measurement,b_value,kinetics,extended,Power-law b value from log(i)-log(v) analysis,,CV kinetics literature
+measurement,capacitive_contribution,kinetics,extended,Surface-controlled or capacitive contribution at the stated scan rate,%,CV kinetics literature
