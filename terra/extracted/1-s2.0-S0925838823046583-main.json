@@ -1,0 +1,608 @@
+{
+  "source_file": "1-s2.0-S0925838823046583-main.pdf",
+  "source_path": "1-s2.0-S0925838823046583-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11259,
+  "warnings": [
+    "'3.0 N-Ti3C2' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported in electrochemical results.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine control film.",
+          "unit": null,
+          "value": "Ti3C2Tx with -OH, -O and -F terminations"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only described as micron lateral size.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 2 mV s-1.",
+          "unit": "F g-1",
+          "value": "489.3"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) d-spacing.",
+          "unit": "nm",
+          "value": "1.26"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Prepared as single/few-layer nanosheets.",
+          "unit": null,
+          "value": "single/few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported in paper or supplied methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Pristine etched MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported CV capacitance.",
+          "unit": "mV s-1",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Al was etched from Ti3AlC2, then delaminated.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by ultrasonication delamination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported; EIS was not modeled for tortuosity.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 2 mV s-1.",
+          "unit": "F cm-3",
+          "value": "2064.3"
+        }
+      },
+      "is_primary": false,
+      "label": "pure Ti3C2",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported in electrochemical results.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Urea-derived nitrogen-doped film; 0.5 g urea.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only reduced lateral size was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure S11a values are not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) d-spacing.",
+          "unit": "nm",
+          "value": "1.34"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from common precursor nanosheets.",
+          "unit": null,
+          "value": "single/few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported in paper or supplied methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors label this nitrogen-doped Ti3C2 sample.",
+          "unit": null,
+          "value": "N-Ti3C2"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported volumetric capacitance.",
+          "unit": "mV s-1",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Solvothermal nitrogen doping with 0.5 g urea.",
+          "unit": null,
+          "value": "LiF/HCl etching, delamination, then urea solvothermal treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported; EIS was not modeled for tortuosity.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 2 mV s-1.",
+          "unit": "F cm-3",
+          "value": "2086.2"
+        }
+      },
+      "is_primary": false,
+      "label": "0.5 N-Ti3C2",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported in electrochemical results.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Urea-derived nitrogen-doped film; 1.5 g urea.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only reduced lateral size was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure S11a values are not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) d-spacing.",
+          "unit": "nm",
+          "value": "1.34"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from common precursor nanosheets.",
+          "unit": null,
+          "value": "single/few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported in paper or supplied methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors label this nitrogen-doped Ti3C2 sample.",
+          "unit": null,
+          "value": "N-Ti3C2"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported volumetric capacitance.",
+          "unit": "mV s-1",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Solvothermal nitrogen doping with 1.5 g urea.",
+          "unit": null,
+          "value": "LiF/HCl etching, delamination, then urea solvothermal treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported; EIS was not modeled for tortuosity.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 2 mV s-1.",
+          "unit": "F cm-3",
+          "value": "1820.5"
+        }
+      },
+      "is_primary": false,
+      "label": "1.5 N-Ti3C2",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported in electrochemical results.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Urea-derived nitrogen-doped film; 2.0 g urea.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Reported for this electrode's three-electrode tests.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No numerical lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported CV-derived value.",
+          "unit": "F g-1",
+          "value": "1609.5"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) d-spacing.",
+          "unit": "nm",
+          "value": "1.27"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from common precursor nanosheets.",
+          "unit": null,
+          "value": "single/few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported in paper or supplied methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors label this nitrogen-doped Ti3C2 sample.",
+          "unit": null,
+          "value": "N-Ti3C2"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for both reported capacitance values.",
+          "unit": "mV s-1",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Solvothermal nitrogen doping with 2.0 g urea.",
+          "unit": null,
+          "value": "LiF/HCl etching, delamination, then urea solvothermal treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported; EIS was not modeled for tortuosity.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported CV-derived value.",
+          "unit": "F cm-3",
+          "value": "2898.5"
+        }
+      },
+      "is_primary": true,
+      "label": "2.0 N-Ti3C2",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported in electrochemical results.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Urea-derived nitrogen-doped film; 3.0 g urea.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only reduced lateral size was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure S11a values are not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) d-spacing.",
+          "unit": "nm",
+          "value": "1.38"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from common precursor nanosheets.",
+          "unit": null,
+          "value": "single/few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported in paper or supplied methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors label this nitrogen-doped Ti3C2 sample.",
+          "unit": null,
+          "value": "N-Ti3C2"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical capacitance is printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Solvothermal nitrogen doping with 3.0 g urea.",
+          "unit": null,
+          "value": "LiF/HCl etching, delamination, then urea solvothermal treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported; EIS was not modeled for tortuosity.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 3e curve lacks a printed numerical value.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "3.0 N-Ti3C2",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Yangyang Luo et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.jallcom.2023.173355"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal volume and publication information.",
+      "unit": null,
+      "value": "2024"
+    }
+  },
+  "summary": "This study compares five freestanding Ti3C2-based film electrodes: pristine Ti3C2 and four N-doped variants prepared with 0.5, 1.5, 2.0, or 3.0 g urea during solvothermal treatment. The starting single/few-layer Ti3C2 nanosheets were made by LiF/HCl etching of Ti3AlC2 followed by ultrasonication delamination. The headline 2.0 N-Ti3C2 electrode delivered 1609.5 F g-1 and 2898.5 F cm-3 at 2 mV s-1 in 3 M H2SO4. Film thickness, active-material loading, BET surface area, pore metrics, and numerical capacitances for 3.0 N-Ti3C2 were not reported."
+}

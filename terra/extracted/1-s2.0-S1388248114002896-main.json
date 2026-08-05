@@ -1,0 +1,494 @@
+{
+  "source_file": "1-s2.0-S1388248114002896-main.pdf",
+  "source_path": "1-s2.0-S1388248114002896-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.07439,
+  "warnings": [
+    "'Ti3C2Tx' has no capacitance of any kind",
+    "'KOAc\u2013Ti3C2' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "As-produced material has F and OH/O terminations.",
+          "unit": null,
+          "value": "Ti3C2Tx (-F and -OH/=O terminations)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No printed capacitance value for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Shared multilayer-electrode fabrication protocol.",
+          "unit": "\u03bcm",
+          "value": "50\u201370"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM images shown, but no lateral dimensions reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD comparison shown; no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as multilayer Ti3C2Tx.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Average mass is 2.6 mg, not area-normalized.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Named throughout as the untreated MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical capacitance value printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Reported for as-produced Ti3C2Tx in Introduction.",
+          "unit": "m2\u00b7g\u22121",
+          "value": "23"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Exact etchant is not specified in this paper.",
+          "unit": null,
+          "value": "Selective etching of Ti3AlC2 MAX phase"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this sample.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "KOH-treated MXene surface is oxygen-terminated.",
+          "unit": null,
+          "value": "KOH\u2013Ti3C2; Ti3C2Tx with oxygen-containing groups"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Galvanostatic cycling result in Fig. 3C.",
+          "unit": "A\u00b7g\u22121",
+          "value": "5"
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Shared multilayer-electrode fabrication protocol.",
+          "unit": "\u03bcm",
+          "value": "50\u201370"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM image shown, but no lateral dimensions reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical gravimetric value printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD indicates expansion; no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared using the shared multilayer-electrode protocol.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Average mass is 2.6 mg, not area-normalized.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is explicitly designated KOH\u2013Ti3C2.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best printed capacitance is from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "derived",
+          "note": "Salt intercalation did not affect 23 m2\u00b7g\u22121 SSA.",
+          "unit": "m2\u00b7g\u22121",
+          "value": "23"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Five repeated 1 M KOH aqueous treatments, one hour each.",
+          "unit": null,
+          "value": "KOH intercalation treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Stable value from galvanostatic cycling, Fig. 3C.",
+          "unit": "F\u00b7cm\u22123",
+          "value": "215"
+        }
+      },
+      "is_primary": false,
+      "label": "KOH\u2013Ti3C2",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "KOAc-treated MXene surface has oxygen-containing groups.",
+          "unit": null,
+          "value": "KOAc\u2013Ti3C2; Ti3C2Tx with oxygen-containing groups"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance value printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Shared multilayer-electrode fabrication protocol.",
+          "unit": "\u03bcm",
+          "value": "50\u201370"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD indicates expansion; no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared using the shared multilayer-electrode protocol.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Average mass is 2.6 mg, not area-normalized.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is explicitly designated KOAc\u2013Ti3C2.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical capacitance value printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "derived",
+          "note": "Salt intercalation did not affect 23 m2\u00b7g\u22121 SSA.",
+          "unit": "m2\u00b7g\u22121",
+          "value": "23"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Five repeated 1 M potassium acetate aqueous treatments, one hour each.",
+          "unit": null,
+          "value": "KOAc intercalation treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this sample.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "KOAc\u2013Ti3C2",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Delamination produces oxygen-containing surface groups.",
+          "unit": null,
+          "value": "d-Ti3C2; delaminated Ti3C2Tx with oxygen-containing groups"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best value was measured by CV at 2 mV\u00b7s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Free-standing filtered paper thickness.",
+          "unit": "\u03bcm",
+          "value": "8"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best CV value, Fig. 3B.",
+          "unit": "F\u00b7g\u22121",
+          "value": "325"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD shown; no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "DMSO treatment produces delaminated individual layers.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No area-normalized mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is explicitly designated d-Ti3C2.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for the best volumetric and gravimetric capacitance.",
+          "unit": "mV\u00b7s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Reported for the high-capacitance delaminated MXene films.",
+          "unit": "m2\u00b7g\u22121",
+          "value": "98"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "DMSO intercalation followed by filtration of colloidal suspension.",
+          "unit": null,
+          "value": "DMSO intercalation and delamination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best CV value, Fig. 3B.",
+          "unit": "F\u00b7cm\u22123",
+          "value": "520"
+        }
+      },
+      "is_primary": true,
+      "label": "d-Ti3C2",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Dall'Agnese et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Printed in article header.",
+      "unit": null,
+      "value": "10.1016/j.elecom.2014.09.002"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation and copyright line.",
+      "unit": null,
+      "value": "2014"
+    }
+  },
+  "summary": "The study compares four Ti3C2Tx-derived electrodes: untreated multilayer Ti3C2Tx, KOH\u2013Ti3C2, KOAc\u2013Ti3C2, and DMSO-delaminated d-Ti3C2. KOH and KOAc treatments chemically intercalate potassium salts and replace fluorine-rich surfaces with oxygen-containing groups, whereas DMSO yields a thin delaminated MXene paper. The headline d-Ti3C2 electrode delivered 520 F\u00b7cm\u22123 and 325 F\u00b7g\u22121 at 2 mV\u00b7s\u22121 in 1 M H2SO4; it also gave 415 F\u00b7cm\u22123 at 5 A\u00b7g\u22121. KOH\u2013Ti3C2 delivered 215 F\u00b7cm\u22123 at 5 A\u00b7g\u22121, while exact capacitance values for untreated Ti3C2Tx and KOAc\u2013Ti3C2 are not printed in the supplied text."
+}

@@ -1,0 +1,1771 @@
+{
+  "source_file": "d6ta00010j.pdf",
+  "source_path": "d6ta00010j.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.20194,
+  "warnings": [
+    "'MXene films' has no capacitance of any kind",
+    "'MH1' has no capacitance of any kind",
+    "'MH5' has no capacitance of any kind",
+    "'MH10' has no capacitance of any kind",
+    "'MH20' has no capacitance of any kind",
+    "'MP1' has no capacitance of any kind",
+    "'MP5' has no capacitance of any kind",
+    "'MP10' has no capacitance of any kind",
+    "'MP15' has no capacitance of any kind",
+    "'MP20' has no capacitance of any kind",
+    "'MPH1' has no capacitance of any kind",
+    "'MPH5' has no capacitance of any kind",
+    "'MPH15' has no capacitance of any kind",
+    "'MPH20' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Electrochemical values are plotted in Fig. S14-S20; no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine vacuum-filtered MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = -F, -O, -OH)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best value is not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Average thickness reported in Fig. 3f.",
+          "unit": "\u03bcm",
+          "value": "5.3"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM description.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Electrochemical values are plotted in Fig. S14-S20; no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only (002) peak positions, not numerical d-spacing, are reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "TEM describes an ultrathin MXene flake.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional MXene-film cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Dense film; no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best value is not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 adsorption result.",
+          "unit": "m2 g\u22121",
+          "value": "4.79"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etching followed by sonication and vacuum filtration.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Electrochemical values are plotted in Fig. S14-S20; no numerical value printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MXene films",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Hydrazine-treated pure MXene foam.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = -F, -O, -OH)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Thickness not reported for MH1.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing for MH1.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Foam macropores are described as larger than 2 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "larger than 2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MH1.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Pure MXene film treated with hydrazine at 90 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; hydrazine-induced foaming (1 mL cm\u22122)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MH1",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "MH5 is highest among MH samples, but numerical value is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Hydrazine-treated pure MXene foam.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = -F, -O, -OH)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "MH5 best value shown graphically only.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Average thickness reported in Fig. 3f.",
+          "unit": "\u03bcm",
+          "value": "129.1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "MH5 is highest among MH samples, but numerical value is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Hydrazine gives little (002) peak shift; no d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Foam macropores are described as larger than 2 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "larger than 2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "MH5 best value shown graphically only.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 adsorption result.",
+          "unit": "m2 g\u22121",
+          "value": "7.42"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Pure MXene film treated with hydrazine at 90 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; hydrazine-induced foaming (5 mL cm\u22122)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "MH5 capacitance values are not printed numerically.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MH5",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Hydrazine-treated pure MXene foam.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = -F, -O, -OH)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MH10.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing for MH10.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Foam macropores are described as larger than 2 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "larger than 2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MH10.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Pure MXene film treated with hydrazine at 90 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; hydrazine-induced foaming (10 mL cm\u22122)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MH10",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Hydrazine-treated pure MXene foam.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = -F, -O, -OH)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MH20.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing for MH20.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Foam macropores are described as larger than 2 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "larger than 2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MH20.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Pure MXene film treated with hydrazine at 90 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; hydrazine-induced foaming (20 mL cm\u22122)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MH20",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite film.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 1 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MP1.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "PVA enlarges layer spacing, but no MP1 d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Unfoamed composite film; no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MP1.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PVA mixed with MXene suspension and vacuum filtered.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP1",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite film.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 5 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MP5.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "PVA enlarges layer spacing, but no MP5 d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Unfoamed composite film; no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MP5.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PVA mixed with MXene suspension and vacuum filtered.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP5",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite film.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 10 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Average thickness reported in Fig. 3f.",
+          "unit": "\u03bcm",
+          "value": "4.8"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "PVA enlarges layer spacing, but no MP10 d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Unfoamed composite film; no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MP10.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PVA mixed with MXene suspension and vacuum filtered.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP10",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite film.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 15 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MP15.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "PVA enlarges layer spacing, but no MP15 d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Unfoamed composite film; no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MP15.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PVA mixed with MXene suspension and vacuum filtered.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP15",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite film.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 20 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MP20.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "PVA enlarges layer spacing, but no MP20 d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Unfoamed composite film; no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MP20.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PVA mixed with MXene suspension and vacuum filtered.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP20",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite foam.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 1 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MPH1.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing for MPH1.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Foam macropores are described as larger than 2 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "larger than 2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MPH1.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Composite film hydrazine-treated at 90 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; hydrazine-induced foaming (5 mL cm\u22122)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MPH1",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite foam.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 5 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MPH5.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing for MPH5.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Foam macropores are described as larger than 2 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "larger than 2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MPH5.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Composite film hydrazine-treated at 90 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; hydrazine-induced foaming (5 mL cm\u22122)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MPH5",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Flexible device; value reported for a single electrode at 2 mV s\u22121.",
+          "unit": "mF cm\u22122",
+          "value": "264.84"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite foam.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 10 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Average thickness reported in Fig. 3f.",
+          "unit": "\u03bcm",
+          "value": "121.8"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Flexible-supercapacitor measurement.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Flexible device; value reported for a single electrode at 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "240.77"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing for MPH10.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Flexible-supercapacitor electrode protocol.",
+          "unit": "mg cm\u22122",
+          "value": "1.1"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Foam macropores are described as larger than 2 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "larger than 2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV-derived best capacitance in flexible device.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Text says only minor difference from MXene film; numerical SSA absent.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Composite film hydrazine-treated at 90 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; hydrazine-induced foaming (5 mL cm\u22122)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Flexible device; value reported for a single electrode at 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "44.06"
+        }
+      },
+      "is_primary": true,
+      "label": "MPH10",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite foam.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 15 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MPH15.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing for MPH15.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Foam macropores are described as larger than 2 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "larger than 2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MPH15.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Composite film hydrazine-treated at 90 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; hydrazine-induced foaming (5 mL cm\u22122)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MPH15",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA mass fraction in composite foam.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA, 20 wt% PVA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for MPH20.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared conventional-supercapacitor protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension used throughout.",
+          "unit": "\u03bcm",
+          "value": "less than 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing for MPH20.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the same delaminated MXene suspension.",
+          "unit": null,
+          "value": "ultrathin"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No loading stated for conventional cells.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Materials and Results sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Foam macropores are described as larger than 2 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "larger than 2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best-capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "SSA not reported specifically for MPH20.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Composite film hydrazine-treated at 90 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl selective etching; PVA incorporation; hydrazine-induced foaming (5 mL cm\u22122)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only graphical electrochemical data are supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MPH20",
+      "role": "composite"
+    }
+  ],
+  "n_electrodes": 15,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author list.",
+      "unit": null,
+      "value": "Zifang Zhao et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Citation block and data-availability section.",
+      "unit": null,
+      "value": "10.1039/d6ta00010j"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Published 12 March 2026.",
+      "unit": null,
+      "value": "2026"
+    }
+  },
+  "summary": "The study uses LiF/HCl-etched Ti3C2Tx and compares 15 fabricated electrode materials: a pristine MXene film, four pure hydrazine-foamed MXene variants (MH1-20), five unfoamed Ti3C2Tx/PVA films (MP1-20), and five hydrazine-foamed Ti3C2Tx/PVA composites (MPH1-20). The primary sample, MPH10, is a 10 wt% PVA composite foam made with 5 mL cm\u22122 hydrazine; in the PVA/H2SO4 gel-electrolyte flexible device it reaches 240.77 F g\u22121, 264.84 mF cm\u22122, and 44.06 F cm\u22123 at 2 mV s\u22121. Its separately reported conventional-cell value is 237.40 F g\u22121, 261.14 mF cm\u22122, and 43.44 F cm\u22123 at 5 mV s\u22121 in 1 M H2SO4. Numerical capacitances for the remaining variants are presented only graphically in the supplied main text/SI figure references, so they are not transcribed or estimated here."
+}

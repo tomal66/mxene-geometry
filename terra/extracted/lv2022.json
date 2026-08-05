@@ -1,0 +1,836 @@
+{
+  "source_file": "lv2022.pdf",
+  "source_path": "lv2022.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.13299,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine film control.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 m H2SO4 aqueous"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared small-flake precursor characterization.",
+          "unit": "nm",
+          "value": "300 to 500"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 4d.",
+          "unit": "F g\u22121",
+          "value": "376"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Only c-lattice parameter was printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from monolayer MXene flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "\u22480.16 mg electrode mass, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors denote it T3C2Tx/Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Nonporous control film.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etching, delamination, probe sonication, filtration.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD), probe-sonication and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 4d.",
+          "unit": "F cm\u22123",
+          "value": "925"
+        }
+      },
+      "is_primary": false,
+      "label": "pure MXene film",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene:PS80 mass ratio 6:1; PS removed after annealing.",
+          "unit": null,
+          "value": "Ti3C2Tx porous foam (MXene:PS80 = 6:1 before template removal)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 m H2SO4 aqueous"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared small-flake precursor characterization.",
+          "unit": "nm",
+          "value": "300 to 500"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 4d.",
+          "unit": "F g\u22121",
+          "value": "457"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not reported specifically for MX6PS80-A.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from monolayer MXene flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "\u22480.16 mg electrode mass, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "PS80 template; cavity diameter comparable to template.",
+          "unit": "nm",
+          "value": "80"
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported specifically for MX6PS80-A.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PS80 templating, vacuum filtration, 450 \u00b0C annealing.",
+          "unit": null,
+          "value": "PS-templated self-assembly/vacuum filtration and annealing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 4d.",
+          "unit": "F cm\u22123",
+          "value": "1089"
+        }
+      },
+      "is_primary": false,
+      "label": "MX6PS80-A",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene:PS310 mass ratio 6:1; PS removed after annealing.",
+          "unit": null,
+          "value": "Ti3C2Tx porous foam (MXene:PS310 = 6:1 before template removal)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 m H2SO4 aqueous"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared small-flake precursor characterization.",
+          "unit": "nm",
+          "value": "300 to 500"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 4d.",
+          "unit": "F g\u22121",
+          "value": "474"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Peak position printed but d-spacing not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from monolayer MXene flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "\u22480.16 mg electrode mass, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "PS310 template; cavity diameter comparable to template.",
+          "unit": "nm",
+          "value": "310"
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET values not printed in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PS310 templating, vacuum filtration, 450 \u00b0C annealing.",
+          "unit": null,
+          "value": "PS-templated self-assembly/vacuum filtration and annealing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 4d.",
+          "unit": "F cm\u22123",
+          "value": "1121"
+        }
+      },
+      "is_primary": true,
+      "label": "MX6PS310-A",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene:PS570 mass ratio 6:1; PS removed after annealing.",
+          "unit": null,
+          "value": "Ti3C2Tx porous foam (MXene:PS570 = 6:1 before template removal)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 m H2SO4 aqueous"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared small-flake precursor characterization.",
+          "unit": "nm",
+          "value": "300 to 500"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 4d.",
+          "unit": "F g\u22121",
+          "value": "424"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not reported specifically for MX6PS570-A.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from monolayer MXene flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "\u22480.16 mg electrode mass, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "PS570 template; cavity diameter comparable to template.",
+          "unit": "nm",
+          "value": "570"
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported specifically for MX6PS570-A.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PS570 templating, vacuum filtration, 450 \u00b0C annealing.",
+          "unit": null,
+          "value": "PS-templated self-assembly/vacuum filtration and annealing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 4d.",
+          "unit": "F cm\u22123",
+          "value": "810"
+        }
+      },
+      "is_primary": false,
+      "label": "MX6PS570-A",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNT loading in MPC film.",
+          "unit": null,
+          "value": "Ti3C2Tx/CNT porous foam, 3 wt.% CNT"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 m H2SO4 aqueous"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared small-flake precursor characterization.",
+          "unit": "nm",
+          "value": "300 to 500"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 5g.",
+          "unit": "F g\u22121",
+          "value": "454 \u00b1 9"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from monolayer MXene flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "\u22480.16 mg electrode mass, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Nanosized channels mentioned; no size printed.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET analysis mentioned but value not printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MX6PS310 process with CNT; 450 \u00b0C annealing.",
+          "unit": null,
+          "value": "PS310-templated MXene/CNT self-assembly and annealing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure S11b cited.",
+          "unit": "F cm\u22123",
+          "value": "942"
+        }
+      },
+      "is_primary": false,
+      "label": "MPC-3-A",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNT loading in MPC film.",
+          "unit": null,
+          "value": "Ti3C2Tx/CNT porous foam, 5 wt.% CNT"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 m H2SO4 aqueous"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared small-flake precursor characterization.",
+          "unit": "nm",
+          "value": "300 to 500"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 5g.",
+          "unit": "F g\u22121",
+          "value": "462 \u00b1 7"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from monolayer MXene flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "\u22480.16 mg electrode mass, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Nanosized channels mentioned; no size printed.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET analysis mentioned but value not printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MX6PS310 process with CNT; 450 \u00b0C annealing.",
+          "unit": null,
+          "value": "PS310-templated MXene/CNT self-assembly and annealing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure S11b cited.",
+          "unit": "F cm\u22123",
+          "value": "1007"
+        }
+      },
+      "is_primary": false,
+      "label": "MPC-5-A",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNT loading in MPC film.",
+          "unit": null,
+          "value": "Ti3C2Tx/CNT porous foam, 10 wt.% CNT"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 m H2SO4 aqueous"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared small-flake precursor characterization.",
+          "unit": "nm",
+          "value": "300 to 500"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure 5g.",
+          "unit": "F g\u22121",
+          "value": "354 \u00b1 9"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from monolayer MXene flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "\u22480.16 mg electrode mass, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Nanosized channels mentioned; no size printed.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET analysis mentioned but value not printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MX6PS310 process with CNT; 450 \u00b0C annealing.",
+          "unit": null,
+          "value": "PS310-templated MXene/CNT self-assembly and annealing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure S11b cited.",
+          "unit": "F cm\u22123",
+          "value": "755"
+        }
+      },
+      "is_primary": false,
+      "label": "MPC-10-A",
+      "role": "composite"
+    }
+  ],
+  "n_electrodes": 7,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Ke Lv et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/smll.202202203"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "The study prepared small monolayer Ti3C2Tx by LiF/HCl etching, delamination, and probe sonication, then formed porous foams using sacrificial positively charged PS spheres. Seven electrochemically benchmarked electrode materials with printed performance data were identified: a pristine MXene-film control, three 6:1 MXene:PS template-size foams, and three MXene/CNT composite foams. MX6PS310-A was the best reported capacitance performer, delivering 474 F g\u22121 and 1121 F cm\u22123 at 2 mV s\u22121 in 1 m H2SO4. The authors also fabricated MX1PS310, MX2PS310, MX4PS310, and MX8PS310 ratio-series films/foams, but the supplied text gives no individual capacitance values for them; they are discussed only as optimization screening samples and are therefore not entered as separately quantified electrodes."
+}

@@ -1,0 +1,726 @@
+{
+  "source_file": "an4c01912.pdf",
+  "source_path": "an4c01912.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11951,
+  "warnings": [
+    "'A-Ti3C2Tx' has no capacitance of any kind",
+    "'N\u2212Ti3C2Tx\u2212400 \u00b0C' has no capacitance of any kind",
+    "'N\u2212Ti3C2Tx\u2212450 \u00b0C' has no capacitance of any kind",
+    "'MnO2\u2212CNTs' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Surface groups defined in Section 3.1.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = -O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Zn2+ storage result in abstract.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shown; thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Zn-ion capacitor measurement.",
+          "unit": null,
+          "value": "1 M ZnSO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best explicitly printed value; Zn2+ storage.",
+          "unit": "F g\u22121",
+          "value": "212"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD and HRTEM (002) spacing.",
+          "unit": "nm",
+          "value": "1.17"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Section 3.1 describes few-layer nanosheets.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No electrode mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation throughout paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result in Figure S3.",
+          "unit": "m2 g\u22121",
+          "value": "11.4"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Section 2.1 synthesis.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by Ar-assisted ultrasonication and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Annealed Ti3C2Tx control; no N dopant.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Table S1 contains value, but numerical capacitance unavailable in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table S1 is cited but its numerical value is not provided.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing reported for this control.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from common Ti3C2Tx nanosheet precursor.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No electrode mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample name in Figure 3.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was calculated from GCD.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET area reported for this control.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Section 3.1 control preparation.",
+          "unit": null,
+          "value": "Ti3C2Tx calcined at 350 \u00b0C under Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "A-Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "N doping confirmed by XPS.",
+          "unit": null,
+          "value": "N\u2212Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Headline H+ storage result.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shown; thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Headline three-electrode H+ storage result.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Abstract and conclusion; three-electrode H+ storage.",
+          "unit": "F g\u22121",
+          "value": "390"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD and HRTEM (002) spacing.",
+          "unit": "nm",
+          "value": "1.33"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from common Ti3C2Tx nanosheet precursor.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No electrode mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation throughout paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result in Figure S3.",
+          "unit": "m2 g\u22121",
+          "value": "19.5"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Sections 2.1 and 3.1.",
+          "unit": null,
+          "value": "LiF/HCl etched Ti3C2Tx film annealed with urea at 350 \u00b0C under Ar for 3 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "N\u2212Ti3C2Tx\u2212350 \u00b0C",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Sample designation in Figure 3.",
+          "unit": null,
+          "value": "N\u2212Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Table S1 contains value, but numerical capacitance unavailable in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Measured versus other samples; numerical value only referenced in Table S1.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing reported for this temperature.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from common Ti3C2Tx nanosheet precursor.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No electrode mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation in Figure 3.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was calculated from GCD.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET area reported for this temperature.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Section 3.1 temperature variation.",
+          "unit": null,
+          "value": "Ti3C2Tx film annealed with urea at 400 \u00b0C under Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "N\u2212Ti3C2Tx\u2212400 \u00b0C",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Sample designation in Figure 3.",
+          "unit": null,
+          "value": "N\u2212Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Table S1 contains value, but numerical capacitance unavailable in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Measured versus other samples; numerical value only referenced in Table S1.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing reported for this temperature.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from common Ti3C2Tx nanosheet precursor.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No electrode mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation in Figure 3.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was calculated from GCD.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET area reported for this temperature.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Section 3.1 temperature variation.",
+          "unit": null,
+          "value": "Ti3C2Tx film annealed with urea at 450 \u00b0C under Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "N\u2212Ti3C2Tx\u2212450 \u00b0C",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No standalone areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Section 2.2.",
+          "unit": null,
+          "value": "MnO2\u2212CNTs (MnO2:CNT = 1:1)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No standalone capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Used as anode in hybrid device.",
+          "unit": null,
+          "value": "1 M ZnSO4/0.01 M MnSO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene flakes.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only full-device comparative curves reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not applicable; non-MXene reference.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not applicable; non-MXene reference.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No electrode mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Non-MXene electrode fabricated by authors.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No standalone capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Section 2.2.",
+          "unit": null,
+          "value": "MnO2 and CNT mixed by cell crusher at 1:1, then vacuum filtered"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MnO2\u2212CNTs",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 6,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Yao et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1021/acsanm.4c01912"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Article citation header.",
+      "unit": null,
+      "value": "2024"
+    }
+  },
+  "summary": "The study compares pristine Ti3C2Tx, an Ar-annealed Ti3C2Tx control, and three urea-annealed N\u2212Ti3C2Tx variants prepared at 350, 400, and 450 \u00b0C. It also fabricates a MnO2\u2212CNTs (1:1) non-MXene counter/reference electrode for Zn-ion hybrid-device testing. N\u2212Ti3C2Tx\u2212350 \u00b0C is the headline material, delivering 390 F g\u22121 at 1 A g\u22121 in 1 M H2SO4; it has 1.33 nm interlayer spacing and 19.5 m2 g\u22121 BET area. Pristine Ti3C2Tx reached an explicitly reported 212 F g\u22121 at 1 A g\u22121 for Zn2+ storage in 1 M ZnSO4. Numerical capacitances for A-Ti3C2Tx and the 400/450 \u00b0C variants were referenced in Table S1 but were not included in the supplied paper text."
+}

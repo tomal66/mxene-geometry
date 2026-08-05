@@ -1,0 +1,610 @@
+{
+  "source_file": "s41467-019-09398-1.pdf",
+  "source_path": "s41467-019-09398-1.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11404,
+  "warnings": [
+    "'Ti3C2Tx-DMSO ink' has no capacitance of any kind",
+    "'Ti3C2Tx-DMF ink' has no capacitance of any kind",
+    "'Ti3C2Tx-ethanol ink' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not separately reported for DMSO-printed MSCs.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Additive-free MXene organic ink.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx: O, OH, F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No DMSO-specific capacitance condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No DMSO-specific printed-film thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared MSC electrolyte specified in Methods.",
+          "unit": null,
+          "value": "3 M H2SO4-PVA gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Organic-ink range reported, not DMSO-specific.",
+          "unit": "\u00b5m",
+          "value": "~1\u20132.1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for DMSO-printed MSCs.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported for this ink.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Organic inks contained monolayer-to-few-layer flakes.",
+          "unit": null,
+          "value": "monolayer to few-layered"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No DMSO-electrode mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Organic MXene inks are identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No DMSO-specific capacitance scan-rate condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "All Ti3C2Tx originated from MILD-etched material.",
+          "unit": null,
+          "value": "minimally intensive layer delamination (MILD), followed by solvent transfer to DMSO"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not separately reported for DMSO-printed MSCs.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx-DMSO ink",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not separately reported for DMF-printed MSCs.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Additive-free MXene organic ink.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx: O, OH, F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No DMF-specific capacitance condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No DMF-specific printed-film thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared MSC electrolyte specified in Methods.",
+          "unit": null,
+          "value": "3 M H2SO4-PVA gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Organic-ink range reported, not DMF-specific.",
+          "unit": "\u00b5m",
+          "value": "~1\u20132.1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for DMF-printed MSCs.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported for this ink.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Organic inks contained monolayer-to-few-layer flakes.",
+          "unit": null,
+          "value": "monolayer to few-layered"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No DMF-electrode mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Organic MXene inks are identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No DMF-specific capacitance scan-rate condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "All Ti3C2Tx originated from MILD-etched material.",
+          "unit": null,
+          "value": "minimally intensive layer delamination (MILD), followed by solvent transfer to DMF"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not separately reported for DMF-printed MSCs.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx-DMF ink",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not separately reported for ethanol-printed MSCs.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Additive-free MXene organic ink.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx: O, OH, F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No ethanol-specific capacitance condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No ethanol-specific printed-film thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared MSC electrolyte specified in Methods.",
+          "unit": null,
+          "value": "3 M H2SO4-PVA gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Organic-ink range reported, not ethanol-specific.",
+          "unit": "\u00b5m",
+          "value": "~1\u20132.1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for ethanol-printed MSCs.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported for this ink.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Organic inks contained monolayer-to-few-layer flakes.",
+          "unit": null,
+          "value": "monolayer to few-layered"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No ethanol-electrode mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Organic MXene inks are identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No ethanol-specific capacitance scan-rate condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "All Ti3C2Tx originated from MILD-etched material.",
+          "unit": null,
+          "value": "minimally intensive layer delamination (MILD), followed by solvent transfer to ethanol"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not separately reported for ethanol-printed MSCs.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx-ethanol ink",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported NMP-MSC areal capacitance; <N>=25.",
+          "unit": "mF cm\u22122",
+          "value": "12"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Additive-free MXene organic ink.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx: O, OH, F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Current density for the 12 mF cm\u22122 value is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "NMP thickness reported for N=10 and 100, not N=25.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared MSC electrolyte specified in Methods.",
+          "unit": null,
+          "value": "3 M H2SO4-PVA gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Organic-ink range reported, not NMP-specific.",
+          "unit": "\u00b5m",
+          "value": "~1\u20132.1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for NMP-printed MSCs.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported for this ink.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Organic inks contained monolayer-to-few-layer flakes.",
+          "unit": null,
+          "value": "monolayer to few-layered"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No NMP-electrode mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "NMP ink is explicitly identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No scan rate attached to the reported capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Organic-ink preparation described in Methods.",
+          "unit": null,
+          "value": "minimally intensive layer delamination (MILD), followed by solvent transfer to NMP"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported value for inkjet MSC; <N>=25.",
+          "unit": "F cm\u22123",
+          "value": "562"
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx-NMP ink",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Increased from N=1 to highest value at N=5.",
+          "unit": "mF cm\u22122",
+          "value": "43"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Additive-free aqueous MXene ink.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx: O, OH, F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Current density for the 43 mF cm\u22122 value is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Thickness could not be measured on rough paper.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared MSC electrolyte specified in Methods.",
+          "unit": null,
+          "value": "3 M H2SO4-PVA gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No aqueous-ink lateral size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for extrusion-printed MSCs.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported for this ink.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Aqueous ink contains single- or few-layer nanosheets.",
+          "unit": null,
+          "value": "single- or few-layered"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No printed-electrode mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Aqueous ink is explicitly identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No scan rate attached to the 43 mF cm\u22122 value.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MILD material manually shaken and centrifuged in water.",
+          "unit": null,
+          "value": "minimally intensive layer delamination (MILD), followed by aqueous delamination"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No extrusion-MSC volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx aqueous ink",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Zhang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1038/s41467-019-09398-1"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Nature Communications citation header.",
+      "unit": null,
+      "value": "2019"
+    }
+  },
+  "summary": "The study fabricated additive-free Ti3C2Tx electrodes from MILD-derived MXene using one aqueous ink for extrusion printing and four solvent-transferred organic inks (NMP, DMSO, DMF, and ethanol) for inkjet printing. These are distinct printed-electrode formulations; print-pass number, device connections, and line gap were not counted as separate electrodes. The NMP inkjet-printed MSC was the headline/best performer, reaching 562 F cm\u22123 at <N>=25 and 12 mF cm\u22122. The aqueous extrusion-printed MSC reached 43 mF cm\u22122 at <N>=5; individual capacitance metrics were not reported for the DMSO, DMF, or ethanol MSCs. Mass loading, BET surface area, pore metrics, tortuosity, and electrode-specific d-spacing were not reported."
+}

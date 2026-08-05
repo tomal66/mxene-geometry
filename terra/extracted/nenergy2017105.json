@@ -1,0 +1,1069 @@
+{
+  "source_file": "nenergy2017105.pdf",
+  "source_path": "nenergy2017105.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.14847,
+  "warnings": [
+    "n_electrodes=8 but array has 9",
+    "'Macroporous Ti3C2Tx (3.7 mg cm\u22122, 130 \u03bcm)' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not explicitly reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Capacitance was reported from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Theoretical-capacitance section and Fig. 2.",
+          "unit": "nm",
+          "value": "90"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No lateral dimension reported for this film.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Up to value reported for the 90-nm film.",
+          "unit": "F g\u22121",
+          "value": "450"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No spacing reported specifically for this film.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Fabricated from the reported few-layer Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Named throughout Fig. 2 and text.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Planar film; no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Text does not explicitly pair 450 F g\u22121 with one scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched using LiF in 9 M HCl.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD)"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "90 nm Ti3C2Tx film",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not explicitly reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Hydrogel film of Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx hydrogel"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Text and Fig. 2e.",
+          "unit": "\u03bcm",
+          "value": "3"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Hydrogel performance section.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No lateral dimension reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Measured at 2 mV s\u22121 over a 1 V window.",
+          "unit": "F g\u22121",
+          "value": "380"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not reported specifically for the hydrogel.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Fabricated from the reported few-layer Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 2e caption.",
+          "unit": "mg cm\u22122",
+          "value": "1.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Hydrogel performance section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for 380 F g\u22121 and 1,500 F cm\u22123.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum filtration of delaminated Ti3C2Tx colloid.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD); vacuum-filtered hydrogel"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Measured at 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1,500"
+        }
+      },
+      "is_primary": false,
+      "label": "HG-Ti3C2 (1.2 mg cm\u22122, 3 \u03bcm)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not explicitly reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Hydrogel film of Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx hydrogel"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Hydrogel performance section and Fig. 2e.",
+          "unit": "\u03bcm",
+          "value": "13"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Hydrogel performance section.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Measured at 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "370"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not reported specifically for this hydrogel.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Fabricated from the reported few-layer Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Hydrogel performance section.",
+          "unit": "mg cm\u22122",
+          "value": "5.3"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Hydrogel performance section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported gravimetric and volumetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum filtration of delaminated Ti3C2Tx colloid.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD); vacuum-filtered hydrogel"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Measured at 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1,500"
+        }
+      },
+      "is_primary": false,
+      "label": "HG-Ti3C2 (5.3 mg cm\u22122, 13 \u03bcm)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Reported for 40-\u03bcm hydrogel at 5 mV s\u22121.",
+          "unit": "F cm\u22122",
+          "value": "4"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Hydrogel film of Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx hydrogel"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best reported metric was measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Fig. 2e caption and Fig. 3 labels.",
+          "unit": "\u03bcm",
+          "value": "40"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No explicit best gravimetric value printed for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not reported specifically for this hydrogel.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Fabricated from the reported few-layer Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 2e caption.",
+          "unit": "mg cm\u22122",
+          "value": "11.3"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Figure labels.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for 4 F cm\u22122.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum filtration of delaminated Ti3C2Tx colloid.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD); vacuum-filtered hydrogel"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No explicit best value printed for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "HG-Ti3C2 (11.3 mg cm\u22122, 40 \u03bcm)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "0.135 F cm\u22122 at 10 mV s\u22121.",
+          "unit": "F cm\u22122",
+          "value": "0.135"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PMMA-templated macroporous Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Fig. 3a and figure labels.",
+          "unit": "\u03bcm",
+          "value": "13"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Fig. 3a caption.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM identified individual flakes.",
+          "unit": null,
+          "value": "single-layer flakes"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best reported value at 10 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "310"
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Annealed macroporous Ti3C2Tx retained the 26.8 \u00c5 c-lattice parameter.",
+          "unit": "\u00c5",
+          "value": "26.8"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "TEM of individual flakes.",
+          "unit": null,
+          "value": "single-layer flakes"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 3a and e labels.",
+          "unit": "mg cm\u22122",
+          "value": "0.43"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Macroporous electrode section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Macropores characterized as 1\u20132 \u03bcm diameter.",
+          "unit": "\u03bcm",
+          "value": "1\u20132"
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for 310 F g\u22121.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PMMA template removed by 400 \u00b0C Ar annealing.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD); PMMA-templated macroporous film"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "MP-Ti3C2 (0.43 mg cm\u22122, 13 \u03bcm)",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "0.23 F cm\u22122 at 1 V s\u22121.",
+          "unit": "F cm\u22122",
+          "value": "0.23"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PMMA-templated macroporous Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure labels.",
+          "unit": "\u03bcm",
+          "value": "25"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension as other Ti3C2Tx films.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best reported value at 1 V s\u22121.",
+          "unit": "F g\u22121",
+          "value": "280"
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Macroporous Ti3C2Tx retained 26.8 \u00c5 c-lattice parameter.",
+          "unit": "\u00c5",
+          "value": "26.8"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Macroporous hollow spheres consist of a few monolayers.",
+          "unit": null,
+          "value": "few monolayers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Figure labels.",
+          "unit": "mg cm\u22122",
+          "value": "0.9"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Figure labels.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Shared PMMA-templating architecture.",
+          "unit": "\u03bcm",
+          "value": "1\u20132"
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for 280 F g\u22121.",
+          "unit": "V s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PMMA template removed by 400 \u00b0C Ar annealing.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD); PMMA-templated macroporous film"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP-Ti3C2 (0.9 mg cm\u22122, 25 \u03bcm)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "0.54 F cm\u22122 at 1 V s\u22121.",
+          "unit": "F cm\u22122",
+          "value": "0.54"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PMMA-templated macroporous Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure labels.",
+          "unit": "\u03bcm",
+          "value": "180"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension as other Ti3C2Tx films.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best reported value at 1 V s\u22121.",
+          "unit": "F g\u22121",
+          "value": "125"
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Macroporous Ti3C2Tx retained 26.8 \u00c5 c-lattice parameter.",
+          "unit": "\u00c5",
+          "value": "26.8"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Macroporous hollow spheres consist of a few monolayers.",
+          "unit": null,
+          "value": "few monolayers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Figure labels.",
+          "unit": "mg cm\u22122",
+          "value": "4.3"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Figure labels.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Shared PMMA-templating architecture.",
+          "unit": "\u03bcm",
+          "value": "1\u20132"
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for 125 F g\u22121.",
+          "unit": "V s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PMMA template removed by 400 \u00b0C Ar annealing.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD); PMMA-templated macroporous film"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP-Ti3C2 (4.3 mg cm\u22122, 180 \u03bcm)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance value printed for this EIS electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Macroporous Ti3C2Tx EIS electrode.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "EIS only; no GCD condition.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Fig. 3d label.",
+          "unit": "\u03bcm",
+          "value": "130"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx suspension as other Ti3C2Tx films.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance value printed for this EIS electrode.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Macroporous Ti3C2Tx retained 26.8 \u00c5 c-lattice parameter.",
+          "unit": "\u00c5",
+          "value": "26.8"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Macroporous hollow spheres consist of a few monolayers.",
+          "unit": null,
+          "value": "few monolayers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 3c caption.",
+          "unit": "mg cm\u22122",
+          "value": "3.7"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Fig. 3c caption.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Shared PMMA-templating architecture.",
+          "unit": "\u03bcm",
+          "value": "1\u20132"
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PMMA template removed by 400 \u00b0C Ar annealing.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD); PMMA-templated macroporous film"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance value printed for this EIS electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Macroporous Ti3C2Tx (3.7 mg cm\u22122, 130 \u03bcm)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Macroporous molybdenum carbide MXene film.",
+          "unit": null,
+          "value": "Mo2CTx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Capacitance was reported by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Macroporous Mo2CTx performance paragraph.",
+          "unit": "\u03bcm",
+          "value": "30"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Prepared as few-layer Mo2CTx before electrode fabrication.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Reported at 10 V s\u22121.",
+          "unit": "F g\u22121",
+          "value": "100"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No numerical Mo2CTx spacing was reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Mo2CTx supernatant was described as few-layer.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Macroporous Mo2CTx paragraph.",
+          "unit": null,
+          "value": "Mo2CTx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Same PMMA spheres used for macroporous electrodes.",
+          "unit": "\u03bcm",
+          "value": "1.7 \u00b1 0.3"
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for 100 F g\u22121.",
+          "unit": "V s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Mo2Ga2C etched in HF; TBAOH-intercalated and PMMA-templated.",
+          "unit": null,
+          "value": "HF etching; TBAOH intercalation; PMMA-templated macroporous film"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "30 \u03bcm macroporous Mo2CTx electrode",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 8,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Lukatskaya et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1038/nenergy.2017.105"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Publication header.",
+      "unit": null,
+      "value": "2017"
+    }
+  },
+  "summary": "The study compares eight distinct MXene electrodes explicitly identified by composition, architecture, thickness, or mass loading: a thin Ti3C2Tx film, three Ti3C2Tx hydrogels, four Ti3C2Tx macroporous films, and one macroporous Mo2CTx film. Ti3C2Tx was synthesized by LiF/HCl etching and delaminated; macroporous films used sacrificial PMMA microspheres, whereas Mo2CTx was HF-etched and TBAOH-intercalated. The headline high-rate electrode was MP-Ti3C2 (0.43 mg cm\u22122, 13 \u03bcm), reaching 310 F g\u22121 at 10 mV s\u22121 and retaining 210 F g\u22121 at 10 V s\u22121. Hydrogel electrodes supplied the best volumetric result, 1,500 F cm\u22123 at 2 mV s\u22121; BET area, porosity, tortuosity, and most electrode-specific flake dimensions were not reported."
+}

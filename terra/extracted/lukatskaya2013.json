@@ -1,0 +1,263 @@
+{
+  "source_file": "lukatskaya2013.pdf",
+  "source_path": "lukatskaya2013.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.07656,
+  "warnings": [
+    "'multilayer exfoliated Ti3C2Tx electrode' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Surface terminations described in main text.",
+          "unit": null,
+          "value": "Ti3C2Tx, primarily O/OH terminated with some F"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not numerically reported for multilayer electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Highest performance reported in basic electrolytes.",
+          "unit": null,
+          "value": "KOH"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM shows layered particles; no lateral size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Rate-performance figure reports values graphically; no exact best value stated in text.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only c-lattice parameters, rather than d(002), are stated.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as multilayer exfoliated Ti3C2Tx.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not stated in supplied article text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Main text and figure captions.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best value is plotted in rate-performance figures; exact condition not stated in text.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Main text.",
+          "unit": "m2/g",
+          "value": "23"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MXene synthesis described in main text.",
+          "unit": null,
+          "value": "HF etching of Ti3AlC2 MAX phase"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Rate-performance values are graphical; no exact multilayer maximum stated in text.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "multilayer exfoliated Ti3C2Tx electrode",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for paper electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Paper consists of restacked delaminated MXene flakes.",
+          "unit": null,
+          "value": "Ti3C2Tx, primarily O/OH terminated with some F"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance is from CV; 1 A/g applies to cycling test only.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Described as thinner than multilayer electrodes; no numerical thickness stated.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Best volumetric performance reported for KOH.",
+          "unit": null,
+          "value": "KOH"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Paper says roughly doubled versus multilayer material; exact best value not stated in text.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d(002) value reported specifically for paper electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Paper is produced from delaminated few-layer flakes.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not stated in supplied article text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Main text and Fig. 4 caption.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Exact scan rate for the 350 F/cm3 maximum is not stated in text.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Main text.",
+          "unit": "m2/g",
+          "value": "98"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Fig. 4A and main text.",
+          "unit": null,
+          "value": "HF etching of Ti3AlC2, followed by delamination and vacuum filtration into binder- and additive-free paper"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Conclusion: binder-free paper in basic electrolyte; reported as up to 350 F/cm3.",
+          "unit": "F/cm3",
+          "value": "350"
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx paper",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Lukatskaya et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article footer.",
+      "unit": null,
+      "value": "10.1126/science.1241488"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Science issue date: 27 September 2013.",
+      "unit": null,
+      "value": "2013"
+    }
+  },
+  "summary": "This study compares two fabricated Ti3C2Tx electrode architectures: a multilayer exfoliated powder-based electrode and a binder- and additive-free Ti3C2Tx paper made by delaminating and filtering few-layer flakes. Both derive from HF-etched Ti3AlC2 and were tested across several aqueous cation-containing electrolytes; these electrolyte tests are measurement conditions rather than separately fabricated electrodes. The Ti3C2Tx paper is the headline electrode and achieved up to 350 F/cm3 in KOH, while also showing almost no degradation after 10,000 galvanostatic cycles at 1 A/g. Exact mass loading, thickness, pore metrics, and a text-stated exact maximum gravimetric capacitance are not provided in the supplied article text."
+}

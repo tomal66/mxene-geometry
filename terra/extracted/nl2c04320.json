@@ -1,0 +1,491 @@
+{
+  "source_file": "nl2c04320.pdf",
+  "source_path": "nl2c04320.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.08991,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; capacitance is given gravimetrically.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Untreated flexible film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No printed GCD condition tied to an exact best capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for untreated film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode tests for all samples used this electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported for untreated Ti3C2Tx.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "After 50 000 cycles; Figure S7.",
+          "unit": "F g\u22121",
+          "value": "224"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Calculated from dry-film (002) XRD peak.",
+          "unit": "\u00c5",
+          "value": "12.1"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "(002) peak indicates stacked few layers and single lamellae.",
+          "unit": null,
+          "value": "few layers and single lamellae"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported specifically for untreated Ti3C2Tx.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the untreated MXene as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No numerical pore diameter printed for untreated Ti3C2Tx.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Exact 224 F g\u22121 value is a cycling result, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 sorption was shown, but no BET SSA value printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Exact parent-MXene etching procedure is not in supplied article text.",
+          "unit": null,
+          "value": null
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 1000 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "25"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; capacitance is given gravimetrically.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Metal-acetate-treated porous flexible film.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2212Mn"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Initial cycling capacitance at this current density.",
+          "unit": "A g\u22121",
+          "value": "10"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM.",
+          "unit": "\u03bcm",
+          "value": "about 10"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode tests for all samples used this electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM monolayer width.",
+          "unit": "\u03bcm",
+          "value": "about 4\u22125"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Initial value in 10 A g\u22121 cycling test.",
+          "unit": "F g\u22121",
+          "value": "358"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Calculated from dry-film (002) XRD peak.",
+          "unit": "\u00c5",
+          "value": "14.2"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Cross section comprises stacked Ti3C2Tx\u2212Mn monolayers.",
+          "unit": null,
+          "value": "monolayers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported with the Ti3C2Tx\u2212Mn CV measurement.",
+          "unit": "mg cm\u22122",
+          "value": "1.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify this sample as Ti3C2Tx\u2212Mn.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Main N2-sorption pore size.",
+          "unit": "nm",
+          "value": "about 5"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best stated value is from cycling, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 sorption was shown, but no BET SSA value printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Acetate treatment with Mn ions; exact experimental conditions not supplied.",
+          "unit": null,
+          "value": "metal acetate treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 1000 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "565"
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx\u2212Mn",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; capacitance is given gravimetrically.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Metal-acetate-treated porous flexible film.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2212Ni"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best reported capacitance was obtained by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for Ti3C2Tx\u2212Ni.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode tests for all samples used this electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported for Ti3C2Tx\u2212Ni.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported specific capacitance; from CV.",
+          "unit": "F g\u22121",
+          "value": "369"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Calculated from dry-film (002) XRD peak.",
+          "unit": "\u00c5",
+          "value": "14.6"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer-count descriptor reported specifically for Ti3C2Tx\u2212Ni.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported specifically for Ti3C2Tx\u2212Ni.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify this sample as Ti3C2Tx\u2212Ni.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Pore distribution shown, but no numerical main diameter printed.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV-derived highest capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 sorption was shown, but no BET SSA value printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Acetate treatment with Ni ions; exact experimental conditions not supplied.",
+          "unit": null,
+          "value": "metal acetate treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 1000 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "265"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u2212Ni",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; capacitance is given gravimetrically.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Metal-acetate-treated porous flexible film.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2212Co"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Reported exact capacitance was obtained by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for Ti3C2Tx\u2212Co.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode tests for all samples used this electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported for Ti3C2Tx\u2212Co.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Reported at 1000 mV s\u22121; no larger exact Co value printed.",
+          "unit": "F g\u22121",
+          "value": "136"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Calculated from dry-film (002) XRD peak.",
+          "unit": "\u00c5",
+          "value": "12.3"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer-count descriptor reported specifically for Ti3C2Tx\u2212Co.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported specifically for Ti3C2Tx\u2212Co.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify this sample as Ti3C2Tx\u2212Co.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Pore distribution shown, but no numerical main diameter printed.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV-derived capacitance.",
+          "unit": "mV s\u22121",
+          "value": "1000"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 sorption was shown, but no BET SSA value printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Acetate treatment with Co ions; exact experimental conditions not supplied.",
+          "unit": null,
+          "value": "metal acetate treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 1000 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "340"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u2212Co",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Xu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1021/acs.nanolett.2c04320"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Nano Letters citation header.",
+      "unit": null,
+      "value": "2023"
+    }
+  },
+  "summary": "The study compares four free-standing Ti3C2Tx films: untreated Ti3C2Tx and Mn-, Ni-, or Co-acetate-treated Ti3C2Tx\u2212M films. Acetate treatment is reported to intercalate metal ions, enlarge the interlayer spacing, and create porous MXene nanosheets. Ti3C2Tx\u2212Ni gives the highest explicitly printed CV capacitance, 369 F g\u22121 at 2 mV s\u22121, whereas Ti3C2Tx\u2212Mn is the headline rate/cycling performer, beginning at 358 F g\u22121 at 10 A g\u22121 and retaining 248 F g\u22121 after 100 000 cycles at 100 A g\u22121. The Mn material was also used in a symmetric PVA\u2212H2SO4 solid-state device, but this is not counted separately because it uses the same electrode material. SSA, porosity percentage, and most non-Mn thickness/loading values are not printed in the supplied text."
+}

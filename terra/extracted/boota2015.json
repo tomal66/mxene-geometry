@@ -1,0 +1,379 @@
+{
+  "source_file": "boota2015.pdf",
+  "source_path": "boota2015.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.07408,
+  "warnings": [
+    "'pristine Ti3C2Tx films' has no capacitance of any kind",
+    "'PPy/Ti3C2Tx (1:1)' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered pristine MXene paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No GCD capacitance value reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for pristine film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Electrochemical tests used shared electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "238 F g\u22121 is cited from reference [10], not used.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only its XRD peak near 6.4\u00b0 is reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Paper was made from delaminated Ti3C2Tx dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Mass loading not reported for pristine film.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the pristine paper as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No selected best capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched using LiF in 9 M HCl at 35 \u00b0C.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD), followed by delamination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for pristine film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pristine Ti3C2Tx films",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors report 8 wt% PPy for this optimum composite.",
+          "unit": null,
+          "value": "PPy/Ti3C2Tx (1:2), 8 wt% PPy"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "As-filtered composite working electrode.",
+          "unit": "\u00b5m",
+          "value": "\u224813"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "CV measurements described in electrochemical section.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest value reported at 5 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "416"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD indicates increase relative to pristine paper.",
+          "unit": "\u00c5",
+          "value": "\u224810"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Composite formed from delaminated Ti3C2Tx sheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "As-filtered composite working electrode.",
+          "unit": "mg cm\u22122",
+          "value": "0.93"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component identified throughout as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported gravimetric and volumetric capacitances.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Pyrrole stirred with delaminated Ti3C2Tx for 12 h; oxidant-free polymerization.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD), delamination, and oxidant-free in situ pyrrole polymerization"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4b measurement at 5 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1000"
+        }
+      },
+      "is_primary": true,
+      "label": "PPy/Ti3C2Tx (1:2)",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Second pyrrole-loading composition synthesized by authors.",
+          "unit": null,
+          "value": "PPy/Ti3C2Tx (1:1)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No GCD capacitance value reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Electrochemical tests used shared electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Authors report a decline, but print no numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No XRD spacing reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Composite was prepared from delaminated Ti3C2Tx dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Mass loading not reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Figure 4b compared loadings at this scan rate.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Pyrrole stirred with delaminated Ti3C2Tx for 12 h.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD), delamination, and oxidant-free in situ pyrrole polymerization"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Authors report a decline, but print no numerical value.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "PPy/Ti3C2Tx (1:1)",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author list.",
+      "unit": null,
+      "value": "Boota et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Printed in article header.",
+      "unit": null,
+      "value": "10.1002/adma.201504705"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Adv. Mater. citation block.",
+      "unit": null,
+      "value": "2016"
+    }
+  },
+  "summary": "The study fabricated three distinct self-supporting electrodes: a pristine delaminated Ti3C2Tx paper and two oxidant-free PPy/Ti3C2Tx composites with 1:2 and 1:1 PPy:Ti3C2Tx labels. Ti3C2Tx was prepared by LiF/HCl etching of Ti3AlC2, delaminated, then pyrrole was polymerized in situ between MXene layers. PPy/Ti3C2Tx (1:2) was the headline electrode, delivering 416 F g\u22121 and 1000 F cm\u22123 at 5 mV s\u22121 in 1 M H2SO4. The paper states that the 1:1 composition had lower capacitance but does not print its numerical capacitance; no numerical pristine-film capacitance produced in this study is printed."
+}

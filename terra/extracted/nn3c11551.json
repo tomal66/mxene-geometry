@@ -1,0 +1,606 @@
+{
+  "source_file": "nn3c11551.pdf",
+  "source_path": "nn3c11551.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.12418,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MH; Figure 4i reports only HMH3.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Freestanding pristine MXene hydrogel after zinc-species removal.",
+          "unit": null,
+          "value": "Ti3C2Tx hydrogel"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for MH in main text.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method for all hydrogel electrodes.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral nanosheet dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived capacitance at 10 mV s\u22121; Figure 4a.",
+          "unit": "F g\u22121",
+          "value": "252.5"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing for freeze-dried MH; Figure 3b.",
+          "unit": "nm",
+          "value": "1.40"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "MXene dispersion was delaminated before hydrogel assembly.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Mass loading for the MH capacitance measurement was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Stated throughout fabrication and characterization sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Pore-size distribution: predominantly mesopores from 2 to 10 nm.",
+          "unit": "nm",
+          "value": "2\u201310"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported; water content was about 99%.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA of freeze-dried MH; Figure S6.",
+          "unit": "m2 g\u22121",
+          "value": "20"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; [Zn(NH3)4]2+-induced assembly; room-temperature 3 M H2SO4 wash.",
+          "unit": null,
+          "value": "LiF/HCl (MILD) etching and [Zn(NH3)4]2+-induced hydrogel assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No numerical tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MH.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MH",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported separately for HMH1.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Holey-MXene hydrogel etched for 1 h.",
+          "unit": null,
+          "value": "Ti3C2Tx holey-MXene hydrogel"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for HMH1.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method for all hydrogel electrodes.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral nanosheet dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived capacitance at 10 mV s\u22121; Figure 4a.",
+          "unit": "F g\u22121",
+          "value": "270.8"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical HMH1 d-spacing reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Parent Ti3C2Tx dispersion was delaminated before assembly.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Mass loading for HMH1 capacitance was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "HMH1 derives from Ti3C2Tx MXene hydrogel.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "TEM average in-plane nanohole size; Figure 2g.",
+          "unit": "nm",
+          "value": "2.2 \u00b1 0.2"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA not reported separately for HMH1.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MH treated in 3 M H2SO4 at 60 \u00b0C for 1 h.",
+          "unit": null,
+          "value": "Mild oxidative acid etching of MH for 1 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No numerical tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for HMH1.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "HMH1",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "At 10.1 mg cm\u22122 and 10 mV s\u22121; Figure 4i.",
+          "unit": "F cm\u22122",
+          "value": "3.84"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Holey-MXene hydrogel etched for 3 h.",
+          "unit": null,
+          "value": "Ti3C2Tx holey-MXene hydrogel"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Hydrogel-electrode thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method for all hydrogel electrodes.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral nanosheet dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived capacitance at 10 mV s\u22121; Figure 4a.",
+          "unit": "F g\u22121",
+          "value": "359.2"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing for freeze-dried HMH3; Figure 3b.",
+          "unit": "nm",
+          "value": "1.24"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Parent Ti3C2Tx dispersion was delaminated before assembly.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Condition for maximum reported areal capacitance; Figure 4i.",
+          "unit": "mg cm\u22122",
+          "value": "10.1"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Stated as the MXene constituent of HMH3.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "TEM average in-plane nanohole size; Figure 2f.",
+          "unit": "nm",
+          "value": "3.2 \u00b1 0.15"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported; water content was about 97%.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for gravimetric and maximum areal capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA of freeze-dried HMH3; Figure S6.",
+          "unit": "m2 g\u22121",
+          "value": "29"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MH treated in 3 M H2SO4 at 60 \u00b0C for 3 h.",
+          "unit": null,
+          "value": "Mild oxidative acid etching of MH for 3 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No numerical tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Reported separately for the vacuum-filtered HMH3 film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "HMH3",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported separately for HMH6.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Holey-MXene hydrogel etched for 6 h.",
+          "unit": null,
+          "value": "Ti3C2Tx holey-MXene hydrogel"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for HMH6.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method for all hydrogel electrodes.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral nanosheet dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived capacitance at 10 mV s\u22121; Figure 4a.",
+          "unit": "F g\u22121",
+          "value": "313.5"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical HMH6 d-spacing reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Parent Ti3C2Tx dispersion was delaminated before assembly.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Mass loading for HMH6 capacitance was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "HMH6 derives from Ti3C2Tx MXene hydrogel.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "TEM average in-plane nanohole size; Figure 2h.",
+          "unit": "nm",
+          "value": "9.0 \u00b1 1.3"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA not reported separately for HMH6.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MH treated in 3 M H2SO4 at 60 \u00b0C for 6 h.",
+          "unit": null,
+          "value": "Mild oxidative acid etching of MH for 6 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No numerical tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for HMH6.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "HMH6",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Areal capacitance not reported for the vacuum-filtered HMH3 film.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered film prepared from ultrasonically disassembled HMH3 dispersion.",
+          "unit": null,
+          "value": "Ti3C2Tx holey-MXene film"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "SEM image in Figure S20a.",
+          "unit": "\u03bcm",
+          "value": "\u223c10"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method for all hydrogel-derived electrodes.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral nanosheet dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported for HMH3 film.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No separate film d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Authors describe a compact layer-by-layer holey-MXene structure.",
+          "unit": null,
+          "value": "layer-by-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Film mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Film was produced from HMH3, based on Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Film derives from HMH3; no separate pore-size measurement.",
+          "unit": "nm",
+          "value": "3.2 \u00b1 0.15"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported for film.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported volumetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA not reported for vacuum-filtered film.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "HMH3 ultrasonication followed by vacuum filtration through Celgard 3501.",
+          "unit": null,
+          "value": "Ultrasonication of HMH3 and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No numerical tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Reported for HMH3 thin film at 10 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1606.8"
+        }
+      },
+      "is_primary": false,
+      "label": "HMH3 film",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Sikdar et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1021/acsnano.3c11551"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Published January 17, 2024.",
+      "unit": null,
+      "value": "2024"
+    }
+  },
+  "summary": "This study compares pristine Ti3C2Tx MXene hydrogel (MH) with holey-MXene hydrogels etched for 1, 3, or 6 h (HMH1, HMH3, and HMH6). Ti3C2Tx was prepared by LiF/HCl MILD etching, assembled using [Zn(NH3)4]2+ cations, acid-washed, then oxidatively acid-etched in 3 M H2SO4 at 60 \u00b0C. HMH3 was the headline electrode, reaching 359.2 F g\u22121 at 10 mV s\u22121; at 10.1 mg cm\u22122 it achieved 3.84 F cm\u22122 at 10 mV s\u22121. A separately fabricated vacuum-filtered HMH3 film delivered 1606.8 F cm\u22123 at 10 mV s\u22121. Mass loading is absent for the standard gravimetric tests, and no numerical tortuosity or lateral flake sizes are reported."
+}

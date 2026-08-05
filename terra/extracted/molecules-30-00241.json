@@ -1,0 +1,494 @@
+{
+  "source_file": "molecules-30-00241.pdf",
+  "source_path": "molecules-30-00241.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09989,
+  "warnings": [
+    "'TCS-1' has no capacitance of any kind",
+    "'TCS-2' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "FTIR identifies C-O, C-F, -OH, and Ti-O groups.",
+          "unit": null,
+          "value": "Ti3C2Tx (-OH, -F, =O)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD capacitance reported at 1 A g\u22121.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported; methods only state films were vacuum-filtered.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol; concentration not stated.",
+          "unit": null,
+          "value": "H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM average diameter before ultrasonic treatment.",
+          "unit": "\u00b5m",
+          "value": "approximately 1.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 7d, at 1 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "289"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD peak shifts discussed, but no d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Prepared as exfoliated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "exfoliated nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode mass is given, but no mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample identified throughout as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter explicitly assigned to TCS-0.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Text likely assigns 12.082 m2/g to TCS-0 but calls sample \u201cNMO\u201d.",
+          "unit": "m2/g",
+          "value": "12.082"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etching of Ti3AlC2; no sonication.",
+          "unit": null,
+          "value": "LiF/HCl etching (38 \u00b0C, 48 h), followed by exfoliation"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No capacitance in F cm\u22123 reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "TCS-0",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "All samples retain Ti3C2Tx surface functional-group types.",
+          "unit": null,
+          "value": "Ti3C2Tx (-OH, -F, =O)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance value printed for TCS-1.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported; methods only state films were vacuum-filtered.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol; concentration not stated.",
+          "unit": null,
+          "value": "H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM size after 1 h ultrasonic treatment.",
+          "unit": "nm",
+          "value": "approximately 600"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Assessed in Figure S1, but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD peak shifts discussed, but no d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Prepared as exfoliated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "exfoliated nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode mass is given, but no mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample identified throughout as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Pore-size analysis was only reported for TCS-0 and TCS-3.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No capacitance value at a stated CV scan rate printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET analysis was only reported for TCS-0 and TCS-3.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched Ti3C2Tx, ultrasonicated for 1 h.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by ultrasonic treatment for 1 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No capacitance in F cm\u22123 reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "TCS-1",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "All samples retain Ti3C2Tx surface functional-group types.",
+          "unit": null,
+          "value": "Ti3C2Tx (-OH, -F, =O)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance value printed for TCS-2.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported; methods only state films were vacuum-filtered.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol; concentration not stated.",
+          "unit": null,
+          "value": "H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM shows size reduction, but no TCS-2 numerical size stated.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Assessed in Figure S1, but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD peak shifts discussed, but no d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Prepared as exfoliated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "exfoliated nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode mass is given, but no mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample identified throughout as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Pore-size analysis was only reported for TCS-0 and TCS-3.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No capacitance value at a stated CV scan rate printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET analysis was only reported for TCS-0 and TCS-3.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched Ti3C2Tx, ultrasonicated for 2 h.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by ultrasonic treatment for 2 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No capacitance in F cm\u22123 reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "TCS-2",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "FTIR identifies C-O, C-F, -OH, and Ti-O groups.",
+          "unit": null,
+          "value": "Ti3C2Tx (-OH, -F, =O)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Figure 7d GCD condition for reported best capacitance.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported; methods only state films were vacuum-filtered.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol; concentration not stated.",
+          "unit": null,
+          "value": "H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM size after 3 h ultrasonic treatment.",
+          "unit": "nm",
+          "value": "about 250"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 7d, at 1 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "658"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD peak shifts discussed, but no d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Prepared as exfoliated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "exfoliated nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode mass is given, but no mass loading per area reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample identified throughout as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Text assigns 4.81 nm to \u201cNMC-2\u201d; context suggests TCS-3.",
+          "unit": "nm",
+          "value": "4.81"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Text likely assigns 19.898 m2/g to TCS-3 but calls sample \u201cNMC-2\u201d.",
+          "unit": "m2/g",
+          "value": "19.898"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched Ti3C2Tx, ultrasonicated for 3 h.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by ultrasonic treatment for 3 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No capacitance in F cm\u22123 reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "TCS-3",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article citation block.",
+      "unit": null,
+      "value": "Liu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header and citation block.",
+      "unit": null,
+      "value": "10.3390/molecules30020241"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Published 9 January 2025.",
+      "unit": null,
+      "value": "2025"
+    }
+  },
+  "summary": "The paper compares four vacuum-filtered Ti3C2Tx film electrodes: unsonicated TCS-0 and Ti3C2Tx sonicated for 1 h, 2 h, or 3 h (TCS-1, TCS-2, and TCS-3). All were produced by LiF/HCl etching of Ti3AlC2 followed by exfoliation; the variants differ only in ultrasonic fragmentation duration and resultant lateral sheet size. TCS-3 is the headline and best-performing electrode, reporting 658 F g\u22121 at 1 A g\u22121 in an H2SO4 aqueous electrolyte, versus 289 F g\u22121 for TCS-0 under the same condition. No numerical capacitance values for TCS-1 or TCS-2, film thicknesses, mass loadings per area, electrolyte concentration, or numerical interlayer spacings were printed; BET labels in the text conflict with the TCS labels."
+}

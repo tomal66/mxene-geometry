@@ -1,0 +1,495 @@
+{
+  "source_file": "1-s2.0-S0013468622000433-main.pdf",
+  "source_path": "1-s2.0-S0013468622000433-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09996,
+  "warnings": [
+    "'MP0' has no capacitance of any kind",
+    "'MP2' has no capacitance of any kind",
+    "'MP8' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MP0 in figures or text.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pure-film control prepared by vacuum filtration.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No printed MP0 capacitance value accompanies the 1.0 A g\u22121 GCD curve.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness is discussed qualitatively but not reported numerically.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing method for prepared films.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral MXene flake dimension is printed.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "MP0 GCD is shown, but no numerical capacitance is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only the (002) peak position is given; no d-spacing is printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM identifies MP0 as a layered structure.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Methods define mass loading but provide no numerical loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Film is identified as pure MXene in methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Pure-film pores are reported as 1\u20133 nm, without a stated average.",
+          "unit": "nm",
+          "value": "1\u20133"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage is not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical MP0 capacitance is reported from CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Reported for the pure MXene film in Fig. S3 discussion.",
+          "unit": "m2 g\u22121",
+          "value": "2.95"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched using LiF and 9 M HCl, then delaminated and vacuum-filtered.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by delamination and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported or modeled.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MP0.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP0",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MP2 in figures or text.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Methods specify 10 mL MXene dispersion and 2 mL PANI nanofibers.",
+          "unit": null,
+          "value": "Ti3C2Tx/PANI nano\ufb01bers (10 mL MXene dispersion + 2 mL PANI dispersion)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No printed MP2 capacitance value accompanies the 1.0 A g\u22121 GCD curve.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness is discussed qualitatively but not reported numerically.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing method for prepared films.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral MXene flake dimension is printed.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "MP2 GCD is shown, but no numerical capacitance is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "(002) peak at approximately 6.90\u00b0; no d-spacing is printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shows that MP2 retains a layered structure.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Methods define mass loading but provide no numerical loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene precursor and composite film are identified in methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No MP2-specific pore diameter is reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No MP2-specific porosity percentage is reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical MP2 capacitance is reported from CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No MP2-specific BET surface area is reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched using LiF and 9 M HCl; PANI physically mixed and vacuum-filtered.",
+          "unit": null,
+          "value": "LiF/HCl etching, PANI physical mixing, and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported or modeled.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MP2.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP2",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MP5 in figures or text.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Methods specify 10 mL MXene dispersion and 5 mL PANI nanofibers.",
+          "unit": null,
+          "value": "Ti3C2Tx/PANI nano\ufb01bers (10 mL MXene dispersion + 5 mL PANI dispersion)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best printed MP5 capacitance is derived from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness is discussed qualitatively but not reported numerically.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Best film capacitance was measured under the shared three-electrode protocol.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral MXene flake dimension is printed.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "MP5 CV result at 10 mV s\u22121; highest reported MP5 capacitance.",
+          "unit": "F g\u22121",
+          "value": "425.7"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "(002) peak at approximately 6.72\u00b0; no d-spacing is printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shows that MP5 retains a layered structure.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Methods define mass loading but provide no numerical loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene precursor and composite film are identified in methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Composite-film pores are reported as 5\u201320 nm, but composite identity is not specified.",
+          "unit": "nm",
+          "value": "5\u201320"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage is not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for the highest reported MP5 gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "MXene/PANI film SSA is 5.97 m2 g\u22121, but the supplementary sample identity is unspecified.",
+          "unit": "m2 g\u22121",
+          "value": "5.97"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched using LiF and 9 M HCl; PANI physically mixed and vacuum-filtered.",
+          "unit": null,
+          "value": "LiF/HCl etching, PANI physical mixing, and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported or modeled.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MP5.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "MP5",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MP8 in figures or text.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Methods specify 10 mL MXene dispersion and 8 mL PANI nanofibers.",
+          "unit": null,
+          "value": "Ti3C2Tx/PANI nano\ufb01bers (10 mL MXene dispersion + 8 mL PANI dispersion)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No printed MP8 capacitance value accompanies the 1.0 A g\u22121 GCD curve.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness is discussed qualitatively but not reported numerically.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing method for prepared films.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral MXene flake dimension is printed.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "MP8 GCD is shown, but no numerical capacitance is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "(002) peak at approximately 6.86\u00b0; no d-spacing is printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shows that MP8 retains a layered structure.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Methods define mass loading but provide no numerical loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene precursor and composite film are identified in methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No MP8-specific pore diameter is reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No MP8-specific porosity percentage is reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical MP8 capacitance is reported from CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No MP8-specific BET surface area is reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched using LiF and 9 M HCl; PANI physically mixed and vacuum-filtered.",
+          "unit": null,
+          "value": "LiF/HCl etching, PANI physical mixing, and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported or modeled.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for MP8.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP8",
+      "role": "composite"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Luo et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.electacta.2022.139871"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header and copyright line.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "This study fabricated four freestanding Ti3C2Tx-based vacuum-filtered films: pure MXene (MP0) and PANI-nanofiber composites MP2, MP5, and MP8, differentiated by 2, 5, or 8 mL PANI dispersion added to 10 mL MXene dispersion. Ti3C2Tx was obtained by LiF/HCl etching of Ti3AlC2 followed by delamination. MP5 was the headline optimum and had the highest reported film gravimetric capacitance, 425.7 F g\u22121 at 10 mV s\u22121 in 1 M H2SO4; its all-solid-state symmetric device reported 272.5 F g\u22121 at 1 A g\u22121 and 31.18 Wh kg\u22121 at 1079.3 W kg\u22121. Numerical capacitance values were not printed for MP0, MP2, or MP8, and film thickness, mass loading, and numerical interlayer d-spacings were not reported."
+}

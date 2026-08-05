@@ -1,0 +1,838 @@
+{
+  "source_file": "c8nr01550c.pdf",
+  "source_path": "c8nr01550c.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.12395,
+  "warnings": [
+    "'P-MX1.5' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Surface terminations described for prepared MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx (-OH, -O, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD condition for reported gravimetric capacitance.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film preparation discussion reports 13 \u03bcm MXene films.",
+          "unit": "\u03bcm",
+          "value": "13"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Manual-shaken MXene nanosheets were several micrometers laterally.",
+          "unit": null,
+          "value": "up to several micrometers"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 5d, at 0.5 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "288"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) peak at 7.1\u00b0.",
+          "unit": "nm",
+          "value": "1.24"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Film assembled from manually delaminated monolayer nanosheets.",
+          "unit": null,
+          "value": "monolayer nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No specific mass loading printed for this baseline electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Prepared from Ti3AlC2 precursor.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported for compact pure film.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance reported from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET analysis of compact MXene film.",
+          "unit": "m2 g\u22121",
+          "value": "1.5"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "9 M HCl/12 M LiF etching; manual shaking without sonication; vacuum filtration.",
+          "unit": null,
+          "value": "HCl/LiF minimally intensive layer delamination (MILD)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Numerical baseline volumetric capacitance not printed in text.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pure MXene film",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Fe(OH)3 template removed before calcination.",
+          "unit": null,
+          "value": "nanoporous Ti3C2Tx (-OH, -O, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported specifically for P-MX1.5.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Made from the study's large manually-delaminated flakes.",
+          "unit": null,
+          "value": "up to several micrometers"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical capacitance printed for P-MX1.5.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "(002) peak shifts to 6.7\u00b0, but d-spacing value is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constructed from delaminated monolayer nanosheets.",
+          "unit": null,
+          "value": "monolayer nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported specifically for P-MX1.5.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Study MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Nanopores are described, but electrode pore diameter is not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV comparison is mentioned, but no capacitance-at-scan-rate value printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA not reported for uncalcined P-MX1.5.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Fe(OH)3-templated vacuum filtration followed by dilute-HCl template removal.",
+          "unit": null,
+          "value": "Fe(OH)3 sacrificial-template nanopore formation"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical capacitance printed for P-MX1.5.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "P-MX1.5",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Modified nanoporous MXene film after 200 \u00b0C Ar calcination.",
+          "unit": null,
+          "value": "modified nanoporous Ti3C2Tx (-OH, -O, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Fig. 5d condition.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported specifically for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Made from the study's large manually-delaminated flakes.",
+          "unit": null,
+          "value": "up to several micrometers"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 5d, at 0.5 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "328"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No XRD d-spacing reported specifically for MP-MX0.2.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constructed from delaminated monolayer nanosheets.",
+          "unit": null,
+          "value": "monolayer nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported specifically for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Study MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance is GCD-derived.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA not numerically reported for MP-MX0.2.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Fe(OH)3 template removal followed by 200 \u00b0C Ar calcination.",
+          "unit": null,
+          "value": "Fe(OH)3 sacrificial-template nanopore formation and 200 \u00b0C Ar calcination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed specifically for MP-MX0.2.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP-MX0.2",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Modified nanoporous MXene film after 200 \u00b0C Ar calcination.",
+          "unit": null,
+          "value": "modified nanoporous Ti3C2Tx (-OH, -O, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Fig. 5d condition.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported specifically for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Made from the study's large manually-delaminated flakes.",
+          "unit": null,
+          "value": "up to several micrometers"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 5d, at 0.5 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "334"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported specifically for MP-MX0.5.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constructed from delaminated monolayer nanosheets.",
+          "unit": null,
+          "value": "monolayer nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported specifically for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Study MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance is GCD-derived.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET analysis in Fig. 3h.",
+          "unit": "m2 g\u22121",
+          "value": "23"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Fe(OH)3 template removal followed by 200 \u00b0C Ar calcination.",
+          "unit": null,
+          "value": "Fe(OH)3 sacrificial-template nanopore formation and 200 \u00b0C Ar calcination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed specifically for MP-MX0.5.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP-MX0.5",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Modified nanoporous MXene film after 200 \u00b0C Ar calcination.",
+          "unit": null,
+          "value": "modified nanoporous Ti3C2Tx (-OH, -O, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Fig. 5d condition.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported specifically for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Made from the study's large manually-delaminated flakes.",
+          "unit": null,
+          "value": "up to several micrometers"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 5d, at 0.5 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "342"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported specifically for MP-MX1.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constructed from delaminated monolayer nanosheets.",
+          "unit": null,
+          "value": "monolayer nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported specifically for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Study MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance is GCD-derived.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA not numerically reported for MP-MX1.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Fe(OH)3 template removal followed by 200 \u00b0C Ar calcination.",
+          "unit": null,
+          "value": "Fe(OH)3 sacrificial-template nanopore formation and 200 \u00b0C Ar calcination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed specifically for MP-MX1.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MP-MX1",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Calcination partially removes -OH and some -F groups.",
+          "unit": null,
+          "value": "modified nanoporous Ti3C2Tx (-OH, -O, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for best reported volumetric capacitance.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported specifically for MP-MX1.5.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Made from the study's large manually-delaminated flakes.",
+          "unit": null,
+          "value": "up to several micrometers"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 5d, at 0.5 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "346"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Same interlayer distance as P-MX1.5; numerical value not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constructed from delaminated monolayer nanosheets.",
+          "unit": null,
+          "value": "monolayer nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "High-loading measurement in Fig. 5e.",
+          "unit": "mg cm\u22122",
+          "value": "11.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Study MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Nanopores are described but no electrode pore diameter is reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance is GCD-derived.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET analysis in Fig. 3h.",
+          "unit": "m2 g\u22121",
+          "value": "56"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Fe(OH)3 template removal followed by 200 \u00b0C Ar calcination.",
+          "unit": null,
+          "value": "Fe(OH)3 sacrificial-template nanopore formation and 200 \u00b0C Ar calcination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best value; Fig. S13/text, at 0.5 A g\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1142"
+        }
+      },
+      "is_primary": true,
+      "label": "MP-MX1.5",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Modified nanoporous MXene film after 200 \u00b0C Ar calcination.",
+          "unit": null,
+          "value": "modified nanoporous Ti3C2Tx (-OH, -O, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for reported gravimetric and volumetric capacitances.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported specifically for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Made from the study's large manually-delaminated flakes.",
+          "unit": null,
+          "value": "up to several micrometers"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 5d, at 0.5 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "351"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported specifically for MP-MX2.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constructed from delaminated monolayer nanosheets.",
+          "unit": null,
+          "value": "monolayer nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported specifically for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Study MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance is GCD-derived.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET analysis in Fig. 3h.",
+          "unit": "m2 g\u22121",
+          "value": "75"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Fe(OH)3 template removal followed by 200 \u00b0C Ar calcination.",
+          "unit": null,
+          "value": "Fe(OH)3 sacrificial-template nanopore formation and 200 \u00b0C Ar calcination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Text/Fig. S13, at 0.5 A g\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1053"
+        }
+      },
+      "is_primary": false,
+      "label": "MP-MX2",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 7,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Fan et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1039/c8nr01550c"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation/header.",
+      "unit": null,
+      "value": "2018"
+    }
+  },
+  "summary": "This study used large, manually delaminated Ti3C2Tx flakes prepared by HCl/LiF etching, then made free-standing films by vacuum filtration. Seven electrode materials with electrochemical use are identified: compact pure MXene, uncalcined nanoporous P-MX1.5, and five calcined modified nanoporous MP-MXx films differing in Fe(OH)3-template mass ratio. MP-MX1.5 is the headline and best volumetric performer, delivering 1142 F cm\u22123 at 0.5 A g\u22121 and 828 F cm\u22123 at 20 A g\u22121; it also retained 749 F cm\u22123 at 11.2 mg cm\u22122. The paper does not provide individual thicknesses, pore diameters, porosity, or complete numerical volumetric capacitances for every variant."
+}

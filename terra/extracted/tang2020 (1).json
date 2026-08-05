@@ -1,0 +1,494 @@
+{
+  "source_file": "tang2020 (1).pdf",
+  "source_path": "tang2020 (1).pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09583,
+  "warnings": [
+    "'L-pristine' has no capacitance of any kind",
+    "'S-pristine' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for L-pristine; Figure 6 concerns S-etched films.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene terminations are defined in the Introduction.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = -Cl, -F, -OH, and =O)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV; no GCD current density accompanies it.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness is reported for the L-pristine film tested in Figure 4.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement procedure in Experimental Section.",
+          "unit": null,
+          "value": "3 m H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Average from SEM size distribution in Figure 2e.",
+          "unit": "\u00b5m",
+          "value": "1.28"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical maximum for L-pristine is printed; values appear only graphically in Figure 4e.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD comparison gives no absolute d-spacing for L-pristine.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Collected dispersion contains delaminated single- and few-layer flakes.",
+          "unit": null,
+          "value": "single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Figure 6 comparison mentions L-pristine at low loading.",
+          "unit": "mg cm\u22122",
+          "value": "1"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is explicitly named a Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter is reported for the unetched L-pristine film.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage is reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical capacitance for this sample is printed at a specific scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area is reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section: HF/HCl Al etching, LiCl delamination, and vacuum filtration.",
+          "unit": null,
+          "value": "HF/HCl etching of Ti3AlC2, LiCl delamination, vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value is reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical volumetric capacitance for L-pristine is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "L-pristine",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for L-etched; Figure 6 areal data concern S-etched films.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Etched Ti3C2Tx contained residual sulfur compounds and carbon species.",
+          "unit": null,
+          "value": "H2SO4-etched Ti3C2Tx (Tx = -Cl, -F, -OH, and =O; residual sulfur compounds/carbon species)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Reported capacitance was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness for the L-etched electrochemical sample is printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement procedure in Experimental Section.",
+          "unit": null,
+          "value": "3 m H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "L-etched was made from the large-flake dispersion; starting average size was 1.28 \u00b5m.",
+          "unit": "\u00b5m",
+          "value": "1.28"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Etched large- and small-flake films reached this value at low scan rate.",
+          "unit": "F g\u22121",
+          "value": "324"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD reports an increase of \u22480.1 nm, but no absolute d-spacing.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Produced from the shared delaminated single- and few-layer MXene dispersion.",
+          "unit": null,
+          "value": "single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No numerical mass loading is printed for the L-etched Figure 4 sample.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is explicitly named L-etched Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Holes are described as several nanometers only for S-etched nanosheets.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage is reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "The 324 F g\u22121 value was reported at the low scan rate.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area is reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Large-flake Ti3C2Tx was concentrated with H2SO4, washed, and vacuum-filtered.",
+          "unit": null,
+          "value": "HF/HCl etching, LiCl delamination, concentrated H2SO4 oxidation/etching, vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value is reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical volumetric capacitance for L-etched is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "L-etched",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for S-pristine; Figure 6 concerns S-etched films.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene terminations are defined in the Introduction.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = -Cl, -F, -OH, and =O)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No GCD current density accompanies the CV-derived capacitance data.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness is reported for the S-pristine film tested in Figure 4.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement procedure in Experimental Section.",
+          "unit": null,
+          "value": "3 m H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Average from SEM size distribution in Figure 2f.",
+          "unit": "nm",
+          "value": "150"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical maximum for S-pristine is printed; values appear graphically in Figure 4e.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD comparison gives no absolute d-spacing for S-pristine.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Collected dispersion contains delaminated single- and few-layer flakes.",
+          "unit": null,
+          "value": "single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No numerical mass loading is printed for the S-pristine electrochemical sample.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is explicitly named S-pristine Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter is reported for the unetched S-pristine film.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage is reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical capacitance for this sample is printed at a specific scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area is reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section: HF/HCl Al etching, LiCl delamination, probe sonication, and filtration.",
+          "unit": null,
+          "value": "HF/HCl etching of Ti3AlC2, LiCl delamination, probe sonication, vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value is reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical volumetric capacitance for S-pristine is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "S-pristine",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Maximum areal capacitance at 48 \u00b5m thickness and 12 mg cm\u22122 loading.",
+          "unit": "F cm\u22122",
+          "value": "3.2"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Etched Ti3C2Tx contained residual sulfur compounds and carbon species.",
+          "unit": null,
+          "value": "H2SO4-etched Ti3C2Tx (Tx = -Cl, -F, -OH, and =O; residual sulfur compounds/carbon species)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitances were derived from CV; no GCD current density is given.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness of the thin film giving the best gravimetric and volumetric capacitance.",
+          "unit": "\u00b5m",
+          "value": "1.1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement procedure in Experimental Section.",
+          "unit": null,
+          "value": "3 m H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "S-etched was made from probe-sonicated small flakes; starting average size was 150 nm.",
+          "unit": "nm",
+          "value": "150"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Thin 1.1 \u00b5m film at 5 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "327"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD reports an increase of \u22480.1 nm, but no absolute d-spacing.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Produced from the shared delaminated single- and few-layer MXene dispersion.",
+          "unit": null,
+          "value": "single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Loading of the thin film giving 327 F g\u22121 and \u22481200 F cm\u22123.",
+          "unit": "mg cm\u22122",
+          "value": "0.4"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is explicitly named S-etched Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "TEM describes holes as several nanometers in diameter.",
+          "unit": "nm",
+          "value": "several"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage is reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for the 327 F g\u22121 and \u22481200 F cm\u22123 thin-film capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area is reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Small-flake Ti3C2Tx was H2SO4-etched after probe sonication and vacuum-filtered.",
+          "unit": null,
+          "value": "HF/HCl etching, LiCl delamination, probe sonication, concentrated H2SO4 oxidation/etching, vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value is reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Thin 1.1 \u00b5m, 0.4 mg cm\u22122 film at 5 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "\u22481200"
+        }
+      },
+      "is_primary": true,
+      "label": "S-etched",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Jun Tang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/aenm.202003025"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2020"
+    }
+  },
+  "summary": "The paper compares four freestanding Ti3C2Tx film electrodes: large-flake pristine and H2SO4-etched films (L-pristine and L-etched), and probe-sonicated small-flake pristine and etched films (S-pristine and S-etched). All MXene originated from HF/HCl etching of Ti3AlC2 followed by LiCl delamination; etched samples underwent concentrated H2SO4 oxidation, while S samples additionally underwent probe sonication. S-etched is the headline material, reaching 327 F g\u22121 and approximately 1200 F cm\u22123 at 5 mV s\u22121 for a 1.1 \u00b5m, 0.4 mg cm\u22122 film; its highest reported areal capacitance was 3.2 F cm\u22122 at 48 \u00b5m and 12 mg cm\u22122. Absolute XRD d-spacings, BET surface areas, porosity, and most numerical capacitances for the three comparison films were not printed in the supplied paper text."
+}

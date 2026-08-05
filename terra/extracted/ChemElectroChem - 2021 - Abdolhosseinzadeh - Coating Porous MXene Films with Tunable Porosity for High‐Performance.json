@@ -1,0 +1,493 @@
+{
+  "source_file": "ChemElectroChem - 2021 - Abdolhosseinzadeh - Coating Porous MXene Films with Tunable Porosity for High\u2010Performance.pdf",
+  "source_path": "ChemElectroChem - 2021 - Abdolhosseinzadeh - Coating Porous MXene Films with Tunable Porosity for High\u2010Performance.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.08364,
+  "warnings": [
+    "'Porous MXene film (1.78 g/cm3)' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4d; measured at 5 mV/s.",
+          "unit": "mF/cm2",
+          "value": "193"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors identify the electrode film as Ti3C2Tx MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was reported from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Wet thickness was adjusted, but dry electrode thickness was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared MSC gel-electrolyte preparation in Experimental Section.",
+          "unit": null,
+          "value": "H2SO4-PVA gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Large flakes were used, but no lateral dimension was printed.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4d; measured at 5 mV/s.",
+          "unit": "F/g",
+          "value": "153"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD peak near 7.3\u00b0 reported; d-spacing was not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Vortex-delaminated MXene was described as single/few-layer.",
+          "unit": null,
+          "value": "single/few-layer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Similar MXene amounts were deposited; numerical loading absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Reported throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Study-wide pore range was reported, not per density.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Called pristine/lowest-porosity film; numerical porosity not printed.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Figure 4b-d and Table 1 report capacitance at this rate.",
+          "unit": "mV/s",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Figure 3i, urea-free ink film.",
+          "unit": "m2/g",
+          "value": "10.5"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched by minimally intensive layer delamination route.",
+          "unit": null,
+          "value": "LiF/HCl MILD etching; vortex delamination"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in characterization or impedance analysis.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Pristine MXene film (2.11 g/cm3)",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4c plots this value, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Same Ti3C2Tx MXene ink; 3.5 wt.% urea was added.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No GCD-derived best capacitance value printed for this density.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Dry electrode thickness was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared MSC gel-electrolyte preparation in Experimental Section.",
+          "unit": null,
+          "value": "H2SO4-PVA gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Large flakes were used, but no lateral dimension was printed.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4d plots this value, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No density-specific d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Vortex-delaminated MXene was described as single/few-layer.",
+          "unit": null,
+          "value": "single/few-layer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Similar MXene amounts were deposited; numerical loading absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Reported throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Study-wide pore range was reported, not per density.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Film density is reported, but its numerical porosity is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "CV datasets include 5 mV/s, but no numerical capacitance was printed.",
+          "unit": "mV/s",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Figure 3i.",
+          "unit": "m2/g",
+          "value": "24.3"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched by MILD route; porous film made using 3.5 wt.% urea.",
+          "unit": null,
+          "value": "LiF/HCl MILD etching; vortex delamination; 3.5 wt.% urea space-holder"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Porous MXene film (1.78 g/cm3)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4d and Table 1; measured at 5 mV/s.",
+          "unit": "mF/cm2",
+          "value": "241"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Same Ti3C2Tx MXene ink; 4.5 wt.% urea was added.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was reported from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Dry electrode thickness was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared MSC gel-electrolyte preparation in Experimental Section.",
+          "unit": null,
+          "value": "H2SO4-PVA gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Large flakes were used, but no lateral dimension was printed.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4d; measured at 5 mV/s.",
+          "unit": "F/g",
+          "value": "192"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No density-specific d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Vortex-delaminated MXene was described as single/few-layer.",
+          "unit": null,
+          "value": "single/few-layer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Similar MXene amounts were deposited; numerical loading absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Reported throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Study-wide pore range was reported, not per density.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Text identifies this optimum-density film as 72% porous.",
+          "unit": "%",
+          "value": "72"
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Figure 4d and Table 1 report capacitance at this rate.",
+          "unit": "mV/s",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Figure 3i.",
+          "unit": "m2/g",
+          "value": "62.1"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched by MILD route; porous film made using 4.5 wt.% urea.",
+          "unit": null,
+          "value": "LiF/HCl MILD etching; vortex delamination; 4.5 wt.% urea space-holder"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "Porous MXene film (1.44 g/cm3)",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4d; measured at 5 mV/s.",
+          "unit": "mF/cm2",
+          "value": "138"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Same Ti3C2Tx MXene ink; 6.5 wt.% urea was added.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was reported from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Dry electrode thickness was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared MSC gel-electrolyte preparation in Experimental Section.",
+          "unit": null,
+          "value": "H2SO4-PVA gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Large flakes were used, but no lateral dimension was printed.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4d; measured at 5 mV/s.",
+          "unit": "F/g",
+          "value": "110"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No density-specific d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Vortex-delaminated MXene was described as single/few-layer.",
+          "unit": null,
+          "value": "single/few-layer"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Similar MXene amounts were deposited; numerical loading absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Reported throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Study-wide pore range was reported, not per density.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Lowest density was stated to correspond to this porosity.",
+          "unit": "%",
+          "value": "80"
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Figure 4d reports capacitance at this rate.",
+          "unit": "mV/s",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Figure 3i.",
+          "unit": "m2/g",
+          "value": "95.6"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched by MILD route; porous film made using 6.5 wt.% urea.",
+          "unit": null,
+          "value": "LiF/HCl MILD etching; vortex delamination; 6.5 wt.% urea space-holder"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Porous MXene film (1.15 g/cm3)",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author line.",
+      "unit": null,
+      "value": "Abdolhosseinzadeh et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Paper header.",
+      "unit": null,
+      "value": "10.1002/celc.202100558"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2021"
+    }
+  },
+  "summary": "The study fabricated four Ti3C2Tx solid-state micro-supercapacitor electrodes differing in urea-space-holder loading and resulting film density/porosity: pristine 2.11 g/cm3 and porous films of 1.78, 1.44, and 1.15 g/cm3. MXene was prepared from Ti3AlC2 by LiF/HCl MILD etching and vortex delamination; porous coatings were made by urea removal followed by water/acetone solvent exchange. The 1.44 g/cm3, 72% porous electrode was the headline sample, delivering 192 F/g and 241 mF/cm2 at 5 mV/s in H2SO4-PVA gel electrolyte. Numerical capacitances were not printed for the 1.78 g/cm3 electrode, and dry thickness, mass loading, flake dimensions, and per-sample pore diameters were not reported."
+}

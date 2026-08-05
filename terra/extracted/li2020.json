@@ -1,0 +1,32 @@
+{
+  "source_file": "li2020.pdf",
+  "source_path": "li2020.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.12212,
+  "warnings": [
+    "no electrodes extracted at all"
+  ],
+  "electrodes": [],
+  "n_electrodes": 0,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Title page.",
+      "unit": null,
+      "value": "Li et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Citation block on title page.",
+      "unit": null,
+      "value": "10.1002/cssc.201902679"
+    },
+    "year": {
+      "confidence": "uncertain",
+      "note": "Accepted manuscript does not state publication year.",
+      "unit": null,
+      "value": null
+    }
+  },
+  "summary": "This is a review article, not a primary experimental study. It summarizes Ti3C2Tx supercapacitor electrodes reported in many externally cited publications, including porous architectures, carbon/polymer/metal-oxide composites, and surface-modified materials. No electrode materials were fabricated and electrochemically characterized by the review authors within this paper; therefore, cited literature samples and Table 1/Table 2 entries were excluded. Consequently, no distinct paper-specific electrodes can be extracted."
+}

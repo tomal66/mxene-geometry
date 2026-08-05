@@ -1,0 +1,146 @@
+{
+  "source_file": "1-s2.0-S0169433219330661-main.pdf",
+  "source_path": "1-s2.0-S0169433219330661-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.06212,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported for the Ti3C2Tx film.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS identified Ti, C, O, and F; terminations described as =O, -OH, and -F.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = O, OH, F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance from GCD in 3 M H2SO4 + 0.3 M KI.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Freestanding vacuum-filtered Ti3C2Tx film.",
+          "unit": "\u03bcm",
+          "value": "4.6"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Optimized symmetric-device electrolyte for reported best capacitance.",
+          "unit": null,
+          "value": "3 M H2SO4 + 0.3 M KI"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Particle-size distribution of MXene nanosheets.",
+          "unit": "nm",
+          "value": "200\u20131000"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Optimized symmetric device, measured by GCD at 1 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "166"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) peak of Ti3C2Tx film at 7.04\u00b0.",
+          "unit": "\u00c5",
+          "value": "12.54"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Prepared by sonication and explicitly described as delaminated nanosheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Film mass was approximately 21 mg, but electrode area/loading for devices was not specified.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Used as both positive and negative freestanding electrodes.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization or average pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No BET or porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in LiF/HCl, sonicated under Ar, then vacuum filtered.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by mechanical sonication and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or impedance-model tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Optimized symmetric device in 3 M H2SO4 + 0.3 M KI at 1 A g\u22121.",
+          "unit": "F cm\u22123",
+          "value": "601"
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx film",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 1,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Fu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.apsusc.2019.144250"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Applied Surface Science 504 (2020) 144250.",
+      "unit": null,
+      "value": "2020"
+    }
+  },
+  "summary": "The study fabricated one freestanding Ti3C2Tx MXene film electrode by LiF/HCl etching of Ti3AlC2, delamination, and vacuum filtration. The same Ti3C2Tx film was used as both electrodes in symmetric devices; changing KI concentration in electrolyte does not create distinct electrode materials. Its best device performance occurred in 3 M H2SO4 + 0.3 M KI, reaching 601 F cm\u22123 and 166 F g\u22121 at 1 A g\u22121. The film thickness, flake-size range, and XRD interlayer spacing were reported, whereas BET surface area, porosity, pore diameter, tortuosity, and device-specific mass loading were not reported."
+}

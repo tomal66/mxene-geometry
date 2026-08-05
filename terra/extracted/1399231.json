@@ -1,0 +1,491 @@
+{
+  "source_file": "1399231.pdf",
+  "source_path": "1399231.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11238,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for MXene film.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Table 1; pure MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived, not GCD-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Measured experimentally but numerical value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement procedure.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No numerical lateral flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4e and Table S2; at 2 mV s-1.",
+          "unit": "F g-1",
+          "value": "330.2"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) peak at 6.7\u00b0.",
+          "unit": "nm",
+          "value": "1.31"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from the shared delaminated MXene suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported for MXene film.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Identified throughout manuscript as titanium carbide MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported best CV capacitances.",
+          "unit": "mV s-1",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 adsorption/desorption measurement.",
+          "unit": "m2 g-1",
+          "value": "19.6"
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation: LiF/9 M HCl etching, then sonication delamination.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by sonication delamination"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4f and Table S2; at 2 mV s-1.",
+          "unit": "F cm-3",
+          "value": "1221.6"
+        }
+      },
+      "is_primary": false,
+      "label": "MXene",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for M/G-1%.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Table 1 composition.",
+          "unit": "wt. %",
+          "value": "99 wt.% Ti3C2Tx / 1 wt.% rGO (G-PDDA)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived, not GCD-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Measured experimentally but numerical value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement procedure.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No numerical lateral flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4e; at 2 mV s-1.",
+          "unit": "F g-1",
+          "value": "308.0"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Reported in discussion of Figure 7.",
+          "unit": "nm",
+          "value": "1.46"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Calculated MXene:rGO layer ratio.",
+          "unit": null,
+          "value": "MXene:rGO = 18.2:1"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported for M/G-1%.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene constituent of the hybrid.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported best CV capacitance.",
+          "unit": "mV s-1",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area not reported for M/G-1%.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation: LiF/HCl etching and electrostatic self-assembly.",
+          "unit": null,
+          "value": "LiF/HCl etching, sonication delamination, and electrostatic self-assembly with G-PDDA"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4f plots it, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M/G-1%",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for M/G-5%.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Table 1 composition.",
+          "unit": "wt. %",
+          "value": "95 wt.% Ti3C2Tx / 5 wt.% rGO (G-PDDA)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived, not GCD-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Measured experimentally but numerical value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement procedure.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No numerical lateral flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4e and Table S2; at 2 mV s-1.",
+          "unit": "F g-1",
+          "value": "335.4"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002), consistent with TEM.",
+          "unit": "nm",
+          "value": "1.51"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Calculated MXene:rGO layer ratio.",
+          "unit": null,
+          "value": "MXene:rGO = 3.5:1"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported for M/G-5%.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene constituent of the hybrid.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported best CV capacitances.",
+          "unit": "mV s-1",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 adsorption/desorption measurement.",
+          "unit": "m2 g-1",
+          "value": "68.1"
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation: LiF/HCl etching and electrostatic self-assembly.",
+          "unit": null,
+          "value": "LiF/HCl etching, sonication delamination, and electrostatic self-assembly with G-PDDA"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Abstract, Figure 4f and Table S2; at 2 mV s-1.",
+          "unit": "F cm-3",
+          "value": "1040"
+        }
+      },
+      "is_primary": true,
+      "label": "M/G-5%",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for M/G-10%.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Table 1 composition.",
+          "unit": "wt. %",
+          "value": "90 wt.% Ti3C2Tx / 10 wt.% rGO (G-PDDA)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived, not GCD-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Measured experimentally but numerical value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement procedure.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No numerical lateral flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4e; at 2 mV s-1.",
+          "unit": "F g-1",
+          "value": "329.9"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) result discussed for highest rGO content.",
+          "unit": "nm",
+          "value": "1.67"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Calculated MXene:rGO layer ratio.",
+          "unit": null,
+          "value": "MXene:rGO = 1.7:1"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported for M/G-10%.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene constituent of the hybrid.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported best CV capacitance.",
+          "unit": "mV s-1",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area not reported for M/G-10%.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation: LiF/HCl etching and electrostatic self-assembly.",
+          "unit": null,
+          "value": "LiF/HCl etching, sonication delamination, and electrostatic self-assembly with G-PDDA"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4f plots it, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M/G-10%",
+      "role": "composite"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Author list in manuscript header.",
+      "unit": null,
+      "value": "Yan et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Manuscript number resolved from the published article.",
+      "unit": null,
+      "value": "10.1002/adma.201701264"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Supporting Information copyright line.",
+      "unit": null,
+      "value": "2016"
+    }
+  },
+  "summary": "The study compares four freestanding Ti3C2Tx-based films: pure MXene and electrostatically self-assembled M/G hybrids containing 1, 5, or 10 wt.% PDDA-modified rGO. Delaminated Ti3C2Tx was produced by LiF/9 M HCl etching of Ti3AlC2 followed by sonication; rGO served as an interlayer spacer. M/G-5% is the headline electrode, reaching 335.4 F g-1 and 1040 F cm-3 at 2 mV s-1 in 3 M H2SO4. Pure MXene had the highest stated volumetric capacitance, 1221.6 F cm-3 at 2 mV s-1, but markedly poorer rate retention. Film thickness, mass loading, areal capacitance, pore diameter, porosity, and numerical flake size were not reported."
+}

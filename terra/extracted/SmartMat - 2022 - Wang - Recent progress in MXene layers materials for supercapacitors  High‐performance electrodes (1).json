@@ -1,0 +1,32 @@
+{
+  "source_file": "SmartMat - 2022 - Wang - Recent progress in MXene layers materials for supercapacitors  High\u2010performance electrodes (1).pdf",
+  "source_path": "SmartMat - 2022 - Wang - Recent progress in MXene layers materials for supercapacitors  High\u2010performance electrodes (1).pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11375,
+  "warnings": [
+    "no electrodes extracted at all"
+  ],
+  "electrodes": [],
+  "n_electrodes": 0,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Wang and Wang"
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/smm2.1130"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation states SmartMat. 2023;4:e1130.",
+      "unit": null,
+      "value": "2023"
+    }
+  },
+  "summary": "This paper is a review article, not a primary experimental study. It discusses and tabulates numerous MXene-based electrodes, but their synthesis routes and electrochemical data are explicitly attributed to previously published references. The review authors did not fabricate or electrochemically characterize any electrodes themselves; therefore, no electrode entries are reported. Performance values in figures, tables, and narrative text were excluded as literature benchmarks rather than original measurements from this paper."
+}

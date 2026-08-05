@@ -1,0 +1,495 @@
+{
+  "source_file": "1-s2.0-S0925838821027134-main.pdf",
+  "source_path": "1-s2.0-S0925838821027134-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.10997,
+  "warnings": [
+    "'pristine Ti3C2Tx' has no capacitance of any kind",
+    "'C-MXene' has no capacitance of any kind",
+    "'OO-MXene' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; only gravimetric capacitance was presented.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine titanium carbide MXene powder.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No GCD-derived capacitance value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported in experimental or characterization sections.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing electrolyte in methods.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Rate-performance value shown graphically, without printed numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Only a collective c-lattice-parameter range was stated.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Exfoliated nanosheets were described, but no final electrode layer count.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Active-material mass loading was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Named as pristine Ti3C2Tx throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value reported for pristine MXene.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single best numerical capacitance was printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET analysis, Fig. 3a.",
+          "unit": "m2/g",
+          "value": "14"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etching, Ar-sonication exfoliation, and freeze-drying.",
+          "unit": null,
+          "value": "LiF/HCl (MILD) etching and exfoliation"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pristine Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; only gravimetric capacitance was presented.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Acid-flocculated, crumpled Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No GCD-derived capacitance value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing electrolyte in methods.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Rate-performance value shown graphically, without printed numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Only a collective c-lattice-parameter range was stated.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No final electrode layer count was reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Active-material mass loading was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Identified as crumpled Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Described as macroporous; no numerical pore size reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single best numerical capacitance was printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was compared but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MXene flocculated with H2SO4 at pH below 1.",
+          "unit": null,
+          "value": "LiF/HCl (MILD) etching, exfoliation, and H2SO4-induced flocculation"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "C-MXene",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; only gravimetric capacitance was presented.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Partially oxidized and acid-crumpled titanium carbide MXene.",
+          "unit": null,
+          "value": "oxidized-co-crumpled Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing electrolyte in methods.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV measurement; Results and conclusion.",
+          "unit": "F/g",
+          "value": "307"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Only a collective c-lattice-parameter range was stated.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No final electrode layer count was reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Active-material mass loading was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Named oxidized-co-crumpled Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "BJH pore-size distribution for OC-MXene.",
+          "unit": "nm",
+          "value": "2\u201320"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for the reported 307 F/g capacitance.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET analysis, Fig. 3a.",
+          "unit": "m2/g",
+          "value": "72"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Partial H2O2 oxidation followed by H2SO4 flocculation.",
+          "unit": null,
+          "value": "LiF/HCl (MILD) etching, exfoliation, H2O2 partial oxidation, and H2SO4-induced flocculation"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "OC-MXene",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; only gravimetric capacitance was presented.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Over-oxidation produced TiO2 particles and residual carbide agglomerates.",
+          "unit": null,
+          "value": "over-oxidized Ti3C2Tx (TiO2 particles and carbide agglomerates)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No GCD-derived capacitance value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing electrolyte in methods.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral particle or flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Reported as lowest capacitance, but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Sample lost ordered sheet structure; no d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Over-oxidation fragmented sheets; no layer count reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Active-material mass loading was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Prepared from Ti3C2Tx but substantially transformed by over-oxidation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No numerical pore size reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV comparison used 2 mV/s, but no numeric capacitance printed.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET analysis; increase attributed to TiO2 nanoparticle formation.",
+          "unit": "m2/g",
+          "value": "178"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Excess H2O2 oxidation followed by low-pH flocculation.",
+          "unit": null,
+          "value": "LiF/HCl (MILD) etching, exfoliation, excessive H2O2 oxidation, and H2SO4-induced flocculation"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "OO-MXene",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author line.",
+      "unit": null,
+      "value": "Lee et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header and supporting-information notice.",
+      "unit": null,
+      "value": "10.1016/j.jallcom.2021.161304"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal volume and copyright line.",
+      "unit": null,
+      "value": "2021"
+    }
+  },
+  "summary": "This study prepared Ti3C2Tx by LiF/HCl (MILD) etching and exfoliation, then compared pristine, acid-crumpled (C-MXene), oxidized-co-crumpled (OC-MXene), and over-oxidized (OO-MXene) electrodes. C-MXene differs through H2SO4-induced low-pH flocculation, whereas OC-MXene additionally receives controlled H2O2 oxidation; OO-MXene uses excessive oxidation and becomes largely TiO2-like. OC-MXene was the headline electrode, delivering 307 F/g at 2 mV/s in 1 M H2SO4, with a BET surface area of 72 m2/g and mesopores of 2\u201320 nm. The paper did not report electrode thickness, mass loading, areal/volumetric capacitance, or numerical capacitances for the three non-primary electrodes."
+}

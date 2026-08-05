@@ -1,0 +1,376 @@
+{
+  "source_file": "nz0c00704.pdf",
+  "source_path": "nz0c00704.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09269,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Maximum reported for 16.18 mg cm\u22122 porous film at 10 mV s\u22121.",
+          "unit": "mF cm\u22122",
+          "value": "3731"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "KOH treatment replaced some \u2212F terminations with \u2212OH.",
+          "unit": null,
+          "value": "Ti3C2Tx (KOH-mediated; increased \u2212OH and reduced \u2212F terminations)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness was linearly dependent on mass loading; no numerical thickness reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode electrochemical evaluation section.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Three-electrode CV at 20 mV s\u22121, 0.53 mg cm\u22122 film.",
+          "unit": "F g\u22121",
+          "value": "358.8"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "KOH\u2212Ti3C2Tx (002) XRD spacing.",
+          "unit": "nm",
+          "value": "1.42"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "TEM showed pore walls assembled by a few layers of thin nanosheets.",
+          "unit": null,
+          "value": "few layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Porous-film series fabricated from 0.53 to 16.18 mg cm\u22122.",
+          "unit": "mg cm\u22122",
+          "value": "0.53\u201316.18"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Main electrode material throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Reported for porous film morphology.",
+          "unit": null,
+          "value": "hundreds of nanometers to several micrometers"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Highly porous morphology reported, but no porosity percentage.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for the best reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "20"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Reduced-repulsion freeze-casting assembly (RRFCA).",
+          "unit": null,
+          "value": "KOH-mediated reduced-repulsion freeze-casting assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for the fabricated films.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "porous Ti3C2Tx film",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported for this control film.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Fabricated by vacuum filtration of Ti3C2Tx suspension; no added component stated.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Reported capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness value reported for the filtered film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Comparison samples were tested in the same three-electrode evaluation.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV comparison at 20 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "251.5"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Pristine Ti3C2Tx spacing was reported, but not explicitly assigned to filtered film.",
+          "unit": "nm",
+          "value": "1.33"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as stacked lamellar flakes; numerical layer count absent.",
+          "unit": null,
+          "value": "stacked lamellar flakes"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fabricated at the same loading as the porous comparison electrode.",
+          "unit": "mg cm\u22122",
+          "value": "0.53"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Named as the filtered Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Planar paper-like stacked architecture; no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "20"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Control film fabricated by vacuum filtration.",
+          "unit": null,
+          "value": "vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "filtered Ti3C2Tx film",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported for the porous M/G film.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M/G denotes the MXene/partially reduced graphene oxide porous film.",
+          "unit": null,
+          "value": "Ti3C2Tx/partially reduced GO"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Reported capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness value reported for porous M/G film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Comparison samples were tested in the same three-electrode evaluation.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV comparison at 20 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "218.1"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No XRD interlayer spacing reported for porous M/G film.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer count reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Same Ti3C2Tx-based mass loading as comparison films.",
+          "unit": "mg cm\u22122",
+          "value": "0.53"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene constituent identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Macroporous structure reported, but no numerical pore diameter.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "20"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Porous film used partially reduced GO as a gelation agent.",
+          "unit": null,
+          "value": "freeze-casting with partially reduced GO gelation agent"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "porous M/G film",
+      "role": "composite"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Kong et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1021/acsenergylett.0c00704"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation header.",
+      "unit": null,
+      "value": "2020"
+    }
+  },
+  "summary": "This study compares three fabricated Ti3C2Tx-based electrodes: KOH-mediated 3D porous Ti3C2Tx, a vacuum-filtered Ti3C2Tx control, and a porous Ti3C2Tx/partially reduced GO (M/G) composite. The porous Ti3C2Tx film was produced by reduced-repulsion freeze-casting, while KOH modified its surface chemistry and enabled an ordered porous network. Its best reported gravimetric capacitance was 358.8 F g\u22121 at 20 mV s\u22121; the high-loading 16.18 mg cm\u22122 film reached 3731 mF cm\u22122 at 10 mV s\u22121. Numerical electrode thickness, BET area, porosity, tortuosity, and lateral flake size were not reported in the supplied text."
+}

@@ -1,0 +1,2001 @@
+{
+  "source_file": "Advanced Materials - 2019 - Tian - Multifunctional Nanocomposites with High Strength and Capacitance Using 2D MXene and 1D.pdf",
+  "source_path": "Advanced Materials - 2019 - Tian - Multifunctional Nanocomposites with High Strength and Capacitance Using 2D MXene and 1D.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.22041,
+  "warnings": [
+    "'Ti3C2Tx\u201340% CNF' has no capacitance of any kind",
+    "'Ti3C2Tx\u201360% CNF' has no capacitance of any kind",
+    "'Ti3C2Tx\u201380% CNF' has no capacitance of any kind",
+    "'Ti3C2Tx\u20135% CNF after vacuum pressing' has no capacitance of any kind",
+    "'Ti3C2Tx\u201310% CNF after vacuum pressing' has no capacitance of any kind",
+    "'Ti3C2Tx\u201320% CNF after vacuum pressing' has no capacitance of any kind",
+    "'Ti3C2Tx\u201340% CNF after vacuum pressing' has no capacitance of any kind",
+    "'Ti3C2Tx\u201360% CNF after vacuum pressing' has no capacitance of any kind",
+    "'Ti3C2Tx\u201380% CNF after vacuum pressing' has no capacitance of any kind",
+    "'Ti3C2Tx\u20135% CNC' has no capacitance of any kind",
+    "'Ti3C2Tx\u201310% CNC' has no capacitance of any kind",
+    "'Ti3C2Tx\u201320% CNC' has no capacitance of any kind",
+    "'CNF' has only 2/18 fields \u2014 may be a spurious entry",
+    "'CNF' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Micro-supercapacitor value at 2 mV s\u22121.",
+          "unit": "mF cm\u22122",
+          "value": "28.6"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine filtered nanopaper.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No GCD current density for best gravimetric capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported for pristine paper electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement condition.",
+          "unit": null,
+          "value": "3 m sulfuric acid"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At scan rate of 5 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "348"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (0002), Table 1.",
+          "unit": "\u00c5",
+          "value": "12.80"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Prepared from delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' pristine MXene paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MXene was used as an aqueous delaminated dispersion; etchant unspecified.",
+          "unit": null,
+          "value": "aqueous delamination"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure reports curves but no printed numerical value.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MXene Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Micro-supercapacitor value at 2 mV s\u22121.",
+          "unit": "mF cm\u22122",
+          "value": "25.3"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNF loading is by weight.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 5% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported for this paper electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement condition.",
+          "unit": null,
+          "value": "3 m sulfuric acid"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At scan rate of 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "369"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (0002), Table 1.",
+          "unit": "\u00c5",
+          "value": "14.38"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered from mixed aqueous d-Ti3C2Tx/CNF dispersions.",
+          "unit": null,
+          "value": "aqueous mixing and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure reports curves but no printed numerical value.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u20135% CNF",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 5g shows data, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNF loading is by weight.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 10% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Printed interdigitated micro-supercapacitor electrode.",
+          "unit": "\u00b5m",
+          "value": "around 1.7"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement condition.",
+          "unit": null,
+          "value": "3 m sulfuric acid"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At scan rate of 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "324"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (0002), Table 1.",
+          "unit": "\u00c5",
+          "value": "14.74"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered from mixed aqueous d-Ti3C2Tx/CNF dispersions.",
+          "unit": null,
+          "value": "aqueous mixing and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure reports curves but no printed numerical value.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx\u201310% CNF",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure reports performance curves but no printed numerical maximum.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNF loading is by weight.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 20% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported for this paper electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement condition.",
+          "unit": null,
+          "value": "3 m sulfuric acid"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At scan rate of 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "298"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (0002), Table 1.",
+          "unit": "\u00c5",
+          "value": "15.23"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered from mixed aqueous d-Ti3C2Tx/CNF dispersions.",
+          "unit": null,
+          "value": "aqueous mixing and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure reports curves but no printed numerical value.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201320% CNF",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4 includes this electrode but gives no numerical maximum.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNF loading is by weight.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 40% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No GCD condition tied to a capacitance value.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement condition.",
+          "unit": null,
+          "value": "3 m sulfuric acid"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Electrochemical curves shown, but no printed capacitance value.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (0002), Table 1.",
+          "unit": "\u00c5",
+          "value": "16.73"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical gravimetric value was printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered from mixed aqueous d-Ti3C2Tx/CNF dispersions.",
+          "unit": null,
+          "value": "aqueous mixing and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure reports curves but no printed numerical value.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201340% CNF",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNF loading is by weight.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 60% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "This composition was not reported in electrochemical testing.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Table 1 gives no d-spacing for 60% CNF.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered from mixed aqueous d-Ti3C2Tx/CNF dispersions.",
+          "unit": null,
+          "value": "aqueous mixing and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201360% CNF",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNF loading is by weight.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 80% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "This composition was not reported in electrochemical testing.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Table 1 gives no d-spacing for 80% CNF.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered from mixed aqueous d-Ti3C2Tx/CNF dispersions.",
+          "unit": null,
+          "value": "aqueous mixing and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201380% CNF",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported for vacuum-pressed 5% CNF sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-pressed form of 5% CNF composite.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 5% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No printed capacitance condition for pressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Paper states pressing had negligible electrochemical effect in shared 3 M acid tests.",
+          "unit": null,
+          "value": "3 m sulfuric acid"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Pressing effect described as negligible; no numerical sample-specific value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Pressed d-spacing decreased, but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' composite formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical pressed-sample capacitance value.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered composite followed by vacuum pressing.",
+          "unit": null,
+          "value": "aqueous mixing, vacuum filtration, and vacuum pressing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u20135% CNF after vacuum pressing",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported for vacuum-pressed 10% CNF sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-pressed form of 10% CNF composite.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 10% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No printed capacitance condition for pressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Paper states pressing had negligible electrochemical effect in shared 3 M acid tests.",
+          "unit": null,
+          "value": "3 m sulfuric acid"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Pressing effect described as negligible; no numerical sample-specific value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Pressed d-spacing decreased, but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' composite formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical pressed-sample capacitance value.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered composite followed by vacuum pressing.",
+          "unit": null,
+          "value": "aqueous mixing, vacuum filtration, and vacuum pressing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201310% CNF after vacuum pressing",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported for vacuum-pressed 20% CNF sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-pressed form of 20% CNF composite.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 20% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No printed capacitance condition for pressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Paper states pressing had negligible electrochemical effect in shared 3 M acid tests.",
+          "unit": null,
+          "value": "3 m sulfuric acid"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Pressing effect described as negligible; no numerical sample-specific value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Pressed d-spacing decreased, but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' composite formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical pressed-sample capacitance value.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered composite followed by vacuum pressing.",
+          "unit": null,
+          "value": "aqueous mixing, vacuum filtration, and vacuum pressing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201320% CNF after vacuum pressing",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported for vacuum-pressed 40% CNF sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-pressed form of 40% CNF composite.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 40% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No printed capacitance condition for pressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Paper states pressing had negligible electrochemical effect in shared 3 M acid tests.",
+          "unit": null,
+          "value": "3 m sulfuric acid"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Pressing effect described as negligible; no numerical sample-specific value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Pressed d-spacing decreased, but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' composite formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical pressed-sample capacitance value.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered composite followed by vacuum pressing.",
+          "unit": null,
+          "value": "aqueous mixing, vacuum filtration, and vacuum pressing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201340% CNF after vacuum pressing",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-pressed form of 60% CNF composite.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 60% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "No electrochemical measurement reported for this pressed composition.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No numerical pressed d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' composite formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered composite followed by vacuum pressing.",
+          "unit": null,
+          "value": "aqueous mixing, vacuum filtration, and vacuum pressing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201360% CNF after vacuum pressing",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-pressed form of 80% CNF composite.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/carboxymethylated CNF, 80% CNF"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "No electrochemical measurement reported for this pressed composition.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No numerical pressed d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' composite formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered composite followed by vacuum pressing.",
+          "unit": null,
+          "value": "aqueous mixing, vacuum filtration, and vacuum pressing"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201380% CNF after vacuum pressing",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNC loading is by weight.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/cellulose nanocrystals, 5% CNC"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "No electrochemical test reported for CNC composites.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported for CNC composite.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (0002), Table 1.",
+          "unit": "\u00c5",
+          "value": "12.91"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered from mixed aqueous d-Ti3C2Tx/CNC dispersions.",
+          "unit": null,
+          "value": "aqueous mixing and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u20135% CNC",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNC loading is by weight.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/cellulose nanocrystals, 10% CNC"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "No electrochemical test reported for CNC composites.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported for CNC composite.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD curve shown, but no numerical d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' Figure 3b sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered from mixed aqueous d-Ti3C2Tx/CNC dispersions.",
+          "unit": null,
+          "value": "aqueous mixing and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201310% CNC",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CNC loading is by weight.",
+          "unit": null,
+          "value": "Ti3C2Tx (surface terminations \u2212O, \u2212OH, and \u2212F)/cellulose nanocrystals, 20% CNC"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "No electrochemical test reported for CNC composites.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx characterization.",
+          "unit": "nm",
+          "value": "several hundred"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported for CNC composite.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Table 1 gives no d-spacing for 20% CNC.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from shared delaminated MXene dispersion.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered from mixed aqueous d-Ti3C2Tx/CNC dispersions.",
+          "unit": null,
+          "value": "aqueous mixing and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx\u201320% CNC",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "CNF paper was not electrochemically characterized.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors fabricated pristine CNF paper as a reference.",
+          "unit": null,
+          "value": "carboxymethylated cellulose nanofibrils (CNF)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "CNF paper was not electrochemically characterized.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "CNF paper was not electrochemically characterized.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Not applicable; CNF is not MXene.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "CNF is described as electrochemically inactive in this potential window.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not applicable; no MXene (002) spacing.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "uncertain",
+          "note": "Not applicable; CNF reference contains no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Non-MXene reference paper.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Freestanding paper fabricated by vacuum filtration.",
+          "unit": null,
+          "value": "vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "CNF",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 17,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Tian et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/adma.201902977"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "2019"
+    }
+  },
+  "summary": "The study fabricated delaminated Ti3C2Tx nanopapers and Ti3C2Tx/carboxymethylated-CNF composites by aqueous mixing and vacuum filtration, with some composites subsequently vacuum pressed. It also fabricated Ti3C2Tx/CNC comparison composites and a pristine CNF reference paper; these did not have reported electrochemical capacitances. Electrochemical paper-electrode data were explicitly reported for pristine Ti3C2Tx and 5%, 10%, and 20% CNF composites in 3 m sulfuric acid; Ti3C2Tx\u201310% CNF is the headline multifunctional electrode, while the highest explicitly printed gravimetric capacitance was 369 F g\u22121 for Ti3C2Tx\u20135% CNF at 2 mV s\u22121. Major data gaps are mass loading, BET/porosity/pore size, and numerical capacitances for the 40\u201380% CNF, CNC, and vacuum-pressed variants."
+}

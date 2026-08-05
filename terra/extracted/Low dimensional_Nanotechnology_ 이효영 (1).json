@@ -1,0 +1,32 @@
+{
+  "source_file": "Low dimensional_Nanotechnology_ \uc774\ud6a8\uc601 (1).pdf",
+  "source_path": "Low dimensional_Nanotechnology_ \uc774\ud6a8\uc601 (1).pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.07429,
+  "warnings": [
+    "no electrodes extracted at all"
+  ],
+  "electrodes": [],
+  "n_electrodes": 0,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Yoon et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1088/0957-4484/27/17/172001"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "2016"
+    }
+  },
+  "summary": "This is a topical review, not an original electrode-fabrication study. It discusses Ti3C2Tx, Nb2CTx, V2CTx, and MXene composites, but all electrode properties and capacitance values are attributed to previously published references. Under the extraction rules, literature benchmarks and electrodes fabricated in other papers must not be entered. Therefore, no distinct electrodes were fabricated and reported by the review authors."
+}

@@ -1,0 +1,263 @@
+{
+  "source_file": "1-s2.0-S2369969821000785-main.pdf",
+  "source_path": "1-s2.0-S2369969821000785-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.06996,
+  "warnings": [
+    "'CPCM' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Chitosan-derived porous carbon microspheres.",
+          "unit": null,
+          "value": "chitosan-based porous carbon microsphere (CPCM)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical CPCM capacitance is printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode-film thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode tests of CPCM and CPCM/MXene.",
+          "unit": null,
+          "value": "1 mol/L H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene flakes in CPCM.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CPCM values appear only graphically; no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value reported for CPCM.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer count applicable or reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Coating procedure given, but active mass loading not printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "CPCM is a non-MXene control electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Micropores, mesopores, and macropores stated; no diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Pore volume reported, but no porosity percentage.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best numerical CPCM capacitance was not printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Results and discussion, Fig. 2d.",
+          "unit": "m2/g",
+          "value": "2387"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Methods section 2.3.",
+          "unit": null,
+          "value": "Hydrothermal chitosan carbon microspheres followed by KOH activation/carbonization at 800\u00b0C"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "CPCM",
+      "role": "reference"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Methods section 2.3; precursor mass ratio stated.",
+          "unit": null,
+          "value": "MXene-hybrid chitosan-based porous carbon microsphere (CPCM/MXene), HCS:Ti3C2Tx = 20:1"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Three-electrode GCD result, conclusion.",
+          "unit": "A/g",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode-film thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode tests of CPCM and CPCM/MXene.",
+          "unit": null,
+          "value": "1 mol/L H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Large sheets described, but no lateral-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Three-electrode GCD result, conclusion.",
+          "unit": "F/g",
+          "value": "362"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD shift discussed without numerical d-spacing.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "uncertain",
+          "note": "Few/single-layer description applies to precursor MXene, not composite.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Coating procedure given, but active mass loading not printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Title, abstract, and synthesis sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Hierarchical pores stated, but no average pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Pore volume reported, but no porosity percentage.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance was measured by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Results and discussion, Fig. 2d.",
+          "unit": "m2/g",
+          "value": "1649"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Methods sections 2.2\u20132.3.",
+          "unit": null,
+          "value": "LiF/HCl etching of Ti3AlC2, electrostatic HCS/MXene assembly, KOH activation/carbonization at 800\u00b0C"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "CPCM/MXene",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Wei et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.jobab.2021.10.001"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal issue header.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "This study compares two fabricated electrodes: chitosan-derived porous carbon microspheres (CPCM) and the Ti3C2Tx-containing CPCM/MXene composite. Ti3C2Tx was prepared by LiF/HCl etching, then combined with hydrothermal chitosan spheres before KOH activation and carbonization to form a sandwich-like composite. The headline CPCM/MXene electrode delivered 362 F/g at 0.5 A/g in 1 mol/L H2SO4 in a three-electrode system; it also delivered 194.5 F/g at 1 A/g in a symmetric device using 1 mol/L Na2SO4. Numerical CPCM capacitance, mass loading, thickness, pore diameter, and interlayer-spacing values were not printed in the supplied paper text."
+}

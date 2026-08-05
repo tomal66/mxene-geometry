@@ -1,0 +1,1188 @@
+{
+  "source_file": "c8dt04374d.pdf",
+  "source_path": "c8dt04374d.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.14547,
+  "warnings": [
+    "'Ti3C2Tx-H' has no capacitance of any kind",
+    "'Ti3C2Tx/P-50' has no capacitance of any kind",
+    "'Ti3C2Tx/P-50-H' has no capacitance of any kind",
+    "'Ti3C2Tx/P-200' has no capacitance of any kind",
+    "'Ti3C2Tx/P-200-H' has no capacitance of any kind",
+    "'rGO film' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine filtered MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported in main text.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "241"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "HRTEM/XRD (002) spacing.",
+          "unit": "\u00c5",
+          "value": "12.8"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx mass per unit area was controlled; numerical value absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation and synthesis section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV-derived capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 adsorption/desorption result.",
+          "unit": "m2 g\u22121",
+          "value": "16.2"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched using LiF/HCl at 38 \u00b0C for 48 h; filtered into film.",
+          "unit": null,
+          "value": "LiF/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "952"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Acid-treated pristine MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not separately reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not separately quantified after treatment.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx mass per unit area controlled; numerical value absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical capacitance condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched Ti3C2Tx film soaked in concentrated H2SO4 for 24 h.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by concentrated H2SO4 treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Authors state H2SO4 treatment had almost negligible effect; value not printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx-H",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx mixed with Clevios PH1000 PEDOT:PSS; exact ratio is in unavailable Table S1.",
+          "unit": null,
+          "value": "Ti3C2Tx/PEDOT:PSS"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance condition in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx mass per unit area controlled; numerical value absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Filtered Ti3C2Tx/Clevios PH1000 compound ink.",
+          "unit": null,
+          "value": "LiF/HCl etching and filtration with PEDOT:PSS"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Performance was examined in Fig. S9/S10, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/P-50",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx/P-50 after acid treatment; exact ratio is in Table S1.",
+          "unit": null,
+          "value": "Ti3C2Tx/PEDOT:PSS"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx mass per unit area controlled; numerical value absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Filtered Ti3C2Tx/Clevios PH1000 ink, then concentrated H2SO4 for 24 h.",
+          "unit": null,
+          "value": "LiF/HCl etching, PEDOT:PSS blending, and concentrated H2SO4 treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Performance was examined in Fig. S9/S10, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/P-50-H",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx mixed with Clevios PH1000 PEDOT:PSS.",
+          "unit": null,
+          "value": "Ti3C2Tx/PEDOT:PSS"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "216"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "(002) peak shifted to 6.2\u00b0, but spacing was not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx mass per unit area controlled; numerical value absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV-derived capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Filtered Ti3C2Tx/Clevios PH1000 compound ink.",
+          "unit": null,
+          "value": "LiF/HCl etching and filtration with PEDOT:PSS"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "712"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/P-100",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "H2SO4 treatment removes part of insulating PSS, retaining PEDOT spacer.",
+          "unit": null,
+          "value": "Ti3C2Tx/PEDOT:PSS"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Reported maximum direct capacitance is CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Reported electrochemical performance condition.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "286"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "HRTEM value; XRD gives approximately 15.2 \u00c5.",
+          "unit": "\u00c5",
+          "value": "15.1"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx mass per unit area controlled; numerical value absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV-derived capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "N2 adsorption/desorption result.",
+          "unit": "m2 g\u22121",
+          "value": "73.7"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Filtered Ti3C2Tx/Clevios PH1000 ink, then immersed in concentrated H2SO4 for 24 h.",
+          "unit": null,
+          "value": "LiF/HCl etching, PEDOT:PSS blending, and concentrated H2SO4 treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Headline direct-measurement value at 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1065"
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx/P-100-H",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx mixed with Clevios PH1000 PEDOT:PSS; exact ratio is in Table S1.",
+          "unit": null,
+          "value": "Ti3C2Tx/PEDOT:PSS"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx mass per unit area controlled; numerical value absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Filtered Ti3C2Tx/Clevios PH1000 compound ink.",
+          "unit": null,
+          "value": "LiF/HCl etching and filtration with PEDOT:PSS"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Performance was examined in Fig. S9/S10, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/P-200",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx/P-200 after acid treatment; exact ratio is in Table S1.",
+          "unit": null,
+          "value": "Ti3C2Tx/PEDOT:PSS"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx mass per unit area controlled; numerical value absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Not reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Filtered Ti3C2Tx/Clevios PH1000 ink, then concentrated H2SO4 for 24 h.",
+          "unit": null,
+          "value": "LiF/HCl etching, PEDOT:PSS blending, and concentrated H2SO4 treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Performance was examined in Fig. S9/S10, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/P-200-H",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Filtered Clevios PH1000 PEDOT:PSS film after acid treatment.",
+          "unit": null,
+          "value": "PEDOT:PSS"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene flakes.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Non-MXene PEDOT:PSS reference.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV-derived capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Filtered 2 mL PH1000 and soaked in concentrated H2SO4 for 24 h.",
+          "unit": null,
+          "value": "PEDOT:PSS filtration followed by concentrated H2SO4 treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "106"
+        }
+      },
+      "is_primary": false,
+      "label": "P-H",
+      "role": "reference"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not separately reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Hydrazine-reduced graphene oxide film.",
+          "unit": null,
+          "value": "rGO"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No standalone capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Used as ASC positive electrode in shared device electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No standalone capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Non-MXene reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No standalone capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "GO film filtered, then reduced hydrothermally with hydrazine at 90 \u00b0C for 6 h.",
+          "unit": null,
+          "value": "Modified Hummers method and hydrazine reduction"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only full ASC capacitance is reported, not the rGO electrode alone.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "rGO film",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 10,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper byline.",
+      "unit": null,
+      "value": "Li et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Citation block.",
+      "unit": null,
+      "value": "10.1039/c8dt04374d"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2019"
+    }
+  },
+  "summary": "This study fabricated LiF/HCl-etched Ti3C2Tx films, three Ti3C2Tx/PEDOT:PSS blend levels (P-50, P-100, and P-200), and their concentrated-H2SO4-treated counterparts, plus P-H and an rGO-film reference. Thus, ten distinct fabricated electrode materials were identified; rGO was the positive electrode of the asymmetric device, whereas P-H was a non-MXene three-electrode reference. Ti3C2Tx/P-100-H is the headline and best direct-measurement performer, reporting 1065 F cm\u22123 (286 F g\u22121) at 2 mV s\u22121 in 1 M H2SO4. Its reported BET area and Ti3C2Tx-layer spacing were 73.7 m2 g\u22121 and 15.1 \u00c5, respectively. Numerical capacitances for P-50, P-50-H, P-200, P-200-H, and Ti3C2Tx-H are not printed in the supplied main text; their performance appears only in cited supplementary figures."
+}

@@ -1,0 +1,261 @@
+{
+  "source_file": "UmNiN2dEUVBhcGowc2U1aUxJSk9aQT09.pdf",
+  "source_path": "UmNiN2dEUVBhcGowc2U1aUxJSk9aQT09.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.07129,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported for Ti3C2Tx.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched MXene; surface terminations stated in Results.",
+          "unit": null,
+          "value": "Ti3C2Tx (-F, -O, -OH)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance reported from CV at scan rate, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode-film thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition in Section 2.6.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM discussion gives no lateral flake dimension.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best explicitly printed Ti3C2Tx value; CV at 2 mV s-1.",
+          "unit": "F g-1",
+          "value": "315.5"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) peak at 7.28\u00b0 after LiF/HCl etching.",
+          "unit": "\u00c5",
+          "value": "12.13"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as multilayer Ti3C2Tx nanosheets after etching.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared working-electrode preparation in Section 2.6.",
+          "unit": "mg",
+          "value": "0.5"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample identified throughout as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Only mesoporosity is reported; no numerical pore size for Ti3C2Tx.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of the reported 315.5 F g-1 CV capacitance.",
+          "unit": "mV s-1",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Nitrogen adsorption-desorption analysis; pure Ti3C2Tx.",
+          "unit": "m2 g-1",
+          "value": "29.69"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Selective etching of Ti3AlC2 using LiF/HCl.",
+          "unit": null,
+          "value": "LiF/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for Ti3C2Tx.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported for Ti3C2Tx@C.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "GA-derived carbon dots intercalated by Zn2+-crosslinking and carbonization.",
+          "unit": null,
+          "value": "Ti3C2Tx (-F, -O, -OH) with gallic acid-derived carbon dots and Zn2+"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition of the highest reported gravimetric capacitance.",
+          "unit": "A g-1",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No aerogel or coated-electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition in Section 2.6.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM notes nanometer-sized carbon particles, not MXene flake size.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported value; GCD at 1 A g-1.",
+          "unit": "F g-1",
+          "value": "436"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) peak shifted to 6.36\u00b0 for Ti3C2Tx@C.",
+          "unit": "\u00c5",
+          "value": "13.85"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Carbon dots are described as intercalated between MXene nanosheets.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared working-electrode preparation in Section 2.6.",
+          "unit": "mg",
+          "value": "0.5"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample identified throughout as Ti3C2Tx@C.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "SEM identifies 3D macropores in Ti3C2Tx@C.",
+          "unit": "\u03bcm",
+          "value": "5\u201310"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Highest capacitance was reported by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Nitrogen adsorption-desorption analysis of Ti3C2Tx@C.",
+          "unit": "m2 g-1",
+          "value": "35.57"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etching; GA/Zn2+ crosslinking, freeze-drying, then Ar carbonization.",
+          "unit": null,
+          "value": "LiF/HCl etching, Zn2+-assisted GA crosslinking, freeze-drying, and carbonization at 500\u00b0C"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx@C",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Yu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "DOI printed in article header.",
+      "unit": null,
+      "value": "10.25259/AJC_264_2024"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Publication date: 3 July 2025.",
+      "unit": null,
+      "value": "2025"
+    }
+  },
+  "summary": "The study compares two fabricated MXene electrodes: unmodified LiF/HCl-etched Ti3C2Tx and Ti3C2Tx@C, a Zn2+-crosslinked, GA-derived carbon-dot-intercalated porous aerogel. Ti3C2Tx@C is the headline electrode and reaches its highest reported gravimetric capacitance of 436 F g-1 at 1 A g-1; it also gives 393.7 F g-1 at 2 mV s-1. The Ti3C2Tx control reaches 315.5 F g-1 at 2 mV s-1. No electrode thickness, porosity percentage, lateral flake size, or volumetric/areal capacitance was reported."
+}

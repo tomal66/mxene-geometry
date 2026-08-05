@@ -1,0 +1,958 @@
+{
+  "source_file": "ling-et-al-2014-flexible-and-conductive-mxene-films-and-nanocomposites-with-high-capacitance.pdf",
+  "source_path": "ling-et-al-2014-flexible-and-conductive-mxene-films-and-nanocomposites-with-high-capacitance.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.12064,
+  "warnings": [
+    "'Ti3C2Tx' has no capacitance of any kind",
+    "'90 wt% Ti3C2Tx/PVA' has no capacitance of any kind",
+    "'80 wt% Ti3C2Tx/PVA' has no capacitance of any kind",
+    "'60 wt% Ti3C2Tx/PVA' has no capacitance of any kind",
+    "'40 wt% Ti3C2Tx/PVA' has no capacitance of any kind",
+    "'PVA' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this film.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Additive-free free-standing film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was not reported from GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1 mechanical-test film.",
+          "unit": "\u03bcm",
+          "value": "3.3"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing methods.",
+          "unit": null,
+          "value": "1 M KOH"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared delaminated-flake characterization.",
+          "unit": "\u03bcm",
+          "value": "over 2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure S6 referenced but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only XRD peak position, not d-spacing, reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared TEM characterization before film manufacture.",
+          "unit": null,
+          "value": "primarily single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Reported throughout paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No exact best-capacitance value printed for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "uncertain",
+          "note": "MXene preparation is deferred to SI Materials and Methods.",
+          "unit": null,
+          "value": null
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 6 reports over 300 F/cm3 generally, without exact value for this film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PDDA composite prepared from 2 wt% PDDA solution.",
+          "unit": null,
+          "value": "Ti3C2Tx/PDDA"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "296 F/cm3 was obtained by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Only a range from hundreds of nanometers to tens of micrometers reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing methods.",
+          "unit": null,
+          "value": "1 M KOH"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared delaminated-flake characterization.",
+          "unit": "\u03bcm",
+          "value": "over 2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Described as almost the same as pure Ti3C2Tx; no number printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only XRD peak at 4.7\u00b0 reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared precursor-flake characterization.",
+          "unit": null,
+          "value": "primarily single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Composite MXene component reported.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Volumetric capacitance condition.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PDDA added dropwise; stirred 24 h; centrifuged, washed, redispersed; then VAF.",
+          "unit": null,
+          "value": "PDDA intercalation followed by vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Capacitive Performance section.",
+          "unit": "F/cm3",
+          "value": "296"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/PDDA",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors denote this as 90 wt% Ti3C2Tx/PVA.",
+          "unit": null,
+          "value": "90 wt% Ti3C2Tx/PVA"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance value assigned to this unmodified PVA composite.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1.",
+          "unit": "\u03bcm",
+          "value": "3.9"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Electrochemical data are reported for the KOH-containing derivative, not this film.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared delaminated-flake characterization.",
+          "unit": "\u03bcm",
+          "value": "over 2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only loading-dependent XRD peak range reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared precursor-flake characterization.",
+          "unit": null,
+          "value": "primarily single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Starting Ti3C2Tx mass was reported, not electrode mass loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Composite MXene component.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No capacitance reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MXene and PVA aqueous solutions mixed, sonicated 15 min, then VAF.",
+          "unit": null,
+          "value": "PVA mixing/sonication followed by vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical capacitance assigned to this unmodified composition.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "90 wt% Ti3C2Tx/PVA",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors denote this as 80 wt% Ti3C2Tx/PVA.",
+          "unit": null,
+          "value": "80 wt% Ti3C2Tx/PVA"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1.",
+          "unit": "\u03bcm",
+          "value": "6.1"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "No electrochemical measurement assigned to this composition.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared delaminated-flake characterization.",
+          "unit": "\u03bcm",
+          "value": "over 2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No composition-specific d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared precursor-flake characterization.",
+          "unit": null,
+          "value": "primarily single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Composite MXene component.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MXene/PVA aqueous mixing and sonication followed by VAF.",
+          "unit": null,
+          "value": "PVA mixing/sonication followed by vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "80 wt% Ti3C2Tx/PVA",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors denote this as 60 wt% Ti3C2Tx/PVA.",
+          "unit": null,
+          "value": "60 wt% Ti3C2Tx/PVA"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1.",
+          "unit": "\u03bcm",
+          "value": "7.2"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "No electrochemical measurement assigned to this composition.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared delaminated-flake characterization.",
+          "unit": "\u03bcm",
+          "value": "over 2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No composition-specific d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared precursor-flake characterization.",
+          "unit": null,
+          "value": "primarily single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Composite MXene component.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MXene/PVA aqueous mixing and sonication followed by VAF.",
+          "unit": null,
+          "value": "PVA mixing/sonication followed by vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "60 wt% Ti3C2Tx/PVA",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors denote this as 40 wt% Ti3C2Tx/PVA.",
+          "unit": null,
+          "value": "40 wt% Ti3C2Tx/PVA"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1.",
+          "unit": "\u03bcm",
+          "value": "12.0"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "No electrochemical measurement assigned to this composition.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared delaminated-flake characterization.",
+          "unit": "\u03bcm",
+          "value": "over 2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No composition-specific d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared precursor-flake characterization.",
+          "unit": null,
+          "value": "primarily single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Composite MXene component.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MXene/PVA aqueous mixing and sonication followed by VAF.",
+          "unit": null,
+          "value": "PVA mixing/sonication followed by vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "40 wt% Ti3C2Tx/PVA",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Cast polymer reference in Table 1.",
+          "unit": null,
+          "value": "PVA"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Not electrochemically tested.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1.",
+          "unit": "\u03bcm",
+          "value": "13.0"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Not electrochemically tested.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No MXene flakes in this reference.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene layers.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene layers.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "No MXene present.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Not electrochemically tested.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Identified as a cast PVA film.",
+          "unit": null,
+          "value": "cast PVA film"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "PVA",
+      "role": "reference"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVA-containing Ti3C2Tx film after KOH introduction.",
+          "unit": null,
+          "value": "Ti3C2Tx/PVA-KOH"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for the KOH-containing film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Figure 6 caption and electrochemical methods.",
+          "unit": null,
+          "value": "1 M KOH"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared delaminated-flake characterization.",
+          "unit": "\u03bcm",
+          "value": "over 2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Cross-sectional HRTEM shown, but no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared precursor-flake characterization.",
+          "unit": null,
+          "value": "primarily single- and few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Composite MXene component.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitive Performance section.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "KOH introduced into Ti3C2Tx/PVA film; precursor films made by VAF.",
+          "unit": null,
+          "value": "KOH-introduced Ti3C2Tx/PVA composite film"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Capacitive Performance section; highest reported capacitance.",
+          "unit": "F/cm3",
+          "value": "528"
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx/PVA-KOH",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 8,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Ling et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "PNAS header and supplemental-link text.",
+      "unit": null,
+      "value": "10.1073/pnas.1414215111"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "PNAS issue date.",
+      "unit": null,
+      "value": "2014"
+    }
+  },
+  "summary": "This paper studies delaminated Ti3C2Tx films and polymer-containing films made by vacuum-assisted filtration. It reports eight distinct fabricated film compositions: additive-free Ti3C2Tx, Ti3C2Tx/PDDA, four Ti3C2Tx/PVA ratios, cast PVA, and KOH-introduced Ti3C2Tx/PVA. The headline electrode is Ti3C2Tx/PVA-KOH, with 528 F/cm3 at 2 mV/s in 1 M KOH; it also retained 314 F/cm3 after 10,000 cycles at 5 A/g. Exact capacitances for pristine Ti3C2Tx and the individual unmodified PVA-ratio films, plus mass loading, BET area, porosity, pore size, and numerical interlayer spacings, are not printed in the supplied paper text."
+}

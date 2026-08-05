@@ -1,0 +1,725 @@
+{
+  "source_file": "Small_2022_Guo_Thickness80_90Independent_Capacitive_Performance_of_Holey_Ti3C2Tx_Film_Prepared_through_a_Mild_Oxidation.pdf",
+  "source_path": "Small_2022_Guo_Thickness80_90Independent_Capacitive_Performance_of_Holey_Ti3C2Tx_Film_Prepared_through_a_Mild_Oxidation.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.13738,
+  "warnings": [
+    "'H-Ti3C2Tx-10' has no capacitance of any kind",
+    "'Ti3C2Tx sonicated for 2 h' has no capacitance of any kind",
+    "'Ti3C2Tx sonicated for 3 h' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for best reported gravimetric capacitance.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 5 comparison films.",
+          "unit": "\u00b5m",
+          "value": "25"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM characterization of as-synthesized nanosheets.",
+          "unit": "\u00b5m",
+          "value": "1\u20133"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 0.5 A g\u22121; 25 \u00b5m film.",
+          "unit": "F g\u22121",
+          "value": "258"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD gives 2\u03b8 only; d-spacing not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as few-layer nanosheets.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Results do not give loading for the 25 \u00b5m pristine film.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' stated MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Pristine sheets have no reported pore diameter.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "BET/porosity value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance was reported from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "LiF/HCl etching of Ti3AlC2, followed by Ar-protected ultrasonication/delamination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity modeling value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for pristine film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pristine Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Holey MXene after TiO2 removal.",
+          "unit": null,
+          "value": "H-Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance for this individual variant printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 5 comparison films.",
+          "unit": "\u00b5m",
+          "value": "25"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No numerical lateral size printed for this variant.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5b plots it, but no exact numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No H-Ti3C2Tx-10 d-spacing value printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Layer count not reported for this variant.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Loading of the 25 \u00b5m H-Ti3C2Tx-10 film not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' stated MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Holey-sheet statistics: 2\u201310 nm, average 4.5 nm; pore size less oxidation-time-dependent.",
+          "unit": "nm",
+          "value": "4.5"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "BET/porosity value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No best capacitance numerical condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "O2 bubbling/reflux oxidation at 100 \u00b0C for 10 min, followed by 10% v/v HF etching for 6 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity modeling value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for this variant.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "H-Ti3C2Tx-10",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Holey MXene after TiO2 removal.",
+          "unit": null,
+          "value": "H-Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Figure 6d caption; condition of 323 F g\u22121 conclusion value.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Best gravimetric value in Conclusions at this thickness.",
+          "unit": "\u00b5m",
+          "value": "84"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No numerical lateral size printed for this variant.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Conclusions: 84 \u00b5m film, 6.41 mg cm\u22122.",
+          "unit": "F g\u22121",
+          "value": "323"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No H-Ti3C2Tx-25 d-spacing value printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Layer count not reported for this variant.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Conclusions, corresponding to 84 \u00b5m film.",
+          "unit": "mg cm\u22122",
+          "value": "6.41"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' stated MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Holey-sheet statistics: 2\u201310 nm, average 4.5 nm; pore size less oxidation-time-dependent.",
+          "unit": "nm",
+          "value": "4.5"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "BET/porosity value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance was reported from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "O2 bubbling/reflux oxidation at 100 \u00b0C for 25 min, followed by 10% v/v HF etching for 6 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity modeling value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Conclusions: 10 \u00b5m film, 1.63 mg cm\u22122; not same condition as best Cg.",
+          "unit": "F cm\u22123",
+          "value": "476"
+        }
+      },
+      "is_primary": true,
+      "label": "H-Ti3C2Tx-25",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Holey MXene after TiO2 removal.",
+          "unit": null,
+          "value": "H-Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for best reported gravimetric capacitance.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 5 comparison films.",
+          "unit": "\u00b5m",
+          "value": "25"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No numerical lateral size printed for this variant.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5b text; 25 \u00b5m film.",
+          "unit": "F g\u22121",
+          "value": "339"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No H-Ti3C2Tx-40 d-spacing value printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Layer count not reported for this variant.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Loading of the 25 \u00b5m H-Ti3C2Tx-40 film not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' stated MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Holey-sheet statistics: 2\u201310 nm, average 4.5 nm; pore size less oxidation-time-dependent.",
+          "unit": "nm",
+          "value": "4.5"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "BET/porosity value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance was reported from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "O2 bubbling/reflux oxidation at 100 \u00b0C for 40 min, followed by 10% v/v HF etching for 6 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity modeling value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for this variant.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "H-Ti3C2Tx-40",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Sonicated pristine MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance comparison used CV; no GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 6 comparison films.",
+          "unit": "\u00b5m",
+          "value": "10"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Average hydrodynamic size after sonication.",
+          "unit": "nm",
+          "value": "280"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 6b plots it, but no exact numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No interlayer spacing reported after sonication.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Layer count not reported after sonication.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Loading of 10 \u00b5m sonicated film not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' stated MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported for sonicated pristine film.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "BET/porosity value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Figure 6b evaluates 10\u20133000 mV s\u22121; no single best value printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Results Section size-effect control.",
+          "unit": null,
+          "value": "LiF/HCl-derived Ti3C2Tx subsequently sonicated at 230 W for 2 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity modeling value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx sonicated for 2 h",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Sonicated pristine MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance comparison used CV; no GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 6 comparison films.",
+          "unit": "\u00b5m",
+          "value": "10"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Average hydrodynamic size after sonication.",
+          "unit": "nm",
+          "value": "240"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 6b plots it, but no exact numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No interlayer spacing reported after sonication.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Layer count not reported after sonication.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Loading of 10 \u00b5m sonicated film not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' stated MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported for sonicated pristine film.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "BET/porosity value not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Figure 6b evaluates 10\u20133000 mV s\u22121; no single best value printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Results Section size-effect control.",
+          "unit": null,
+          "value": "LiF/HCl-derived Ti3C2Tx subsequently sonicated at 230 W for 3 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity modeling value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx sonicated for 3 h",
+      "role": "control"
+    }
+  ],
+  "n_electrodes": 6,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article title page.",
+      "unit": null,
+      "value": "Guo et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article title page.",
+      "unit": null,
+      "value": "10.1002/smll.202205947"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header and publication record.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "This study compares six electrochemically evaluated Ti3C2Tx film electrodes: pristine Ti3C2Tx, three holey H-Ti3C2Tx films made using 10, 25, or 40 min O2 oxidation followed by HF removal of TiO2, and two sonication-size controls. All MXene was initially prepared by LiF/HCl etching of Ti3AlC2, and electrochemical tests used 3 M H2SO4 in a three-electrode setup. H-Ti3C2Tx-40 gave the largest explicitly printed gravimetric capacitance, 339 F g\u22121 at 0.5 A g\u22121 for a 25 \u00b5m film; however, H-Ti3C2Tx-25 is the headline thickness-independent electrode, reaching 323 F g\u22121 at 84 \u00b5m and 6.41 mg cm\u22122. The paper does not report BET surface area, porosity, tortuosity, or numerical capacitance values for the individual H-Ti3C2Tx-10 and sonicated controls; oxidized O-Ti3C2Tx intermediates were structurally characterized but not electrochemically reported as electrodes."
+}

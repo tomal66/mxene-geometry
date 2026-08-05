@@ -1,0 +1,1076 @@
+{
+  "source_file": "1-s2.0-S0925838822030389-main.pdf",
+  "source_path": "1-s2.0-S0925838822030389-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.15583,
+  "warnings": [
+    "n_electrodes=8 but array has 9",
+    "'original Ti3C2Tx' has no capacitance of any kind",
+    "'C-0.05' has no capacitance of any kind",
+    "'C-0.15' has no capacitance of any kind",
+    "'C-0.2' has no capacitance of any kind",
+    "'T-20' has no capacitance of any kind",
+    "'T-30' has no capacitance of any kind",
+    "'T-60' has no capacitance of any kind",
+    "'T-80' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and supporting-data discussion report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Original vacuum-filtered MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx (-O/-OH/-F surface groups)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical original-film capacitance/current pair printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Experimental and characterization sections report no thickness.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM characterization of original Ti3C2Tx nanosheets.",
+          "unit": "nm\u2013\u00b5m",
+          "value": "500 nm to 1.5 \u00b5m"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure comparison lacks a printed numerical value for original film.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD peak reported, but no numerical d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Preparation schematic describes few-layer or single-layer flakes.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Only approximate 3 mg per 1 \u00d7 1 cm2 electrode reported; no areal loading printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is the original Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Original film is described as non-porous.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No best numerical capacitance is printed for this film.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No numerical BET area printed for original film.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation protocol.",
+          "unit": null,
+          "value": "LiF/HCl etching of Ti3AlC2, delamination, and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "original Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and supporting-data discussion report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Porous MXene film oxidized at 0.05 M H2O2 for 40 min.",
+          "unit": null,
+          "value": "porous Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Figure comparison lacks a printed numerical capacitance/current pair.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Experimental and characterization sections report no thickness.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral size reported specifically after porous treatment.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only graphical capacitance data are shown for C-0.05.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing reported for C-0.05.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from the common delaminated Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode protocol gives about 3 mg per 1 \u00d7 1 cm2; no areal loading printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "C-series films are porous Ti3C2Tx films.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Only general pore-size distributions, not a C-0.05 value, are printed.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No best numerical capacitance is printed for C-0.05.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No numerical BET area printed specifically for C-0.05.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "C-series concentration condition stated in Results.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; 0.05 M H2O2 oxidation for 40 min, followed by 3 M HCl etching and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "C-0.05",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and supporting-data discussion report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Porous Ti3C2Tx film; this condition is also designated T-40.",
+          "unit": null,
+          "value": "porous Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD result in Fig. 7b.",
+          "unit": "A/g",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Experimental and characterization sections report no thickness.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol for Fig. 7.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral size reported specifically after porous treatment.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCD result for T-40/C-0.1 in Fig. 7b.",
+          "unit": "F/g",
+          "value": "385"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD indicates increased spacing, but no numerical d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from the common delaminated Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode protocol gives about 3 mg per 1 \u00d7 1 cm2; no areal loading printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "C-series films are porous Ti3C2Tx films.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "At 0.1 M H2O2, pore sizes are centered around 3 nm.",
+          "unit": "nm",
+          "value": "3"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best reported capacitance is from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result at 0.1 M H2O2 and 40 min.",
+          "unit": "m2/g",
+          "value": "48.3"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "This condition is described as C-0.1 and T-40.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; 0.1 M H2O2 oxidation for 40 min, followed by 3 M HCl etching and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "C-0.1 (T-40)",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and supporting-data discussion report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Porous MXene film oxidized at 0.15 M H2O2 for 40 min.",
+          "unit": null,
+          "value": "porous Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Figure comparison lacks a printed numerical capacitance/current pair.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Experimental and characterization sections report no thickness.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral size reported specifically after porous treatment.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only graphical capacitance data are shown for C-0.15.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing reported for C-0.15.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from the common delaminated Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode protocol gives about 3 mg per 1 \u00d7 1 cm2; no areal loading printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "C-series films are porous Ti3C2Tx films.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Large connected pores are described qualitatively, without a numerical C-0.15 value.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No best numerical capacitance is printed for C-0.15.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No numerical BET area printed specifically for C-0.15.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "C-series concentration condition stated in Results.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; 0.15 M H2O2 oxidation for 40 min, followed by 3 M HCl etching and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "C-0.15",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and supporting-data discussion report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Porous MXene film oxidized at 0.2 M H2O2 for 40 min.",
+          "unit": null,
+          "value": "porous Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Figure comparison lacks a printed numerical capacitance/current pair.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Experimental and characterization sections report no thickness.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral size reported specifically after porous treatment.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only graphical capacitance data are shown for C-0.2.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing reported for C-0.2.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from the common delaminated Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode protocol gives about 3 mg per 1 \u00d7 1 cm2; no areal loading printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "C-series films are porous Ti3C2Tx films.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Large connected pores are described qualitatively, without a numerical C-0.2 value.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No best numerical capacitance is printed for C-0.2.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No numerical BET area printed specifically for C-0.2.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "C-series concentration condition stated in Results.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; 0.2 M H2O2 oxidation for 40 min, followed by 3 M HCl etching and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "C-0.2",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Porous Ti3C2Tx film treated for 20 min at 0.1 M H2O2.",
+          "unit": null,
+          "value": "porous Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Only graphical capacitance data are shown.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral size reported specifically after porous treatment.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 6 does not print a numerical T-20 capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing reported for T-20.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from the common delaminated Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode protocol gives about 3 mg per 1 \u00d7 1 cm2; no areal loading printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "T-series films are porous Ti3C2Tx films.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Pores around 30 nm or smaller are stated for 20\u201340 min collectively.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No best numerical capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result for T-20.",
+          "unit": "m2/g",
+          "value": "42.5"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "T-series time condition stated in Results.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; 0.1 M H2O2 oxidation for 20 min, followed by 3 M HCl etching and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "T-20",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Porous Ti3C2Tx film treated for 30 min at 0.1 M H2O2.",
+          "unit": null,
+          "value": "porous Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Only graphical capacitance data are shown.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral size reported specifically after porous treatment.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 6 does not print a numerical T-30 capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing reported for T-30.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from the common delaminated Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode protocol gives about 3 mg per 1 \u00d7 1 cm2; no areal loading printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "T-series films are porous Ti3C2Tx films.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Pores around 30 nm or smaller are stated for 20\u201340 min collectively.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No best numerical capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result for T-30.",
+          "unit": "m2/g",
+          "value": "46.3"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "T-series time condition stated in Results.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; 0.1 M H2O2 oxidation for 30 min, followed by 3 M HCl etching and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "T-30",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Porous Ti3C2Tx film treated for 60 min at 0.1 M H2O2.",
+          "unit": null,
+          "value": "porous Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Only graphical capacitance data are shown.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral size reported specifically after porous treatment.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 6 does not print a numerical T-60 capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing reported for T-60.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from the common delaminated Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode protocol gives about 3 mg per 1 \u00d7 1 cm2; no areal loading printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "T-series films are porous Ti3C2Tx films.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "About 50 nm or larger connected pores stated collectively for 60\u201380 min.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No best numerical capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result for T-60.",
+          "unit": "m2/g",
+          "value": "77.7"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "T-series time condition stated in Results.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; 0.1 M H2O2 oxidation for 60 min, followed by 3 M HCl etching and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "T-60",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Porous Ti3C2Tx film treated for 80 min at 0.1 M H2O2.",
+          "unit": null,
+          "value": "porous Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Only graphical capacitance data are shown.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode measurement protocol.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral size reported specifically after porous treatment.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 6 does not print a numerical T-80 capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing reported for T-80.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from the common delaminated Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode protocol gives about 3 mg per 1 \u00d7 1 cm2; no areal loading printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "T-series films are porous Ti3C2Tx films.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "About 50 nm or larger connected pores stated collectively for 60\u201380 min.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No best numerical capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result for T-80.",
+          "unit": "m2/g",
+          "value": "79.8"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "T-series time condition stated in Results.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; 0.1 M H2O2 oxidation for 80 min, followed by 3 M HCl etching and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "T-80",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 8,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article byline.",
+      "unit": null,
+      "value": "Guozhen Guan et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header and supplementary-information notice.",
+      "unit": null,
+      "value": "10.1016/j.jallcom.2022.166647"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal volume header and copyright line.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "This study compares an original vacuum-filtered Ti3C2Tx film with porous Ti3C2Tx films made by partial H2O2 oxidation followed by 3 M HCl etching. Eight distinct fabricated films were identified: the original control; C-0.05, C-0.1/T-40, C-0.15, and C-0.2 concentration variants; and T-20, T-30, T-60, and T-80 time variants. C-0.1 and T-40 are the same 0.1 M H2O2, 40 min material and therefore are consolidated into one electrode. The primary T-40 electrode delivered 385 F/g at 1 A/g in 1 M H2SO4 and had a BET area of 48.3 m2/g. Numerical capacitance values for the remaining variants are plotted but not printed; thickness, areal loading, porosity percentage, and numerical interlayer spacings are absent."
+}

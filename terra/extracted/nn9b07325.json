@@ -1,0 +1,1072 @@
+{
+  "source_file": "nn9b07325.pdf",
+  "source_path": "nn9b07325.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.13991,
+  "warnings": [
+    "'MSCF-1' has no capacitance of any kind",
+    "'MSCF-2' has no capacitance of any kind",
+    "'MSCF-5' has no capacitance of any kind",
+    "'MSCF-10' has no capacitance of any kind",
+    "'MSCs printed on paper' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure S7 cited in Results.",
+          "unit": "mF cm\u22122",
+          "value": "168.1"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "All-MXene printed interdigital electrode.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = =O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "GCD shown at multiple currents; best CV capacitance was not from GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "After room-temperature drying.",
+          "unit": "\u03bcm",
+          "value": "1.5"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared gel-electrolyte fabrication method for printed MSCs.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared MXene ink characterization.",
+          "unit": "\u03bcm",
+          "value": "\u223c0.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Methods state it was evaluated; no value provided in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "n denotes printed interdigital-electrode layers.",
+          "unit": null,
+          "value": "1"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Mass-loading trend is plotted, but no numerical value is printed in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Printed active material and current collector.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of the reported best areal capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene synthesis used for every printed device.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination by tip sonication"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical volumetric capacitance reported in supplied text.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MSC-1",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure S7 cited in Results.",
+          "unit": "mF cm\u22122",
+          "value": "315.8"
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same all-MXene ink and architecture as MSC-1.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = =O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was obtained from CV, not specified GCD current.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "After room-temperature drying.",
+          "unit": "\u03bcm",
+          "value": "3.5"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared gel-electrolyte fabrication method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared ink characterization.",
+          "unit": "\u03bcm",
+          "value": "\u223c0.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No value supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Printed interdigital-electrode layers.",
+          "unit": null,
+          "value": "2"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No numerical loading supplied.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Printed active material.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of best stated capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination by tip sonication"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MSC-2",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure S7 cited in Results.",
+          "unit": "mF cm\u22122",
+          "value": "685.4"
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same all-MXene ink and architecture as MSC-1.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = =O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was obtained from CV, not specified GCD current.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "After room-temperature drying.",
+          "unit": "\u03bcm",
+          "value": "12"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared gel-electrolyte fabrication method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared ink characterization.",
+          "unit": "\u03bcm",
+          "value": "\u223c0.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No value supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Printed interdigital-electrode layers.",
+          "unit": null,
+          "value": "5"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No numerical loading supplied.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Printed active material.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of best stated capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination by tip sonication"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MSC-5",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; Figure S7 cited in Results.",
+          "unit": "mF cm\u22122",
+          "value": "1035"
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same all-MXene ink and architecture as MSC-1.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = =O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was obtained from CV, not specified GCD current.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "After room-temperature drying.",
+          "unit": "\u03bcm",
+          "value": "75"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared gel-electrolyte fabrication method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared ink characterization.",
+          "unit": "\u03bcm",
+          "value": "\u223c0.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Printed interdigital-electrode layers.",
+          "unit": null,
+          "value": "10"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No numerical loading supplied.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Printed active material.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of headline maximum capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination by tip sonication"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical volumetric capacitance supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "MSC-10",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Rate-capacitance data are plotted in Figure 4d; no numerical maximum in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Flexible all-MXene MSC printed on polymer.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = =O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No best-capacitance GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Thickness was not printed for polymer-substrate devices.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared gel-electrolyte fabrication method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared ink characterization.",
+          "unit": "\u03bcm",
+          "value": "\u223c0.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "n denotes printed electrode layers.",
+          "unit": null,
+          "value": "1"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No numerical loading supplied.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Printed active material.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best capacitance is supplied.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination by tip sonication"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MSCF-1",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4d plots data, but supplied text gives no numerical maximum.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same ink as MSCF-1.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = =O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No best-capacitance GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for polymer-substrate devices.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared gel-electrolyte method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared ink characterization.",
+          "unit": "\u03bcm",
+          "value": "\u223c0.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No value supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Printed electrode layers.",
+          "unit": null,
+          "value": "2"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No numerical loading supplied.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Printed active material.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best capacitance is supplied.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination by tip sonication"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MSCF-2",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4d plots data, but supplied text gives no numerical maximum.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same ink as MSCF-1.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = =O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No best-capacitance GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for polymer-substrate devices.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared gel-electrolyte method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared ink characterization.",
+          "unit": "\u03bcm",
+          "value": "\u223c0.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No value supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Printed electrode layers.",
+          "unit": null,
+          "value": "5"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No numerical loading supplied.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Printed active material.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best capacitance is supplied.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination by tip sonication"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MSCF-5",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4d plots data, but supplied text gives no numerical maximum.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same ink as MSCF-1.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = =O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No best-capacitance GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for polymer-substrate devices.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared gel-electrolyte method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared ink characterization.",
+          "unit": "\u03bcm",
+          "value": "\u223c0.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No value supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Printed electrode layers.",
+          "unit": null,
+          "value": "10"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No numerical loading supplied.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Printed active material.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical best capacitance is supplied.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination by tip sonication"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MSCF-10",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Electrochemical results are stated to be in Figure S11, not numerically supplied here.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "All current collectors and electrodes were printed with MXene ink.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = =O, -OH, and -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical performance condition supplied.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported for paper devices.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared fabricated-MSC gel electrolyte.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared ink characterization.",
+          "unit": "\u03bcm",
+          "value": "\u223c0.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No value supplied.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "uncertain",
+          "note": "Number of layers for paper MSCs is not stated.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No numerical loading supplied.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Printed active material and current collector.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical performance condition supplied.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination by tip sonication"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No numerical value supplied.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MSCs printed on paper",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 9,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Orangi et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1021/acsnano.9b07325"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "ACS Nano citation header.",
+      "unit": null,
+      "value": "2020"
+    }
+  },
+  "summary": "The study used delaminated Ti3C2Tx prepared by LiF/HCl selective etching of Ti3AlC2 and concentrated with superabsorbent-polymer beads into an additive-free water-based ink. Nine distinct fabricated electrode/device variants are identifiable: four layer-count variants on glass (MSC-1, -2, -5, and -10), four corresponding flexible polymer-substrate variants (MSCF-1, -2, -5, and -10), and a paper-substrate MSC. The headline electrode is MSC-10, which used ten printed layers, had a dried thickness of about 75 \u03bcm, and delivered 1035 mF cm\u22122 at 2 mV s\u22121. Numerical capacitances for the polymer and paper devices, numerical loadings, BET/porosity data, pore sizes, d-spacings, and volumetric or gravimetric capacitances were not provided in the supplied article text."
+}

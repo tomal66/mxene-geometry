@@ -1,0 +1,491 @@
+{
+  "source_file": "ae2c00653.pdf",
+  "source_path": "ae2c00653.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11322,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4a reports up to 1.5 F/cm2 for 31\u201334 \u03bcm electrodes; individual pristine value is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Electrode formulation in Experimental Section.",
+          "unit": null,
+          "value": "pristine Ti3C2Tx, 90 wt % Ti3C2Tx, 5 wt % carbon black, 5 wt % PTFE"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCPL capacitance reported after cycling at this specific current.",
+          "unit": "A/g",
+          "value": "5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thin pristine electrode series used in Figure 2.",
+          "unit": "\u03bcm",
+          "value": "\u223c30"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-cell procedure applies to all samples.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM lateral flake size was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCPL result reported for pristine MXene at 5 A/g.",
+          "unit": "F/g",
+          "value": "187.5"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Post-annealing powder XRD; broad (002) peak and shoulder.",
+          "unit": "\u00c5",
+          "value": "10.67 & 9.79"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Authors consistently describe this as multilayer MXene.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared thin-electrode preparation range; Figure 2 used \u223c30 \u03bcm electrodes.",
+          "unit": "mg/cm2",
+          "value": "4.2\u20135.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best exact capacitance was reported by GCPL, not at a CV scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET specific surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Pristine control prepared by HF/LiCl etching, HCl washing, then HCl soaking.",
+          "unit": null,
+          "value": "LiCl-assisted 10 wt % HF etching followed by HCl treatment/soaking"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance was reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pristine Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4b text: maximum for Na\u2212Ti3C2Tx thick electrodes.",
+          "unit": "F/cm2",
+          "value": "3.7"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Electrode formulation in Experimental Section.",
+          "unit": null,
+          "value": "Na\u2212Ti3C2Tx, 90 wt % Ti3C2Tx, 5 wt % carbon black, 5 wt % PTFE"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCPL capacitance reported after cycling at this specific current.",
+          "unit": "A/g",
+          "value": "5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness range for electrodes in Figure 4b.",
+          "unit": "\u03bcm",
+          "value": "70\u201377"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-cell procedure applies to all samples.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM lateral flake size was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCPL result reported for Na\u2212Ti3C2Tx at 5 A/g.",
+          "unit": "F/g",
+          "value": "265"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Post-annealing powder XRD; broad double (002) peak.",
+          "unit": "\u00c5",
+          "value": "12.26 & 10.58"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Authors consistently describe this as multilayer MXene.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared 70\u201377 \u03bcm-electrode preparation range.",
+          "unit": "mg/cm2",
+          "value": "10.2\u201313.4"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Text gives the maximum areal capacitance but does not print its scan-rate pairing.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET specific surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Na+ exchanged after HF/LiCl etching by soaking in 1 M NaCl.",
+          "unit": null,
+          "value": "LiCl-assisted 10 wt % HF etching followed by Na+ ion exchange in 1 M NaCl"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance was reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Na\u2212Ti3C2Tx",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Maximum reported for the 103 \u03bcm K\u2212Ti3C2Tx electrode.",
+          "unit": "F/cm2",
+          "value": "\u223c5.7"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Electrode formulation in Experimental Section.",
+          "unit": null,
+          "value": "K\u2212Ti3C2Tx, 90 wt % Ti3C2Tx, 5 wt % carbon black, 5 wt % PTFE"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "300 F/g headline value is printed without a current-density condition.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness of the electrode producing \u223c5.7 F/cm2.",
+          "unit": "\u03bcm",
+          "value": "103"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-cell procedure applies to all samples.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM lateral flake size was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Abstract reports the highest gravimetric capacitance for multilayer K\u2212Ti3C2Tx.",
+          "unit": "F/g",
+          "value": "up to 300"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Post-annealing powder XRD (002) spacing.",
+          "unit": "\u00c5",
+          "value": "12.06"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Authors consistently describe this as multilayer MXene.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Loading of the 103 \u03bcm K\u2212Ti3C2Tx electrode.",
+          "unit": "mg/cm2",
+          "value": "20.1"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "The \u223c5.7 F/cm2 maximum is printed without an explicit scan-rate pairing.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET specific surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "K+ exchanged after HF/LiCl etching by soaking in 1 M KCl.",
+          "unit": null,
+          "value": "LiCl-assisted 10 wt % HF etching followed by K+ ion exchange in 1 M KCl"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance was reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "K\u2212Ti3C2Tx",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4 states thicker Mg electrodes improved, but no individual maximum is printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Electrode formulation in Experimental Section.",
+          "unit": null,
+          "value": "Mg\u2212Ti3C2Tx, 90 wt % Ti3C2Tx, 5 wt % carbon black, 5 wt % PTFE"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCPL capacitance reported after cycling at this specific current.",
+          "unit": "A/g",
+          "value": "5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thin Mg electrode series used in Figure 2.",
+          "unit": "\u03bcm",
+          "value": "\u223c30"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-cell procedure applies to all samples.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM lateral flake size was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCPL result reported for Mg\u2212Ti3C2Tx at 5 A/g.",
+          "unit": "F/g",
+          "value": "214"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Post-annealing powder XRD; broad (002) peak and shoulder.",
+          "unit": "\u00c5",
+          "value": "14.47 & 9.98"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Authors consistently describe this as multilayer MXene.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared thin-electrode preparation range; Figure 2 used \u223c30 \u03bcm electrodes.",
+          "unit": "mg/cm2",
+          "value": "4.2\u20135.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best exact capacitance was reported by GCPL, not at a CV scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET specific surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Mg2+ exchanged after HF/LiCl etching by soaking in 0.5 M MgCl2.",
+          "unit": null,
+          "value": "LiCl-assisted 10 wt % HF etching followed by Mg2+ ion exchange in 0.5 M MgCl2"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance was reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Mg\u2212Ti3C2Tx",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article title block.",
+      "unit": null,
+      "value": "Prenger et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1021/acsaem.2c00653"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation block.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "This paper compares four freestanding multilayer Ti3C2Tx electrodes: pristine, Na+-pre-intercalated, K+-pre-intercalated, and Mg2+-pre-intercalated MXene. All were prepared by LiCl-assisted 10 wt % HF etching followed by HCl treatment and either HCl, NaCl, KCl, or MgCl2 soaking; electrodes contained 90 wt % MXene, 5 wt % carbon black, and 5 wt % PTFE. K\u2212Ti3C2Tx was the headline/best electrode, reaching up to 300 F/g and \u223c5.7 F/cm2 at 103 \u03bcm thickness and 20.1 mg/cm2 loading in 1 M H2SO4. The paper does not report BET area, pore size, porosity, tortuosity, flake lateral dimensions, or individual maximum areal capacitances for pristine and Mg\u2212Ti3C2Tx."
+}

@@ -1,0 +1,726 @@
+{
+  "source_file": "c8ta09810g.pdf",
+  "source_path": "c8ta09810g.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.13182,
+  "warnings": [
+    "'M10CNF6001' has no capacitance of any kind",
+    "'M10CNF7001' has no capacitance of any kind",
+    "'M10CNF7002' has no capacitance of any kind",
+    "'M10CNF7006' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Reported in electrochemical-characterization section.",
+          "unit": "mF cm-2",
+          "value": "75"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pure carbon control carbonized under same conditions.",
+          "unit": null,
+          "value": "carbonized PAN nano fibers"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for carbonized electrode mats.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemistry method.",
+          "unit": null,
+          "value": "1 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No MXene flakes in this PAN-derived carbon control.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrode-specific value reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene in control.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene in control.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode areal mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene in control.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-diameter value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported areal capacitance.",
+          "unit": "mV s-1",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Electrospun 8 wt% PAN; stabilized at 280 \u00b0C and carbonized under Ar.",
+          "unit": null,
+          "value": "electrospinning and carbonization at 800 \u00b0C for 1 h under Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "CNF8001",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Individual numeric capacitance not printed in text.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M10 sample designation is defined by spinning-dope composition.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene/carbon nano fibers; 10 wt% Ti3C2Tx MXene and 8 wt% PAN in electrospinning solution"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for carbonized electrode mats.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemistry method.",
+          "unit": null,
+          "value": "1 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared sonicated-MXene characterization.",
+          "unit": "nm",
+          "value": "approximately 300"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrode-specific value reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value printed for this carbonized sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "As-spun M10 fibers contained single to few MXene layers.",
+          "unit": null,
+          "value": "single to few layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode areal mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene identity used for M10 fibers.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-diameter value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single printed capacitance value for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in HCl/HF, LiCl-delaminated, electrospun with PAN.",
+          "unit": null,
+          "value": "HCl/HF etching, LiCl delamination, electrospinning, and carbonization at 600 \u00b0C for 1 h under Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M10CNF6001",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Individual numeric capacitance not printed in text.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M10 sample designation is defined by spinning-dope composition.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene/carbon nano fibers; 10 wt% Ti3C2Tx MXene and 8 wt% PAN in electrospinning solution"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for carbonized electrode mats.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemistry method.",
+          "unit": null,
+          "value": "1 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared sonicated-MXene characterization.",
+          "unit": "nm",
+          "value": "approximately 300"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrode-specific value reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value printed for this carbonized sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "As-spun M10 fibers contained single to few MXene layers.",
+          "unit": null,
+          "value": "single to few layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode areal mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene identity used for M10 fibers.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-diameter value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single printed capacitance value for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in HCl/HF, LiCl-delaminated, electrospun with PAN.",
+          "unit": null,
+          "value": "HCl/HF etching, LiCl delamination, electrospinning, and carbonization at 700 \u00b0C for 1 h under Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M10CNF7001",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Individual numeric capacitance not printed in text.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M10 sample designation is defined by spinning-dope composition.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene/carbon nano fibers; 10 wt% Ti3C2Tx MXene and 8 wt% PAN in electrospinning solution"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for carbonized electrode mats.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemistry method.",
+          "unit": null,
+          "value": "1 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared sonicated-MXene characterization.",
+          "unit": "nm",
+          "value": "approximately 300"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrode-specific value reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value printed for this carbonized sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "As-spun M10 fibers contained single to few MXene layers.",
+          "unit": null,
+          "value": "single to few layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode areal mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene identity used for M10 fibers.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-diameter value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single printed capacitance value for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in HCl/HF, LiCl-delaminated, electrospun with PAN.",
+          "unit": null,
+          "value": "HCl/HF etching, LiCl delamination, electrospinning, and carbonization at 700 \u00b0C for 2 h under Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M10CNF7002",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Highest explicitly sample-assigned areal capacitance.",
+          "unit": "mF cm-2",
+          "value": "239"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M10 sample designation is defined by spinning-dope composition.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene/carbon nano fibers; 10 wt% Ti3C2Tx MXene and 8 wt% PAN in electrospinning solution"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for carbonized electrode mats.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemistry method.",
+          "unit": null,
+          "value": "1 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared sonicated-MXene characterization.",
+          "unit": "nm",
+          "value": "approximately 300"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrode-specific value reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value printed for this carbonized sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "As-spun M10 fibers contained single to few MXene layers.",
+          "unit": null,
+          "value": "single to few layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode areal mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene identity used for M10 fibers.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-diameter value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported areal capacitance.",
+          "unit": "mV s-1",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in HCl/HF, LiCl-delaminated, electrospun with PAN.",
+          "unit": null,
+          "value": "HCl/HF etching, LiCl delamination, electrospinning, and carbonization at 800 \u00b0C for 1 h under Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "M10CNF8001",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Individual numeric capacitance not printed in text.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M10 sample designation is defined by spinning-dope composition.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene/carbon nano fibers; 10 wt% Ti3C2Tx MXene and 8 wt% PAN in electrospinning solution"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for carbonized electrode mats.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemistry method.",
+          "unit": null,
+          "value": "1 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared sonicated-MXene characterization.",
+          "unit": "nm",
+          "value": "approximately 300"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrode-specific value reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value printed for this carbonized sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "As-spun M10 fibers contained single to few MXene layers.",
+          "unit": null,
+          "value": "single to few layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode areal mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene identity used for M10 fibers.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-diameter value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single printed capacitance value for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in HCl/HF, LiCl-delaminated, electrospun with PAN.",
+          "unit": null,
+          "value": "HCl/HF etching, LiCl delamination, electrospinning, and carbonization at 700 \u00b0C for 6 h under Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M10CNF7006",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 6,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author list.",
+      "unit": null,
+      "value": "Levitt et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Citation header and ESI notice.",
+      "unit": null,
+      "value": "10.1039/c8ta09810g"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation header.",
+      "unit": null,
+      "value": "2019"
+    }
+  },
+  "summary": "The study fabricated free-standing electrospun Ti3C2Tx MXene/PAN mats, then stabilized and carbonized them to form binder-free Ti3C2Tx/carbon-nanofiber electrodes. Electrochemically discussed electrodes comprise the pure-carbon CNF8001 control and M10 composite fibers carbonized at 600 \u00b0C for 1 h, 700 \u00b0C for 1 h, 700 \u00b0C for 2 h, 800 \u00b0C for 1 h, and 700 \u00b0C for 6 h. M10CNF8001 delivered the highest explicitly sample-assigned value, 239 mF cm-2 at 10 mV s-1 in 1 M H2SO4; CNF8001 gave 75 mF cm-2 at the same scan rate. The conclusion also states an overall maximum of 244 mF cm-2, but does not assign that number and its measurement condition to a specific electrode. No areal mass loading, thickness, BET area, pore metrics, or electrode-specific gravimetric/volumetric capacitance was reported."
+}

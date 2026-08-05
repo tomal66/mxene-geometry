@@ -1,0 +1,376 @@
+{
+  "source_file": "1-s2.0-S0008622325000375-main.pdf",
+  "source_path": "1-s2.0-S0008622325000375-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09237,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; electrochemical results give gravimetric and volumetric capacitance only.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS/element mapping identifies Ti, C, O, F, N and S.",
+          "unit": null,
+          "value": "N/S co-doped Ti3C2Tx (Ti, C, O, F, N, S)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained from CV at 2 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness was not reported in methods, figures, or results.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte in Section 2.7.",
+          "unit": null,
+          "value": "2 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM describes large-sized sheets but gives no lateral dimension.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived specific capacitance at 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "424"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) peak shift from 7.54\u00b0 to 6.21\u00b0.",
+          "unit": "nm",
+          "value": "1.42"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Parent Ti3C2Tx was explicitly prepared as few-layer MXene before modification.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported in Section 2.3.",
+          "unit": "mg cm\u22122",
+          "value": "1.69"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors designate this sample NS-Ti3C2Tx-P.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-size analysis was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage or BET/mercury-porosimetry result was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of the best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific-surface-area measurement was reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etching followed by thiourea photothermal treatment under mercury-lamp irradiation.",
+          "unit": null,
+          "value": "LiF/HCl etching; photothermal-assisted thiourea N/S co-doping under high-pressure mercury lamp"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or transport model was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived volumetric capacitance at 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1023"
+        }
+      },
+      "is_primary": true,
+      "label": "NS-Ti3C2Tx-P",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; electrochemical results give gravimetric and volumetric capacitance only.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Annealed N/S co-doped sample; XPS indicates very little sulfur remains.",
+          "unit": null,
+          "value": "N/S co-doped Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained from CV at 2 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness was not reported in methods, figures, or results.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte in Section 2.7.",
+          "unit": null,
+          "value": "2 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Supplementary SEM discussion gives no lateral flake dimension.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived mass capacitance at 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "358"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Supplementary XRD is cited; authors report d = 2.74.",
+          "unit": null,
+          "value": "2.74"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Parent Ti3C2Tx was explicitly prepared as few-layer MXene before annealing.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported in Section 2.3.",
+          "unit": "mg cm\u22122",
+          "value": "2.12"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors designate this sample NS-Ti3C2Tx-A.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-size analysis was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage or BET/mercury-porosimetry result was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of the best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific-surface-area measurement was reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etching followed by thiourea annealing at 300 \u00b0C for 3 h under Ar.",
+          "unit": null,
+          "value": "LiF/HCl etching; thiourea N/S co-doping by annealing at 300 \u00b0C for 3 h in Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or transport model was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived volumetric capacitance at 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "949"
+        }
+      },
+      "is_primary": false,
+      "label": "NS-Ti3C2Tx-A",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; electrochemical results give gravimetric and volumetric capacitance only.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Original unmodified MXene control film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained from CV at 2 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness was not reported in methods, figures, or results.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte in Section 2.7.",
+          "unit": null,
+          "value": "2 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM gives morphology only; no lateral flake dimension is reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived mass capacitance at 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "330"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD comparison reports original layer spacing before photothermal modification.",
+          "unit": "nm",
+          "value": "1.15"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Section 2.2 explicitly states few layers were obtained by sonication.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported in Section 2.3.",
+          "unit": "mg cm\u22122",
+          "value": "1.20"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Unmodified control is named Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-size analysis was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage or BET/mercury-porosimetry result was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of the best reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific-surface-area measurement was reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Etched from Ti3AlC2 using the LiF\u2013HCl method.",
+          "unit": null,
+          "value": "LiF/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or transport model was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived volumetric capacitance at 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "789"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Hailong Shen et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.carbon.2025.120021"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Carbon 234 (2025) article header.",
+      "unit": null,
+      "value": "2025"
+    }
+  },
+  "summary": "This paper compares three freestanding few-layer Ti3C2Tx films produced from LiF/HCl-etched MXene: unmodified Ti3C2Tx, annealed thiourea-treated NS-Ti3C2Tx-A, and mercury-lamp photothermal thiourea-treated NS-Ti3C2Tx-P. The photothermal N/S co-doped NS-Ti3C2Tx-P is the primary and best-performing electrode, reaching 424 F g\u22121 and 1023 F cm\u22123 at 2 mV s\u22121 in 2 M H2SO4. NS-Ti3C2Tx-A and Ti3C2Tx reach 358 and 330 F g\u22121, respectively, at the same scan rate. Film thickness, lateral flake size, pore diameter, porosity, BET surface area, tortuosity, and areal capacitance were not reported."
+}

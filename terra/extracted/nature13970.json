@@ -1,0 +1,728 @@
+{
+  "source_file": "nature13970.pdf",
+  "source_path": "nature13970.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11271,
+  "warnings": [
+    "n_electrodes=5 but array has 6",
+    "'30-\u03bcm-thick rolled Ti3C2Tx clay electrode' has no capacitance of any kind",
+    "'75-\u03bcm-thick rolled Ti3C2Tx clay electrode' has no capacitance of any kind",
+    "'Ti3C2Tx \u2018paper\u2019' has no capacitance of any kind",
+    "'Ti2CTx \u2018paper\u2019' has no capacitance of any kind",
+    "'Activated carbon electrodes' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 1 defines Tx as surface terminations such as OH, O and F.",
+          "unit": null,
+          "value": "Ti3C2Tx with O- and F-containing surface terminations"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 3 identifies this rolled electrode thickness.",
+          "unit": "\u03bcm",
+          "value": "5"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical setup for MXene working electrodes.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Flake-size statistics were reported for delaminated flakes, not this rolled film.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121; headline value in main text.",
+          "unit": "F g\u22121",
+          "value": "245"
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Rolled films retained c-direction ordering; air-dried multilayer material had c = 27\u201328 \u00c5.",
+          "unit": "\u00c5",
+          "value": "27\u201328"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Rolled clay originated from multilayer Ti3C2Tx sediment.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors designate the etched material Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported maximum capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in LiF/6 M HCl at 40 \u00b0C for 45 h; sediment rolled.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by rolling of hydrated clay"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "At 2 mV s\u22121 in 1 M H2SO4; Figure 3a/main text.",
+          "unit": "F cm\u22123",
+          "value": "900"
+        }
+      },
+      "is_primary": true,
+      "label": "5-\u03bcm-thick rolled Ti3C2Tx clay electrode",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 1 defines Tx as surface terminations such as OH, O and F.",
+          "unit": null,
+          "value": "Ti3C2Tx with O- and F-containing surface terminations"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No single GCD condition tied to a best capacitance in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 3 identifies this rolled electrode thickness.",
+          "unit": "\u03bcm",
+          "value": "30"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical setup for MXene working electrodes.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Flake-size statistics were reported for delaminated flakes, not this rolled film.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Numerical value is not printed in supplied main-text figure caption.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Rolled films retained c-direction ordering; air-dried multilayer material had c = 27\u201328 \u00c5.",
+          "unit": "\u00c5",
+          "value": "27\u201328"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Rolled clay originated from multilayer Ti3C2Tx sediment.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors designate the etched material Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Rate-performance data are plotted, but no printed best numerical capacitance is supplied.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in LiF/6 M HCl at 40 \u00b0C for 45 h; sediment rolled.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by rolling of hydrated clay"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Numerical value for this thickness is not printed in supplied text.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "30-\u03bcm-thick rolled Ti3C2Tx clay electrode",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 1 defines Tx as surface terminations such as OH, O and F.",
+          "unit": null,
+          "value": "Ti3C2Tx with O- and F-containing surface terminations"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No single GCD condition tied to a best capacitance in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 3 identifies this rolled electrode thickness.",
+          "unit": "\u03bcm",
+          "value": "75"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical setup for MXene working electrodes.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Flake-size statistics were reported for delaminated flakes, not this rolled film.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Numerical value is not printed in supplied main-text figure caption.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Rolled films retained c-direction ordering; air-dried multilayer material had c = 27\u201328 \u00c5.",
+          "unit": "\u00c5",
+          "value": "27\u201328"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Rolled clay originated from multilayer Ti3C2Tx sediment.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors designate the etched material Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Rate-performance data are plotted, but no printed best numerical capacitance is supplied.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in LiF/6 M HCl at 40 \u00b0C for 45 h; sediment rolled.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by rolling of hydrated clay"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Numerical value for this thickness is not printed in supplied text.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "75-\u03bcm-thick rolled Ti3C2Tx clay electrode",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for the fabricated paper.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Prepared by filtration of a suspension of delaminated Ti3C2Tx flakes.",
+          "unit": null,
+          "value": "Ti3C2Tx with O- and F-containing surface terminations"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No electrochemical measurement of this paper is reported in this study.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this paper.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "No electrochemical measurement of this paper is reported in this study.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM statistics for dispersed Ti3C2Tx flakes: over 70% were 0.5\u20131.5 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "0.5\u20131.5"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Values cited for earlier Ti3C2Tx paper are excluded as prior work.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No XRD spacing reported specifically for filtered paper.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "About 70% of analysed dispersed flakes were 1\u20132 layers thick.",
+          "unit": null,
+          "value": "1\u20132 layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported for this paper.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Methods calls the material Ti3C2Tx paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No electrochemical measurement of this paper is reported in this study.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched MXene was sonicated and vacuum filtered.",
+          "unit": null,
+          "value": "LiF/HCl etching, sonication, and filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Values cited for earlier Ti3C2Tx paper are excluded as prior work.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx \u2018paper\u2019",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No electrochemical performance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Paper was produced from suspensions of Ti2CTx flakes.",
+          "unit": null,
+          "value": "Ti2CTx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No electrochemical performance reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "No electrochemical performance reported.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported for Ti2CTx.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrochemical performance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported for Ti2CTx.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Authors report delamination into Ti2CTx flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the flakes and paper as Ti2CTx.",
+          "unit": null,
+          "value": "Ti2CTx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No electrochemical performance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti2AlC was etched in LiF/HCl and multilayer powder was delaminated.",
+          "unit": null,
+          "value": "LiF/HCl etching, delamination, and filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrochemical performance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti2CTx \u2018paper\u2019",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; used as over-capacitive counter electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Methods gives final activated-carbon electrode composition.",
+          "unit": null,
+          "value": "95 wt% YP-50 activated carbon and 5 wt% PTFE"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance measurement reported for the counter electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Methods reports a thickness range.",
+          "unit": "\u03bcm",
+          "value": "100\u2013150"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Counter electrode was used in the shared three-electrode cell.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene flakes.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Methods reports an areal mass-density range.",
+          "unit": "mg cm\u22122",
+          "value": "10\u201325"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Non-MXene activated-carbon reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No capacitance measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Mechanically processed pre-mixed ethanol/carbon/PTFE slurry.",
+          "unit": null,
+          "value": "Mechanical processing of activated-carbon/PTFE slurry"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Activated carbon electrodes",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author line.",
+      "unit": null,
+      "value": "Ghidiu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Provided DOI.",
+      "unit": null,
+      "value": "10.1038/nature13970"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Nature issue dated 4 December 2014.",
+      "unit": null,
+      "value": "2014"
+    }
+  },
+  "summary": "This study primarily evaluates LiF/6 M HCl-etched Ti3C2Tx clay rolled into free-standing films. Three electrochemically compared Ti3C2Tx rolled-film electrodes differ by thickness: 5, 30, and 75 \u03bcm. The 5-\u03bcm film is the headline performer, reaching 900 F cm\u22123 and 245 F g\u22121 at 2 mV s\u22121 in 1 M H2SO4. The authors also fabricated a filtered Ti3C2Tx paper, a newly reported Ti2CTx paper, and activated-carbon counter electrodes, but did not report electrochemical capacitance for those materials in this paper; numerical capacitances for the 30- and 75-\u03bcm films are not printed in the supplied text."
+}

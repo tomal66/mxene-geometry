@@ -1,0 +1,727 @@
+{
+  "source_file": "smll.201802225.pdf",
+  "source_path": "smll.201802225.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11696,
+  "warnings": [
+    "'BMX yarn (69.2 wt. % MXene)' has no capacitance of any kind",
+    "'BMX yarn (86.2 wt. % MXene)' has no capacitance of any kind",
+    "'BMX yarn (90 wt. % MXene)' has no capacitance of any kind",
+    "'neat CNT yarn' has no capacitance of any kind",
+    "'BRU yarn' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 2 compares this loading, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene loading specified in Results discussion.",
+          "unit": null,
+          "value": "Ti3C2Tx/CNT, 69.2 wt. % MXene"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical capacitance for this sample is printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No film or yarn thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "All BMX three-electrode data used this shared electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No lateral Ti3C2Tx flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 2 compares this loading, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD peak is discussed; no d-spacing value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene was described as remaining delaminated after yarn fabrication.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "MXene mass fraction reported in Results discussion.",
+          "unit": "wt. %",
+          "value": "69.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene preparation section identifies the MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Pores and voids are described, without size values.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical capacitance at a specified scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene preparation used LiF/HCl MILD etching.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); biscrolling with CNT sheets"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 2 compares this loading, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "BMX yarn (69.2 wt. % MXene)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 2 compares this loading, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene loading specified in Results discussion.",
+          "unit": null,
+          "value": "Ti3C2Tx/CNT, 86.2 wt. % MXene"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical capacitance for this sample is printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No film or yarn thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "All BMX three-electrode data used this shared electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No lateral Ti3C2Tx flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 2 compares this loading, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD peak is discussed; no d-spacing value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene was described as remaining delaminated after yarn fabrication.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "MXene mass fraction reported in Results discussion.",
+          "unit": "wt. %",
+          "value": "86.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene preparation section identifies the MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Pores and voids are described, without size values.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No numerical capacitance at a specified scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene preparation used LiF/HCl MILD etching.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); biscrolling with CNT sheets"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 2 compares this loading, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "BMX yarn (86.2 wt. % MXene)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Shown only in a knot demonstration; no capacitance value reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 1e identifies this BMX yarn loading.",
+          "unit": null,
+          "value": "Ti3C2Tx/CNT, 90 wt. % MXene"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical capacitance for this sample is printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No film or yarn thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "This sample is only shown in a mechanical knot demonstration.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No lateral Ti3C2Tx flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance value reported for this loading.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No d-spacing specifically assigned to this loading.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene was described as remaining delaminated after yarn fabrication.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Figure 1e identifies the MXene mass fraction.",
+          "unit": "wt. %",
+          "value": "90"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene preparation section identifies the MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance value reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene preparation used LiF/HCl MILD etching.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); biscrolling with CNT sheets"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance value reported for this loading.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "BMX yarn (90 wt. % MXene)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Three-electrode GCD value at 2 mA cm\u22122, Results section.",
+          "unit": "mF cm\u22122",
+          "value": "3188"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 1 and Results specify the composite and loading.",
+          "unit": null,
+          "value": "Ti3C2Tx/CNT, 97.4 wt. % MXene"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for reported capacitances in Results section.",
+          "unit": "mA cm\u22122",
+          "value": "2"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No film or yarn thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode BMX measurements used this electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No lateral Ti3C2Tx flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Three-electrode GCD value at 2 mA cm\u22122, Results text.",
+          "unit": "F g\u22121",
+          "value": "532"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD peak is discussed; no d-spacing value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "XRD discussion states MXene remained delaminated after fabrication.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Highest-loading BMX yarn identified in Results and Figure 1.",
+          "unit": "wt. %",
+          "value": "97.4"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene preparation section identifies the MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Pores and voids are described, without size values.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best reported capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental section gives LiF/HCl etching and biscrolling procedure.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); biscrolling with CNT sheets"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Three-electrode GCD value at 2 mA cm\u22122, Results text.",
+          "unit": "F cm\u22123",
+          "value": "1083"
+        }
+      },
+      "is_primary": true,
+      "label": "BMX yarn (97.4 wt. % MXene)",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No authors' electrochemical value is reported for neat CNT yarn.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Described as the neat CNT-yarn baseline.",
+          "unit": null,
+          "value": "CNT"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No authors' electrochemical value is reported for neat CNT yarn.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "No electrochemical experiment for this control is reported.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "CNT forest source dimensions are stated in Experimental section.",
+          "unit": "nm",
+          "value": "9"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Quoted ~4.5 F g\u22121 is literature-supported, not this study's measurement.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not applicable; no MXene XRD spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "uncertain",
+          "note": "Not applicable; this is a CNT control.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "This is a non-MXene CNT reference yarn.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No authors' electrochemical value is reported for neat CNT yarn.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "CNT sheets were drawn from a vertically aligned CNT forest.",
+          "unit": null,
+          "value": "Twisted stacked CNT sheets"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Quoted ~32 F cm\u22123 is literature-supported, not this study's measurement.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "neat CNT yarn",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No standalone BRU-yarn capacitance is reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "BRU yarn is described as biscrolled RuO2/CNT.",
+          "unit": null,
+          "value": "RuO2/CNT"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No standalone BRU-yarn capacitance is reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "BRU was paired in aYSCs using the shared gel electrolyte.",
+          "unit": null,
+          "value": "PVA-H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No RuO2 particle or flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only full aYSC device capacitance is reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No XRD d-spacing reported for BRU yarn.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "uncertain",
+          "note": "Not applicable; no layered MXene in this reference.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "RuO2 loading was adjusted but no value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "This is a non-MXene reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Only potential-window CV is shown; no capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental section specifies RuO2 preparation and biscrolling.",
+          "unit": null,
+          "value": "RuO2 prepared from RuCl3\u00b7xH2O and biscrolled with CNT sheets"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only full aYSC device capacitance is reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "BRU yarn",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 6,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Author list on manuscript title page.",
+      "unit": null,
+      "value": "Wang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Manuscript header citation instruction.",
+      "unit": null,
+      "value": "10.1002/smll.201802225"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal download header identifies publication year.",
+      "unit": null,
+      "value": "2018"
+    }
+  },
+  "summary": "This study fabricated Ti3C2Tx/CNT biscrolled MXene (BMX) yarns from LiF/HCl-MILD-delaminated Ti3C2Tx and stacked CNT sheets. The manuscript explicitly identifies BMX yarns containing 69.2, 86.2, 90, and 97.4 wt. % MXene, as well as a neat-CNT control yarn and a biscrolled RuO2/CNT (BRU) reference yarn for asymmetric devices. The headline 97.4 wt. % BMX yarn delivered 3188 mF cm\u22122, 1083 F cm\u22123, and 532 F g\u22121 at 2 mA cm\u22122 in 3 M H2SO4. Numerical capacitances for the lower-loading BMX variants, the neat CNT yarn, and the BRU yarn were not printed; device-level aYSC values were not assigned to either constituent electrode."
+}

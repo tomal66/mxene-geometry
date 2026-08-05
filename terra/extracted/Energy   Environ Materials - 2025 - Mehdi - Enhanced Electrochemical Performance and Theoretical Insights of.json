@@ -1,0 +1,606 @@
+{
+  "source_file": "Energy   Environ Materials - 2025 - Mehdi - Enhanced Electrochemical Performance and Theoretical Insights of.pdf",
+  "source_path": "Energy   Environ Materials - 2025 - Mehdi - Enhanced Electrochemical Performance and Theoretical Insights of.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.10456,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Electrochemical results report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine MXene control.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance value is reported without a linked GCD current density.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness only reported for 10% Ni-MXene.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared supercapacitor fabrication method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM structural-characterization discussion.",
+          "unit": "microns",
+          "value": "several"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Calculated gravimetric capacitance; measurement rate not explicitly linked.",
+          "unit": "F g\u22121",
+          "value": "294"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only 10% Ni-MXene TEM spacing was numerically reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as synthesized few-layer MXene nanosheets.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode fabrication section gives no mass loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Experimental synthesis section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance values are not explicitly tied to a CV scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Figure S7 comparison discussed in electrochemical analysis.",
+          "unit": "m2 g\u22121",
+          "value": "16.3"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental synthesis section.",
+          "unit": null,
+          "value": "HCl/LiF etching of Ti3AlC2, followed by sonication and centrifugation"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity measurement or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only 10% Ni-MXene volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Pure-MXene",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Electrochemical results report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ni loading is by weight.",
+          "unit": null,
+          "value": "0.5 wt% Ni-intercalated Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance value is reported without a linked GCD current density.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness only reported for 10% Ni-MXene.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared supercapacitor fabrication method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Study describes synthesized pure and Ni-intercalated flakes as several microns.",
+          "unit": "microns",
+          "value": "several"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Calculated gravimetric capacitance; measurement rate not explicitly linked.",
+          "unit": "F g\u22121",
+          "value": "74"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD peak position reported, but no numerical d-spacing.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Study describes synthesized pure and Ni-intercalated nanosheets as few-layer.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode fabrication section gives no mass loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "All Ni-MXene samples derive from shared Ti3C2Tx MXene synthesis.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance values are not explicitly tied to a CV scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method plus specified Ni addition.",
+          "unit": null,
+          "value": "HCl/LiF etching of Ti3AlC2; 0.5 wt% 40 nm Ni powder paste-mixed into MXene slurry"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity measurement or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only 10% Ni-MXene volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "0.5% Ni-MXene",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Electrochemical results report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ni loading is by weight.",
+          "unit": null,
+          "value": "1 wt% Ni-intercalated Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance value is reported without a linked GCD current density.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness only reported for 10% Ni-MXene.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared supercapacitor fabrication method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Study describes synthesized pure and Ni-intercalated flakes as several microns.",
+          "unit": "microns",
+          "value": "several"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Calculated gravimetric capacitance; measurement rate not explicitly linked.",
+          "unit": "F g\u22121",
+          "value": "105"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD peak position reported, but no numerical d-spacing.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Study describes synthesized pure and Ni-intercalated nanosheets as few-layer.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode fabrication section gives no mass loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "All Ni-MXene samples derive from shared Ti3C2Tx MXene synthesis.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance values are not explicitly tied to a CV scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method plus specified Ni addition.",
+          "unit": null,
+          "value": "HCl/LiF etching of Ti3AlC2; 1 wt% 40 nm Ni powder paste-mixed into MXene slurry"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity measurement or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only 10% Ni-MXene volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "1% Ni-MXene",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Electrochemical results report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ni loading is by weight; Ni occurs as NiO/Ni(OH)2 species.",
+          "unit": null,
+          "value": "10 wt% Ni-intercalated Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance value is reported without a linked GCD current density.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure S8 cross-sectional SEM.",
+          "unit": "nm",
+          "value": "750"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared supercapacitor fabrication method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Study describes synthesized pure and Ni-intercalated flakes as several microns.",
+          "unit": "microns",
+          "value": "several"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Calculated gravimetric capacitance; measurement rate not explicitly linked.",
+          "unit": "F g\u22121",
+          "value": "208"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "TEM phase profile of embedded MXene.",
+          "unit": "nm",
+          "value": "1.33"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Study describes synthesized pure and Ni-intercalated nanosheets as few-layer.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode fabrication section gives no mass loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "All Ni-MXene samples derive from shared Ti3C2Tx MXene synthesis.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Volumetric capacitance measurement condition.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Figure S7 comparison discussed in electrochemical analysis.",
+          "unit": "m2 g\u22121",
+          "value": "13.4"
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method plus specified Ni addition.",
+          "unit": null,
+          "value": "HCl/LiF etching of Ti3AlC2; 10 wt% 40 nm Ni powder paste-mixed into MXene slurry"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity measurement or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Reported at 10 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1540"
+        }
+      },
+      "is_primary": true,
+      "label": "10% Ni-MXene",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Electrochemical results report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ni loading is by weight.",
+          "unit": null,
+          "value": "15 wt% Ni-intercalated Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Specific capacitance in Figure S10 has no linked current density.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness only reported for 10% Ni-MXene.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared supercapacitor fabrication method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No flake-size value specifically reported for 15% Ni-MXene.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure S10 discussion; measurement condition not provided in text.",
+          "unit": "F g\u22121",
+          "value": "151"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing reported for 15% Ni-MXene.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer-count designation specifically reported for 15% Ni-MXene.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Electrode fabrication section gives no mass loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "All Ni-MXene samples derive from shared Ti3C2Tx MXene synthesis.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Specific capacitance in Figure S10 is not tied to a rate in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared synthesis method plus specified Ni addition.",
+          "unit": null,
+          "value": "HCl/LiF etching of Ti3AlC2; 15 wt% 40 nm Ni powder paste-mixed into MXene slurry"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity measurement or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for 15% Ni-MXene.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "15% Ni-MXene",
+      "role": "composite"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Mehdi et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/eem2.12876"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal article header.",
+      "unit": null,
+      "value": "2025"
+    }
+  },
+  "summary": "The paper compares five fabricated Ti3C2Tx electrodes: pristine Pure-MXene and Ni-intercalated MXene containing 0.5%, 1%, 10%, or 15 wt% Ni nanoparticles. Ti3C2Tx was produced by HCl/LiF etching of Ti3AlC2, and Ni was incorporated by paste mixing 40 nm Ni powder into the MXene slurry. The headline 10% Ni-MXene delivered 208 F g\u22121 gravimetric capacitance, 1540 F cm\u22123 at 10 mV s\u22121, and 26 Wh kg\u22121 at 1872 W kg\u22121; it also retained 83.7% after 10000 cycles. Gravimetric capacitances were reported as 294, 74, 105, 208, and 151 F g\u22121 for Pure-, 0.5%, 1%, 10%, and 15% Ni-MXene, respectively, but the text does not explicitly associate those values with scan rate or current density. Mass loading, pore parameters, and areal capacitances were not reported."
+}

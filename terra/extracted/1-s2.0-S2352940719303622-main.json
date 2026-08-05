@@ -1,0 +1,376 @@
+{
+  "source_file": "1-s2.0-S2352940719303622-main.pdf",
+  "source_path": "1-s2.0-S2352940719303622-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.07695,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS identifies =O, \u2013OH, and \u2013F terminations.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best gravimetric value was obtained by CV at 1 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Measured from cross-sectional SEM image (Fig. S5a).",
+          "unit": "\u03bcm",
+          "value": "about 12"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement conditions.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported; only thickness is given.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 1 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "278"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Annealed-film spacing decreased, but no individual value printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Parent suspension was described as high-grade monolayer flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported; suspension volume and nominal concentration only.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample label and synthesis section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Dense restacked layered film; no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported best CV-derived gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result in Fig. 4a.",
+          "unit": "m2 g\u22121",
+          "value": "8.2"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etched MXene; vacuum filtration, air drying, then Ar annealing.",
+          "unit": null,
+          "value": "LiF/HCl etching; vacuum filtration and air drying; annealed under Ar at 673 K"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCD-derived value at 1 A g\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1068"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx-film",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Rapid freezing had little effect on chemical composition.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best gravimetric value was obtained by CV at 1 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness after rapid freezing and freeze drying.",
+          "unit": "\u03bcm",
+          "value": "74"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement conditions.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported; only parent-flake thickness is given.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 1 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "378"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Reported approximate spacing after rapid freezing and annealing.",
+          "unit": "nm",
+          "value": "about 1.1"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Parent suspension was described as high-grade monolayer flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported; suspension volume and nominal concentration only.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample label and synthesis section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Regular wedge-shaped macropores from cross-sectional SEM.",
+          "unit": "\u03bcm",
+          "value": "approximately 1\u20132"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported best CV-derived gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result in Fig. 4a.",
+          "unit": "m2 g\u22121",
+          "value": "45.1"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etched MXene; vacuum filtration, liquid-nitrogen freezing, freeze drying, and Ar annealing.",
+          "unit": null,
+          "value": "LiF/HCl etching; vacuum filtration; liquid nitrogen rapid freezing; freeze drying; annealed under Ar at 673 K"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCD-derived value at 1 A g\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1355"
+        }
+      },
+      "is_primary": true,
+      "label": "3d-Ti3C2Tx-film",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Rapid freezing had little effect on chemical composition.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best gravimetric value was obtained by CV at 1 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Aerogel thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement conditions.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported; only parent-flake thickness is given.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 1 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "414"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Reported approximate spacing after rapid freezing and annealing.",
+          "unit": "nm",
+          "value": "about 1.1"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Parent suspension was described as high-grade monolayer flakes.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported; suspension volume and nominal concentration only.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Synthesis and characterization sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Larger than film pores, but no numerical diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Porosity percentage not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported best CV-derived gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET result in Fig. 4a.",
+          "unit": "m2 g\u22121",
+          "value": "177.6"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etched MXene; direct liquid-nitrogen freezing, freeze drying, and Ar annealing.",
+          "unit": null,
+          "value": "LiF/HCl etching; liquid nitrogen rapid freezing; freeze drying; annealed under Ar at 673 K"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCD-derived value at 1 A g\u22121.",
+          "unit": "F cm\u22123",
+          "value": "1293"
+        }
+      },
+      "is_primary": false,
+      "label": "aerogel",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper header.",
+      "unit": null,
+      "value": "Zhang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "First-page DOI link.",
+      "unit": null,
+      "value": "10.1016/j.apmt.2019.06.013"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header and copyright line.",
+      "unit": null,
+      "value": "2019"
+    }
+  },
+  "summary": "The study compares three self-supporting Ti3C2Tx electrodes prepared from LiF/HCl-etched MXene: a dense vacuum-filtered Ti3C2Tx-film control, a liquid-nitrogen-rapid-frozen 3d-Ti3C2Tx-film, and a directly frozen aerogel. All products were annealed under Ar at 673 K and evaluated in 3 M H2SO4 after pressing at 10 MPa. The aerogel showed the largest reported gravimetric capacitance, 414 F g\u22121 at 1 mV s\u22121, while the headline 3d-Ti3C2Tx-film provided the highest reported GCD volumetric capacitance, 1355 F cm\u22123 at 1 A g\u22121, and was used for the symmetric device. Mass loading, areal capacitance, quantitative porosity, tortuosity, and lateral flake dimensions were not reported."
+}

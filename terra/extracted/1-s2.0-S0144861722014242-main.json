@@ -1,0 +1,493 @@
+{
+  "source_file": "1-s2.0-S0144861722014242-main.pdf",
+  "source_path": "1-s2.0-S0144861722014242-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.10085,
+  "warnings": [
+    "'CNF/PANI' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Section 3.3, calculated experimental data at 1 mA cm\u22122.",
+          "unit": "mF cm\u22122",
+          "value": "630.2"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered MXene film used as blank control.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for reported areal capacitance.",
+          "unit": "mA cm\u22122",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness was not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM discussion gives no lateral flake dimension.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Section 3.3; mass specific capacitance at 1 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "221"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD spectra shown, but no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Raman discussion identifies exfoliated Ti3C2Tx.",
+          "unit": null,
+          "value": "exfoliated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene dispersion prepared from Ti3AlC2 precursor.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No numerical pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance reported from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl selective etching of Ti3AlC2; 35 \u00b0C, 72 h.",
+          "unit": null,
+          "value": "LiF/HCl (MILD) etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or impedance-model fit reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MXene",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Section 3.3, calculated experimental data at 1 mA cm\u22122.",
+          "unit": "mF cm\u22122",
+          "value": "967"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 2 and Section 3.3 identify the binary composite film.",
+          "unit": null,
+          "value": "Ti3C2Tx/CNF"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for reported areal capacitance.",
+          "unit": "mA cm\u22122",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness was not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported for this composite.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Section 3.3; mass specific capacitance at 1 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "122"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD spectra shown, but no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer count reported for this composite film.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component is identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No numerical pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance reported from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "MXene prepared by shared LiF/HCl route; CNF incorporated into film.",
+          "unit": null,
+          "value": "LiF/HCl (MILD) etching and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or impedance-model fit reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MXene/CNF",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Best reported GCD capacitance, Section 3.3.",
+          "unit": "mF cm\u22122",
+          "value": "2935"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Final film mass ratio reported as CNF:MXene:PANI = 1:4:4.",
+          "unit": null,
+          "value": "Ti3C2Tx/CNF/PANI (CNF:MXene:PANI = 1:4:4)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported areal capacitance condition.",
+          "unit": "mA cm\u22122",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Only assembled device thickness was reported, not film thickness.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM/SEM images provide no lateral flake dimension.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Section 3.3; mass specific capacitance at 1 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "356"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Intercalation described, but no numerical XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No numerical layer count reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component is identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Porous structure described, but no numerical pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance reported from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched MXene mixed with in-situ-polymerized CNF/PANI; vacuum filtration.",
+          "unit": null,
+          "value": "LiF/HCl (MILD) etching, in situ polymerization, and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or impedance-model fit reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "MXene/CNF/PANI",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Figure S13a is cited, but no numerical CNF/PANI capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "uncertain",
+          "note": "Text selects a CNF/PANI ratio of 1:4 but does not define ratio order.",
+          "unit": null,
+          "value": "CNF/PANI (1:4)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numerical capacitance condition printed for CNF/PANI film.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness was not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No flake-size measurement applies or was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported for CNF/PANI.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No MXene is present in this reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer count reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "This fabricated reference contains no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No numerical pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical capacitance from CV reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PANI polymerized on CNF in 1 M HCl using ammonium persulfate.",
+          "unit": null,
+          "value": "in situ polymerization"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or impedance-model fit reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "CNF/PANI",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Yuan et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.carbpol.2022.120519"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal volume and article header.",
+      "unit": null,
+      "value": "2023"
+    }
+  },
+  "summary": "This study prepared LiF/HCl-etched Ti3C2Tx MXene films and CNF- and PANI-containing composite films by vacuum filtration. The identifiable fabricated electrode materials are MXene, MXene/CNF, MXene/CNF/PANI, and the non-MXene CNF/PANI reference; the text also mentions unspecified ratio-screening samples in Supplementary Figure S13. MXene/CNF/PANI (CNF:MXene:PANI = 1:4:4) is the headline electrode and delivered 2935 mF cm\u22122 at 1 mA cm\u22122, plus 356 F g\u22121 at 1 A g\u22121. Numerical film thickness, mass loading, BET surface area, pore size, porosity, and XRD interlayer spacing were not reported for these electrodes."
+}

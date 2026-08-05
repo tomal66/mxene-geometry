@@ -1,0 +1,491 @@
+{
+  "source_file": "ssrn-5211970.pdf",
+  "source_path": "ssrn-5211970.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09327,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Shared MXene synthesis describes -OH, -O and -F terminations.",
+          "unit": null,
+          "value": "Ti3C2Tx (-OH, -O, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD capacitance at 1 A g-1.",
+          "unit": "A g-1",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode measurements used shared electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "TEM gives 2-3 \u03bcm average size for precursor nanosheets.",
+          "unit": "\u03bcm",
+          "value": "2-3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported GCD capacitance.",
+          "unit": "F g-1",
+          "value": "281"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "HRTEM (002) spacing.",
+          "unit": "nm",
+          "value": "1.48"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from delaminated 2D nanosheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Methods text contains an unclear loading/dimension expression.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample name and characterization.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best reported capacitance is from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation of Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "mild LiF/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Mn2+ ion-exchanged Ti3C2Tx film.",
+          "unit": null,
+          "value": "Mn-modified Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD capacitance at 1 A g-1.",
+          "unit": "A g-1",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode measurements used shared electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Uses the shared Ti3C2Tx nanosheet precursor.",
+          "unit": "\u03bcm",
+          "value": "2-3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported GCD capacitance.",
+          "unit": "F g-1",
+          "value": "298"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "HRTEM (002) spacing; XRD also reports 2.57 \u00c5.",
+          "unit": "nm",
+          "value": "1.35"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from delaminated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Methods text contains an unclear loading/dimension expression.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample name and characterization.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best reported capacitance is from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "KOH pretreatment followed by Mn2+ exchange and filtration.",
+          "unit": null,
+          "value": "mild LiF/HCl etching, KOH pretreatment, Mn2+ ion exchange"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx-Mn",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Annealed Mn-modified Ti3C2Tx film; Mn, Ti, C and O mapped.",
+          "unit": null,
+          "value": "annealed Mn-modified Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD capacitance at 1 A g-1.",
+          "unit": "A g-1",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode measurements used shared electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Uses the shared Ti3C2Tx nanosheet precursor.",
+          "unit": "\u03bcm",
+          "value": "2-3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported GCD capacitance.",
+          "unit": "F g-1",
+          "value": "401"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) value after annealing; TEM reports 1.16 nm.",
+          "unit": "\u00c5",
+          "value": "10.95"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Prepared from delaminated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Methods text contains an unclear loading/dimension expression.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample name and characterization.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best reported capacitance is from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "KOH pretreatment, Mn2+ exchange, then Ar annealing.",
+          "unit": null,
+          "value": "mild LiF/HCl etching, KOH pretreatment, Mn2+ ion exchange, annealing at 400 \u00b0C under Ar for 2 h"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "a-Ti3C2Tx-Mn",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Positive-electrode composite prepared by vacuum filtration.",
+          "unit": null,
+          "value": "RuO2/SWCNT"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD capacitance at 1 A g-1.",
+          "unit": "A g-1",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Positive-electrode CV and GCD were in this electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene flakes.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported positive-electrode GCD capacitance.",
+          "unit": "F g-1",
+          "value": "321.3"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not applicable; this is a non-MXene reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Only device mass-loading ratio of approximately 0.75 reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Non-MXene positive reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best reported capacitance is from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "RuO2 hydrothermal synthesis, annealing, SWCNT blending and filtration.",
+          "unit": null,
+          "value": "hydrothermal synthesis and annealing of RuO2; vacuum filtration with SWCNT"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "RuO2/SWCNT",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper title block.",
+      "unit": null,
+      "value": "Shi et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Preprint provides SSRN URL but no DOI.",
+      "unit": null,
+      "value": null
+    },
+    "year": {
+      "confidence": "uncertain",
+      "note": "No publication year is printed in supplied preprint text.",
+      "unit": null,
+      "value": null
+    }
+  },
+  "summary": "The study fabricated three Ti3C2Tx negative-electrode films: pristine Ti3C2Tx, Mn2+-exchanged Ti3C2Tx-Mn, and annealed Mn2+-exchanged a-Ti3C2Tx-Mn; it also fabricated a RuO2/SWCNT positive reference electrode for an asymmetric device. Ti3C2Tx was prepared by mild LiF/HCl etching, while the modified films additionally underwent KOH pretreatment and Mn2+ exchange; the headline film was annealed at 400 \u00b0C under Ar for 2 h. The primary a-Ti3C2Tx-Mn electrode delivered the best reported GCD capacitance, 401 F g-1 at 1 A g-1 in 1 M H2SO4. Film thickness, unambiguous mass loading, BET surface area, porosity, pore size, and volumetric/areal capacitance were not reported."
+}

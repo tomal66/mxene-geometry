@@ -1,0 +1,957 @@
+{
+  "source_file": "s41586-018-0109-z.pdf",
+  "source_path": "s41586-018-0109-z.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.14636,
+  "warnings": [
+    "'6 \u00b5m filtration' has no capacitance of any kind",
+    "'35 \u00b5m filtration' has no capacitance of any kind",
+    "'245 \u00b5m MXLLC' has no capacitance of any kind",
+    "'320 \u00b5m MXLLC' has no capacitance of any kind",
+    "'pure Ti3C2Tx vacuum-filtered paper' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 4c; exact numerical value not printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-filtration preparation section.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2013SWCNT (10 wt% SWCNT)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was reported from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Fig. 3a and Fig. 4a.",
+          "unit": "\u00b5m",
+          "value": "6"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method.",
+          "unit": null,
+          "value": "deaerated 3 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx nanosheet characterization.",
+          "unit": "nm",
+          "value": "219 \u00b1 47"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 4a plots values, but no exact numerical maximum is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing for the filtered electrode reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared synthesis yielded delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not printed for the 6-\u00b5m filtered film.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation and methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No exact capacitance value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched using LiF in 9 M HCl; film vacuum-filtered.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for this film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "6 \u00b5m filtration",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 4c; exact numerical value not printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-filtration preparation section.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2013SWCNT (10 wt% SWCNT)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was reported from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Fig. 3a, Fig. 3d, and Fig. 4a.",
+          "unit": "\u00b5m",
+          "value": "35"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method.",
+          "unit": null,
+          "value": "deaerated 3 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx nanosheet characterization.",
+          "unit": "nm",
+          "value": "219 \u00b1 47"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 4a plots values, but no exact numerical maximum is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing for the filtered electrode reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared synthesis yielded delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not printed for the 35-\u00b5m filtered film.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation and methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No exact capacitance value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched using LiF in 9 M HCl; film vacuum-filtered.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for this film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "35 \u00b5m filtration",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 4c; exact numerical value not printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXLLC preparation section; surfactant removed before final testing.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2013SWCNT (10 wt% SWCNT)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance reported by CV, not at a GCD current density.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Fig. 3a and Fig. 4a.",
+          "unit": "\u00b5m",
+          "value": "40"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method.",
+          "unit": null,
+          "value": "deaerated 3 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx nanosheet characterization.",
+          "unit": "nm",
+          "value": "219 \u00b1 47"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Text reports over 200 F g\u22121 below 2,000 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "over 200"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "5.8 nm SAXS spacing applies to wet MXLLC, not final electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared synthesis yielded delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not printed specifically for this film.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation and methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Text specifies retention at this scan rate.",
+          "unit": "mV s\u22121",
+          "value": "2,000"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched MXene assembled with C12E6, mechanically sheared, supercritically dried, and annealed.",
+          "unit": null,
+          "value": "LiF/HCl etching; C12E6-assisted lamellar liquid-crystal assembly and mechanical shear alignment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for this film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "40 \u00b5m MXLLC",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 4c; exact numerical value not printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXLLC preparation section; surfactant removed before final testing.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2013SWCNT (10 wt% SWCNT)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance reported by CV, not at a GCD current density.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Fig. 4a and Fig. 4c.",
+          "unit": "\u00b5m",
+          "value": "95"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method.",
+          "unit": null,
+          "value": "deaerated 3 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx nanosheet characterization.",
+          "unit": "nm",
+          "value": "219 \u00b1 47"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Text reports over 200 F g\u22121 below 2,000 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "over 200"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "5.8 nm SAXS spacing applies to wet MXLLC, not final electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared synthesis yielded delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not printed specifically for this film.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation and methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Text specifies retention at this scan rate.",
+          "unit": "mV s\u22121",
+          "value": "2,000"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched MXene assembled with C12E6, mechanically sheared, supercritically dried, and annealed.",
+          "unit": null,
+          "value": "LiF/HCl etching; C12E6-assisted lamellar liquid-crystal assembly and mechanical shear alignment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for this film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "95 \u00b5m MXLLC",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Text: maintained at scan rates up to 2,000 mV s\u22121.",
+          "unit": "F cm\u22122",
+          "value": "greater than 0.6"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXLLC preparation section; surfactant removed before final testing.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2013SWCNT (10 wt% SWCNT)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Areal capacitance reported by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Headline MXLLC thickness in abstract, figures, and text.",
+          "unit": "\u00b5m",
+          "value": "200"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method.",
+          "unit": null,
+          "value": "deaerated 3 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx nanosheet characterization.",
+          "unit": "nm",
+          "value": "219 \u00b1 47"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Text says over 200 F g\u22121 was retained at 2,000 mV s\u22121 for films up to 200 \u00b5m.",
+          "unit": "F g\u22121",
+          "value": "over 200"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "5.8 nm SAXS spacing applies to wet MXLLC, not final electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared synthesis yielded delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Figure 4d gives 2.80\u20136.16 mg cm\u22122 range, but cannot uniquely assign 200-\u00b5m film.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation and methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Text gives this condition for both stated capacitance metrics.",
+          "unit": "mV s\u22121",
+          "value": "2,000"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched MXene assembled with C12E6, mechanically sheared, supercritically dried, and annealed.",
+          "unit": null,
+          "value": "LiF/HCl etching; C12E6-assisted lamellar liquid-crystal assembly and mechanical shear alignment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for this film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "200 \u00b5m MXLLC",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 4c shows this sample, but no exact value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXLLC preparation section; surfactant removed before final testing.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2013SWCNT (10 wt% SWCNT)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance reported by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Fig. 4a and Fig. 4c.",
+          "unit": "\u00b5m",
+          "value": "245"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method.",
+          "unit": null,
+          "value": "deaerated 3 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx nanosheet characterization.",
+          "unit": "nm",
+          "value": "219 \u00b1 47"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only plotted in Fig. 4a; exact maximum not printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No final-film d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared synthesis yielded delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Figure 4d values cannot be uniquely assigned to this thickness.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation and methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No exact capacitance value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched MXene assembled with C12E6, mechanically sheared, supercritically dried, and annealed.",
+          "unit": null,
+          "value": "LiF/HCl etching; C12E6-assisted lamellar liquid-crystal assembly and mechanical shear alignment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for this film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "245 \u00b5m MXLLC",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Fig. 4c shows this sample, but no exact value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXLLC preparation section; surfactant removed before final testing.",
+          "unit": null,
+          "value": "Ti3C2Tx\u2013SWCNT (10 wt% SWCNT)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance reported by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Fig. 3c, Fig. 3d, and Fig. 4a.",
+          "unit": "\u00b5m",
+          "value": "320"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method.",
+          "unit": null,
+          "value": "deaerated 3 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx nanosheet characterization.",
+          "unit": "nm",
+          "value": "219 \u00b1 47"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only plotted in Fig. 4a; exact maximum not printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No final-film d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared synthesis yielded delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Figure 4d values cannot be uniquely assigned to this thickness.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation and methods.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No exact capacitance value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl-etched MXene assembled with C12E6, mechanically sheared, supercritically dried, and annealed.",
+          "unit": null,
+          "value": "LiF/HCl etching; C12E6-assisted lamellar liquid-crystal assembly and mechanical shear alignment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for this film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "320 \u00b5m MXLLC",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Extended Data Fig. 9 compares CV only; no exact capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Extended Data Fig. 9 identifies a pure Ti3C2Tx vacuum-filtered paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Only CV data are shown.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not specified for the pure-paper control.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method.",
+          "unit": null,
+          "value": "deaerated 3 M sulfuric acid (H2SO4)"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx nanosheet characterization.",
+          "unit": "nm",
+          "value": "219 \u00b1 47"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Extended Data Fig. 9 contains CV curves but no numerical capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing reported for this control.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared synthesis yielded delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported for the pure-paper control.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Extended Data Fig. 9.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical capacitance value reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx synthesis; filtered-paper control in Extended Data Fig. 9.",
+          "unit": null,
+          "value": "LiF/HCl etching followed by vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pure Ti3C2Tx vacuum-filtered paper",
+      "role": "control"
+    }
+  ],
+  "n_electrodes": 8,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper header.",
+      "unit": null,
+      "value": "Xia et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Provided DOI and publication record.",
+      "unit": null,
+      "value": "10.1038/s41586-018-0109-z"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Published online 16 May 2018.",
+      "unit": null,
+      "value": "2018"
+    }
+  },
+  "summary": "This study used LiF/HCl-etched, delaminated Ti3C2Tx flakes (average lateral size 219 \u00b1 47 nm) to prepare vacuum-filtered Ti3C2Tx\u2013SWCNT control papers and vertically aligned MXLLC films. The MXLLC films contained 10 wt% SWCNT spacers and were formed through C12E6-assisted lamellar liquid-crystal assembly, mechanical shear alignment, supercritical drying, and 550 \u00b0C annealing to remove surfactant. Eight distinct fabricated electrode specimens are identifiable from the reported architectures, thicknesses, and the pure-Ti3C2Tx control: two filtered Ti3C2Tx\u2013SWCNT papers, five MXLLC thicknesses, and one pure filtered Ti3C2Tx paper. The 200 \u00b5m MXLLC is the headline electrode, retaining over 200 F g\u22121 and an areal capacitance greater than 0.6 F cm\u22122 at 2,000 mV s\u22121 in 3 M H2SO4. BET area, porosity, pore size, final-film interlayer spacing, tortuosity, and most individual mass loadings were not reported."
+}

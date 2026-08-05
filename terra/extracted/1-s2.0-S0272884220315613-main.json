@@ -1,0 +1,261 @@
+{
+  "source_file": "1-s2.0-S0272884220315613-main.pdf",
+  "source_path": "1-s2.0-S0272884220315613-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.06228,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS comparison sample; surface -OH content reported.",
+          "unit": null,
+          "value": "Ti3C2Tx film"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was calculated from CV at scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for the undoped Ti3C2Tx film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Table 1, This work.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM describes nanosheets but gives no lateral dimension.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; CV measurement at 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "234"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD shown, but no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer count reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported as the same loading as N-doped film.",
+          "unit": "mg cm\u22122",
+          "value": "1.35"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' undoped control film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Table 1; condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental section 2.1.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by delamination and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx film",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS reports N content of 4.58 atomic %.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx film (N\u2013Ti3C2Tx); N 4.58 atomic %"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was calculated from CV at scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM, Fig. 1c.",
+          "unit": "\u03bcm",
+          "value": "approximately 5"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Abstract, methods, and Table 1.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM describes wrinkled nanosheets but gives no lateral dimension.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5c, Table 1, and conclusion; CV at 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "340"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD shown, but no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM describes orderly stacked layers.",
+          "unit": null,
+          "value": "orderly stacked layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported with the 340 F g\u22121 result.",
+          "unit": "mg cm\u22122",
+          "value": "1.35"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify this as N-doped Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for 340 F g\u22121 capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental section 2.1.",
+          "unit": null,
+          "value": "LiF/HCl selective etching of Ti3AlC2, followed by hydrazine-hydrate treatment at 75 \u00b0C for 15 h and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "N\u2013Ti3C2Tx film",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper header.",
+      "unit": null,
+      "value": "Tianze Zhang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Paper header.",
+      "unit": null,
+      "value": "10.1016/j.ceramint.2020.05.247"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation header.",
+      "unit": null,
+      "value": "2020"
+    }
+  },
+  "summary": "The study fabricated two freestanding Ti3C2Tx-film electrodes: an undoped Ti3C2Tx control and an N\u2013Ti3C2Tx film treated with hydrazine hydrate. Both originated from LiF/HCl-etched Ti3AlC2 and were tested in 1 M H2SO4 using a three-electrode cell. The primary N\u2013Ti3C2Tx film delivered the best reported capacitance, 340 F g\u22121 at 2 mV s\u22121 and 1.35 mg cm\u22122 loading, versus 234 F g\u22121 for the undoped film under the same stated conditions. The N-doped film was approximately 5 \u03bcm thick; numerical flake size, d-spacing, BET surface area, porosity, pore diameter, and volumetric/areal capacitance were not reported."
+}

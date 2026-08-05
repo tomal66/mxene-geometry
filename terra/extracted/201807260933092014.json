@@ -1,0 +1,493 @@
+{
+  "source_file": "201807260933092014.pdf",
+  "source_path": "201807260933092014.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09186,
+  "warnings": [
+    "'Ti3C2Tx film (1.0 \u00b1 0.1 \u00b5m)' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical value reported specifically for the 1 \u00b5m film.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Etched MXene terminations stated as H, O, and F.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = H, O, F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No capacitance measurement reported for this thickness.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 2e cross-sectional SEM.",
+          "unit": "\u00b5m",
+          "value": "1.0 \u00b1 0.1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state MSC fabrication method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared MXene platelet characterization.",
+          "unit": "\u00b5m",
+          "value": "several"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; paper reports areal and volumetric capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Shared HRTEM characterization of Ti3C2Tx flakes.",
+          "unit": "nm",
+          "value": "2.04"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared HRTEM image identifies two-layer flakes.",
+          "unit": null,
+          "value": "two-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported; thickness was controlled by colloidal-solution amount.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is identified as freestanding Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No electrode pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No capacitance measurement reported for this thickness.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation method for all Ti3C2Tx films.",
+          "unit": null,
+          "value": "LiF/HCl chemical etching followed by sonication, centrifugation, and vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical value reported specifically for the 1 \u00b5m film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx film (1.0 \u00b1 0.1 \u00b5m)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4f/text; condition not explicitly assigned in text.",
+          "unit": "mF cm\u22122",
+          "value": "73"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Etched MXene terminations stated as H, O, and F.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = H, O, F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Figure 4f varies current density; text does not assign 73 mF cm\u22122.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 2e and Figure 4 thickness series.",
+          "unit": "\u00b5m",
+          "value": "4.0 \u00b1 0.1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state MSC fabrication method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared MXene platelet characterization.",
+          "unit": "\u00b5m",
+          "value": "several"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; paper reports areal and volumetric capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Shared HRTEM characterization of Ti3C2Tx flakes.",
+          "unit": "nm",
+          "value": "2.04"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared HRTEM image identifies two-layer flakes.",
+          "unit": null,
+          "value": "two-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported; thickness was controlled by colloidal-solution amount.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is identified as freestanding Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No electrode pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation method for all Ti3C2Tx films.",
+          "unit": null,
+          "value": "LiF/HCl chemical etching followed by sonication, centrifugation, and vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4g/text; condition not explicitly assigned in text.",
+          "unit": "F cm\u22123",
+          "value": "183"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx film (4.0 \u00b1 0.1 \u00b5m)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "GCD result at 0.25 mA cm\u22122, based on two electrodes.",
+          "unit": "mF cm\u22122",
+          "value": "134"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Etched MXene terminations stated as H, O, and F.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = H, O, F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD condition for 134 mF cm\u22122.",
+          "unit": "mA cm\u22122",
+          "value": "0.25"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 4b\u2013d identifies these tested MSC electrodes.",
+          "unit": "\u00b5m",
+          "value": "11.0 \u00b1 0.1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state MSC fabrication method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared MXene platelet characterization.",
+          "unit": "\u00b5m",
+          "value": "several"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; paper reports areal and volumetric capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Shared HRTEM characterization of Ti3C2Tx flakes.",
+          "unit": "nm",
+          "value": "2.04"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared HRTEM image identifies two-layer flakes.",
+          "unit": null,
+          "value": "two-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported; thickness was controlled by colloidal-solution amount.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is identified as freestanding Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No electrode pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation method for all Ti3C2Tx films.",
+          "unit": null,
+          "value": "LiF/HCl chemical etching followed by sonication, centrifugation, and vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4g/text; condition not explicitly assigned in text.",
+          "unit": "F cm\u22123",
+          "value": "122"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx film (11.0 \u00b1 0.1 \u00b5m)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Best GCD result, based on two working electrodes.",
+          "unit": "mF cm\u22122",
+          "value": "340"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Etched MXene terminations stated as H, O, and F.",
+          "unit": null,
+          "value": "Ti3C2Tx (T = H, O, F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Abstract and introduction specify the best areal-capacitance condition.",
+          "unit": "mA cm\u22122",
+          "value": "0.25"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 2e and Figure 4 thickness series.",
+          "unit": "\u00b5m",
+          "value": "21.0 \u00b1 0.1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state MSC fabrication method.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared MXene platelet characterization.",
+          "unit": "\u00b5m",
+          "value": "several"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; paper reports areal and volumetric capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Shared HRTEM characterization of Ti3C2Tx flakes.",
+          "unit": "nm",
+          "value": "2.04"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared HRTEM image identifies two-layer flakes.",
+          "unit": null,
+          "value": "two-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported; thickness was controlled by colloidal-solution amount.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample is identified as freestanding Ti3C2Tx film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No electrode pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation method for all Ti3C2Tx films.",
+          "unit": null,
+          "value": "LiF/HCl chemical etching followed by sonication, centrifugation, and vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4g/text; condition not explicitly assigned in text.",
+          "unit": "F cm\u22123",
+          "value": "162"
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx film (21.0 \u00b1 0.1 \u00b5m)",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 4,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Huang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/aelm.201800179"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2018"
+    }
+  },
+  "summary": "The paper reports freestanding Ti3C2Tx films made by LiF/HCl etching of Ti3AlC2, followed by delamination and vacuum-assisted filtration. Four thickness-controlled films (1.0, 4.0, 11.0, and 21.0 \u00b5m) were fabricated; electrochemical thickness-series data are reported for the 4, 11, and 21 \u00b5m devices. The 21 \u00b5m Ti3C2Tx film is the headline electrode, delivering 340 mF cm\u22122 at 0.25 mA cm\u22122 based on two working electrodes. The highest reported volumetric capacitance, 183 F cm\u22123, belongs to the 4 \u00b5m film; mass loading, BET surface area, porosity, pore size, tortuosity, and gravimetric capacitance were not reported."
+}

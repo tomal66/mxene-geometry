@@ -1,0 +1,261 @@
+{
+  "source_file": "s40820-024-01567-2.pdf",
+  "source_path": "s40820-024-01567-2.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09158,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported; volumetric values are reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx terminations identified by XPS.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = -O, -OH, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "AFM line profile of interdigitated MXene electrode.",
+          "unit": "nm",
+          "value": "~50"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Best released-state capacitance at optimum acid concentration.",
+          "unit": null,
+          "value": "2 M PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM characterization of MXene nanosheets.",
+          "unit": "\u00b5m",
+          "value": "approximately 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Activated device; ex-situ XRD after charging/discharging.",
+          "unit": "\u00c5",
+          "value": "13.54"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "XRD identifies delaminated 2D MXene.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Used throughout fabrication and characterization.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Fig. 4 CV curves used for concentration-dependent capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Methods specify LiF/HCl MILD synthesis.",
+          "unit": null,
+          "value": "LiF/HCl MILD method"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Released state at 2 M H2SO4; Fig. 4a,b.",
+          "unit": "F cm\u22123",
+          "value": "1293.27"
+        }
+      },
+      "is_primary": true,
+      "label": "MXene-pseudocapacitor (Pseudocapacitive Sensor)",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx electrode; only PVA buffer layer omitted.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx = -O, -OH, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance reported from CV; no GCD current stated.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Same patterned MXene fabrication; buffer layer omitted.",
+          "unit": "nm",
+          "value": "~50"
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "Reported in the PVA/H2SO4 bending/releasing discussion; concentration not specified for Fig. S3.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same MXene batch used across fabricated FMSCs.",
+          "unit": "\u00b5m",
+          "value": "approximately 1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No spacing reported specifically for the no-buffer device.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Same delaminated Ti3C2Tx batch as buffered device.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx material; control omits buffer layer only.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Figure S3 scan rate is not stated in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Same LiF/HCl MILD Ti3C2Tx batch as buffered device.",
+          "unit": null,
+          "value": "LiF/HCl MILD method"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Initial state of no-buffer FMSC; Fig. S3.",
+          "unit": "F cm\u22123",
+          "value": "946.3"
+        }
+      },
+      "is_primary": false,
+      "label": "flexible MXene MSCs without a buffer layer",
+      "role": "control"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Eunji Kim et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1007/s40820-024-01567-2"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Published online 9 December 2024; journal issue 2025.",
+      "unit": null,
+      "value": "2025"
+    }
+  },
+  "summary": "The study fabricated LiF/HCl-MILD-derived Ti3C2Tx interdigitated flexible microsupercapacitors on PI, using PVA/H2SO4 gel for pseudocapacitive sensing. Two distinct electrode architectures are reported: the buffered MXene FMSC/Pseudocapacitive Sensor and a no-PVA-buffer control device. The primary sensor achieved its best reported volumetric capacitance of 1293.27 F cm\u22123 in the released state using 2 M PVA/H2SO4 at 10 mV s\u22121. The no-buffer control reached an initial 946.3 F cm\u22123, but its electrolyte concentration and CV scan rate are not specified in the supplied main text."
+}

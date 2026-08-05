@@ -1,0 +1,1071 @@
+{
+  "source_file": "1-s2.0-S2405829723005251-main.pdf",
+  "source_path": "1-s2.0-S2405829723005251-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.16481,
+  "warnings": [
+    "'AMX-8D-500' has no capacitance of any kind",
+    "'AMX-8D-200' has no capacitance of any kind",
+    "'AMX-8D-100' has no capacitance of any kind",
+    "'AMX-12D-200' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Reported only as an approximate study-wide maximum.",
+          "unit": "F cm\u22122",
+          "value": "~1.4"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AMX network after ZnO-template removal.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance reported from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Compression thickness encoded in sample label.",
+          "unit": "\u00b5m",
+          "value": "200"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte in methods.",
+          "unit": null,
+          "value": "0.5 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Only described study-wide as micrometer-sized.",
+          "unit": null,
+          "value": "micrometer-sized"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Text reports around 280 F g\u22121 at 100 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "~280"
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Etched AMX XRD gives this study-wide spacing.",
+          "unit": "\u00c5",
+          "value": "5.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene ink was collected as delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 3b loading for AMX-4D-200.",
+          "unit": "mg cm\u22122",
+          "value": "2.1"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the active material as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-diameter distribution reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported for this compressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "100"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; repeated template infiltration and ZnO removal.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sacrificial t-ZnO-template assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "AMX-4D-200",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AMX network after ZnO-template removal.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance at a specified GCD current reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Compression thickness encoded in sample label.",
+          "unit": "\u00b5m",
+          "value": "2000"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte in methods.",
+          "unit": null,
+          "value": "0.5 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Only described study-wide as micrometer-sized.",
+          "unit": null,
+          "value": "micrometer-sized"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Etched AMX XRD gives this study-wide spacing.",
+          "unit": "\u00c5",
+          "value": "5.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene ink was collected as delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same 8D structure prior to compression; Fig. 3b gives 8D loading.",
+          "unit": "mg cm\u22122",
+          "value": "3.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the active material as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-diameter distribution reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Reported as initial framework porosity.",
+          "unit": "%",
+          "value": "~99.8"
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of reported volumetric capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; sacrificial t-ZnO-template assembly.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sacrificial t-ZnO-template assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Approximate value reported as example of initial high porosity.",
+          "unit": "F cm\u22123",
+          "value": "~5"
+        }
+      },
+      "is_primary": false,
+      "label": "AMX-8D-2000",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AMX network after ZnO-template removal.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance values were reported versus scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Compression thickness encoded in sample label.",
+          "unit": "\u00b5m",
+          "value": "500"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte in methods.",
+          "unit": null,
+          "value": "0.5 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Only described study-wide as micrometer-sized.",
+          "unit": null,
+          "value": "micrometer-sized"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Etched AMX XRD gives this study-wide spacing.",
+          "unit": "\u00c5",
+          "value": "5.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene ink was collected as delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same 8D framework as AMX-8D-200 before compression.",
+          "unit": "mg cm\u22122",
+          "value": "3.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the active material as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-diameter distribution reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported for this compressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single best numerical capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; sacrificial t-ZnO-template assembly.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sacrificial t-ZnO-template assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "AMX-8D-500",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AMX network after ZnO-template removal.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance at a specified GCD current reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Compression thickness encoded in sample label.",
+          "unit": "\u00b5m",
+          "value": "200"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte in methods.",
+          "unit": null,
+          "value": "0.5 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Only described study-wide as micrometer-sized.",
+          "unit": null,
+          "value": "micrometer-sized"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure discusses rate behavior but prints no exact capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Etched AMX XRD gives this study-wide spacing.",
+          "unit": "\u00c5",
+          "value": "5.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene ink was collected as delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 3b loading for AMX-8D-200.",
+          "unit": "mg cm\u22122",
+          "value": "3.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the active material as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-diameter distribution reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported for this compressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single best numerical capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; sacrificial t-ZnO-template assembly.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sacrificial t-ZnO-template assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "AMX-8D-200",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AMX network after ZnO-template removal.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance values were reported versus scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Compression thickness encoded in sample label.",
+          "unit": "\u00b5m",
+          "value": "100"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte in methods.",
+          "unit": null,
+          "value": "0.5 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Only described study-wide as micrometer-sized.",
+          "unit": null,
+          "value": "micrometer-sized"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No exact capacitance value printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Etched AMX XRD gives this study-wide spacing.",
+          "unit": "\u00c5",
+          "value": "5.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene ink was collected as delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same 8D framework as AMX-8D-200 before compression.",
+          "unit": "mg cm\u22122",
+          "value": "3.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the active material as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-diameter distribution reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported for this compressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single best numerical capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; sacrificial t-ZnO-template assembly.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sacrificial t-ZnO-template assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No exact numerical value printed for this sample.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "AMX-8D-100",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No individual areal capacitance reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AMX network after ZnO-template removal.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Symmetric-device capacitance was measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Compression thickness encoded in sample label.",
+          "unit": "\u00b5m",
+          "value": "50"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Used in the symmetric device and three-electrode testing.",
+          "unit": null,
+          "value": "0.5 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Only described study-wide as micrometer-sized.",
+          "unit": null,
+          "value": "micrometer-sized"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Symmetric device; based on combined mass of both AMX-8D-50 electrodes.",
+          "unit": "F g\u22121",
+          "value": "100"
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Etched AMX XRD gives this study-wide spacing.",
+          "unit": "\u00c5",
+          "value": "5.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene ink was collected as delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Same 8D framework as AMX-8D-200 before compression.",
+          "unit": "mg cm\u22122",
+          "value": "3.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the active material as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-diameter distribution reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported for this compressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of symmetric-device gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; sacrificial t-ZnO-template assembly.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sacrificial t-ZnO-template assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest printed volumetric value for this sample.",
+          "unit": "F cm\u22123",
+          "value": "180"
+        }
+      },
+      "is_primary": false,
+      "label": "AMX-8D-50",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AMX network after ZnO-template removal.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance at a specified GCD current reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Compression thickness encoded in sample label.",
+          "unit": "\u00b5m",
+          "value": "200"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte in methods.",
+          "unit": null,
+          "value": "0.5 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Only described study-wide as micrometer-sized.",
+          "unit": null,
+          "value": "micrometer-sized"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No exact numerical value printed for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Etched AMX XRD gives this study-wide spacing.",
+          "unit": "\u00c5",
+          "value": "5.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene ink was collected as delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 3b loading for AMX-12D-200.",
+          "unit": "mg cm\u22122",
+          "value": "4.4"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the active material as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-diameter distribution reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported for this compressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single best numerical capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; sacrificial t-ZnO-template assembly.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sacrificial t-ZnO-template assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "AMX-12D-200",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AMX network after ZnO-template removal.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition of reported long-term specific capacitance.",
+          "unit": "A g\u22121",
+          "value": "20"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Compression thickness encoded in sample label.",
+          "unit": "\u00b5m",
+          "value": "200"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte in methods.",
+          "unit": null,
+          "value": "0.5 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Only described study-wide as micrometer-sized.",
+          "unit": null,
+          "value": "micrometer-sized"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Beginning of long-term cycling measurement.",
+          "unit": "F g\u22121",
+          "value": "261"
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Etched AMX XRD gives this study-wide spacing.",
+          "unit": "\u00c5",
+          "value": "5.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene ink was collected as delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 3b loading for AMX-16D-200.",
+          "unit": "mg cm\u22122",
+          "value": "5.8"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the active material as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-diameter distribution reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported for this compressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance obtained by GCD rather than CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; sacrificial t-ZnO-template assembly.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sacrificial t-ZnO-template assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value printed for this specific sample.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "AMX-16D-200",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Study maximum at 200 mV s\u22121; text does not explicitly name sample.",
+          "unit": "F cm\u22122",
+          "value": "~1.4"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AMX network after ZnO-template removal.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Areal capacitance was reported from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Compression thickness encoded in sample label.",
+          "unit": "\u00b5m",
+          "value": "200"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte in methods.",
+          "unit": null,
+          "value": "0.5 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Only described study-wide as micrometer-sized.",
+          "unit": null,
+          "value": "micrometer-sized"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "The abstract reports 240 F g\u22121 at 200 mV s\u22121 without sample assignment.",
+          "unit": "F g\u22121",
+          "value": "240"
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Etched AMX XRD gives this study-wide spacing.",
+          "unit": "\u00c5",
+          "value": "5.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene ink was collected as delaminated flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 3b loading for AMX-20D-200.",
+          "unit": "mg cm\u22122",
+          "value": "7.2"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the active material as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No quantitative pore-diameter distribution reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported for this compressed sample.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of headline areal capacitance.",
+          "unit": "mV s\u22121",
+          "value": "200"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl MILD MXene; sacrificial t-ZnO-template assembly.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sacrificial t-ZnO-template assembly"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Abstract reports 140 F cm\u22123 at 200 mV s\u22121 without sample assignment.",
+          "unit": "F cm\u22123",
+          "value": "140"
+        }
+      },
+      "is_primary": true,
+      "label": "AMX-20D-200",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 9,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Spurling et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.ensm.2023.103148"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Energy Storage Materials 65 (2024).",
+      "unit": null,
+      "value": "2024"
+    }
+  },
+  "summary": "The paper fabricated nine distinct Ti3C2Tx AMX electrode materials by varying the number of MXene infiltration/deposition cycles (4D\u201320D) and/or compressing the AMX-8D framework from 2000 to 50 \u00b5m. All used LiF/HCl MILD-derived, delaminated Ti3C2Tx assembled on sacrificial tetrapodal ZnO templates and tested in 0.5 M H2SO4. AMX-20D-200 is the most plausible headline high-areal-loading electrode, with 7.2 mg cm\u22122 loading and the study\u2019s ~1.4 F cm\u22122 at 200 mV s\u22121; however, the text does not explicitly assign that headline value to a label. AMX-16D-200 explicitly delivered 261 F g\u22121 at 20 A g\u22121, while AMX-8D-50 reached 180 F cm\u22123 at 50 mV s\u22121 and was used in the symmetric device. BET area, pore-size distributions, tortuosity, and per-sample porosity were generally not reported."
+}

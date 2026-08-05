@@ -1,0 +1,32 @@
+{
+  "source_file": "inorganics-12-00112-v2.pdf",
+  "source_path": "inorganics-12-00112-v2.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.12117,
+  "warnings": [
+    "no electrodes extracted at all"
+  ],
+  "electrodes": [],
+  "n_electrodes": 0,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Citation block.",
+      "unit": null,
+      "value": "Sun et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Citation block.",
+      "unit": null,
+      "value": "10.3390/inorganics12040112"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Published 12 April 2024.",
+      "unit": null,
+      "value": "2024"
+    }
+  },
+  "summary": "This paper is a review article and explicitly states that no new data were created or analyzed. It summarizes MXene synthesis routes and supercapacitor electrodes reported in prior publications, including Ti3C2Tx papers, numerous composites, and tabulated literature devices. None of these electrodes were fabricated or electrochemically characterized by Sun, Ye, Zhang, and Zheng in this paper; therefore, they must not be entered as electrodes for this study. Consequently, no primary electrode can be assigned."
+}

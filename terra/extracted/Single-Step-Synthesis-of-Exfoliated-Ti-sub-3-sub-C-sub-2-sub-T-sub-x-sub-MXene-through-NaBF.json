@@ -1,0 +1,836 @@
+{
+  "source_file": "Single-Step-Synthesis-of-Exfoliated-Ti-sub-3-sub-C-sub-2-sub-T-sub-x-sub-MXene-through-NaBF.pdf",
+  "source_path": "Single-Step-Synthesis-of-Exfoliated-Ti-sub-3-sub-C-sub-2-sub-T-sub-x-sub-MXene-through-NaBF.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11122,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS identifies O, OH, and F terminations.",
+          "unit": null,
+          "value": "Ti3C2Tx (-O, -OH, -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD maximum capacitance condition.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode electrochemical analysis.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Three-electrode cell; \u22120.85 to \u22120.25 V vs. Hg/Hg2SO4.",
+          "unit": "F g\u22121",
+          "value": "262"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing.",
+          "unit": "\u00c5",
+          "value": "12.26"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "TEM shows few-layer nanosheet-like morphology; SEM shows stacked multilayers.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No mass loading reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample identified as Ti3C2Tx MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "NaBF4/HCl etching at 130 \u00b0C; HF formed in situ.",
+          "unit": null,
+          "value": "NaBF4/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "MX-130",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same NaBF4/HCl-derived MXene system as study samples.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Comparison GCD profiles were collected at this current density.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte for temperature-series comparison.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Temperature-series GCD comparison.",
+          "unit": "F g\u22121",
+          "value": "200"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD peaks reported to overlap broadly with MX-130; no spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "SEM indicates partly exfoliated sheets.",
+          "unit": null,
+          "value": "partly exfoliated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No mass loading reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Identified as MXene phase in XRD discussion.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "NaBF4/HCl treatment at 100 \u00b0C.",
+          "unit": null,
+          "value": "NaBF4/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MX-100",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same NaBF4/HCl-derived MXene system as study samples.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Comparison GCD profiles were collected at this current density.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte for temperature-series comparison.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Temperature-series GCD comparison.",
+          "unit": "F g\u22121",
+          "value": "145"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Exfoliated morphology less prominent than MX-100/MX-130.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No mass loading reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "uncertain",
+          "note": "XRD resembles precursor at lower temperature; authors discuss incomplete etching.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "NaBF4/HCl treatment at 80 \u00b0C.",
+          "unit": null,
+          "value": "NaBF4/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MX-80",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same NaBF4/HCl-derived MXene system as study samples.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Comparison GCD profiles were collected at this current density.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte for temperature-series comparison.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Temperature-series GCD comparison.",
+          "unit": "F g\u22121",
+          "value": "75"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Exfoliated morphology becomes less prominent at reduced temperature.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No mass loading reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "uncertain",
+          "note": "XRD resembles precursor at lower temperature; authors discuss incomplete etching.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "NaBF4/HCl treatment at 60 \u00b0C.",
+          "unit": null,
+          "value": "NaBF4/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MX-60",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "derived",
+          "note": "Same NaBF4/HCl-derived MXene system as study samples.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Comparison GCD profiles were collected at this current density.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode electrolyte for temperature-series comparison.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Temperature-series GCD comparison.",
+          "unit": "F g\u22121",
+          "value": "37"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Exfoliated morphology becomes less prominent at reduced temperature.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No mass loading reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "uncertain",
+          "note": "MX-25 is named in electrochemical comparison but physical data are not supplied.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "NaBF4/HCl treatment at 25 \u00b0C.",
+          "unit": null,
+          "value": "NaBF4/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MX-25",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors identify O, OH, and F terminations.",
+          "unit": null,
+          "value": "Ti3C2Tx (-O, -OH, -F)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Maximum capacitance reported, but its GCD current density is not printed in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Electrochemical comparison uses the study's acidic electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Maximum value reported for HF-treated comparison sample.",
+          "unit": "F g\u22121",
+          "value": "25"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing value reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "FESEM shows stacked multilayer structure.",
+          "unit": null,
+          "value": "multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No mass loading reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "XRD/XPS discussion identifies Ti3C2Tx phase.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Aqueous HF treatment at room temperature.",
+          "unit": null,
+          "value": "HF etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MX-HF",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Commercial RuO2 used as ASC positive-electrode material.",
+          "unit": null,
+          "value": "RuO2"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Specific capacitance is reported, but its current density is not printed in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode characterization used to balance the ASC in study electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not applicable; no particle size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Three-electrode characterization over \u22120.25 to 0.45 V vs. Hg/Hg2SO4.",
+          "unit": "F g\u22121",
+          "value": "488"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported for RuO2.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported for RuO2.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Only ASC active-material loading ratio of 1:2.17 is reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "RuO2 is a non-MXene positive-electrode reference.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Commercial RuO2 was selected; no synthesis described.",
+          "unit": null,
+          "value": "commercial RuO2"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "RuO2",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 7,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author line.",
+      "unit": null,
+      "value": "Meena Ghosh et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/slct.202201166"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Article header and copyright line.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "The study compares six Ti3C2Tx-based electrodes: five NaBF4/HCl-etched temperature variants (MX-25, MX-60, MX-80, MX-100, and MX-130) and an HF-etched control (MX-HF). MX-130, prepared by NaBF4/HCl etching at 130 \u00b0C, is the headline and best-performing material, delivering 262 F g\u22121 at 1 A g\u22121 in 1 M H2SO4 in a three-electrode cell. The authors also fabricated a commercial RuO2 positive electrode for asymmetric-device balancing; it delivered 488 F g\u22121, though the associated current density is not stated in the supplied text. No electrode mass loadings, thicknesses, BET surface areas, porosities, or areal/volumetric capacitances are reported in the supplied paper text."
+}

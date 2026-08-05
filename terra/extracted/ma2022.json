@@ -1,0 +1,1299 @@
+{
+  "source_file": "ma2022.pdf",
+  "source_path": "ma2022.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.18554,
+  "warnings": [
+    "n_electrodes=10 but array has 11",
+    "'rGO/PANI' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine freestanding film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Study reports composite-film range only.",
+          "unit": "\u03bcm",
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Few-layer flakes stated; no lateral size.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5a; CV-derived.",
+          "unit": "F g\u22121",
+          "value": "287.9"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 4c.",
+          "unit": "nm",
+          "value": "1.36"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Prepared from few-layer MXene suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Mass loading varied; no fixed value supplied.",
+          "unit": "mg cm\u22122",
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Methods and throughout paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl etching followed by delamination and vacuum filtration.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD-type), delamination, vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pristine MXene",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PMMA-template-sacrificed MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "No individual thickness reported.",
+          "unit": "\u03bcm",
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No sample-specific lateral size.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5a; CV-derived.",
+          "unit": "F g\u22121",
+          "value": "323.4"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared few-layer MXene suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx precursor suspension.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PMMA nanosphere template-sacrificing; 400 \u00b0C Ar anneal.",
+          "unit": null,
+          "value": "PMMA template-sacrificing, 400 \u00b0C Ar annealing"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "P-MXene",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "KOH-treated and calcined MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5a; CV-derived.",
+          "unit": "F g\u22121",
+          "value": "408.7"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 4c.",
+          "unit": "nm",
+          "value": "1.38"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared few-layer MXene suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx precursor suspension.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "KOH soaking for 2 h; 400 \u00b0C Ar annealing.",
+          "unit": null,
+          "value": "KOH alkali treatment, 400 \u00b0C Ar annealing"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MXene-A",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PMMA-template-sacrificed, KOH-treated MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5a; CV-derived.",
+          "unit": "F g\u22121",
+          "value": "401.2"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared few-layer MXene suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx precursor suspension.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PMMA template, KOH treatment, 400 \u00b0C Ar annealing.",
+          "unit": null,
+          "value": "PMMA template-sacrificing + KOH alkali treatment + 400 \u00b0C Ar annealing"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "P-MXene-A",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Carbonized quinone-amine polymer composite without alkali treatment.",
+          "unit": null,
+          "value": "Ti3C2Tx/carbonized PAQ"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5a; CV-derived.",
+          "unit": "F g\u22121",
+          "value": "453.8"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared few-layer MXene suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx precursor suspension.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "In-situ PAQ growth/carbonization with PMMA treatment; no alkali treatment.",
+          "unit": null,
+          "value": "PMMA template-sacrificing + in-situ PAQ carbonization at 400 \u00b0C"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "P-MXene/CPAQ",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Quinone-amine polymer carbonized on template-treated, alkali-treated MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx/carbonized PAQ"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Highest reported capacitance is CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Composite electrode film thickness range in methods.",
+          "unit": "\u03bcm",
+          "value": "3 to 6"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 3b/Figure 5; CV-derived.",
+          "unit": "F g\u22121",
+          "value": "532.9"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 4c.",
+          "unit": "nm",
+          "value": "1.70"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared few-layer MXene suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Mass loading was varied; no value for this sample.",
+          "unit": "mg cm\u22122",
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx precursor suspension.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Hierarchical nanopores described but no diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "In-situ PAQ growth, PMMA template, KOH treatment, 400 \u00b0C Ar carbonization.",
+          "unit": null,
+          "value": "PMMA template-sacrificing + in-situ PAQ carbonization + KOH alkali treatment, 400 \u00b0C Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "P-MXene/CPAQ-A",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Carbonized resorcinol/formaldehyde resin composite.",
+          "unit": null,
+          "value": "Ti3C2Tx/carbonized Resin"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Composite electrode film thickness range in methods.",
+          "unit": "\u03bcm",
+          "value": "3 to 6"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 3b; CV-derived.",
+          "unit": "F g\u22121",
+          "value": "416.7"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 4c.",
+          "unit": "nm",
+          "value": "1.43"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared few-layer MXene suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx precursor suspension.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Nanostructure described; no diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "In-situ resin formation, PMMA template, KOH treatment, 400 \u00b0C Ar carbonization.",
+          "unit": null,
+          "value": "PMMA template-sacrificing + in-situ Resin carbonization + KOH alkali treatment, 400 \u00b0C Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "P-MXene/CResin-A",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Carbonized polyvinylpyrrolidone composite.",
+          "unit": null,
+          "value": "Ti3C2Tx/carbonized PVP"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Composite electrode film thickness range in methods.",
+          "unit": "\u03bcm",
+          "value": "3 to 6"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 3b; CV-derived.",
+          "unit": "F g\u22121",
+          "value": "465.1"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 4c.",
+          "unit": "nm",
+          "value": "1.58"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared few-layer MXene suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx precursor suspension.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "PVP stabilization at 280 \u00b0C, then PMMA/KOH treatment and 400 \u00b0C Ar carbonization.",
+          "unit": null,
+          "value": "PMMA template-sacrificing + in-situ PVP carbonization + KOH alkali treatment"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "P-MXene/CPVP-A",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Carbonized polythiophene composite.",
+          "unit": null,
+          "value": "Ti3C2Tx/carbonized PTh"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was CV-derived.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Composite electrode film thickness range in methods.",
+          "unit": "\u03bcm",
+          "value": "3 to 6"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 3b; CV-derived.",
+          "unit": "F g\u22121",
+          "value": "474.6"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 4c.",
+          "unit": "nm",
+          "value": "1.40"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared few-layer MXene suspension.",
+          "unit": null,
+          "value": "few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx precursor suspension.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Nanoporous structures described; no diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not quantified.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "In-situ PTh formation, PMMA template, KOH treatment, 400 \u00b0C Ar carbonization.",
+          "unit": null,
+          "value": "PMMA template-sacrificing + in-situ PTh carbonization + KOH alkali treatment, 400 \u00b0C Ar"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "P-MXene/CPTh-A",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Standalone carbonized quinone-amine polymer control.",
+          "unit": null,
+          "value": "carbonized PAQ"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance source is Figure S9; measurement condition not provided here.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "Electrolyte for Figure S9 control not explicitly stated in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not applicable.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Reported in discussion; measurement condition not specified.",
+          "unit": "F g\u22121",
+          "value": "22.7"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not applicable.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not applicable.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "This is a non-MXene control.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Not specified with Figure S9 value.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Carbonized PAQ control.",
+          "unit": null,
+          "value": "PAQ carbonization"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "carbonized PAQ electrode",
+      "role": "reference"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No device-electrode areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Positive electrode in the asymmetric device.",
+          "unit": null,
+          "value": "rGO/PANI"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No standalone best capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Used in the assembled asymmetric supercapacitor.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Standalone value is not printed in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not applicable.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "This is a non-MXene reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No standalone best capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Commercial rGO with in-situ PANI polymerization, rolling and drying.",
+          "unit": null,
+          "value": "in-situ PANI polymerization on rGO; rolled freestanding film"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "rGO/PANI",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 10,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Ma et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1021/acsnano.2c03351"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "The study uses few-layer Ti3C2Tx made by LiF/HCl etching and delamination, then compares pristine MXene, PMMA-template-sacrificed MXene, KOH-treated MXene, and combinations of these treatments. Four self-supporting composite electrodes containing carbonized in-situ-grown PAQ, resin, PVP, or PTh were compared in 3 M H2SO4. P-MXene/CPAQ-A was the headline and best electrode, reaching 532.9 F g\u22121 at 5 mV s\u22121, with 97.1% retention after 40,000 cycles at 20 A g\u22121. No BET surface area, pore-size distribution, porosity, mass loading, individual film thicknesses, or volumetric/areal capacitances were reported for the individual electrodes."
+}

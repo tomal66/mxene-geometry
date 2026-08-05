@@ -1,0 +1,610 @@
+{
+  "source_file": "Small - 2023 - Xu - Boron Quantum Dots Pillared Ti3C2Tx Membrane Electrode with High Rate Performance for Supercapacitor.pdf",
+  "source_path": "Small - 2023 - Xu - Boron Quantum Dots Pillared Ti3C2Tx Membrane Electrode with High Rate Performance for Supercapacitor.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.10521,
+  "warnings": [
+    "'pure Ti3C2Tx membrane electrode' has no capacitance of any kind",
+    "'BQDs(5)-Ti3C2Tx' has no capacitance of any kind",
+    "'BQDs(15)-Ti3C2Tx' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported for the BQDs screen-printed electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Prepared from bulk boron powder.",
+          "unit": null,
+          "value": "Boron quantum dots (BQDs)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD condition for 41 F g\u22121.",
+          "unit": "A g\u22121",
+          "value": "0.25"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported for the BQDs screen-printed electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "BQDs three-electrode electrolyte is not identified in the provided text.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM lateral size.",
+          "unit": "nm",
+          "value": "3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Calculated from the GCD curve.",
+          "unit": "F g\u22121",
+          "value": "41"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not applicable to quantum-dot electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "AFM thickness corresponds to approximately three borophene layers.",
+          "unit": null,
+          "value": "\u22483 layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Screen-printed electrode loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Non-MXene reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Sonication-assisted liquid-phase preparation in NMP/NBA.",
+          "unit": null,
+          "value": "sonication-assisted liquid-phase preparation"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "BQDs electrode",
+      "role": "reference"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pure membrane assembled from exfoliated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "Ti3C2Tx nanosheets"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Numerical pure-membrane capacitance is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported for pure Ti3C2Tx membrane.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Figure 6 comparison was conducted in 6 M H2SO4.",
+          "unit": null,
+          "value": "6 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "\u22485"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Only 47% capacity retention is printed; no numerical capacitance value.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "TMA+-intercalated Ti3C2Tx NS basal spacing.",
+          "unit": "nm",
+          "value": "1.49"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "The NSs are described as individual delaminated primary nanosheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Membrane mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the membrane as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best numerical capacitance is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation: 40% HF etching followed by TMAOH exfoliation.",
+          "unit": null,
+          "value": "HF etching (40%, 72 h) followed by TMAOH exfoliation"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pure Ti3C2Tx membrane electrode",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "BQDs content is the mass ratio to Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "BQDs/Ti3C2Tx nanosheets (5 wt.% BQDs)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Numerical capacitance for this composition is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "BQDs(x) comparison was conducted in 6 M H2SO4.",
+          "unit": null,
+          "value": "6 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "\u22485"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Capacitance trend is plotted, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No composition-specific d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constructed from delaminated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Membrane mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the MXene component as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best numerical capacitance is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared vacuum-filtration fabrication under N2 protection.",
+          "unit": null,
+          "value": "HF etching/TMAOH exfoliation, BQD pillaring, vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "BQDs(5)-Ti3C2Tx",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "FSC using this membrane gives 552 mF cm\u22122 at 1.25 mA cm\u22122.",
+          "unit": "mF cm\u22122",
+          "value": "552"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "BQDs content is the mass ratio to Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "BQDs/Ti3C2Tx nanosheets (10 wt.% BQDs)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD condition for the best gravimetric capacitance.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Specified for membrane pieces used to assemble the FSC.",
+          "unit": "\u03bcm",
+          "value": "about 6"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode membrane measurement.",
+          "unit": null,
+          "value": "6 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "\u22485"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCD in 6 M H2SO4.",
+          "unit": "F g\u22121",
+          "value": "524"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No BQDs(10)-specific d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constructed from delaminated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Membrane mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the MXene component as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best gravimetric capacitance was obtained from GCD.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "10 wt.% BQDs mixed with Ti3C2Tx NSs and vacuum-filtered under N2.",
+          "unit": null,
+          "value": "HF etching/TMAOH exfoliation, BQD pillaring, vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrode volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "BQDs(10)-Ti3C2Tx",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "BQDs content is the mass ratio to Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "BQDs/Ti3C2Tx nanosheets (15 wt.% BQDs)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Numerical capacitance for this composition is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "BQDs(x) comparison was conducted in 6 M H2SO4.",
+          "unit": null,
+          "value": "6 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "\u22485"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Capacitance trend is plotted, but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No composition-specific d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constructed from delaminated Ti3C2Tx nanosheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Membrane mass loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the MXene component as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best numerical capacitance is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared vacuum-filtration fabrication under N2 protection.",
+          "unit": null,
+          "value": "HF etching/TMAOH exfoliation, BQD pillaring, vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "BQDs(15)-Ti3C2Tx",
+      "role": "composite"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Xu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Printed in article header.",
+      "unit": null,
+      "value": "10.1002/smll.202306562"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header identifies Small 2024.",
+      "unit": null,
+      "value": "2024"
+    }
+  },
+  "summary": "The study prepared Ti3C2Tx nanosheets by 40% HF etching of Ti3AlC2 followed by TMAOH exfoliation, then vacuum-filtered membranes with boron quantum-dot (BQD) pillars. Five fabricated electrode materials are explicitly distinguishable: a BQDs reference electrode, pure Ti3C2Tx membrane, and BQDs(5)-, BQDs(10)-, and BQDs(15)-Ti3C2Tx membranes. BQDs(10)-Ti3C2Tx is the headline and best performer, delivering 524 F g\u22121 at 1 A g\u22121 in 6 M H2SO4; its symmetric PVA/H2SO4 flexible device reports 552 mF cm\u22122 at 1.25 mA cm\u22122. Numerical capacitances for pure Ti3C2Tx and the 5 wt.% and 15 wt.% BQD composites are not printed in the supplied text, despite their plotted comparisons."
+}

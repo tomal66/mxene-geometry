@@ -1,0 +1,721 @@
+{
+  "source_file": "wang2019.pdf",
+  "source_path": "wang2019.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.10979,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "CV at 2 mV/s.",
+          "unit": "mF/cm2",
+          "value": "506"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pure MXene film.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for the pure Ti3C2Tx film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Sheet-size range was shown for Ti3C2Tx/PDA-10.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Corresponding CV capacitance at 2 mV/s.",
+          "unit": "F/g",
+          "value": "218"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing.",
+          "unit": "\u00c5",
+          "value": "24.4"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as delaminated Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported in composite-film preparation section.",
+          "unit": "mg/cm2",
+          "value": "2.31"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of best reported capacitance.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx suspension prepared as previously reported; film vacuum-filtered.",
+          "unit": null,
+          "value": "Previously reported Ti3C2Tx suspension preparation and vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported for this film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx film",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "CV at 2 mV/s.",
+          "unit": "mF/cm2",
+          "value": "517"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "DA is 2% of total film mass.",
+          "unit": null,
+          "value": "Ti3C2Tx/PDA, 2% DA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for Ti3C2Tx/PDA-2.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No sample-specific flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Corresponding CV capacitance at 2 mV/s.",
+          "unit": "F/g",
+          "value": "220"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing.",
+          "unit": "\u00c5",
+          "value": "28.9"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared delaminated Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported in composite-film preparation section.",
+          "unit": "mg/cm2",
+          "value": "2.35"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of best reported capacitance.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "One-step in situ dopamine oxidation polymerization and vacuum filtration.",
+          "unit": null,
+          "value": "One-step in situ oxidation polymerization of dopamine"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/PDA-2",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "CV at 2 mV/s.",
+          "unit": "mF/cm2",
+          "value": "614"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "DA is 5% of total film mass.",
+          "unit": null,
+          "value": "Ti3C2Tx/PDA, 5% DA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported for Ti3C2Tx/PDA-5.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No sample-specific flake size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Corresponding CV capacitance at 2 mV/s.",
+          "unit": "F/g",
+          "value": "238"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing.",
+          "unit": "\u00c5",
+          "value": "31.1"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared delaminated Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported in composite-film preparation section.",
+          "unit": "mg/cm2",
+          "value": "2.58"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of best reported capacitance.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "One-step in situ dopamine oxidation polymerization and vacuum filtration.",
+          "unit": null,
+          "value": "One-step in situ oxidation polymerization of dopamine"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/PDA-5",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "CV at 2 mV/s; this loading is also reported as 2.8 mg/cm2 in Fig. 7.",
+          "unit": "mF/cm2",
+          "value": "715"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "DA is 10% of total film mass.",
+          "unit": null,
+          "value": "Ti3C2Tx/PDA, 10% DA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM measurement.",
+          "unit": "\u03bcm",
+          "value": "12.6"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Reported for Ti3C2Tx/PDA-10 testing.",
+          "unit": null,
+          "value": "1 M H2SO4 electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM sheet lateral-size range.",
+          "unit": "nm to \u03bcm",
+          "value": "200 nm to 2 \u03bcm"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Corresponding CV capacitance at 2 mV/s.",
+          "unit": "F/g",
+          "value": "260"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing.",
+          "unit": "\u00c5",
+          "value": "35.5"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared delaminated Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Preparation section; Fig. 7 rounds this to 2.8 mg/cm2.",
+          "unit": "mg/cm2",
+          "value": "2.75"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of best reported capacitance.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "One-step in situ dopamine oxidation polymerization and vacuum filtration.",
+          "unit": null,
+          "value": "One-step in situ oxidation polymerization of dopamine"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/PDA-10 (2.8 mg/cm2)",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "CV at 2 mV/s.",
+          "unit": "mF/cm2",
+          "value": "1496"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Same 10%-DA composite, measured at a distinct loading.",
+          "unit": null,
+          "value": "Ti3C2Tx/PDA, 10% DA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Thickness not reported for this loading.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx/PDA-10 material; sheet size reported for that composite.",
+          "unit": "nm to \u03bcm",
+          "value": "200 nm to 2 \u03bcm"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No gravimetric capacitance reported for this loading.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx/PDA-10 composition.",
+          "unit": "\u00c5",
+          "value": "35.5"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared delaminated Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 7 loading series.",
+          "unit": "mg/cm2",
+          "value": "7.3"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of best reported capacitance.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx/PDA-10 composite preparation.",
+          "unit": null,
+          "value": "One-step in situ oxidation polymerization of dopamine"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx/PDA-10 (7.3 mg/cm2)",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "CV at 2 mV/s.",
+          "unit": "mF/cm2",
+          "value": "3440"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Same 10%-DA composite, measured at a distinct loading.",
+          "unit": null,
+          "value": "Ti3C2Tx/PDA, 10% DA"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Thickness not reported for this loading.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing protocol.",
+          "unit": null,
+          "value": "1 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx/PDA-10 material; sheet size reported for that composite.",
+          "unit": "nm to \u03bcm",
+          "value": "200 nm to 2 \u03bcm"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No gravimetric capacitance reported for this loading.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx/PDA-10 composition.",
+          "unit": "\u00c5",
+          "value": "35.5"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Made from the shared delaminated Ti3C2Tx suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Fig. 7 loading series.",
+          "unit": "mg/cm2",
+          "value": "13.6"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors' MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of best reported capacitance.",
+          "unit": "mV/s",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Same Ti3C2Tx/PDA-10 composite preparation.",
+          "unit": null,
+          "value": "One-step in situ oxidation polymerization of dopamine"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx/PDA-10 (13.6 mg/cm2)",
+      "role": "composite"
+    }
+  ],
+  "n_electrodes": 6,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Wang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.jallcom.2018.11.172"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal volume and publication information.",
+      "unit": null,
+      "value": "2019"
+    }
+  },
+  "summary": "The study compares a vacuum-filtered Ti3C2Tx control film with three in-situ dopamine-polymerized Ti3C2Tx/PDA films containing 2%, 5%, or 10% DA. The Ti3C2Tx/PDA-10 composition was additionally tested as a mass-loading series (2.8, 7.3, and 13.6 mg/cm2), treated here as distinct fabricated electrodes because loading was deliberately varied. The headline 13.6 mg/cm2 Ti3C2Tx/PDA-10 electrode delivered 3440 mF/cm2 at 2 mV/s in 1 M H2SO4. BET surface area, pore diameter, porosity, tortuosity, and thicknesses for most films were not reported."
+}

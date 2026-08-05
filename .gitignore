@@ -32,11 +32,11 @@ Thumbs.db
 
 # Extractor outputs — one folder per model (see output_dir() in
 # mxene_extractor_multi.ipynb). Regenerable; extracted/*.json is a paid cache.
-sol/
-terra/
-luna/
-extracted/
-V2/
+# sol/
+# terra/
+# luna/
+# extracted/
+# V2/
 
 # Downstream model artifacts
 xgb_notebook_outputs/

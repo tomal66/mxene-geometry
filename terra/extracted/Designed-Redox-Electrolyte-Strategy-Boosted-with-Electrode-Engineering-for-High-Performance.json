@@ -1,0 +1,379 @@
+{
+  "source_file": "Designed-Redox-Electrolyte-Strategy-Boosted-with-Electrode-Engineering-for-High-Performance.pdf",
+  "source_path": "Designed-Redox-Electrolyte-Strategy-Boosted-with-Electrode-Engineering-for-High-Performance.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09482,
+  "warnings": [
+    "'rGO/RuO2' has only 2/18 fields \u2014 may be a spurious entry",
+    "'rGO/RuO2' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Described as pristine MXene electrode.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was obtained by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No film thickness reported in provided paper text.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Condition of best reported capacitance.",
+          "unit": null,
+          "value": "3 m H2SO4 + 50 mm CuSO4 + 70 mm VOSO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV at 2 mV s\u22121; redox-electrolyte condition.",
+          "unit": "F g\u22121",
+          "value": "421.5"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) result; TEM value was also reported as 0.9 nm.",
+          "unit": "nm",
+          "value": "1.13"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as MXene nanosheets/layered electrode; count absent.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported in provided text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Formula used throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No average pore diameter reported for pristine MXene.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for reported best capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA of pristine MXene.",
+          "unit": "m2 g\u22121",
+          "value": "15.9"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MXene synthesis/etchant details are not included in provided text.",
+          "unit": null,
+          "value": null
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pristine MXene electrode",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene layers coated with carbonized quinone-amine polymer.",
+          "unit": null,
+          "value": "Ti3C2Tx/carbonized quinone-amine polymer (CPAQ)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was obtained by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No film thickness reported in provided paper text.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Condition of headline capacitance.",
+          "unit": null,
+          "value": "3 m H2SO4 + 50 mm CuSO4 + 70 mm VOSO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Headline CV capacitance at 2 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "788.4"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) value; TEM value was also reported as 1.41 nm.",
+          "unit": "nm",
+          "value": "1.44"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as 2D MXene layers; numerical layer count absent.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported in provided text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Formula used throughout the paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Pore-size range \u22482\u201350 nm reported; no average diameter.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for headline capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET SSA of MXene/CPAQ film.",
+          "unit": "m2 g\u22121",
+          "value": "79.6"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Carbonized in situ grown PAQ, KOH treated, and PMMA-template sacrificed; all require calcination.",
+          "unit": null,
+          "value": "in situ PAQ growth/carbonization + KOH alkali treatment + PMMA template sacrificing"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "MXene/CPAQ",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported for rGO/RuO2.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Used as the ASC positive electrode.",
+          "unit": null,
+          "value": "rGO/RuO2"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No standalone rGO/RuO2 capacitance/current condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No rGO/RuO2 film thickness reported in provided text.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared ASC aqueous redox-electrolyte condition.",
+          "unit": null,
+          "value": "3 m H2SO4 + 50 mm CuSO4 + 70 mm VOSO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral particle or flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No standalone gravimetric capacitance reported for rGO/RuO2.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported for rGO/RuO2.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer count reported for rGO/RuO2.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No rGO/RuO2 mass loading reported in provided text.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "This is a non-MXene positive reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported for rGO/RuO2.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported for rGO/RuO2.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No standalone capacitance scan-rate condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET SSA reported for rGO/RuO2.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Detailed rGO/RuO2 preparation is referred to Supporting Information, not provided.",
+          "unit": null,
+          "value": null
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for rGO/RuO2.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "rGO/RuO2",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Ma et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "DOI printed in article header.",
+      "unit": null,
+      "value": "10.1002/aenm.202301219"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header and publication information.",
+      "unit": null,
+      "value": "2023"
+    }
+  },
+  "summary": "This study compares a pristine Ti3C2Tx control, an electrode-engineered MXene/CPAQ film, and a fabricated rGO/RuO2 positive reference electrode used in asymmetric devices. MXene/CPAQ was prepared by integrating in situ PAQ carbonization, KOH treatment, and PMMA-template sacrificing, producing increased surface =O sites, larger spacing, and higher SSA. The headline MXene/CPAQ electrode achieved 788.4 F g\u22121 at 2 mV s\u22121 in 3 m H2SO4 + 50 mm CuSO4 + 70 mm VOSO4. No electrode thicknesses, mass loadings, flake sizes, pore averages, or volumetric/areal capacitances were reported in the supplied text."
+}

@@ -1,0 +1,610 @@
+{
+  "source_file": "smll.201804732.pdf",
+  "source_path": "smll.201804732.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11244,
+  "warnings": [
+    "'M1P9' has no capacitance of any kind",
+    "'M3P7' has no capacitance of any kind",
+    "'M5P5' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Neat wet-spun control fiber.",
+          "unit": null,
+          "value": "PEDOT:PSS"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No fiber thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not applicable; this control contains no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical gravimetric capacitance stated.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only PEDOT crystal spacing, not MXene interlayer spacing, was reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Not applicable; no MXene.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best reported volumetric capacitance condition.",
+          "unit": "mV s-1",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared wet-spinning protocol.",
+          "unit": null,
+          "value": "Wet-spinning in 98 wt. % H2SO4 coagulation bath"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure S7c; measured at 5 mV s-1.",
+          "unit": "F cm-3",
+          "value": "74.6"
+        }
+      },
+      "is_primary": false,
+      "label": "PEDOT:PSS fiber",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M and P denote MXene and PEDOT:PSS mass ratio.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene/PEDOT:PSS, 1:9 mass ratio"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance/current-density pair stated.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No fiber thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared characterization of delaminated MXene.",
+          "unit": "\u00b5m",
+          "value": "~1.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical value for M1P9 stated.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No M1P9 MXene interlayer spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene dispersion described as highly delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene specified in hybrid formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical M1P9 capacitance stated.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx MILD synthesis and wet-spinning protocol.",
+          "unit": null,
+          "value": "LiF/HCl MILD etching followed by wet-spinning in 98 wt. % H2SO4"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure S7c compares loading series, but no numerical M1P9 value stated.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M1P9",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M and P denote MXene and PEDOT:PSS mass ratio.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene/PEDOT:PSS, 3:7 mass ratio"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance/current-density pair stated.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No fiber thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared characterization of delaminated MXene.",
+          "unit": "\u00b5m",
+          "value": "~1.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical M3P7 gravimetric capacitance stated.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No M3P7 MXene interlayer spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene dispersion described as highly delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene specified in hybrid formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical M3P7 capacitance stated.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx MILD synthesis and wet-spinning protocol.",
+          "unit": null,
+          "value": "LiF/HCl MILD etching followed by wet-spinning in 98 wt. % H2SO4"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical M3P7 capacitance stated.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M3P7",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M and P denote MXene and PEDOT:PSS mass ratio.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene/PEDOT:PSS, 5:5 mass ratio"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No capacitance/current-density pair stated.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No fiber thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared characterization of delaminated MXene.",
+          "unit": "\u00b5m",
+          "value": "~1.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical M5P5 gravimetric capacitance stated.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "(002) scattering peak reported for M5P5 and M7P3.",
+          "unit": "\u00c5",
+          "value": "~39.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene dispersion described as highly delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene specified in hybrid formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical M5P5 capacitance stated.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx MILD synthesis and wet-spinning protocol.",
+          "unit": null,
+          "value": "LiF/HCl MILD etching followed by wet-spinning in 98 wt. % H2SO4"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical M5P5 capacitance stated.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M5P5",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "M and P denote MXene and PEDOT:PSS mass ratio.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene/PEDOT:PSS, 7:3 mass ratio (~70 wt. % MXene)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No fiber thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared characterization of delaminated MXene.",
+          "unit": "\u00b5m",
+          "value": "~1.3"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 3d plots it, but no numerical value is printed in text.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "SAXS/WAXS (002) lamellar distance.",
+          "unit": "\u00c5",
+          "value": "~39.3"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene dispersion described as highly delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene specified in hybrid formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Highest three-electrode volumetric capacitance condition.",
+          "unit": "mV s-1",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx MILD synthesis and wet-spinning protocol.",
+          "unit": null,
+          "value": "LiF/HCl MILD etching followed by wet-spinning in 98 wt. % H2SO4"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Three-electrode test; 614.5 F cm-3 at 5 mV s-1.",
+          "unit": "F cm-3",
+          "value": "614.5"
+        }
+      },
+      "is_primary": true,
+      "label": "M7P3",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Author list in manuscript header.",
+      "unit": null,
+      "value": "Jizhen Zhang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Accepted-manuscript citation notice.",
+      "unit": null,
+      "value": "10.1002/smll.201804732"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal download header shows 2019, volume 8.",
+      "unit": null,
+      "value": "2019"
+    }
+  },
+  "summary": "The study wet-spun Ti3C2Tx MXene/PEDOT:PSS hybrid fibers from LiF/HCl MILD-delaminated MXene using a 98 wt. % H2SO4 coagulation bath. Five explicitly reported fiber electrodes were identified: the neat PEDOT:PSS control and M1P9, M3P7, M5P5, and M7P3 hybrid compositions. M7P3, containing approximately 70 wt. % MXene, was the headline electrode and delivered 614.5 F cm-3 at 5 mV s-1 in 1 M H2SO4 using a three-electrode setup. The manuscript does not state electrode mass loading, thickness, BET area, porosity, pore size, tortuosity, or numerical gravimetric capacitances for these individual fibers."
+}

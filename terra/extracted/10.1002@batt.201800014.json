@@ -1,0 +1,726 @@
+{
+  "source_file": "10.1002@batt.201800014.pdf",
+  "source_path": "10.1002@batt.201800014.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09967,
+  "warnings": [
+    "'d-Ti3C2Tx' has no capacitance of any kind",
+    "'rGO : Ti3C2Tx (50 : 50)' has no capacitance of any kind",
+    "'rGO : Ti3C2Tx (20 : 80)' has no capacitance of any kind",
+    "'rGO : Ti3C2Tx (10 : 90)' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Freestanding pristine MXene film.",
+          "unit": null,
+          "value": "d-Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1.",
+          "unit": "mm",
+          "value": "10.0"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5 compares it, but no numeric value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) result.",
+          "unit": "\u00c5",
+          "value": "12.5"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Collected supernatant contained single- to few-layer flakes.",
+          "unit": null,
+          "value": "single- to few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Films were cut to equal area and weight; loading absent.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Named throughout paper.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No printed best-capacitance value for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area measured for this film.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "LiF/HCl etching of Ti3AlC2 at 35 \u00b0C for 24 h, followed by bath-sonication delamination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "d-Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Experimental Section mass proportion.",
+          "unit": null,
+          "value": "NH2-rGO:Ti3C2Tx (50:50)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No thickness reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numeric capacitance reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Text says all heterostructures were 13.6 \u00c5; 50:50 not individually identified.",
+          "unit": "\u00c5",
+          "value": "13.6"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No calculated layer ratio reported for 50:50.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component identified in sample name.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numeric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area measured for this film.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "Shear mixing of NH2-rGO and d-Ti3C2Tx at 20000 rpm for 10 min, followed by vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "rGO : Ti3C2Tx (50 : 50)",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 3 and Experimental Section.",
+          "unit": null,
+          "value": "NH2-rGO:Ti3C2Tx (20:80)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1, 20 wt.% rGO.",
+          "unit": "mm",
+          "value": "10.0"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5 plots this sample, but no numeric value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "All heterostructure compositions.",
+          "unit": "\u00c5",
+          "value": "13.6"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Calculated from theoretical flake specific surface areas.",
+          "unit": null,
+          "value": "more rGO flakes than Ti3C2Tx flakes"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component identified in sample name.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numeric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area measured for this film.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "Shear mixing of NH2-rGO and d-Ti3C2Tx at 20000 rpm for 10 min, followed by vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "rGO : Ti3C2Tx (20 : 80)",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 3 and Experimental Section.",
+          "unit": null,
+          "value": "NH2-rGO:Ti3C2Tx (10:90)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1, 10 wt.% rGO.",
+          "unit": "mm",
+          "value": "9.9"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5 plots this sample, but no numeric value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "All heterostructure compositions.",
+          "unit": "\u00c5",
+          "value": "13.6"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Calculated from theoretical flake specific surface areas.",
+          "unit": null,
+          "value": "approximately 1 layer of rGO for every 1\u20132 layers of Ti3C2Tx"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component identified in sample name.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numeric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area measured for this film.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "Shear mixing of NH2-rGO and d-Ti3C2Tx at 20000 rpm for 10 min, followed by vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "rGO : Ti3C2Tx (10 : 90)",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 3 and Experimental Section.",
+          "unit": null,
+          "value": "NH2-rGO:Ti3C2Tx (5:95)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1, 5 wt.% rGO.",
+          "unit": "mm",
+          "value": "10.2"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 5b and Results discussion.",
+          "unit": "F g\u22121",
+          "value": "254"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "All heterostructure compositions.",
+          "unit": "\u00c5",
+          "value": "13.6"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Calculated from theoretical flake specific surface areas.",
+          "unit": null,
+          "value": "3\u20134 layers of Ti3C2Tx between each layer of rGO"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component identified in sample name.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported maximum gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area measured for this film.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "Shear mixing of NH2-rGO and d-Ti3C2Tx at 20000 rpm for 10 min, followed by vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "rGO : Ti3C2Tx (5 : 95)",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Figure 3 and Experimental Section.",
+          "unit": null,
+          "value": "NH2-rGO:Ti3C2Tx (1:99)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Table 1, 1 wt.% rGO.",
+          "unit": "mm",
+          "value": "9.8"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing method.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Results discussion; highest printed value.",
+          "unit": "F g\u22121",
+          "value": "256"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "All heterostructure compositions.",
+          "unit": "\u00c5",
+          "value": "13.6"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Calculated from theoretical flake specific surface areas.",
+          "unit": null,
+          "value": "approximately 1 layer of rGO for every 18\u201319 layers of Ti3C2Tx"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component identified in sample name.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported maximum gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area measured for this film.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section.",
+          "unit": null,
+          "value": "Shear mixing of NH2-rGO and d-Ti3C2Tx at 20000 rpm for 10 min, followed by vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "rGO : Ti3C2Tx (1 : 99)",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 6,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Navarro-Su\u00e1rez et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/batt.201800014"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2018"
+    }
+  },
+  "summary": "This paper fabricated delaminated Ti3C2Tx films and five NH2-rGO:Ti3C2Tx heterostructure compositions (50:50, 20:80, 10:90, 5:95, and 1:99). Ti3C2Tx was produced by LiF/HCl etching and sonication delamination; composites were formed by shear mixing aminated rGO with d-Ti3C2Tx and vacuum filtration. The headline rGO : Ti3C2Tx (1 : 99) electrode achieved 256 F g\u22121 at 2 mV s\u22121 and retained 193 F g\u22121 at 100 mV s\u22121. Numeric capacitance values for pristine d-Ti3C2Tx and the 50:50, 20:80, and 10:90 composites were shown graphically but not printed; mass loading, BET area, pore properties, and volumetric/areal capacitances were not reported."
+}

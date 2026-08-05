@@ -1,0 +1,376 @@
+{
+  "source_file": "d5ta06789h.pdf",
+  "source_path": "d5ta06789h.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.08925,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; electrochemical results give gravimetric capacitance only.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine electrode fabrication section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD maximum capacitance condition, Fig. 5h.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported in fabrication or characterization sections.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM show flakes but provide no lateral dimensions.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best reported value from GCD, Fig. 5h.",
+          "unit": "F g\u22121",
+          "value": "234.5"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Reported pristine MXene spacing before AFAO modification.",
+          "unit": "\u00c5",
+          "value": "13.7"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Delaminated supernatant contained single- or few-layered flakes.",
+          "unit": null,
+          "value": "single- or few-layered"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared flexible-electrode fabrication protocol.",
+          "unit": "mg cm\u22122",
+          "value": "1"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Reported throughout manuscript.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best GCD capacitance was not measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "MXene preparation section.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD), followed by delamination and DMSO solvent exchange"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; only gravimetric capacitance provided.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pristine MXene electrode",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; electrochemical results give gravimetric capacitance only.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PVDF-to-MXene mass ratio stated in electrode fabrication.",
+          "unit": null,
+          "value": "PVDF-MXene (PVDF:Ti3C2Tx = 1:10 mass ratio)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD maximum capacitance condition, Fig. 5h.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported in fabrication or characterization sections.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake-size value assigned to this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best reported value from GCD, Fig. 5h.",
+          "unit": "F g\u22121",
+          "value": "146.9"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Described as nearly unchanged versus exfoliated MXene; no numeric value given.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Uses the shared delaminated MXene flake precursor.",
+          "unit": null,
+          "value": "single- or few-layered"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared flexible-electrode fabrication protocol.",
+          "unit": "mg cm\u22122",
+          "value": "1"
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "PVDF electrode prepared using the shared Ti3C2Tx precursor.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best GCD capacitance was not measured by CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Uses shared Ti3C2Tx precursor produced by LiF/HCl etching.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD), delamination, DMSO dispersion, and PVDF mixing"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; only gravimetric capacitance provided.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "PVDF-MXene electrode",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; electrochemical results give gravimetric capacitance only.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "AFAO-to-MXene mass ratio stated in modification procedure.",
+          "unit": null,
+          "value": "AFAO-MXene (AFAO:Ti3C2Tx = 1:10 mass ratio)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD result at 1 A g\u22121 is reported separately.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM is shown, but no thickness value reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM confirm morphology but provide no lateral dimensions.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported value, from CV at 5 mV s\u22121, Fig. 5h.",
+          "unit": "F g\u22121",
+          "value": "219.1"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing after AFAO modification.",
+          "unit": "\u00c5",
+          "value": "16.0"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM indicates retained monolayer morphology.",
+          "unit": null,
+          "value": "monolayer"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared flexible-electrode fabrication protocol.",
+          "unit": "mg cm\u22122",
+          "value": "1"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Reported as the AFAO-modified MXene system.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV condition for the highest reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Preparation sections 3.2 and 3.3.",
+          "unit": null,
+          "value": "LiF/HCl etching (MILD), delamination, DMSO solvent exchange, and AFAO alkoxysilane surface modification"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; only gravimetric capacitance provided.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "AFAO-MXene electrode",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper header.",
+      "unit": null,
+      "value": "Duong et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Paper header and data-availability section.",
+      "unit": null,
+      "value": "10.1039/d5ta06789h"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation header.",
+      "unit": null,
+      "value": "2026"
+    }
+  },
+  "summary": "The study compares three Ti3C2Tx flexible PET-supported electrodes: pristine MXene, PVDF-MXene containing PVDF at a 1:10 PVDF:MXene mass ratio, and AFAO-MXene with an AFAO:MXene mass ratio of 1:10. All used Ti3C2Tx made by LiF/HCl etching, delamination, and DMSO processing; the AFAO sample additionally underwent alkoxysilane surface modification. The headline AFAO-MXene electrode achieved the highest reported capacitance, 219.1 F g\u22121 at 5 mV s\u22121 in 1 M H2SO4; its GCD capacitance was 208.3 F g\u22121 at 1 A g\u22121, while the conclusion instead reports 211.2 F g\u22121 at that current density. Electrode thickness, flake lateral size, BET surface area, porosity, pore diameter, tortuosity, and volumetric/areal capacitance were not reported."
+}

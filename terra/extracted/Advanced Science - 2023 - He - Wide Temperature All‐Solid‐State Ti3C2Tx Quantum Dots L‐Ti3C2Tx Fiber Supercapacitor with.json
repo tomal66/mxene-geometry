@@ -1,0 +1,955 @@
+{
+  "source_file": "Advanced Science - 2023 - He - Wide Temperature All\u2010Solid\u2010State Ti3C2Tx Quantum Dots L\u2010Ti3C2Tx Fiber Supercapacitor with.pdf",
+  "source_path": "Advanced Science - 2023 - He - Wide Temperature All\u2010Solid\u2010State Ti3C2Tx Quantum Dots L\u2010Ti3C2Tx Fiber Supercapacitor with.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.16098,
+  "warnings": [
+    "'Q1M9 fiber' has no capacitance of any kind",
+    "'Q2M8 fiber' has no capacitance of any kind",
+    "'Q4M6 fiber' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pure large-sheet MXene fiber.",
+          "unit": null,
+          "value": "L-Ti3C2Tx NSs"
+        },
+        "current_density": {
+          "confidence": "derived",
+          "note": "Figure 4b GCD condition applies to all QxM10-x fibers.",
+          "unit": "A cm\u22123",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Series electrochemical tests were conducted in this electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared L-Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "7.6\u20139.5"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only volumetric capacitance was reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD shown but no d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "L-Ti3C2Tx was mechanically delaminated into nanosheets.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation and synthesis section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation route for the QxM10-x fiber series.",
+          "unit": null,
+          "value": "Natural-sedimentation size selection, LiF/HCl etching, mechanical delamination, wet spinning in 5 wt.% chitosan"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4b GCD result.",
+          "unit": "F cm\u22123",
+          "value": "1158"
+        }
+      },
+      "is_primary": false,
+      "label": "pure L-Ti3C2Tx fiber",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "QxM10-x nomenclature denotes QD:NS mass ratio.",
+          "unit": null,
+          "value": "Ti3C2Tx QDs/L-Ti3C2Tx NSs (1:9)"
+        },
+        "current_density": {
+          "confidence": "derived",
+          "note": "Figure 4b GCD condition applies to all QxM10-x fibers.",
+          "unit": "A cm\u22123",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Series electrochemical tests were conducted in this electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared L-Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "7.6\u20139.5"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only volumetric capacitance discussion is provided.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD shown but no d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "L-Ti3C2Tx component was mechanically delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Both components are identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance values are from GCD curves.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation route for QxM10-x fibers.",
+          "unit": null,
+          "value": "LiF/HCl etching, mechanical delamination, Ti3C2Tx-QD ultrasonication, wet spinning in 5 wt.% chitosan"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure shows result but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Q1M9 fiber",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "QxM10-x nomenclature denotes QD:NS mass ratio.",
+          "unit": null,
+          "value": "Ti3C2Tx QDs/L-Ti3C2Tx NSs (2:8)"
+        },
+        "current_density": {
+          "confidence": "derived",
+          "note": "Figure 4b GCD condition applies to all QxM10-x fibers.",
+          "unit": "A cm\u22123",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Series electrochemical tests were conducted in this electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared L-Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "7.6\u20139.5"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only volumetric capacitance discussion is provided.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD shown but no d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "L-Ti3C2Tx component was mechanically delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Both components are identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance values are from GCD curves.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation route for QxM10-x fibers.",
+          "unit": null,
+          "value": "LiF/HCl etching, mechanical delamination, Ti3C2Tx-QD ultrasonication, wet spinning in 5 wt.% chitosan"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure shows result but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Q2M8 fiber",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Q3M7 designation identifies the QD:NS ratio.",
+          "unit": null,
+          "value": "Ti3C2Tx QDs/L-Ti3C2Tx NSs (3:7)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Reported electrode GCD condition.",
+          "unit": "A cm\u22123",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Reported with the Q3M7 electrode capacitance.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared L-Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "7.6\u20139.5"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only volumetric capacitance was reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD shown but no d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "L-Ti3C2Tx component was mechanically delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Both QDs and nanosheets are Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental section.",
+          "unit": null,
+          "value": "Natural-sedimentation size selection, LiF/HCl etching, mechanical delamination, Ti3C2Tx-QD ultrasonication, wet spinning in 5 wt.% chitosan"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best fiber-electrode GCD result.",
+          "unit": "F cm\u22123",
+          "value": "1560"
+        }
+      },
+      "is_primary": true,
+      "label": "Q3M7 fiber",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "QxM10-x nomenclature denotes QD:NS mass ratio.",
+          "unit": null,
+          "value": "Ti3C2Tx QDs/L-Ti3C2Tx NSs (4:6)"
+        },
+        "current_density": {
+          "confidence": "derived",
+          "note": "Figure 4b GCD condition applies to all QxM10-x fibers.",
+          "unit": "A cm\u22123",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Series electrochemical tests were conducted in this electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared L-Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "7.6\u20139.5"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only volumetric capacitance discussion is provided.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD shown but no d-spacing value reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "L-Ti3C2Tx component was mechanically delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Both components are identified as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance values are from GCD curves.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation route for QxM10-x fibers.",
+          "unit": null,
+          "value": "LiF/HCl etching, mechanical delamination, Ti3C2Tx-QD ultrasonication, wet spinning in 5 wt.% chitosan"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure shows result but no numerical value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Q4M6 fiber",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Same Q3M7 QD:NS composition; coagulation bath differed.",
+          "unit": null,
+          "value": "Ti3C2Tx QDs/L-Ti3C2Tx NSs (3:7)"
+        },
+        "current_density": {
+          "confidence": "derived",
+          "note": "Supporting Figure S8 GCD comparison condition.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Fiber-electrode measurements used the study electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared L-Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "7.6\u20139.5"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only volumetric capacitance was reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No d-spacing reported for this fiber.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "L-Ti3C2Tx component was mechanically delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Both QDs and nanosheets are Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Porous morphology noted, but no diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Alternative coagulation bath described in Supporting Information discussion.",
+          "unit": null,
+          "value": "LiF/HCl etching, mechanical delamination, Ti3C2Tx-QD ultrasonication, wet spinning in MgSO4/EtOH"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Supporting Figure S8 GCD comparison.",
+          "unit": "F cm\u22123",
+          "value": "805"
+        }
+      },
+      "is_primary": false,
+      "label": "Q3M7 fiber prepared in MgSO4/EtOH",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Same Q3M7 QD:NS composition; coagulation bath differed.",
+          "unit": null,
+          "value": "Ti3C2Tx QDs/L-Ti3C2Tx NSs (3:7)"
+        },
+        "current_density": {
+          "confidence": "derived",
+          "note": "Supporting Figure S8 GCD comparison condition.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Fiber-electrode measurements used the study electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared L-Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "7.6\u20139.5"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only volumetric capacitance was reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No d-spacing reported for this fiber.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "L-Ti3C2Tx component was mechanically delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Both QDs and nanosheets are Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Porous morphology noted, but no diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Alternative coagulation bath described in Supporting Information discussion.",
+          "unit": null,
+          "value": "LiF/HCl etching, mechanical delamination, Ti3C2Tx-QD ultrasonication, wet spinning in NH4Cl/NH4OH"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Supporting Figure S8 GCD comparison.",
+          "unit": "F cm\u22123",
+          "value": "878"
+        }
+      },
+      "is_primary": false,
+      "label": "Q3M7 fiber prepared in NH4Cl/NH4OH",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Same Q3M7 QD:NS composition; coagulation bath differed.",
+          "unit": null,
+          "value": "Ti3C2Tx QDs/L-Ti3C2Tx NSs (3:7)"
+        },
+        "current_density": {
+          "confidence": "derived",
+          "note": "Supporting Figure S8 GCD comparison condition.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Fiber-electrode measurements used the study electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared L-Ti3C2Tx NS characterization.",
+          "unit": "\u03bcm",
+          "value": "7.6\u20139.5"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only volumetric capacitance was reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No d-spacing reported for this fiber.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "L-Ti3C2Tx component was mechanically delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Both QDs and nanosheets are Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Porous morphology noted, but no diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Alternative coagulation bath described in Supporting Information discussion.",
+          "unit": null,
+          "value": "LiF/HCl etching, mechanical delamination, Ti3C2Tx-QD ultrasonication, wet spinning in CaCl2/IPA"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Not reported in text, figures, or methods.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Supporting Figure S8 GCD comparison.",
+          "unit": "F cm\u22123",
+          "value": "912"
+        }
+      },
+      "is_primary": false,
+      "label": "Q3M7 fiber prepared in CaCl2/IPA",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 8,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "He et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article front matter.",
+      "unit": null,
+      "value": "10.1002/advs.202305991"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Published online December 13, 2023; journal volume is 2024.",
+      "unit": null,
+      "value": "2024"
+    }
+  },
+  "summary": "The study fabricated eight distinct Ti3C2Tx fiber-electrode materials: a pure L-Ti3C2Tx control, four Ti3C2Tx-QD/L-Ti3C2Tx composition ratios spun in chitosan, and three Q3M7 fibers made using alternative coagulation baths. L-Ti3C2Tx was produced by natural-sedimentation size selection of Ti3AlC2, LiF/HCl etching, and mechanical delamination; Ti3C2Tx QDs were produced by ultrasonication. The headline Q3M7 fiber, made in 5 wt.% chitosan, delivered the best reported electrode volumetric capacitance, 1560 F cm\u22123 at 1 A cm\u22123 in 1 M H2SO4. The assembled F-MMT/PVA DHGE Q3M7 fiber-supercapacitor is a device using the same Q3M7 electrodes, rather than an additional electrode material; it reported 413 F cm\u22123 at 0.5 A cm\u22123. Electrode thickness, mass loading, BET area, pore dimensions, porosity, and numerical capacitances for Q1M9, Q2M8, and Q4M6 were not printed."
+}

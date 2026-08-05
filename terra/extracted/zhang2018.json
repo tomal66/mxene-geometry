@@ -1,0 +1,723 @@
+{
+  "source_file": "zhang2018.pdf",
+  "source_path": "zhang2018.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.11761,
+  "warnings": [
+    "'S-Ti3C2Tx' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "GCD value at 25 \u00b5A cm\u22122.",
+          "unit": "mF cm\u22122",
+          "value": "61"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "All-MXene interdigitated MSC.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx includes -OH, -O, and/or -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for best reported GCD capacitance.",
+          "unit": "\u00b5A cm\u22122",
+          "value": "25"
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Measured on Al; paper MSC deemed similar.",
+          "unit": "\u00b5m",
+          "value": "\u22480.69 \u00b1 0.16"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state device preparation.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": "\u00b5m",
+          "value": "1.2 \u00b1 0.2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD method reported, but no d-spacing value.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": null,
+          "value": "mostly single-layered"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample label and device description.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best value was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene-ink synthesis procedure.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No device volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "I-Ti3C2Tx",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "GCD value at 25 \u00b5A cm\u22122.",
+          "unit": "mF cm\u22122",
+          "value": "34"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "All-MXene yin yang MSC.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx includes -OH, -O, and/or -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for best reported GCD capacitance.",
+          "unit": "\u00b5A cm\u22122",
+          "value": "25"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Selected for main study at this thickness.",
+          "unit": "\u00b5m",
+          "value": "\u22480.69"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state device preparation.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": "\u00b5m",
+          "value": "1.2 \u00b1 0.2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": null,
+          "value": "mostly single-layered"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample label and device description.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best selected value was obtained by GCD.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene-ink synthesis procedure.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No device volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Y-Ti3C2Tx",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "CV value at 5 mV s\u22121.",
+          "unit": "mF cm\u22122",
+          "value": "33.8"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "All-MXene yin yang MSC.",
+          "unit": null,
+          "value": "Ti3CNTx (Tx includes -OH, -O, and/or -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported value was derived from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Selected for main study at this thickness.",
+          "unit": "\u00b5m",
+          "value": "\u22480.69"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state device preparation.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3CNTx ink characterization.",
+          "unit": "\u00b5m",
+          "value": "\u22482.2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared Ti3CNTx ink characterization.",
+          "unit": null,
+          "value": "predominantly single-layer flakes"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample label and device description.",
+          "unit": null,
+          "value": "Ti3CNTx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported CV capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene-ink synthesis procedure.",
+          "unit": null,
+          "value": "LiF/HCl etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No device volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Y-Ti3CNTx",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Spiral device is compared, but no numeric value printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "All-MXene spiral MSC.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx includes -OH, -O, and/or -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No numeric capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Paper states spiral thickness can be assumed similar.",
+          "unit": "\u00b5m",
+          "value": "\u22480.69"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state device preparation.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": "\u00b5m",
+          "value": "1.2 \u00b1 0.2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": null,
+          "value": "mostly single-layered"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample label and stamping description.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numeric capacitance condition printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene-ink synthesis procedure.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No device volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "S-Ti3C2Tx",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "CV value for \u2248100 nm film.",
+          "unit": "mF cm\u22122",
+          "value": "2.5"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Tenfold-diluted ink; interdigitated MSC.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx includes -OH, -O, and/or -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Reported capacitance was derived from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Measured on Al substrate after tenfold ink dilution.",
+          "unit": "nm",
+          "value": "\u224899 \u00b1 13"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state device preparation.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": "\u00b5m",
+          "value": "1.2 \u00b1 0.2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": null,
+          "value": "mostly single-layered"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Thin device made using Ti3C2Tx ink.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for reported CV capacitance.",
+          "unit": "mV s\u22121",
+          "value": "5"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene-ink synthesis procedure.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No device volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "I-Ti3C2Tx (\u2248100 nm)",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Best printed rate-performance value from CV.",
+          "unit": "mF cm\u22122",
+          "value": "56.8"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Cylindrical-stamp rolled all-MXene MSC.",
+          "unit": null,
+          "value": "Ti3C2Tx (Tx includes -OH, -O, and/or -F)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best reported value was derived from CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No rolled-device thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared solid-state device preparation.",
+          "unit": null,
+          "value": "PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": "\u00b5m",
+          "value": "1.2 \u00b1 0.2"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No d-spacing reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx ink characterization.",
+          "unit": null,
+          "value": "mostly single-layered"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Rolled device label and description.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported CV capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared Ti3C2Tx MILD ink; cylindrical rolling deposition.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); cylindrical-stamp rolling"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No device volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "rolled I-Ti3C2Tx",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 6,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Zhang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/adfm.201705506"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation and publication date.",
+      "unit": null,
+      "value": "2018"
+    }
+  },
+  "summary": "This paper reports stamped, coplanar solid-state all-MXene micro-supercapacitors prepared from LiF/HCl MILD-derived Ti3C2Tx or Ti3CNTx inks. Six distinct electrochemically identified device variants are extractable from the supplied paper: standard interdigitated, yin yang, and spiral Ti3C2Tx; yin yang Ti3CNTx; a thin interdigitated Ti3C2Tx device made using tenfold-diluted ink; and a cylindrical-stamp rolled interdigitated Ti3C2Tx device. The headline I-Ti3C2Tx device gave the best reported capacitance, 61 mF cm\u22122 at 25 \u00b5A cm\u22122. Mass loading, BET surface area, pore metrics, d-spacing, tortuosity, gravimetric capacitance, and device volumetric capacitance were not reported."
+}

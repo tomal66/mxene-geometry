@@ -1,0 +1,261 @@
+{
+  "source_file": "c8nr06014b.pdf",
+  "source_path": "c8nr06014b.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.06746,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS confirms N incorporation in the aerogel.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx aerogel"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement methods.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM describes thin transparent sheets; no lateral size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV at 10 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "438"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD pattern reported without a d-spacing value.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No numerical layer count reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Low-loading electrode used for rate comparison.",
+          "unit": "mg cm\u22122",
+          "value": "0.14"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the aerogel as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "BJH distribution main peak centered at \u223c3.9 nm.",
+          "unit": "nm",
+          "value": "\u223c3.9"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for best reported gravimetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET N2 adsorption/desorption measurement.",
+          "unit": "m2 g\u22121",
+          "value": "108"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl mild etching, thiourea dioxide/ammonia gelation, then freeze-drying.",
+          "unit": null,
+          "value": "LiF/HCl mild etching followed by thiourea dioxide/ammonia-assisted thermal gelation and freeze-drying"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported; only diffusion times were calculated.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx aerogel",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Reported as the pure comparison electrode.",
+          "unit": null,
+          "value": "pure Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best capacitance was reported from CV data.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement methods.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Not reported for the pure electrode.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Compared with aerogel in Fig. 4d at 10 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "231"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Not reported for the pure electrode.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Not reported for the pure electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported specifically for the pure electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors call this the pure Ti3C2Tx electrode.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for the pure electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for the pure electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition of the reported comparison capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Paper cites 16.2 m2 g\u22121 from another work; not extracted.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Ti3C2Tx suspension was prepared by the shared LiF/HCl etching procedure.",
+          "unit": null,
+          "value": "LiF/HCl mild etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported; diffusion time was reported instead.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pure Ti3C2Tx electrode",
+      "role": "control"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author line.",
+      "unit": null,
+      "value": "Wang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Citation header.",
+      "unit": null,
+      "value": "10.1039/c8nr06014b"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation header.",
+      "unit": null,
+      "value": "2018"
+    }
+  },
+  "summary": "This paper compares a three-dimensional N-doped Ti3C2Tx aerogel electrode with a pure Ti3C2Tx control electrode. Ti3C2Tx was produced by LiF/HCl mild etching; the aerogel was subsequently formed through thiourea dioxide/ammonia-assisted thermal gelation and freeze-drying. The aerogel is the headline electrode, delivering 438 F g\u22121 at 10 mV s\u22121 in 3 M H2SO4, versus 231 F g\u22121 for pure Ti3C2Tx at the same scan rate. The aerogel has a BET surface area of 108 m2 g\u22121 and a principal BJH pore-size peak near 3.9 nm; thickness, interlayer spacing, and volumetric/areal capacitance were not reported."
+}

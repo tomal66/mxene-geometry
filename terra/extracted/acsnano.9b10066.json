@@ -1,0 +1,609 @@
+{
+  "source_file": "acsnano.9b10066.pdf",
+  "source_path": "acsnano.9b10066.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.1197,
+  "warnings": [
+    "'MXene/RGO composite film (25 wt% RGO)' has no capacitance of any kind",
+    "'MXene/RGO composite film (75 wt% RGO)' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Best reported electrode capacitance; GCD comparison at 1 A/g.",
+          "unit": "mF/cm2",
+          "value": "49"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "0 wt% RGO composition.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Figure 6 electrode capacitances were obtained from GCD at this current density.",
+          "unit": "A/g",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Figure 2 identifies pure MXene thin films.",
+          "unit": "\u00b5m",
+          "value": "~0.6"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method for stretchable electrodes.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "MXene flake size measured for material used throughout study.",
+          "unit": "\u00b5m",
+          "value": "0.116\u00b10.047"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No gravimetric capacitance printed specifically for pure MXene electrode.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD d-spacing was not reported in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "AFM characterization of synthesized MXene flakes.",
+          "unit": null,
+          "value": "single- or double-layer flakes"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Mass loading per area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Pure MXene control electrode.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene synthesis method.",
+          "unit": null,
+          "value": "LiF/HCl etching of Ti3AlC2, followed by sonication and centrifugation delamination"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Reported for pure MXene at 0% strain in Figure 6 discussion.",
+          "unit": "F/cm3",
+          "value": "464"
+        }
+      },
+      "is_primary": false,
+      "label": "pure Ti3C2Tx MXene electrode",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance was reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Fabricated composition series.",
+          "unit": null,
+          "value": "Ti3C2Tx/RGO, 25 wt% RGO"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No GCD capacitance was reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Thickness was not specified for the 25 wt% RGO film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "This composition was mechanically characterized, not electrochemically reported.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "MXene flake size measured for material used throughout study.",
+          "unit": "\u00b5m",
+          "value": "0.116\u00b10.047"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance was reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD d-spacing was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "AFM characterization of synthesized MXene flakes.",
+          "unit": null,
+          "value": "single- or double-layer flakes"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Mass loading per area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component of the composite.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance from CV was reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene synthesis and RGO hydrazine-reduction methods.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx mixed with hydrazine-reduced graphene oxide; vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance was reported for this composition.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MXene/RGO composite film (25 wt% RGO)",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Headline GCD capacitance; Figure 6 comparison at 1 A/g.",
+          "unit": "mF/cm2",
+          "value": "49"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Selected composition for supercapacitor-electrode testing.",
+          "unit": null,
+          "value": "Ti3C2Tx/RGO, 50 wt% RGO (1:1 weight ratio)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Figure 6 electrode capacitances were obtained from GCD at this current density.",
+          "unit": "A/g",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Composite-film thickness measured by AFM step height.",
+          "unit": "\u00b5m",
+          "value": "~1"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode stretchable-electrode measurements.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM size analysis of composite constituents.",
+          "unit": "\u00b5m",
+          "value": "MXene: 0.116\u00b10.047; RGO: 1.74\u00b10.68"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Headline capacitance reported with 49 mF/cm2 result.",
+          "unit": "F/g",
+          "value": "~140"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD d-spacing was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "AFM MXene flake-thickness analysis.",
+          "unit": null,
+          "value": "single- or double-layer MXene flakes"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Mass loading per area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Composite MXene component.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Methods section.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx mixed with hydrazine-reduced graphene oxide; vacuum-assisted filtration and dry transfer"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Headline capacitance reported with 49 mF/cm2 result.",
+          "unit": "F/cm3",
+          "value": "~490"
+        }
+      },
+      "is_primary": true,
+      "label": "Ti3C2Tx MXene/RGO composite electrode (50 wt% RGO)",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance was reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Fabricated composition series.",
+          "unit": null,
+          "value": "Ti3C2Tx/RGO, 75 wt% RGO"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No GCD capacitance was reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Thickness was not specified for the 75 wt% RGO film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "uncertain",
+          "note": "This composition was mechanically characterized, not electrochemically reported.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Composite-constituent sizes from shared SEM analysis.",
+          "unit": "\u00b5m",
+          "value": "MXene: 0.116\u00b10.047; RGO: 1.74\u00b10.68"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance was reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD d-spacing was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "AFM characterization of synthesized MXene flakes.",
+          "unit": null,
+          "value": "single- or double-layer flakes"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Mass loading per area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene component of the composite.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No capacitance from CV was reported for this composition.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene synthesis and RGO hydrazine-reduction methods.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx mixed with hydrazine-reduced graphene oxide; vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No electrochemical capacitance was reported for this composition.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MXene/RGO composite film (75 wt% RGO)",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Only low volumetric capacitance was described for the RGO reference.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "100 wt% RGO endpoint of fabricated composition series.",
+          "unit": null,
+          "value": "Reduced graphene oxide (RGO)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Volumetric capacitance reported for RGO electrode at this current density.",
+          "unit": "A/g",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "RGO electrode-film thickness was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-measurement method for stretchable electrodes.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM size analysis.",
+          "unit": "\u00b5m",
+          "value": "1.74\u00b10.68"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No gravimetric capacitance was printed for pure RGO.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD d-spacing was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "uncertain",
+          "note": "Only single-RGO-layer thickness was mentioned, not film layer count.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Mass loading per area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Non-MXene reference film.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Reported capacitance was from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Methods section.",
+          "unit": null,
+          "value": "Hydrazine reduction of graphene oxide; vacuum-assisted filtration"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Pure RGO reference electrode, Figure S10 discussion.",
+          "unit": "F/cm3",
+          "value": "216"
+        }
+      },
+      "is_primary": false,
+      "label": "pure RGO thin film electrode",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Zhou et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1021/acsnano.9b10066"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Web publication date: 12 Feb 2020.",
+      "unit": null,
+      "value": "2020"
+    }
+  },
+  "summary": "This study fabricated LiF/HCl-etched Ti3C2Tx and hydrazine-reduced RGO films by vacuum-assisted filtration, followed by dry transfer onto prestrained VHB elastomer. Five composition endpoints were fabricated: pure Ti3C2Tx, Ti3C2Tx/RGO with 25, 50, and 75 wt% RGO, and pure RGO; only pure Ti3C2Tx, 50 wt% RGO composite, and pure RGO received reported electrochemical characterization. The headline 50 wt% RGO Ti3C2Tx/RGO electrode achieved 49 mF/cm2 (~490 F/cm3 and ~140 F/g) in 1 M H2SO4, with Figure 6 specifying GCD comparison at 1 A/g. Mass loading, BET area, pore metrics, porosity, and XRD interlayer spacings were not reported."
+}

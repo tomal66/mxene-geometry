@@ -1,0 +1,611 @@
+{
+  "source_file": "Reassembly-of-MXene-Hydrogels-into-Flexible-Films-towards-Compact-and-Ultrafast-Supercapacitors.pdf",
+  "source_path": "Reassembly-of-MXene-Hydrogels-into-Flexible-Films-towards-Compact-and-Ultrafast-Supercapacitors.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09743,
+  "warnings": [
+    "'Ti3C2Tx film' has no capacitance of any kind",
+    "'RAMX-25% film' has no capacitance of any kind",
+    "'RAMX-75% film' has no capacitance of any kind",
+    "'microgel film' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Vacuum-filtered individual nanosheets.",
+          "unit": null,
+          "value": "Ti3C2Tx nanosheet film"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV; no GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM comparison gives no numerical thickness.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral Ti3C2Tx nanosheet size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Same low-rate capacitance stated, but no numerical value printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only relative spacing changes are discussed; no film d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Layer count is not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Similar mass loading mentioned without numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Named throughout the preparation and electrochemical sections.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value specifically reported for this film.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical best capacitance for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Figure 2g shows trends, but no individual numerical value in text.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene synthesis procedure.",
+          "unit": null,
+          "value": "Selective etching of Ti3AlC2 using LiF and HCl; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical maximum for this specific film printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx film",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "x denotes microgel content.",
+          "unit": null,
+          "value": "Ti3C2Tx nanosheets and Ti3C2Tx microgels, 25% microgel content"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV; no GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No numerical thickness reported for RAMX-25%.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral Ti3C2Tx nanosheet size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical capacitance printed for RAMX-25%.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only relative peak shifts are discussed; no d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Layer count is not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No numerical mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "RAMX films are made from Ti3C2Tx nanosheets and microgels.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "RAMX mesopores are reported around 3\u20135 nm.",
+          "unit": "nm",
+          "value": "3\u20135"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical best capacitance for RAMX-25% printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No individual numerical SSA reported in text.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared RAMX preparation procedure.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; GO-assisted hydrogel disassembly; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical maximum for RAMX-25% printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "RAMX-25% film",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "x denotes microgel content.",
+          "unit": null,
+          "value": "Ti3C2Tx nanosheets and Ti3C2Tx microgels, 50% microgel content"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Reported maximum was obtained by CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM gives no numerical thickness.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Microgel diameter is reported, but nanosheet lateral size is not.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical gravimetric capacitance printed for RAMX-50%.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No numerical d-spacing for RAMX-50% reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Layer count is not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Similar mass loading is mentioned without a numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "RAMX films are made from Ti3C2Tx nanosheets and microgels.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "RAMX mesopores are reported around 3\u20135 nm.",
+          "unit": "nm",
+          "value": "3\u20135"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition for the maximum reported volumetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No individual numerical SSA reported in text.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared RAMX preparation procedure.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; GO-assisted hydrogel disassembly; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Best reported value; 75% retained at 2000 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "978"
+        }
+      },
+      "is_primary": true,
+      "label": "RAMX-50% film",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "x denotes microgel content.",
+          "unit": null,
+          "value": "Ti3C2Tx nanosheets and Ti3C2Tx microgels, 75% microgel content"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV; no GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No numerical thickness reported for RAMX-75%.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral Ti3C2Tx nanosheet size reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical capacitance printed for RAMX-75%.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only relative peak shifts are discussed; no d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Layer count is not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No numerical mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "RAMX films are made from Ti3C2Tx nanosheets and microgels.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "RAMX mesopores are reported around 3\u20135 nm.",
+          "unit": "nm",
+          "value": "3\u20135"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical best capacitance for RAMX-75% printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No individual numerical SSA reported in text.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared RAMX preparation procedure.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; GO-assisted hydrogel disassembly; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical maximum for RAMX-75% printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "RAMX-75% film",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Results and figures report no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Formed from fully microgel-based Ti3C2Tx dispersion.",
+          "unit": null,
+          "value": "Ti3C2Tx microgel film; microgels derived from GO-assisted Ti3C2Tx hydrogel"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was evaluated by CV; no GCD condition reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No numerical thickness reported for microgel film.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "3 M H2SO4 aqueous electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Reported average microgel diameter.",
+          "unit": "nm",
+          "value": "570"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical capacitance printed for microgel film.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Relative changes discussed without numerical microgel-film d-spacing.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Microgels comprise a 3D structure of crosslinked nanosheets.",
+          "unit": null,
+          "value": "3D crosslinked nanosheets"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No numerical mass loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Named Ti3C2Tx microgel throughout the study.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Microgel-derived mesopores are reported around 3\u20135 nm.",
+          "unit": "nm",
+          "value": "3\u20135"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No numerical best capacitance for microgel film printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No individual numerical SSA reported in text.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared microgel preparation procedure.",
+          "unit": null,
+          "value": "LiF/HCl-etched Ti3C2Tx; GO-assisted hydrogel disassembly by probe sonication; vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical maximum for microgel film printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "microgel film",
+      "role": "control"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Wu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Printed in article header.",
+      "unit": null,
+      "value": "10.1002/adfm.202102874"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation and copyright line.",
+      "unit": null,
+      "value": "2021"
+    }
+  },
+  "summary": "Wu et al. fabricated five Ti3C2Tx-based freestanding films: a pristine Ti3C2Tx nanosheet film, RAMX films containing 25%, 50%, or 75% Ti3C2Tx microgels, and a fully microgel-derived film. Ti3C2Tx was selectively etched from Ti3AlC2 using LiF/HCl, while microgels were obtained by probe-sonicating a GO-assisted Ti3C2Tx hydrogel and then vacuum-filtering mixtures with nanosheets. RAMX-50% was the headline electrode, reaching 978 F cm\u22123 at 10 mV s\u22121 in 3 M H2SO4 and 736 F cm\u22123 at 2000 mV s\u22121. The text does not print individual numerical capacitances, mass loadings, thicknesses, SSA values, or d-spacings for the other four electrodes."
+}

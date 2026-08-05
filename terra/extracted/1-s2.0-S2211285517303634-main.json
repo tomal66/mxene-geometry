@@ -1,0 +1,606 @@
+{
+  "source_file": "1-s2.0-S2211285517303634-main.pdf",
+  "source_path": "1-s2.0-S2211285517303634-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.10002,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "HF-derived MXene; Tx denotes -OH and/or -F terminations.",
+          "unit": null,
+          "value": "Ti3C2Tx (-OH and/or -F terminations)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV at 1 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was in neutral electrolyte.",
+          "unit": null,
+          "value": "1 M MgSO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 1 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "52"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) d-spacing.",
+          "unit": "nm",
+          "value": "0.96"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "SEM describes well-stacked nanosheets.",
+          "unit": null,
+          "value": "multilayered"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode-preparation protocol for all MXene samples.",
+          "unit": "mg cm\u22122",
+          "value": "3\u20134"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Pristine MXene sample.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV scan rate for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Etched Ti3AlC2 in 50 w/w% HF for 3 h.",
+          "unit": null,
+          "value": "HF etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS nitrogen concentration was 1.7 at%.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV at 1 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was in acidic electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 1 mV s\u22121; also 128 F g\u22121 at 200 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "192"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) d-spacing after ammonia treatment.",
+          "unit": "nm",
+          "value": "1.23"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "SEM shows well-stacked nanosheets.",
+          "unit": null,
+          "value": "multilayered"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode-preparation protocol for all MXene samples.",
+          "unit": "mg cm\u22122",
+          "value": "3\u20134"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Nitrogen-doped MXene sample.",
+          "unit": null,
+          "value": "N-Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV scan rate for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx annealed in 100 ml min\u22121 NH3 at 200 \u00b0C for 2 h.",
+          "unit": null,
+          "value": "Post-etch ammonia annealing"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "N-Ti3C2Tx-200 \u00b0C",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS nitrogen concentration was 3.4 at%.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV at 1 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was in acidic electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 1 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "45"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) d-spacing after ammonia treatment.",
+          "unit": "nm",
+          "value": "1.21"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "SEM shows well-stacked nanosheets.",
+          "unit": null,
+          "value": "multilayered"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode-preparation protocol for all MXene samples.",
+          "unit": "mg cm\u22122",
+          "value": "3\u20134"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Nitrogen-doped MXene sample.",
+          "unit": null,
+          "value": "N-Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV scan rate for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx annealed in 100 ml min\u22121 NH3 at 300 \u00b0C for 2 h.",
+          "unit": null,
+          "value": "Post-etch ammonia annealing"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "N-Ti3C2Tx-300 \u00b0C",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS nitrogen concentration was 8.1 at%.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV at 1 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was in acidic electrolyte.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 1 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "20"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only c-lattice parameter was given; no d-spacing printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "SEM shows well-stacked nanosheets.",
+          "unit": null,
+          "value": "multilayered"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode-preparation protocol for all MXene samples.",
+          "unit": "mg cm\u22122",
+          "value": "3\u20134"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Nitrogen-doped MXene sample.",
+          "unit": null,
+          "value": "N-Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV scan rate for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx annealed in 100 ml min\u22121 NH3 at 500 \u00b0C for 2 h.",
+          "unit": null,
+          "value": "Post-etch ammonia annealing"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "N-Ti3C2Tx-500 \u00b0C",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS nitrogen concentration was 20.7 at%; TiN transformation was discussed.",
+          "unit": null,
+          "value": "N-doped Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance was obtained from CV at 1 mV s\u22121.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Best reported capacitance was in MgSO4 electrolyte.",
+          "unit": null,
+          "value": "1 M MgSO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "CV-derived value at 1 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "13"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "The XRD (002) peak disappeared; d-spacing unavailable.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "SEM shows well-stacked nanosheets.",
+          "unit": null,
+          "value": "multilayered"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared electrode-preparation protocol for all MXene samples.",
+          "unit": "mg cm\u22122",
+          "value": "3\u20134"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Nitrogen-doped MXene sample.",
+          "unit": null,
+          "value": "N-Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV scan rate for reported capacitance.",
+          "unit": "mV s\u22121",
+          "value": "1"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area was not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx annealed in 100 ml min\u22121 NH3 at 700 \u00b0C for 2 h.",
+          "unit": null,
+          "value": "Post-etch ammonia annealing"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "N-Ti3C2Tx-700 \u00b0C",
+      "role": "variant"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper header.",
+      "unit": null,
+      "value": "Wen et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Paper header.",
+      "unit": null,
+      "value": "10.1016/j.nanoen.2017.06.009"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2017"
+    }
+  },
+  "summary": "The study fabricated five MXene electrodes: pristine HF-etched Ti3C2Tx and four N-Ti3C2Tx variants produced by post-etch NH3 annealing at 200, 300, 500, or 700 \u00b0C. The 200 \u00b0C sample was the headline and best-performing electrode, reaching 192 F g\u22121 in 1 M H2SO4 at 1 mV s\u22121; it also reached 82 F g\u22121 in 1 M MgSO4. Pristine Ti3C2Tx had its highest reported capacitance of 52 F g\u22121 in 1 M MgSO4 at 1 mV s\u22121. The paper reports XRD spacing, nitrogen content, and shared mass loading, but does not report thickness, BET surface area, porosity, pore diameter, flake lateral size, areal capacitance, or volumetric capacitance."
+}

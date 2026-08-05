@@ -1,0 +1,379 @@
+{
+  "source_file": "couly2017.pdf",
+  "source_path": "couly2017.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.08042,
+  "warnings": [
+    "'asymmetric sandwich MSC' has no capacitance of any kind",
+    "'all-MXene symmetric interdigitated MSC' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Device CV at 2 mV s\u22121.",
+          "unit": "mF cm\u22122",
+          "value": "2.4"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Asymmetric interdigitated electrodes.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene (negative electrode) and rGO (positive electrode)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was reported from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Paper states all samples used \u2248300 nm films.",
+          "unit": "nm",
+          "value": "\u2248300"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared fabrication procedure for all MSCs.",
+          "unit": null,
+          "value": "1 M PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral Ti3C2Tx or rGO flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "XRD of spray-coated constituent films.",
+          "unit": "\u00c5",
+          "value": "12.62 (Ti3C2Tx); 3.88 (rGO)"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Ti3C2Tx was MILD-delaminated; rGO film showed restacked graphene layers.",
+          "unit": null,
+          "value": "delaminated Ti3C2Tx; restacked graphene layers"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Two sprayed electrode masses reported around 100 \u00b5g cm\u22122; allocation is unclear.",
+          "unit": "\u00b5g cm\u22122",
+          "value": "around 100"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene constituent is explicitly identified.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "CV-derived areal capacitance condition.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx MILD synthesis and sequential spray coating.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sequential spray coating"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Corresponding capacitance at 2 mV s\u22121.",
+          "unit": "F cm\u22123",
+          "value": "80"
+        }
+      },
+      "is_primary": true,
+      "label": "asymmetric interdigitated MSC",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical capacitance stated for sandwich device.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Asymmetric cofacial device.",
+          "unit": null,
+          "value": "rGO//Ti3C2Tx MXene"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Only cycling condition is reported, not best capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Sandwich constituent films explicitly described.",
+          "unit": "nm",
+          "value": "\u2248300"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Same PVA/H2SO4 gel MSC protocol.",
+          "unit": null,
+          "value": "1 M PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Shared XRD data for spray-coated Ti3C2Tx and rGO films.",
+          "unit": "\u00c5",
+          "value": "12.62 (Ti3C2Tx); 3.88 (rGO)"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Constituents were MILD-delaminated Ti3C2Tx and restacked rGO.",
+          "unit": null,
+          "value": "delaminated Ti3C2Tx; restacked graphene layers"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Same material amount as interdigitated setup; specific loading allocation unclear.",
+          "unit": "\u00b5g cm\u22122",
+          "value": "around 100"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx is the MXene sandwich electrode.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No single scan rate linked to a numerical capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Same constituent-material synthesis and spray process.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); spray coating"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for sandwich device.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "asymmetric sandwich MSC",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical capacitance stated for symmetric device.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Both interdigitated electrodes are MXene.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Cycling used 0.2 mA cm\u22122, not a reported best capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Paper states all samples used \u2248300 nm films.",
+          "unit": "nm",
+          "value": "\u2248300"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Same PVA/H2SO4 gel MSC protocol.",
+          "unit": null,
+          "value": "1 M PVA/H2SO4 gel electrolyte"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No Ti3C2Tx lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "derived",
+          "note": "Shared XRD of the spray-coated Ti3C2Tx film.",
+          "unit": "\u00c5",
+          "value": "12.62"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Ti3C2Tx was produced by the MILD delamination method.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Sprayed masses reported around 100 \u00b5g cm\u22122; per-electrode allocation unclear.",
+          "unit": "\u00b5g cm\u22122",
+          "value": "around 100"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "All-MXene symmetric device.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Comparison CV shown at 2 mV s\u22121, without numerical capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Symmetric process replaced rGO spraying with Ti3C2Tx.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD); sequential Ti3C2Tx spray coating"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity analysis reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported for symmetric device.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "all-MXene symmetric interdigitated MSC",
+      "role": "control"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Couly et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/aelm.201700339"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2017"
+    }
+  },
+  "summary": "The study fabricated three distinct micro-supercapacitor electrode systems: an asymmetric Ti3C2Tx/rGO interdigitated MSC, an asymmetric Ti3C2Tx/rGO sandwich MSC, and an all-Ti3C2Tx symmetric interdigitated control. Ti3C2Tx was synthesized by LiF/HCl minimally intensive layer delamination and both materials were spray-coated onto PET; the reported films were approximately 300 nm thick. The headline asymmetric interdigitated MSC delivered 2.4 mF cm\u22122 and 80 F cm\u22123 at 2 mV s\u22121 in 1 M PVA/H2SO4 gel electrolyte. Numerical capacitance values for the sandwich and symmetric controls were not printed in the supplied paper text, although their cycling retention and comparative Ragone behavior were shown."
+}

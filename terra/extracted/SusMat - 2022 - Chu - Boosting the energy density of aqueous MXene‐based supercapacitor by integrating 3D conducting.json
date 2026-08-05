@@ -1,0 +1,261 @@
+{
+  "source_file": "SusMat - 2022 - Chu - Boosting the energy density of aqueous MXene\u2010based supercapacitor by integrating 3D conducting.pdf",
+  "source_path": "SusMat - 2022 - Chu - Boosting the energy density of aqueous MXene\u2010based supercapacitor by integrating 3D conducting.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.07761,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Individual CPH areal capacitance was not reported; only ASC device capacitance is given.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "PANI chains crosslinked and doped by citric acid (CA).",
+          "unit": null,
+          "value": "PANI/CA conducting polymer hydrogel (CPH)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Specific capacitance reported at 1 A/g.",
+          "unit": "A/g",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Cross-sectional SEM is shown, but no CPH thickness value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode testing section specifies this electrolyte for electrode materials.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "CPH is a nanofiber hydrogel; no flake lateral size applies.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Positive-potential window of 0\u20130.8 V versus SCE.",
+          "unit": "F/g",
+          "value": "402.5"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not applicable to the nonlayered CPH material.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as a highly interconnected 3D nanofiber network.",
+          "unit": null,
+          "value": "3D interconnected nanofiber network"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported for 120 s electrochemical polymerization; longer deposition reached 1.04 mg/cm2.",
+          "unit": "mg/cm2",
+          "value": "0.03"
+        },
+        "mxene_formula": {
+          "confidence": "uncertain",
+          "note": "CPH is not an MXene electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Open channels are described, but no pore diameter is reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance was reported from GCD, not at a CV scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Aniline and CA electrochemically polymerized at 0.8 V versus SCE.",
+          "unit": null,
+          "value": "Electrochemical polymerization of aniline with citric acid crosslinker/dopant"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported for CPH.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "CPH",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No individual MXene areal capacitance reported; 90.3 mF/cm2 belongs to the ASC device.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Raman assignments include Ti3C2(OH)2; terminations are denoted Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "The reported 213.8 F/g value has no printed current-density condition in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Cross-sectional SEM is shown, but no MXene film thickness is printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Three-electrode testing section specifies this electrolyte for electrode materials.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM states flakes have mean lateral size less than 1 \u03bcm.",
+          "unit": "\u03bcm",
+          "value": "<1"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Reported under a \u22120.35\u20130.3 V potential window versus SCE.",
+          "unit": "F/g",
+          "value": "213.8"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "XRD peak positions are reported, but no d-spacing value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "TEM describes few-layered flakes; AFM also identifies monolayers in the ink.",
+          "unit": null,
+          "value": "few-layered"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "MXene ink concentration is given, but deposited electrode loading is not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Obtained by etching Ti3AlC2 MAX phase.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Laminated porous electrode is described without pore-size value.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Capacitance value is reported without its CV scan-rate condition.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in acidic HCl/LiF environment, followed by sonication and centrifugation.",
+          "unit": null,
+          "value": "HCl/LiF acidic etching (MILD), sonication-assisted delamination"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported for the individual MXene electrode.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx MXene",
+      "role": "control"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Chu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/sus2.61"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Citation block and journal information.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "This paper compares two fabricated electrode materials: a citric-acid-crosslinked polyaniline conducting polymer hydrogel (CPH) cathode and LiF/HCl-etched Ti3C2Tx MXene anode. The CPH delivered the highest individual-electrode gravimetric capacitance, 402.5 F/g at 1 A/g in 1 M H2SO4, whereas Ti3C2Tx delivered 213.8 F/g under \u22120.35\u20130.3 V versus SCE. They were combined into a CPH//Ti3C2Tx asymmetric supercapacitor with 90.3 mF/cm2 at 1 mA/cm2 and 16.6 \u03bcWh/cm2 at 0.6 mW/cm2. Film thicknesses, MXene loading, BET areas, pore sizes, and printed interlayer d-spacings were not reported."
+}

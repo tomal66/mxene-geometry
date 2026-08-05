@@ -1,0 +1,32 @@
+{
+  "source_file": "nanomaterials-14-00062-v2.pdf",
+  "source_path": "nanomaterials-14-00062-v2.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.10338,
+  "warnings": [
+    "no electrodes extracted at all"
+  ],
+  "electrodes": [],
+  "n_electrodes": 0,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Citation header.",
+      "unit": null,
+      "value": "Prabhakar Vattikuti et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Citation header.",
+      "unit": null,
+      "value": "10.3390/nano14010062"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Citation header.",
+      "unit": null,
+      "value": "2024"
+    }
+  },
+  "summary": "This is a review article, not a primary experimental report. It discusses numerous MXene electrodes and capacitance values, but these are explicitly attributed to previously published references rather than electrodes fabricated by Vattikuti et al. Therefore, no distinct author-fabricated electrodes can be extracted and no primary electrode is applicable. The review surveys Ti3C2Tx, Nb2CTx, V2CTx, Mo-based MXenes, and many composites, but these literature examples are excluded under the extraction rules."
+}

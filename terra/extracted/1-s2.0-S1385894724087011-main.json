@@ -1,0 +1,611 @@
+{
+  "source_file": "1-s2.0-S1385894724087011-main.pdf",
+  "source_path": "1-s2.0-S1385894724087011-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.10337,
+  "warnings": [
+    "'TC' has no capacitance of any kind",
+    "'HTC' has no capacitance of any kind",
+    "'PTC' has no capacitance of any kind",
+    "'NTC' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for TC; electrochemical results give no areal capacitance.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine film identified as TC.",
+          "unit": null,
+          "value": "Ti3C2Tz"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No single best TC capacitance/current-density value printed in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shown, but no thickness value reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing condition for the five films.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "TEM: pristine Ti3C2Tz lateral size.",
+          "unit": "nm",
+          "value": "500\u2013600"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4i compares TC, but no numeric best value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 1c compares d-spacing, but numerical values are not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "TC suspension explicitly described as delaminated.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared working-electrode loading for the five films.",
+          "unit": "mg cm\u22122",
+          "value": "~1.7"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors abbreviate delaminated Ti3C2Tz as TC.",
+          "unit": null,
+          "value": "Ti3C2Tz"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No in-plane pore size reported for pristine TC.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best TC capacitance condition not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3AlC2 etched in 12 M HCl/HF, followed by LiCl intercalation and sonication.",
+          "unit": null,
+          "value": "HCl/HF etching, LiCl intercalation, and sonication"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4i compares TC, but no numeric best value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "TC",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for HTC.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Hydrothermal-treated Ti3C2Tz; authors report abundant TiOx nanoparticles.",
+          "unit": null,
+          "value": "Ti3C2Tz with TiOx nanoparticles"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No single best HTC capacitance/current-density value printed in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shown, but no thickness value reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing condition for the five films.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No HTC lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4i compares HTC, but no numeric best value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 1c compares d-spacing, but numerical values are not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Produced from the delaminated TC suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared working-electrode loading for the five films.",
+          "unit": "mg cm\u22122",
+          "value": "~1.7"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify HTC as hydrothermal-treated Ti3C2Tz.",
+          "unit": null,
+          "value": "Ti3C2Tz"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No HTC pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best HTC capacitance condition not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "TC suspension hydrothermally treated without urea; film formed by vacuum filtration.",
+          "unit": null,
+          "value": "Hydrothermal treatment without urea"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4i compares HTC, but no numeric best value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "HTC",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for PTC.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Porous Ti3C2Tz film; residual TiOx is reported.",
+          "unit": null,
+          "value": "porous Ti3C2Tz with TiOx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No single best PTC capacitance/current-density value printed in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shown, but no thickness value reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing condition for the five films.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No PTC lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4i compares PTC, but no numeric best value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 1c compares d-spacing, but numerical values are not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Produced from the delaminated TC suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared working-electrode loading for the five films.",
+          "unit": "mg cm\u22122",
+          "value": "~1.7"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify PTC as porous Ti3C2Tz.",
+          "unit": null,
+          "value": "Ti3C2Tz"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "TEM inset: relatively large pores after etching.",
+          "unit": "nm",
+          "value": "~100"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best PTC capacitance condition not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "TC underwent hydrothermal treatment without urea, then 10% HF post-etching.",
+          "unit": null,
+          "value": "Hydrothermal treatment without urea followed by 10% HF post-etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4i compares PTC, but no numeric best value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "PTC",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for NTC.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors identify NTC as nitrogen-doped Ti3C2Tz.",
+          "unit": null,
+          "value": "nitrogen-doped Ti3C2Tz"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No single best NTC capacitance/current-density value printed in supplied text.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shown, but no thickness value reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing condition for the five films.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No NTC lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4i compares NTC, but no numeric best value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Figure 1c compares d-spacing, but numerical values are not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Produced from the delaminated TC suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared working-electrode loading for the five films.",
+          "unit": "mg cm\u22122",
+          "value": "~1.7"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify NTC as N-doped Ti3C2Tz.",
+          "unit": null,
+          "value": "Ti3C2Tz"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No NTC pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best NTC capacitance condition not numerically printed.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "TC and urea hydrothermally treated at 180 \u00b0C for 10 h; vacuum filtered.",
+          "unit": null,
+          "value": "Urea-assisted hydrothermal nitrogen doping"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 4i compares NTC, but no numeric best value is printed.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "NTC",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported for PNTC.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "XPS identifies Ti-N-O, Ti-N-OH, and Ti-N surface species.",
+          "unit": null,
+          "value": "porous nitrogen-doped Ti3C2Tz nanomesh with Ti-N-O/Ti-N-OH terminations"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Condition for the reported maximum gravimetric and volumetric capacitances.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Cross-sectional SEM shown, but no thickness value reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical-testing condition for the five films.",
+          "unit": null,
+          "value": "3 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No PNTC lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported PNTC capacitance in three-electrode testing.",
+          "unit": "F g\u22121",
+          "value": "700"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Increased d-spacing reported, but numerical value is not printed.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Produced from the delaminated TC suspension.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared working-electrode loading for the five films.",
+          "unit": "mg cm\u22122",
+          "value": "~1.7"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify PNTC as porous N-doped Ti3C2Tz.",
+          "unit": null,
+          "value": "Ti3C2Tz"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "TEM inset reports PNTC nanopores.",
+          "unit": "nm",
+          "value": "~40"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance was reported from GCD, not at a CV scan rate.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Urea-assisted hydrothermal doping followed by 10% HF post-etching and vacuum filtration.",
+          "unit": null,
+          "value": "Urea-assisted hydrothermal nitrogen doping followed by 10% HF post-etching"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Corresponds to the maximum 700 F g\u22121 at 1 A g\u22121.",
+          "unit": "F cm\u22123",
+          "value": "2023"
+        }
+      },
+      "is_primary": true,
+      "label": "PNTC",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Wei Zheng et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.cej.2024.157210"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Chemical Engineering Journal 500 (2024).",
+      "unit": null,
+      "value": "2024"
+    }
+  },
+  "summary": "The study fabricated five freestanding Ti3C2Tz-derived films: pristine TC, hydrothermal HTC, porous PTC, nitrogen-doped NTC, and porous nitrogen-doped PNTC. TC was produced by HCl/HF etching of Ti3AlC2 followed by LiCl intercalation and sonication; nitrogen-doping used urea hydrolysis, while porous variants received post-etching. PNTC was the headline electrode, delivering 700 F g\u22121 and 2023 F cm\u22123 at 1 A g\u22121 in 3 M H2SO4, with ~40 nm pores. Numeric capacitances for TC, HTC, PTC, and NTC are presented graphically but are not printed in the supplied text; film thickness, BET area, porosity, and numeric d-spacings are also absent."
+}

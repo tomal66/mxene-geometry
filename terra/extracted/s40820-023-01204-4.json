@@ -1,0 +1,378 @@
+{
+  "source_file": "s40820-023-01204-4.pdf",
+  "source_path": "s40820-023-01204-4.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09102,
+  "warnings": [
+    "'AC' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for p-MC film.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "CD-intercalated porous composite film.",
+          "unit": null,
+          "value": "Ti3CNTx MXene/carbon dots"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD condition for best gravimetric capacitance.",
+          "unit": "A g\u22121",
+          "value": "2"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in supplied article text.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode electrochemical characterization.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "MXene lateral flake size not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Three-electrode GCD measurement.",
+          "unit": "F g\u22121",
+          "value": "688.9"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Expanded spacing described, but no numerical d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from multilayered Ti3CNTx precursor description.",
+          "unit": null,
+          "value": "multilayered"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Active-material loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Paper identifies the MXene as titanium carbonitride.",
+          "unit": null,
+          "value": "Ti3CNTx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Macropores described, but no pore diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No quantitative porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was reported from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared fabrication procedure in Experimental Section.",
+          "unit": null,
+          "value": "LiF/HCl etching of Ti3AlCN; CD mixing/vacuum filtration; annealing at 350 \u00b0C for 1 h under Ar"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "Reduced tortuosity described without a numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for p-MC film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "p-MC",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for pure MXene film.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pure MXene film without added carbon dots.",
+          "unit": null,
+          "value": "Ti3CNTx MXene"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Reported comparison point in Fig. 4c.",
+          "unit": "A g\u22121",
+          "value": "2"
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "Not reported in supplied article text.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode electrochemical characterization.",
+          "unit": null,
+          "value": "1 M H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "MXene lateral flake size not reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Comparison value at 2 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "283.7"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "No numerical d-spacing reported for pure MXene.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Derived from multilayered Ti3CNTx precursor description.",
+          "unit": null,
+          "value": "multilayered"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Active-material loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Paper identifies the MXene as titanium carbonitride.",
+          "unit": null,
+          "value": "Ti3CNTx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Film is described as without in-plane pores.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No quantitative porosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was reported from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "BET surface area not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared fabrication procedure in Experimental Section.",
+          "unit": null,
+          "value": "LiF/HCl etching of Ti3AlCN; vacuum filtration without carbon dots"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No numerical tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Not reported for pure MXene film.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "pure MXene",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "uncertain",
+          "note": "No AC areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Fabricated positive electrode for asymmetric device.",
+          "unit": null,
+          "value": "AC (YP-50F)/PTFE"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No standalone AC capacitance value reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "uncertain",
+          "note": "AC film thickness not reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Used with p-MC in assembled solid-state device.",
+          "unit": null,
+          "value": "PVA/H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "Not applicable/reported for activated carbon.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No standalone AC gravimetric capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Not applicable/reported for activated carbon.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "uncertain",
+          "note": "Not applicable/reported for activated carbon.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Electrode-area-normalized AC loading not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "AC is the non-MXene positive-electrode reference.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No AC pore-size value reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "No AC porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "uncertain",
+          "note": "No standalone AC capacitance value reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No AC BET surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section 2.2.",
+          "unit": null,
+          "value": "AC/PTFE suspension dried at 80 \u00b0C, repeatedly rolled into a thin film"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No standalone AC volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "AC",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Wang et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1007/s40820-023-01204-4"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Published online 18 October 2023.",
+      "unit": null,
+      "value": "2023"
+    }
+  },
+  "summary": "This study compares a porous Ti3CNTx MXene/carbon-dot composite film (p-MC), a pure Ti3CNTx MXene-film control, and an authors-fabricated activated-carbon (AC) positive electrode for asymmetric devices. Ti3CNTx was obtained by LiF/HCl etching of Ti3AlCN; p-MC was made by carbon-dot mixing, vacuum filtration, and 350 \u00b0C annealing, where carbon-dot pyrolysis generated NH3 for in situ pore etching. The headline p-MC electrode delivered 688.9 F g\u22121 at 2 A g\u22121 in 1 M H2SO4, versus 283.7 F g\u22121 for pure MXene at the same current density. The paper describes optimization of fresh and annealed MC films across carbon-dot contents, but the supplied text does not provide individually resolved sample labels or capacitance values for those optimization variants; numerical mass loading, thickness, BET area, porosity, pore diameter, and interlayer spacing are also absent."
+}

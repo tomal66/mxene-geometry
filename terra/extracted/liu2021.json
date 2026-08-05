@@ -1,0 +1,376 @@
+{
+  "source_file": "liu2021.pdf",
+  "source_path": "liu2021.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.09147,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this fiber electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pure Ti3C2Tx fiber; no ANF additive.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD capacitance reported in Figure 3b/Table 1.",
+          "unit": "A cm\u22123",
+          "value": "3"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported in main text or tables.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode fiber measurement.",
+          "unit": null,
+          "value": "3 m H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx nanosheet characterization.",
+          "unit": "\u00b5m",
+          "value": "1\u20132"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; measured at 3 A cm\u22123.",
+          "unit": "F g\u22121",
+          "value": "311"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) basal spacing for 0% ANF fiber.",
+          "unit": "nm",
+          "value": "1.49"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Fiber assembled from shared delaminated few-/single-layer nanosheets.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported in main text or tables.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify the fiber as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for T/A fibers.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for T/A fibers.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance is from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported for T/A fibers.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation: HF etching, TMAOH delamination, wet spinning in 0.5 m FeCl2.",
+          "unit": null,
+          "value": "HF etching/TMAOH delamination followed by wet spinning in 0.5 m FeCl2"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; measured at 3 A cm\u22123.",
+          "unit": "F cm\u22123",
+          "value": "934"
+        }
+      },
+      "is_primary": false,
+      "label": "T/A-0 fiber",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this fiber electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "T/A fiber with 2% ANF amount.",
+          "unit": null,
+          "value": "Ti3C2Tx/ANF (2% ANF)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD capacitance reported in Figure 3b/Table 1.",
+          "unit": "A cm\u22123",
+          "value": "3"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported in main text or tables.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode fiber measurement.",
+          "unit": null,
+          "value": "3 m H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx nanosheet characterization.",
+          "unit": "\u00b5m",
+          "value": "1\u20132"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; measured at 3 A cm\u22123.",
+          "unit": "F g\u22121",
+          "value": "295"
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Only the 0% and 5% endpoints are numerically stated.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Fiber assembled from shared delaminated few-/single-layer nanosheets.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported in main text or tables.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify T/A hybrid fibers as Ti3C2Tx-based.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for T/A fibers.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for T/A fibers.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance is from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported for T/A fibers.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared preparation: HF etching, TMAOH delamination, wet spinning in 0.5 m FeCl2.",
+          "unit": null,
+          "value": "HF etching/TMAOH delamination followed by wet spinning in 0.5 m FeCl2"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; measured at 3 A cm\u22123.",
+          "unit": "F cm\u22123",
+          "value": "870"
+        }
+      },
+      "is_primary": false,
+      "label": "T/A-2 fiber",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this fiber electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "T/A fiber with 5% ANF amount.",
+          "unit": null,
+          "value": "Ti3C2Tx/ANF (5% ANF)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "GCD capacitance reported in Figure 3b/Table 1.",
+          "unit": "A cm\u22123",
+          "value": "3"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported in main text or tables.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Three-electrode fiber measurement giving best electrode capacitance.",
+          "unit": null,
+          "value": "3 m H2SO4"
+        },
+        "flake_size": {
+          "confidence": "derived",
+          "note": "Shared d-Ti3C2Tx nanosheet characterization.",
+          "unit": "\u00b5m",
+          "value": "1\u20132"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; measured at 3 A cm\u22123.",
+          "unit": "F g\u22121",
+          "value": "278"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) basal spacing at 5% ANF.",
+          "unit": "nm",
+          "value": "1.55"
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Fiber assembled from shared delaminated few-/single-layer nanosheets.",
+          "unit": null,
+          "value": "few-layer or single-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported in main text or tables.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors identify T/A hybrid fibers as Ti3C2Tx-based.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported for T/A fibers.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported for T/A fibers.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance is from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "BET surface area not reported for T/A fibers.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Conclusion and fabrication section.",
+          "unit": null,
+          "value": "HF etching/TMAOH delamination followed by wet spinning in 0.5 m FeCl2"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1 and Figure 3; measured at 3 A cm\u22123.",
+          "unit": "F cm\u22123",
+          "value": "807"
+        }
+      },
+      "is_primary": true,
+      "label": "T/A-5 fiber",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Liu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/adfm.202010944"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2021"
+    }
+  },
+  "summary": "The study compares three wet-spun Ti3C2Tx/aramid nanofiber (T/A) fiber electrodes: T/A-0, T/A-2, and T/A-5, containing 0%, 2%, and 5% ANF, respectively. Ti3C2Tx was produced by HF etching of Ti3AlC2, TMAOH-assisted delamination, and wet spinning in a 0.5 m FeCl2 coagulation bath. The headline T/A-5 fiber delivered 807 F cm\u22123 (278 F g\u22121) at 3 A cm\u22123 in 3 m H2SO4, while exhibiting 104 MPa tensile strength. The authors additionally assembled T/A-5 symmetric FSCs using PVA-H2SO4 and F-MMT/PVA-H2SO4/DMSO electrolytes, but these are device/electrolyte configurations using the same T/A-5 electrode rather than distinct electrode materials. Mass loading, fiber thickness, BET area, pore metrics, and tortuosity were not reported."
+}

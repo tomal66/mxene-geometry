@@ -1,0 +1,610 @@
+{
+  "source_file": "Advanced Materials - 2023 - Arslanoglu - 3D Assembly of MXene Networks using a Ceramic Backbone with Controlled Porosity.pdf",
+  "source_path": "Advanced Materials - 2023 - Arslanoglu - 3D Assembly of MXene Networks using a Ceramic Backbone with Controlled Porosity.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.14081,
+  "warnings": [
+    "'MX-PS electrodes with 40% longitudinal porosity, 180 mg mL\u22121 MXene' has no capacitance of any kind",
+    "'MX-PS electrodes with 60% lateral porosity, 180 mg mL\u22121 MXene' has no capacitance of any kind",
+    "'non-MXene supercapacitor' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Calculated from CV at 10 mV s\u22121.",
+          "unit": "F cm\u22122",
+          "value": "7.24"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene conformally coats freeze-cast porous silica pore walls.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene-infiltrated porous silica"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Shared supercapacitor-electrode dimensions in methods.",
+          "unit": "mm",
+          "value": "about 1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared symmetric-supercapacitor electrolyte in methods.",
+          "unit": null,
+          "value": "3 m poly(vinyl alcohol) (PVA)/H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "DLS distribution is plotted, but no single numerical flake size is stated.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Calculated from CV at 10 mV s\u22121.",
+          "unit": "F g\u22121",
+          "value": "7.26"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No XRD d-spacing was reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Dispersion comprises exfoliated single-layer and delaminated multilayer flakes.",
+          "unit": null,
+          "value": "single-layer and delaminated multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Reported in conclusion for the high-performance MX-PS electrodes.",
+          "unit": "mg cm\u22122",
+          "value": "2.43"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene identified throughout as Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "60% porous silica backbones have approximately 50 \u03bcm average pore size.",
+          "unit": "\u03bcm",
+          "value": "\u224850"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Electrode backbone porosity used for headline supercapacitor.",
+          "unit": "%",
+          "value": "60"
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition used to calculate reported capacitances.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Specific surface area is referenced in Table S1, but no value appears in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Ti3C2Tx made by MILD; silica made by camphene freeze casting and capillary infiltration.",
+          "unit": null,
+          "value": "LiF/HCl minimally intensive layer delamination (MILD), followed by capillary infiltration into freeze-cast silica"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Tortuosity is referenced in Table S1, but no numerical value appears in supplied paper text.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "MX-PS electrodes with 60% longitudinal porosity, 180 mg mL\u22121 MXene",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Calculated from CV at 10 mV s\u22121.",
+          "unit": "F cm\u22122",
+          "value": "3.13"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Reduced-MXene-concentration MX-PS supercapacitor.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene-infiltrated porous silica"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Reported capacitance was obtained from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Shared supercapacitor-electrode dimensions in methods.",
+          "unit": "mm",
+          "value": "about 1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared symmetric-supercapacitor electrolyte in methods.",
+          "unit": null,
+          "value": "3 m poly(vinyl alcohol) (PVA)/H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No numerical flake size assigned to this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for the 90 mg mL\u22121 supercapacitor.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Uses the study's shared Ti3C2Tx dispersion.",
+          "unit": null,
+          "value": "single-layer and delaminated multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Mass loading for this reduced-concentration device was not printed.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "derived",
+          "note": "Uses the study's shared MXene formulation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Backbone porosity/orientation for this reduced-concentration device is not explicitly stated.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Not explicitly assigned to the 90 mg mL\u22121 device.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Condition stated for the calculated areal capacitance.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No value reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Uses shared MILD MXene synthesis and silica-infiltration process.",
+          "unit": null,
+          "value": "LiF/HCl MILD, followed by capillary infiltration into freeze-cast silica"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No numerical value reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MX-PS supercapacitor prepared with 90 mg mL\u22121 MXene concentration",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "40%-porosity capacitance is shown graphically, without a printed numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene-infiltrated 40% porous silica electrode.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene-infiltrated porous silica"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Capacitance comparison was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Shared supercapacitor-electrode dimensions in methods.",
+          "unit": "mm",
+          "value": "about 1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared symmetric-supercapacitor electrolyte in methods.",
+          "unit": null,
+          "value": "3 m poly(vinyl alcohol) (PVA)/H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No numerical flake size assigned to this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Shown graphically only; no printed numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Uses the study's shared Ti3C2Tx dispersion.",
+          "unit": null,
+          "value": "single-layer and delaminated multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not printed for the 40%-porosity electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene formulation used in all MX-PS electrodes.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Increasing silica solid loading to give 40% porosity decreases average pore size.",
+          "unit": "\u03bcm",
+          "value": "\u224820"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Backbone used in the porosity-dependent supercapacitor comparison.",
+          "unit": "%",
+          "value": "40"
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance values in the porosity comparison were calculated from CV.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No electrode-specific value printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "180 mg mL\u22121 dispersion infiltrated into freeze-cast 40% porous silica.",
+          "unit": null,
+          "value": "LiF/HCl MILD, followed by capillary infiltration into freeze-cast silica"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No numerical tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MX-PS electrodes with 40% longitudinal porosity, 180 mg mL\u22121 MXene",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Lateral-orientation capacitance is plotted, without a printed numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene-infiltrated silica with in-plane/lateral primary pores.",
+          "unit": null,
+          "value": "Ti3C2Tx MXene-infiltrated porous silica"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Capacitance comparison was calculated from CV, not GCD.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Shared supercapacitor-electrode dimensions in methods.",
+          "unit": "mm",
+          "value": "about 1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared symmetric-supercapacitor electrolyte in methods.",
+          "unit": null,
+          "value": "3 m poly(vinyl alcohol) (PVA)/H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "No numerical flake size assigned to this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Shown graphically only; no printed numerical value.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No XRD d-spacing reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Uses the study's shared Ti3C2Tx dispersion.",
+          "unit": null,
+          "value": "single-layer and delaminated multilayer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not printed for the lateral-orientation electrode.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "MXene formulation used in all MX-PS electrodes.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "derived",
+          "note": "Same 60% backbone porosity; average pore size stated for those backbones.",
+          "unit": "\u03bcm",
+          "value": "\u224850"
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Lateral and longitudinal orientations compared at equal 60% porosity.",
+          "unit": "%",
+          "value": "60"
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Capacitance values in the orientation comparison were calculated from CV.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No electrode-specific value printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "180 mg mL\u22121 dispersion infiltrated into lateral-orientation freeze-cast silica.",
+          "unit": null,
+          "value": "LiF/HCl MILD, followed by capillary infiltration into freeze-cast silica"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No numerical tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MX-PS electrodes with 60% lateral porosity, 180 mg mL\u22121 MXene",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Control CV/GCD curves are compared, but no numerical capacitance is printed.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Authors fabricated the same-design control without MXene infiltration.",
+          "unit": null,
+          "value": "non-infiltrated porous silica"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "No numerical control capacitance is reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "derived",
+          "note": "Same-design sandwich-supercapacitor control uses shared electrode dimensions.",
+          "unit": "mm",
+          "value": "about 1"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared symmetric-supercapacitor electrolyte in methods.",
+          "unit": null,
+          "value": "3 m poly(vinyl alcohol) (PVA)/H2SO4"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No MXene is present in this control.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numerical control capacitance printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "No MXene is present.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No MXene is present.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No MXene active mass is present.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Non-MXene reference electrode.",
+          "unit": null,
+          "value": null
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "Control is described as same design, but its pore-size value is not explicitly stated.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Control is described as same design, but porosity is not explicitly stated.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Control CV comparison is specifically reported at 10 mV s\u22121.",
+          "unit": "mV s\u22121",
+          "value": "10"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No control-specific value printed.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Freeze-cast porous silica without MXene infiltration.",
+          "unit": null,
+          "value": "camphene-based unidirectional freeze casting and sintering"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No numerical tortuosity reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "non-MXene supercapacitor",
+      "role": "reference"
+    }
+  ],
+  "n_electrodes": 5,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Arslanoglu et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/adma.202304757"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Article header and publication information.",
+      "unit": null,
+      "value": "2023"
+    }
+  },
+  "summary": "This study fabricated Ti3C2Tx MXene-infiltrated porous silica (MX-PS) electrodes by LiF/HCl MILD synthesis of MXene, camphene-based unidirectional freeze casting of silica, and capillary-driven infiltration. The electrochemical electrode variants differed by MXene dispersion concentration (90 versus 180 mg mL\u22121), silica-backbone porosity (40% versus 60%), and pore orientation (longitudinal versus lateral); a non-infiltrated porous-silica device was also fabricated as a reference. The primary 60%-porosity longitudinal MX-PS electrode made with 180 mg mL\u22121 dispersion delivered 7.24 F cm\u22122 and 7.26 F g\u22121 at 10 mV s\u22121, with 2.43 mg cm\u22122 MXene loading. Several variant capacitances were displayed only graphically, so numerical values, variant-specific loadings, SSA, tortuosity, and interlayer spacings were not reported in the supplied text."
+}

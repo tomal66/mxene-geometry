@@ -1,0 +1,261 @@
+{
+  "source_file": "kurra2016.pdf",
+  "source_path": "kurra2016.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.06834,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 3c; best reported value at 20 mV s\u22121 in 1 m H2SO4.",
+          "unit": "mF cm\u22122",
+          "value": "6.2"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Slurry composition stated in MSC Fabrication.",
+          "unit": null,
+          "value": "HF-etched Ti3C2Tx (T = O, OH, F) with acetylene black and PVDF (80:10:10 weight ratio)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was derived from CV, not galvanostatic discharge.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Reported for the HF-etched device comparison.",
+          "unit": "\u03bcm",
+          "value": "\u2248125"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Figure 3 compares both MXene devices in this electrolyte.",
+          "unit": null,
+          "value": "1 m H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "SEM shows flakes, but no lateral dimension is reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No gravimetric capacitance reported for this device.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Only c-lattice parameter is printed in text; Figure 2e d-spacing labels unavailable.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Experimental Section describes resulting HF-etched sheets.",
+          "unit": null,
+          "value": "few- to multilayer stacks"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared MSC fabrication protocol specifies loading range for both MXene films.",
+          "unit": "mg cm\u22122",
+          "value": "\u22481"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Experimental Section gives common MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Paper is described as porous; no electrode porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Figure 3c; condition for best reported areal capacitance.",
+          "unit": "mV s\u22121",
+          "value": "20"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section: 48% HF etching followed by washing and bath sonication.",
+          "unit": null,
+          "value": "48% HF etching of Ti3AlC2 for 3 h at room temperature; washed and bath-sonicated"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported for this device.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "HF-etched Ti3C2 MXene",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Figure 3c; best reported value at 20 mV s\u22121 in 1 m H2SO4.",
+          "unit": "mF cm\u22122",
+          "value": "25"
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "MXene terminations, Li intercalation, and slurry formulation are stated.",
+          "unit": null,
+          "value": "Clay-like Li-intercalated Ti3C2Tx (T = O, OH, F) with acetylene black and PVDF (80:10:10 weight ratio)"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Best capacitance was derived from CV, not galvanostatic discharge.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Reported for clay-like Ti3C2 and active MXene layer.",
+          "unit": "\u03bcm",
+          "value": "\u2248125"
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "Figure 3 compares both MXene devices in this electrolyte.",
+          "unit": null,
+          "value": "1 m H2SO4"
+        },
+        "flake_size": {
+          "confidence": "uncertain",
+          "note": "SEM image supplied, but no lateral flake dimension reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No gravimetric capacitance reported for this device.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "uncertain",
+          "note": "Only c-lattice parameter is printed in text; Figure 2e d-spacing labels unavailable.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Results describe compactly stacked clay-like MXene multilayers.",
+          "unit": null,
+          "value": "multilayers"
+        },
+        "mass_loading": {
+          "confidence": "derived",
+          "note": "Shared MSC fabrication protocol specifies loading range for both MXene films.",
+          "unit": "mg cm\u22122",
+          "value": "\u22481"
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Experimental Section gives common MXene formula.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "uncertain",
+          "note": "No pore-size measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "uncertain",
+          "note": "Paper is described as porous; no electrode porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Figure 3c; condition for best reported areal capacitance.",
+          "unit": "mV s\u22121",
+          "value": "20"
+        },
+        "ssa": {
+          "confidence": "uncertain",
+          "note": "No BET surface-area measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "LiF/HCl route stated in Experimental Section.",
+          "unit": null,
+          "value": "LiF/HCl etching: 1.2 g LiF in 30 mL 6 m HCl; 45 \u00b0C for 45 h"
+        },
+        "tortuosity": {
+          "confidence": "uncertain",
+          "note": "No tortuosity value or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "No volumetric capacitance reported for this device.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "clay-like Ti3C2 MXene",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author line.",
+      "unit": null,
+      "value": "Kurra et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Paper header.",
+      "unit": null,
+      "value": "10.1002/aenm.201601372"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal header.",
+      "unit": null,
+      "value": "2016"
+    }
+  },
+  "summary": "This paper compares two Ti3C2Tx-on-paper coplanar microsupercapacitor electrodes: HF-etched Ti3C2 MXene and LiF/HCl-derived clay-like Ti3C2 MXene. Both were deposited as 80:10:10 MXene/acetylene-black/PVDF slurries on Au-coated printing paper and laser-patterned into interdigitated electrodes. The clay-like Ti3C2 MXene is the headline and best-performing electrode, reaching 25 mF cm\u22122 at 20 mV s\u22121 in 1 m H2SO4, versus 6.2 mF cm\u22122 for HF-etched Ti3C2. No electrode-specific BET area, pore size, porosity, flake lateral size, tortuosity, gravimetric capacitance, or volumetric capacitance was reported."
+}

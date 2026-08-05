@@ -1,0 +1,378 @@
+{
+  "source_file": "1-s2.0-S001346862101762X-main.pdf",
+  "source_path": "1-s2.0-S001346862101762X-main.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.08062,
+  "warnings": [
+    "'M-Ti3C2Tx' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "HF-etched material with Ti-F and Ti-O bonds reported by XPS.",
+          "unit": null,
+          "value": "Ti3C2Tx with \u2013F, \u2013O and \u2013OH surface terminations"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Capacitance stated in Introduction.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte in Methods.",
+          "unit": null,
+          "value": "1 M H2SO4 solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM show morphology but no lateral size.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Introduction reports the pre-modification capacitance at 1 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "60"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "TEM layer spacing in Fig. 2e.",
+          "unit": "nm",
+          "value": "approximately 0.96"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Described as a typical layered structure; no layer count.",
+          "unit": null,
+          "value": "layered"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Methods give 1\u20132 mg total loading, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Prepared by HF etching Ti3AlC2.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-diameter measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section 2.1.",
+          "unit": null,
+          "value": "HF etching (30 wt% HF, 18 h at room temperature)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "HF-etched Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "LiCl-KCl treatment removed part of the \u2013F terminations and increased \u2013O.",
+          "unit": null,
+          "value": "Ti3C2Tx with reduced \u2013F and increased \u2013O surface terminations"
+        },
+        "current_density": {
+          "confidence": "uncertain",
+          "note": "Rate plot shown, but no exact best M-Ti3C2Tx value printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte in Methods.",
+          "unit": null,
+          "value": "1 M H2SO4 solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM show morphology but no lateral size.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "Figure 4c compares values, but no exact best value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "TEM layer spacing in Fig. 2f.",
+          "unit": "nm",
+          "value": "0.97"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer count reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Methods give 1\u20132 mg total loading, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample label and preparation section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-diameter measurement reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance not reported from CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section 2.2.",
+          "unit": null,
+          "value": "Treatment in LiCl-KCl molten salt (1:1 mol, 450 \u00b0C, 12 h)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "M-Ti3C2Tx",
+      "role": "variant"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No areal capacitance reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Potassium oxygenated complexes intercalated; \u2013F replaced substantially by \u2013O.",
+          "unit": null,
+          "value": "Ti3C2Tx with potassium oxygenated complexes intercalated and \u2013O-rich surface terminations"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Figure 4c and Section 3.2.",
+          "unit": "A g\u22121",
+          "value": "0.5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "No electrode thickness reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing electrolyte in Methods.",
+          "unit": null,
+          "value": "1 M H2SO4 solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "SEM/TEM show morphology but no lateral size.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "Highest reported capacitance; Section 3.2 states 340 F g\u22121 at 0.5 A g\u22121.",
+          "unit": "F g\u22121",
+          "value": "340"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "TEM range in Fig. 2g; corroborated in Abstract.",
+          "unit": "nm",
+          "value": "1.05\u20131.21"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "No layer count reported.",
+          "unit": null,
+          "value": null
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Methods give 1\u20132 mg total loading, not areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample label and preparation section.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Interlamellar mesopores noted, but no diameter reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance obtained from GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific surface area reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section 2.2.",
+          "unit": null,
+          "value": "Treatment in LiCl-KCl-K2CO3 molten salt (450 \u00b0C, 12 h)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or model reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "KM-Ti3C2Tx",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 3,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "Liang Guo et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1016/j.electacta.2021.139476"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal volume and article citation.",
+      "unit": null,
+      "value": "2022"
+    }
+  },
+  "summary": "This study compares three Ti3C2Tx electrodes: the HF-etched starting MXene, LiCl-KCl molten-salt-treated M-Ti3C2Tx, and LiCl-KCl-K2CO3-treated KM-Ti3C2Tx. The molten-salt treatments were conducted at 450 \u00b0C for 12 h, while K2CO3 enabled potassium oxygenated-complex intercalation and substantial replacement of \u2013F by \u2013O terminations. KM-Ti3C2Tx is the headline and best-performing electrode, reporting 340 F g\u22121 at 0.5 A g\u22121 in 1 M H2SO4; the abstract/conclusion additionally report 323.6 F g\u22121 at 1 A g\u22121. No BET surface area, porosity, pore diameter, electrode thickness, areal loading, or volumetric/areal capacitance was reported."
+}

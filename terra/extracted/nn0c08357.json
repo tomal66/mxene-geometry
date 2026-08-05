@@ -1,0 +1,264 @@
+{
+  "source_file": "nn0c08357.pdf",
+  "source_path": "nn0c08357.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.0759,
+  "warnings": [
+    "'Al\u2212Ti3C2' has no capacitance of any kind",
+    "'conventional Ti3C2' has no capacitance of any kind"
+  ],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No electrochemical capacitance measurements are reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Produced from excess-Al Al\u2212Ti3AlC2 precursor.",
+          "unit": null,
+          "value": "Al\u2212Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No galvanostatic charge-discharge capacitance test reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness was used for conductivity, but no value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "No electrochemical cell or electrolyte is reported.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "DLS data in Experimental Methods/SI Figure S7.",
+          "unit": "\u03bcm",
+          "value": "1.3 to 1.6"
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrochemical capacitance measurements are reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Authors state XRD differences do not warrant extensive interlayer-spacing analysis.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Abstract describes stoichiometric single-to few-layer flakes.",
+          "unit": null,
+          "value": "single-to few-layer"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading for films is reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Denoted Al\u2212Ti3C2 for simplicity after defining Al\u2212Ti3C2Tx.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization is reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement is reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No cyclic-voltammetry capacitance test reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific-surface-area measurement is reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Methods: HF/HCl etching followed by LiCl delamination.",
+          "unit": null,
+          "value": "HF/HCl etching and LiCl delamination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity analysis is reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrochemical capacitance measurements are reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "Al\u2212Ti3C2",
+      "role": "primary"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "No electrochemical capacitance measurements are reported.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Conventional Ti3C2 produced from conventional Ti3AlC2.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "No galvanostatic charge-discharge capacitance test reported.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Film thickness was used for conductivity, but no value is printed.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "stated",
+          "note": "No electrochemical cell or electrolyte is reported.",
+          "unit": null,
+          "value": null
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No conventional-Ti3C2 lateral flake-size value is reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrochemical capacitance measurements are reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Authors state XRD differences do not warrant extensive interlayer-spacing analysis.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "Same delamination procedure and film preparation as Al\u2212Ti3C2.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "No active-material mass loading for films is reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Named conventional Ti3C2 throughout the article.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size characterization is reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity measurement is reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "No cyclic-voltammetry capacitance test reported.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "No BET specific-surface-area measurement is reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Methods: HF/HCl etching followed by LiCl delamination.",
+          "unit": null,
+          "value": "HF/HCl etching and LiCl delamination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity analysis is reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No electrochemical capacitance measurements are reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "conventional Ti3C2",
+      "role": "control"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author list.",
+      "unit": null,
+      "value": "Mathis et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1021/acsnano.0c08357"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "ACS Nano citation header.",
+      "unit": null,
+      "value": "2021"
+    }
+  },
+  "summary": "This paper compares two Ti3C2Tx MXene electrodes/films: Al\u2212Ti3C2 prepared from an excess-Al Ti3AlC2 precursor and conventional Ti3C2 prepared from a conventional precursor. Both materials were etched with an HF/HCl mixture and delaminated using LiCl; the Al\u2212Ti3C2 material was the headline, best-performing sample. No electrochemical capacitance, electrolyte, current-density, scan-rate, or mass-loading data were reported because the study evaluates conductivity and environmental/thermal oxidation stability rather than energy-storage performance. Al\u2212Ti3C2 freestanding films reached electronic conductivities exceeding 20 000 S/cm, while fresh Al\u2212Ti3C2 flakes had reported average lateral sizes of 1.3 to 1.6 \u03bcm."
+}

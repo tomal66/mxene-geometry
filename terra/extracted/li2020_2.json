@@ -1,0 +1,261 @@
+{
+  "source_file": "li2020_2.pdf",
+  "source_path": "li2020_2.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.07054,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; only gravimetric capacitance was presented.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Regular NH4HF2-etched MXene.",
+          "unit": null,
+          "value": "Ti3C2 MXene"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best GCD capacitance reported in Figure 6 and conclusions.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported in experimental section or characterization.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "1 M KOH aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCD result for MXene-coated NF electrode.",
+          "unit": "F g\u22121",
+          "value": "333.3"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing, Figure 2.",
+          "unit": "\u00c5",
+          "value": "10.8"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "SEM showed only partially separated/opened layers.",
+          "unit": null,
+          "value": "partially opened layer structure"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Only total deposited mass (1.1 mg) stated; no areal loading reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors designate the regular product as Ti3C2 MXene.",
+          "unit": null,
+          "value": "Ti3C2"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Nitrogen adsorption/desorption result, Figure 3d.",
+          "unit": "cm\u22122 g\u22121",
+          "value": "15.8"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section 2.1.",
+          "unit": null,
+          "value": "NH4HF2 etching (2 M, 18 h at 40 \u00b0C), followed by washing, filtration, and vacuum drying"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or model was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance was reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": false,
+      "label": "MXene",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported; only gravimetric capacitance was presented.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "K+ and NH4+ intercalation described by authors.",
+          "unit": null,
+          "value": "K+-intercalated Ti3C2 MXene (K-MXene)"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best GCD capacitance reported in Figure 6 and conclusions.",
+          "unit": "A g\u22121",
+          "value": "1"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not reported in experimental section or characterization.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared three-electrode testing condition.",
+          "unit": null,
+          "value": "1 M KOH aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "No lateral flake dimension was reported.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "GCD result for K-MXene-coated NF electrode.",
+          "unit": "F g\u22121",
+          "value": "690.9"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "XRD (002) spacing, Figure 2.",
+          "unit": "\u00c5",
+          "value": "12.4"
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "SEM and TEM showed a clearly highly opened layered structure.",
+          "unit": null,
+          "value": "highly opened layer structure"
+        },
+        "mass_loading": {
+          "confidence": "uncertain",
+          "note": "Deposition procedure gives no explicit K-MXene loading or areal loading.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Authors call this K+-intercalated Ti3C2 MXene.",
+          "unit": null,
+          "value": "Ti3C2"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "No pore-size value was reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "No porosity percentage was reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Best capacitance was obtained by GCD, not CV.",
+          "unit": null,
+          "value": null
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Nitrogen adsorption/desorption result, Figure 3d.",
+          "unit": "cm\u22122 g\u22121",
+          "value": "23.6"
+        },
+        "synthesis_method": {
+          "confidence": "stated",
+          "note": "Experimental Section 2.2.",
+          "unit": null,
+          "value": "NH4HF2 etching (2 M, 18 h at 40 \u00b0C) followed by KOH intercalation (1.8 M, 4 h)"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "No tortuosity value or model was reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "No volumetric capacitance was reported.",
+          "unit": null,
+          "value": null
+        }
+      },
+      "is_primary": true,
+      "label": "K-MXene",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 2,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Paper author list.",
+      "unit": null,
+      "value": "Jingbo Li et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Printed in paper header.",
+      "unit": null,
+      "value": "10.1002/pssa.201900806"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Journal citation and publication information.",
+      "unit": null,
+      "value": "2020"
+    }
+  },
+  "summary": "This study fabricated two binder-free nickel-foam electrodes: regular NH4HF2-etched Ti3C2 MXene and K+-intercalated Ti3C2 (K-MXene). K-MXene was produced by adding KOH after NH4HF2 etching, yielding a larger XRD (002) spacing (12.4 \u00c5 versus 10.8 \u00c5) and a highly opened layered structure. The primary K-MXene electrode delivered the best reported gravimetric capacitance, 690.9 F g\u22121 at 1 A g\u22121 in 1 M KOH, compared with 333.3 F g\u22121 for regular MXene. Electrode thickness, areal mass loading, pore diameter, porosity, and volumetric/areal capacitance were not reported."
+}

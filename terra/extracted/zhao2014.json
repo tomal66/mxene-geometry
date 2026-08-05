@@ -1,0 +1,836 @@
+{
+  "source_file": "zhao2014.pdf",
+  "source_path": "zhao2014.pdf",
+  "model": "gpt-5.6-terra",
+  "cost_usd": 0.10796,
+  "warnings": [],
+  "electrodes": [
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Pristine paper control.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best value was obtained by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Thickness not specified for pristine paper.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical methods.",
+          "unit": null,
+          "value": "1 M MgSO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only a broad size range was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numeric gravimetric value reported for pristine paper.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only c-lattice parameter was reported, not d-spacing.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Paper formed from delaminated Ti3C2Tx flakes.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Paper sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Table 1 maximum volumetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared materials preparation.",
+          "unit": null,
+          "value": "50 wt% aqueous HF etching of Ti3AlC2, DMSO intercalation, sonication delamination"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; highest reported value for this paper.",
+          "unit": "F cm\u22123",
+          "value": "360"
+        }
+      },
+      "is_primary": false,
+      "label": "Ti3C2Tx",
+      "role": "control"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Mixed assembly; CNT content limited to 5 wt%.",
+          "unit": null,
+          "value": "Ti3C2Tx/SWCNT"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best value was obtained by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "MXene/CNT films ranged from 2 to 3 \u00b5m.",
+          "unit": "\u00b5m",
+          "value": "2\u20133"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical methods.",
+          "unit": null,
+          "value": "1 M MgSO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only a broad size range was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numeric value specifically reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only c-lattice parameter, 26.9 \u00c5, was reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene dispersion was prepared by delamination.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Table 1 maximum volumetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene materials preparation.",
+          "unit": null,
+          "value": "50 wt% aqueous HF etching of Ti3AlC2, DMSO intercalation, sonication delamination; direct mixed vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1.",
+          "unit": "F cm\u22123",
+          "value": "300"
+        }
+      },
+      "is_primary": false,
+      "label": "Mixed Ti3C2Tx/SWCNT",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Alternating-filtered composite; CNT content limited to 5 wt%.",
+          "unit": null,
+          "value": "Ti3C2Tx/SWCNT"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Cycling result, not the best CV capacitance.",
+          "unit": "A g\u22121",
+          "value": "5"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "MXene/CNT films ranged from 2 to 3 \u00b5m.",
+          "unit": "\u00b5m",
+          "value": "2\u20133"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical methods.",
+          "unit": null,
+          "value": "1 M MgSO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only a broad size range was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numeric value specifically reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only c-lattice parameter, 26.7 \u00c5, was reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Alternating layers were repeated 6\u201310 times.",
+          "unit": null,
+          "value": "6\u201310 alternating Ti3C2Tx and SWCNT layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Table 1 maximum volumetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene preparation; alternating vacuum filtration.",
+          "unit": null,
+          "value": "50 wt% aqueous HF etching of Ti3AlC2, DMSO intercalation, sonication delamination; alternating filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; 345 F cm\u22123 at 5 A g\u22121 during cycling.",
+          "unit": "F cm\u22123",
+          "value": "390"
+        }
+      },
+      "is_primary": false,
+      "label": "Sandwich-like Ti3C2Tx/SWCNT",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Mixed assembly; CNT content limited to 5 wt%.",
+          "unit": null,
+          "value": "Ti3C2Tx/MWCNT"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best value was obtained by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "MXene/CNT films ranged from 2 to 3 \u00b5m.",
+          "unit": "\u00b5m",
+          "value": "2\u20133"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical methods.",
+          "unit": null,
+          "value": "1 M MgSO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only a broad size range was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numeric value specifically assigned to mixed paper.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only c-lattice parameter, 28.4 \u00c5, was reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene dispersion was prepared by delamination.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Table 1 maximum volumetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene preparation; direct mixed filtration.",
+          "unit": null,
+          "value": "50 wt% aqueous HF etching of Ti3AlC2, DMSO intercalation, sonication delamination; direct mixed vacuum filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1.",
+          "unit": "F cm\u22123",
+          "value": "366"
+        }
+      },
+      "is_primary": false,
+      "label": "Mixed Ti3C2Tx/MWCNT",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Alternating-filtered composite; CNT content limited to 5 wt%.",
+          "unit": null,
+          "value": "Ti3C2Tx/MWCNT"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Cycling result; best CV value was at 2 mV s\u22121.",
+          "unit": "A g\u22121",
+          "value": "10"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "MXene/CNT films ranged from 2 to 3 \u00b5m.",
+          "unit": "\u00b5m",
+          "value": "2\u20133"
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical methods.",
+          "unit": null,
+          "value": "1 M MgSO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only a broad size range was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "uncertain",
+          "note": "150 F g\u22121 at 2 mV s\u22121 reported for Ti3C2Tx/MWCNT papers; architecture unclear.",
+          "unit": "F g\u22121",
+          "value": "150"
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "Only c-lattice parameter, 28.5 \u00c5, was reported.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "stated",
+          "note": "Alternating layers were repeated 6\u201310 times.",
+          "unit": null,
+          "value": "6\u201310 alternating Ti3C2Tx and MWCNT layers"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Table 1 maximum volumetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene preparation; alternating vacuum filtration.",
+          "unit": null,
+          "value": "50 wt% aqueous HF etching of Ti3AlC2, DMSO intercalation, sonication delamination; alternating filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; 350 F cm\u22123 after 10,000 cycles at 10 A g\u22121.",
+          "unit": "F cm\u22123",
+          "value": "321"
+        }
+      },
+      "is_primary": false,
+      "label": "Sandwich-like Ti3C2Tx/MWCNT",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Sandwich-like assembly; OLC quantity reported as 5 wt%.",
+          "unit": null,
+          "value": "Ti3C2Tx/OLC"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Best value was obtained by CV.",
+          "unit": null,
+          "value": null
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not specified for the OLC paper.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical methods.",
+          "unit": null,
+          "value": "1 M MgSO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only a broad size range was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numeric value specifically reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "c-lattice parameter was not reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene dispersion was prepared by delamination.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Table 1 maximum volumetric capacitance.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene preparation; alternating filtration.",
+          "unit": null,
+          "value": "50 wt% aqueous HF etching of Ti3AlC2, DMSO intercalation, sonication delamination; alternating filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1.",
+          "unit": "F cm\u22123",
+          "value": "397"
+        }
+      },
+      "is_primary": false,
+      "label": "Sandwich-like Ti3C2Tx/OLC",
+      "role": "composite"
+    },
+    {
+      "fields": {
+        "areal_capacitance": {
+          "confidence": "stated",
+          "note": "Not reported for this electrode.",
+          "unit": null,
+          "value": null
+        },
+        "composition": {
+          "confidence": "stated",
+          "note": "Sandwich-like Ti3C2Tx/reduced graphene oxide paper.",
+          "unit": null,
+          "value": "Ti3C2Tx/rGO"
+        },
+        "current_density": {
+          "confidence": "stated",
+          "note": "Cycling result; best CV value was at 2 mV s\u22121.",
+          "unit": "A g\u22121",
+          "value": "10"
+        },
+        "electrode_thickness": {
+          "confidence": "stated",
+          "note": "Not specified for the rGO paper.",
+          "unit": null,
+          "value": null
+        },
+        "electrolyte": {
+          "confidence": "derived",
+          "note": "Shared electrochemical methods.",
+          "unit": null,
+          "value": "1 M MgSO4 aqueous solution"
+        },
+        "flake_size": {
+          "confidence": "stated",
+          "note": "Only a broad size range was described.",
+          "unit": null,
+          "value": null
+        },
+        "gravimetric_capacitance": {
+          "confidence": "stated",
+          "note": "No numeric value specifically reported.",
+          "unit": null,
+          "value": null
+        },
+        "interlayer_spacing": {
+          "confidence": "stated",
+          "note": "c-lattice parameter was not reported for this sample.",
+          "unit": null,
+          "value": null
+        },
+        "layer_no": {
+          "confidence": "derived",
+          "note": "MXene dispersion was prepared by delamination.",
+          "unit": null,
+          "value": "delaminated"
+        },
+        "mass_loading": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "mxene_formula": {
+          "confidence": "stated",
+          "note": "Sample designation.",
+          "unit": null,
+          "value": "Ti3C2Tx"
+        },
+        "pore_diameter": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "porosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "scan_rate": {
+          "confidence": "stated",
+          "note": "Highest reported capacitance; Table 1.",
+          "unit": "mV s\u22121",
+          "value": "2"
+        },
+        "ssa": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "synthesis_method": {
+          "confidence": "derived",
+          "note": "Shared MXene preparation; alternating filtration.",
+          "unit": null,
+          "value": "50 wt% aqueous HF etching of Ti3AlC2, DMSO intercalation, sonication delamination; alternating filtration"
+        },
+        "tortuosity": {
+          "confidence": "stated",
+          "note": "Not reported.",
+          "unit": null,
+          "value": null
+        },
+        "volumetric_capacitance": {
+          "confidence": "stated",
+          "note": "Table 1; 370 F cm\u22123 after 10,000 cycles at 10 A g\u22121.",
+          "unit": "F cm\u22123",
+          "value": "435"
+        }
+      },
+      "is_primary": true,
+      "label": "Sandwich-like Ti3C2Tx/rGO",
+      "role": "primary"
+    }
+  ],
+  "n_electrodes": 7,
+  "paper": {
+    "authors": {
+      "confidence": "stated",
+      "note": "Article author line.",
+      "unit": null,
+      "value": "Zhao et al."
+    },
+    "doi": {
+      "confidence": "stated",
+      "note": "Article header.",
+      "unit": null,
+      "value": "10.1002/adma.201404140"
+    },
+    "year": {
+      "confidence": "stated",
+      "note": "Article header copyright and journal issue.",
+      "unit": null,
+      "value": "2014"
+    }
+  },
+  "summary": "This paper compares seven free-standing Ti3C2Tx paper electrodes: pristine Ti3C2Tx, mixed and alternating-filtered sandwich-like SWCNT and MWCNT composites, plus sandwich-like OLC and rGO composites. Ti3C2Tx was produced by 50 wt% HF etching of Ti3AlC2, followed by DMSO intercalation and sonication delamination; composite papers were prepared by vacuum filtration. The highest reported volumetric capacitance was 435 F cm\u22123 for Sandwich-like Ti3C2Tx/rGO at 2 mV s\u22121 in 1 M MgSO4. Areal capacitance, mass loading, BET surface area, pore diameter, porosity, and true (002) d-spacing were not reported."
+}
