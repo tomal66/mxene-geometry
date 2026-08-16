@@ -1,0 +1,84 @@
+column,dtype,n_nonnull,n_missing,missing_pct,n_unique,example
+source_file,object,192,0,0.0,49,1-s2.0-S0008622325000375-main.pdf
+source_path,object,192,0,0.0,49,1-s2.0-S0008622325000375-main.pdf
+doi,object,189,3,1.56,48,10.1016/j.carbon.2025.120021
+year,float64,189,3,1.56,12,2025.0
+authors,object,192,0,0.0,46,Hailong Shen et al.
+electrode_label,object,192,0,0.0,182,NS-Ti3C2Tx-P
+role,object,192,0,0.0,4,primary
+is_primary,bool,192,0,0.0,2,True
+mxene_formula,object,192,0,0.0,2,Ti3C2Tx
+mxene_formula__unit,float64,0,192,100.0,0,
+mxene_formula__conf,object,192,0,0.0,2,stated
+composition,object,192,0,0.0,80,"N/S co-doped Ti3C2Tx (Ti, C, O, F, N, S)"
+composition__unit,object,3,189,98.44,1,wt. %
+composition__conf,object,192,0,0.0,2,stated
+synthesis_method,object,192,0,0.0,122,LiF/HCl etching; photothermal-assisted thiourea N/S co-doping under high-pressur
+synthesis_method__unit,float64,0,192,100.0,0,
+synthesis_method__conf,object,192,0,0.0,2,stated
+layer_no,object,160,32,16.67,32,few-layer
+layer_no__unit,object,2,190,98.96,1,-
+layer_no__conf,object,192,0,0.0,3,derived
+layer_no__src,object,3,189,98.44,3,[UNCONFIRMED] Section 2.2: the MXene used in all films is the delaminated supern
+interlayer_spacing,object,126,66,34.38,80,1.42
+interlayer_spacing__unit,object,125,67,34.9,3,nm
+interlayer_spacing__conf,object,192,0,0.0,4,stated
+interlayer_spacing__src,object,59,133,69.27,57,[UNVERIFIED] Bragg from the text-stated (002) position: 'the peak of (002) plane
+flake_size,object,99,93,48.44,30,200–1000
+flake_size__unit,object,85,107,55.73,5,nm
+flake_size__conf,object,192,0,0.0,4,stated
+flake_size__src,object,8,184,95.83,6,"[UNVERIFIED] 'For our system (e.g., 1 μm flake size, 1 nm flake thickness, and 3"
+porosity,object,11,181,94.27,8,~99.8
+porosity__unit,object,11,181,94.27,1,%
+porosity__conf,object,192,0,0.0,3,stated
+porosity__src,object,3,189,98.44,3,[UNVERIFIED] The 90 mg mL−1 device is the same standard backbone as the 180 mg m
+pore_diameter,object,38,154,80.21,16,1–3
+pore_diameter__unit,object,38,154,80.21,2,nm
+pore_diameter__conf,object,192,0,0.0,3,stated
+pore_diameter__src,object,9,183,95.31,5,Text: 'pore sizes of films based on porous Ti3C2Tx nanosheets (Fig. 5b) mainly d
+tortuosity,float64,0,192,100.0,0,
+tortuosity__unit,float64,0,192,100.0,0,
+tortuosity__conf,object,192,0,0.0,2,stated
+electrode_thickness,object,85,107,55.73,65,7.00
+electrode_thickness__unit,object,85,107,55.73,5,μm
+electrode_thickness__conf,object,192,0,0.0,4,derived
+electrode_thickness__src,object,11,181,94.27,11,[UNVERIFIED] Back-calculated from the paper's own numbers: C_v = C_g x density a
+mass_loading,object,80,112,58.33,53,1.69
+mass_loading__unit,object,81,111,57.81,6,mg cm−2
+mass_loading__conf,object,192,0,0.0,4,stated
+mass_loading__src,object,43,149,77.6,34,[UNVERIFIED] Stated: 'the mass of the Ti3C2Tx film was approximately 21 mg. The 
+electrolyte,object,192,0,0.0,21,2 M H2SO4
+electrolyte__unit,float64,0,192,100.0,0,
+electrolyte__conf,object,192,0,0.0,3,derived
+ssa,object,37,155,80.73,37,2.95
+ssa__unit,object,37,155,80.73,3,m2 g−1
+ssa__conf,object,192,0,0.0,3,stated
+ssa__src,object,2,190,98.96,2,Text states the series range 'specific surface area (SSA) (8.4-65.4 m2 g-1)' and
+scan_rate,object,121,71,36.98,11,2
+scan_rate__unit,object,121,71,36.98,4,mV s−1
+scan_rate__conf,object,192,0,0.0,4,stated
+scan_rate__src,object,46,146,76.04,36,"Methods (Section 2.5): ""Cyclic voltammetry (CV) tests were recorded from −0.3–0."
+current_density,float64,60,132,68.75,7,1.0
+current_density__unit,object,60,132,68.75,8,A g−1
+current_density__conf,object,192,0,0.0,4,stated
+current_density__src,object,19,173,90.1,14,"[UNVERIFIED] Fig. 4 caption: '(c) GCD of MP0, MP2, MP5 and MP8 at current densit"
+gravimetric_capacitance,object,122,70,36.46,111,424
+gravimetric_capacitance__unit,object,122,70,36.46,3,F g−1
+gravimetric_capacitance__conf,object,192,0,0.0,4,stated
+gravimetric_capacitance__src,object,41,151,78.65,38,"[UNVERIFIED] Fig. 4(c), GCD of all four films at 1.0 A g-1 (three-electrode). At"
+volumetric_capacitance,object,95,97,50.52,91,1023
+volumetric_capacitance__unit,object,95,97,50.52,3,F cm−3
+volumetric_capacitance__conf,object,192,0,0.0,4,stated
+volumetric_capacitance__src,object,48,144,75.0,48,[UNVERIFIED] C_v = C_g x density. density = mass loading / thickness = 1.35e-3 g
+areal_capacitance,object,75,117,60.94,69,0.717
+areal_capacitance__unit,object,75,117,60.94,5,F cm−2
+areal_capacitance__conf,object,192,0,0.0,4,derived
+areal_capacitance__src,object,41,151,78.65,41,[UNVERIFIED] C_areal = C_g x mass loading = 424 F g-1 x 1.69e-3 g cm-2 = 0.7166 
+formula_match,bool,192,0,0.0,1,True
+formula_reasoning,object,192,0,0.0,2,Primary formula 'Ti3C2Tx' contains Ti3C2 (Ti3C2Tx or Ti3C2).
+synthesis_match,bool,192,0,0.0,1,True
+synthesis_reasoning,object,192,0,0.0,1,Synthesis explicitly mentions both LiF and HCl.
+electrolyte_match,bool,192,0,0.0,1,True
+electrolyte_reasoning,object,192,0,0.0,1,Electrolyte explicitly mentions H2SO4 (sulfuric acid).
+overall,object,192,0,0.0,1,PASS
+overall_reasoning,object,192,0,0.0,1,Passes all criteria.

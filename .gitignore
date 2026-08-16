@@ -41,5 +41,9 @@ Thumbs.db
 # Downstream model artifacts
 xgb_notebook_outputs/
 
+# run_pipeline.py per-fold DataSynthesizer scratch (regenerable, ~30 MB:
+# training slices, BN description JSONs and raw synthetic draws)
+results/_workdir/
+
 # Input PDF corpus (~159 MB)
 H2SO4/

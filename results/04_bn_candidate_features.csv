@@ -1,0 +1,14 @@
+feature,mean_abs_shap,shap_rank,shap_rank_sd,missing_fraction,n_unique,data_type,bn_treated_as_categorical,include_default,reason,physical_meaning
+h2so4_M,25.663860321044922,1,0.8944271909999161,0.0593,4,numeric,True,True,"SHAP rank 1, missingness 6%, 4 distinct values",Electrolyte proton activity; governs pseudocapacitive Ti-O redox and double-layer screening.
+composition_family,22.801992416381836,2,0.8944271909999159,0.0,6,categorical,True,True,"SHAP rank 2, missingness 0%, 6 distinct values",Pristine vs carbon / polymer / inorganic composite vs doped MXene.
+scan_rate_mV_s,16.912654876708984,3,1.0954451150103321,0.2542,8,numeric,True,True,"SHAP rank 3, missingness 25%, 8 distinct values",CV sweep rate; controls the diffusion length probed and therefore rate-limited capacitance loss.
+interlayer_A,13.042573928833008,4,1.5811388300841898,0.2542,54,numeric,False,True,"SHAP rank 4, missingness 25%, 54 distinct values",XRD (002) d-spacing: sets the ion-accessible gallery height; the central geometric descriptor for a PINN.
+layer_class,9.130016326904297,5,0.44721359549995787,0.1949,3,categorical,True,True,"SHAP rank 5, missingness 19%, 3 distinct values",Delamination state (multilayer / delaminated / single-or-few-layer).
+electrode_thickness_um,6.08242654800415,7,1.0,0.5424,43,numeric,False,True,"SHAP rank 7, missingness 54%, 43 distinct values",Film thickness; directly coupled to mass loading and transport resistance.
+mass_loading_mg_cm2,2.1018483638763428,9,0.8944271909999159,0.5339,34,numeric,False,True,"SHAP rank 9, missingness 53%, 34 distinct values",Areal mass; controls ion transport path length through the film.
+electrolyte_is_gel,1.812099814414978,10,2.0,0.0,2,categorical,True,True,"SHAP rank 10, missingness 0%, 2 distinct values",Gel (PVA/H2SO4) vs free aqueous electrolyte.
+ssa_m2_g,7.588269233703613,6,1.51657508881031,0.7034,35,numeric,False,False,missingness 70% > 55%,Gas-sorption surface area; a weak proxy for wetted electrochemical area in a restacked MXene film.
+current_density_A_g,3.2761807441711426,8,1.4832396974191326,0.7034,4,numeric,True,False,missingness 70% > 55%,GCD rate condition; same physical role as scan rate but for galvanostatic tests.
+flake_size_um,1.190199613571167,11,1.0954451150103321,0.9068,7,numeric,False,False,missingness 91% > 55%,Lateral flake dimension; sets in-plane ion diffusion distance.
+pore_diameter_nm,1.092028260231018,12,1.224744871391589,0.9661,4,numeric,False,False,missingness 97% > 55%,Meso/macropore size of engineered architectures.
+synthesis_family,0.0,13,0.4472135954999579,0.0,1,categorical,True,False,no variation in the modelling cohort; no measurable SHAP contribution,Etching route.

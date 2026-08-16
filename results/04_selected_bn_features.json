@@ -1,0 +1,90 @@
+{
+  "selected_features": [
+    "h2so4_M",
+    "composition_family",
+    "scan_rate_mV_s",
+    "interlayer_A",
+    "layer_class"
+  ],
+  "target": "target_cap_F_g",
+  "selection_rule": {
+    "candidate_pool": "features passing 04_bn_candidate_features.csv include_default",
+    "ordering": "descending mean |SHAP| from the real-only grouped-CV model",
+    "constraints": {
+      "min_complete_case_rows": 45,
+      "min_complete_case_papers": 15,
+      "min_features": 4,
+      "max_features": 7
+    },
+    "note": "Greedy: a candidate is added only if the resulting complete-case cohort still satisfies the row/paper floors, so a high-SHAP but sparsely reported descriptor is deliberately not forced in."
+  },
+  "per_feature_justification": {
+    "h2so4_M": {
+      "mean_abs_shap": 25.663860321044922,
+      "shap_rank": 1,
+      "missing_fraction": 0.0593,
+      "bn_treated_as_categorical": true,
+      "categorical_treatment_reason": "Only 4 discrete experimental settings occur (0.5/1/2/3 M); treating it as continuous would let the BN invent unobserved molarities.",
+      "physical_meaning": "Electrolyte proton activity; governs pseudocapacitive Ti-O redox and double-layer screening."
+    },
+    "composition_family": {
+      "mean_abs_shap": 22.801992416381836,
+      "shap_rank": 2,
+      "missing_fraction": 0.0,
+      "bn_treated_as_categorical": true,
+      "categorical_treatment_reason": "Nominal.",
+      "physical_meaning": "Pristine vs carbon / polymer / inorganic composite vs doped MXene."
+    },
+    "scan_rate_mV_s": {
+      "mean_abs_shap": 16.912654876708984,
+      "shap_rank": 3,
+      "missing_fraction": 0.2542,
+      "bn_treated_as_categorical": true,
+      "categorical_treatment_reason": "A chosen instrument setting taking a handful of discrete values spanning 3 decades; discrete treatment avoids interpolating rates nobody measured.",
+      "physical_meaning": "CV sweep rate; controls the diffusion length probed and therefore rate-limited capacitance loss."
+    },
+    "interlayer_A": {
+      "mean_abs_shap": 13.042573928833008,
+      "shap_rank": 4,
+      "missing_fraction": 0.2542,
+      "bn_treated_as_categorical": false,
+      "categorical_treatment_reason": "Genuinely continuous physical measurement.",
+      "physical_meaning": "XRD (002) d-spacing: sets the ion-accessible gallery height; the central geometric descriptor for a PINN."
+    },
+    "layer_class": {
+      "mean_abs_shap": 9.130016326904297,
+      "shap_rank": 5,
+      "missing_fraction": 0.1949,
+      "bn_treated_as_categorical": true,
+      "categorical_treatment_reason": "Nominal.",
+      "physical_meaning": "Delamination state (multilayer / delaminated / single-or-few-layer)."
+    }
+  },
+  "rejected_candidates": [
+    {
+      "feature": "electrode_thickness_um",
+      "cohort_rows_if_added": 27,
+      "cohort_papers_if_added": 10,
+      "why": "adding it would push the complete-case cohort below the row/paper floor"
+    },
+    {
+      "feature": "mass_loading_mg_cm2",
+      "cohort_rows_if_added": 22,
+      "cohort_papers_if_added": 6,
+      "why": "adding it would push the complete-case cohort below the row/paper floor"
+    },
+    {
+      "feature": "electrolyte_is_gel",
+      "cohort_rows_if_added": 47,
+      "cohort_papers_if_added": 18,
+      "why": "constant inside the complete-case cohort - no information"
+    }
+  ],
+  "cohort": {
+    "rows_before": 118,
+    "rows_after": 47,
+    "papers_before": 40,
+    "papers_after": 18,
+    "missing_data_strategy": "complete cases on the selected descriptors + target"
+  }
+}

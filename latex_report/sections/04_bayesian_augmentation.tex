@@ -1,0 +1,45 @@
+\section{Bayesian-network augmentation}\label{sec:bnmethod}
+
+\subsection{Generator}
+Synthetic observations are produced with
+\textsc{DataSynthesizer}~0.1.13~\cite{datasynthesizer2017} in
+\emph{correlated-attribute mode}, which fits a Bayesian network over the attributes by a
+greedy mutual-information search~\cite{privbayes2017} and samples from the resulting
+factorisation. No substitute
+generator (CTGAN, Gaussian copula, SMOTE, KDE) was used at any point. The privacy budget is
+set to $\varepsilon = 0$: the inputs are already-published literature values, so
+differential-privacy noise would degrade fidelity for no benefit.
+
+\subsection{Attribute treatment}
+The network is given 5 descriptors plus the target:
+\texttt{h2so4\_M}, \texttt{composition\_family}, \texttt{scan\_rate\_mV\_s}, \texttt{interlayer\_A} and \texttt{layer\_class}.
+Electrolyte molarity and scan rate are declared \emph{categorical} despite being numeric:
+each occurs at only a handful of discrete experimenter-chosen settings, and a continuous
+treatment would let the generator invent molarities and sweep rates that no experiment in
+the corpus used. Interlayer spacing and the target remain continuous.
+
+\subsection{Cohort}
+Requiring every selected descriptor to be reported in the same publication reduces the
+corpus to a complete-case cohort of 47 rows from
+18 papers. \textbf{All four training conditions use exactly this
+cohort and this feature set}, so the comparison is like-for-like. This cohort model is a
+control arm for the augmentation experiment and is not the headline real-only baseline of
+Sec.~\ref{sec:grouped}.
+
+\subsection{Anti-leakage protocol}
+Within each outer grouped fold the Bayesian network is fitted on the \emph{training papers
+only}; synthetic rows are drawn from that network; the physical-validity filter uses
+training-fold minima and maxima only; the one-hot encoder and the hyper-parameter search
+also see training papers only. Held-out papers are never described, never generated from,
+never augmented, and never enter any training set. No synthetic row ever appears in a test
+partition.
+
+\subsection{Experimental grid}
+Four training conditions are compared: real only, and real plus $1\times$, $3\times$ and
+$5.25\times$ synthetic rows, the last reproducing the $200/32 = 6.25$ total-size ratio of the
+motivating study. Network degree $k \in \{1,2,3\}$ is swept, with $k=2$ as the
+pre-registered default. Each augmented condition is generated three times with independent
+generator seeds inside every fold and the fold score is the mean over those draws, so that
+re-drawing the synthetic set cannot masquerade as an effect. Generated rows pass a
+physical-validity filter (positive capacitance, non-negative descriptors, categorical levels
+seen in training, values inside the training-fold range) before use.

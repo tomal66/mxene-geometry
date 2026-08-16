@@ -1,0 +1,10 @@
+variable,n_reported,n_papers_reporting,n_papers_with_multiple_values,global_range,median_within_paper_range,within_over_global_range
+scan_rate_mV_s,88,29,21,1999.0,0.0,0.0
+current_density_A_g,35,16,7,19.5,0.0,0.0
+mass_loading_mg_cm2,55,19,12,16.36,0.0,0.0
+pore_diameter_nm,4,4,0,49997.0,0.0,0.0
+flake_size_um,11,6,3,1.081,0.0,0.0
+h2so4_M,111,38,25,2.5,0.0,0.0
+electrode_thickness_um,54,20,11,9999.91,0.9950000000000001,9.950089550805959e-05
+ssa_m2_g,35,17,12,1647.5,5.879999999999999,0.003569044006069802
+interlayer_A,88,32,21,34.0,0.33000000000000007,0.009705882352941179

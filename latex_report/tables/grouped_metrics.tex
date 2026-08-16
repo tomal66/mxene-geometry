@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\caption{Paper-grouped cross-validation of the real-only XGBoost model on the full descriptor set. MAE and RMSE in F\,g\textsuperscript{-1}. Rows from one publication never appear in both the training and test partition.}
+\label{tab:grouped}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{Fold} & \textbf{$n_{\mathrm{train}}$} & \textbf{$n_{\mathrm{test}}$} & \textbf{Papers} & \textbf{$R^2$} & \textbf{MAE} & \textbf{RMSE} \\
+\midrule
+1 & 94 & 24 & 8 & 0.151 & 61.3 & 90.4 \\
+2 & 94 & 24 & 8 & 0.099 & 134.7 & 278.7 \\
+3 & 94 & 24 & 8 & -0.092 & 90.3 & 115.7 \\
+4 & 95 & 23 & 8 & -0.102 & 52.4 & 73.9 \\
+5 & 95 & 23 & 8 & 0.095 & 69.0 & 87.5 \\
+\midrule \textbf{Mean} &  &  &  & \textbf{0.030} & \textbf{81.5} & \textbf{129.2} \\
+SD &  &  &  & 0.119 & 32.8 & 84.9 \\
+Median &  &  &  & 0.095 & 69.0 & 90.4 \\
+Pooled &  &  &  & 0.081 & 81.9 & 150.8 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\linewidth}\scriptsize ``Pooled'' scores every held-out prediction from every fold together, which avoids normalising by a near-zero within-fold target variance while keeping the grouped hold-out intact.\end{minipage}
+\end{table}

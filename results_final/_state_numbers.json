@@ -1,0 +1,200 @@
+{
+  "stab_sum": {
+    "spearman_rank_correlation": 0.8999999999999998,
+    "spearman_p_value": 0.0373860734684987,
+    "top3_overlap": 3.0,
+    "top3_overlap_fraction": 1.0,
+    "top5_overlap": 5.0,
+    "top5_overlap_fraction": 1.0,
+    "mean_abs_rank_change": 0.4,
+    "max_abs_rank_change": 1.0,
+    "mean_abs_norm_shap_change": 0.0176132917404174,
+    "n_features": 5.0
+  },
+  "n_rows": 118,
+  "n_papers": 40,
+  "base_r2": 0.0301473287519988,
+  "base_r2_sd": 0.1185444867874815,
+  "cohort_rows": 47,
+  "cohort_papers": 18,
+  "cohort_r2": -1.9056471772150136,
+  "cohort_r2_sd": 2.6670262339466024,
+  "verification": [
+    [
+      "A_real_only: R2 -1.91, MAE 129.6",
+      "R2 -1.91, MAE 129.6",
+      true
+    ],
+    [
+      "B_real_plus_1.0x: R2 -1.88, MAE 130.9",
+      "R2 -1.88, MAE 130.9",
+      true
+    ],
+    [
+      "C_real_plus_3.0x: R2 -2.53, MAE 138.7",
+      "R2 -2.53, MAE 138.7",
+      true
+    ],
+    [
+      "D_real_plus_5.25x: R2 -1.38, MAE 123.6",
+      "R2 -1.38, MAE 123.6",
+      true
+    ],
+    [
+      "Generator seed shifts fold MAE by ~12.3 F/g",
+      "12.3 F/g",
+      "True"
+    ],
+    [
+      "BN k changes MAE by as much as ~17.8 F/g",
+      "17.8 F/g",
+      "True"
+    ],
+    [
+      "Zero KS rejections",
+      "0 rejections",
+      "True"
+    ],
+    [
+      "Categorical JS ~ 0.08",
+      "0.079",
+      "True"
+    ],
+    [
+      "Correlation / MI difference ~ 0.05",
+      "Pearson 0.047, MI 0.055",
+      "True"
+    ],
+    [
+      "Zero exact memorisation",
+      "0 exact copies",
+      "True"
+    ],
+    [
+      "SHAP Spearman ~ 0.90, top-3 3/3, top-5 5/5",
+      "rho 0.90, top-3 3/3, top-5 5/5",
+      true
+    ],
+    [
+      "Augmentation improved MAE in 3 of 5 folds (best condition)",
+      "3/5",
+      true
+    ],
+    [
+      "Usable rows ~ 118",
+      "118 rows",
+      true
+    ]
+  ],
+  "inconsistencies": [
+    "**Two distinct real-only baselines.** The R2 of -1.91 quoted in earlier summaries is condition A of the augmentation experiment (47 rows, 18 papers, 5 descriptors), not the headline real-only baseline (118 rows, 40 papers, 13 descriptors, R2 = 0.030). Both are reported separately here.",
+    "**`n_folds_improved` counts differ by metric.** The best augmented condition improves MAE in 3/5 folds but R2 and RMSE in only 1/5. The '3 of 5' figure is the MAE count and is reported as such.",
+    "**No other discrepancies.** Every numeric claim checked above reproduces the stored CSV values."
+  ],
+  "target_eta2": 0.6446857254249395,
+  "target_icc": 0.4742418575006165,
+  "mean_desc_eta2": 0.8696546014464993,
+  "median_within_over_global": 0.0,
+  "fit": {
+    "model": "XGBRegressor(base_score=None, booster=None, callbacks=None,\n             colsample_bylevel=None, colsample_bynode=None,\n             colsample_bytree=0.6, device=None, early_stopping_rounds=None,\n             enable_categorical=False, eval_metric=None, feature_types=None,\n             feature_weights=None, gamma=None, grow_policy=None,\n             importance_type=None, interaction_constraints=None,\n             learning_rate=0.02, max_bin=None, max_cat_threshold=None,\n             max_cat_to_onehot=None, max_delta_step=None, max_depth=4,\n             max_leaves=None, min_child_weight=2, missing=nan,\n             monotone_constraints=None, multi_strategy=None, n_estimators=150,\n             n_jobs=2, num_parallel_tree=None, ...)",
+    "encoder": "FoldEncoder(cat_cols=['layer_class', 'composition_family', 'electrolyte_is_gel'], num_cols=['interlayer_A', 'scan_rate_mV_s', 'current_density_A_g', 'mass_loading_mg_cm2', 'electrode_thickness_um', 'ssa_m2_g', 'flake_size_um', 'pore_diameter_nm', 'h2so4_M'], ohe=OneHotEncoder(handle_unknown='ignore', sparse_output=False), feature_names_=['interlayer_A', 'scan_rate_mV_s', 'current_density_A_g', 'mass_loading_mg_cm2', 'electrode_thickness_um', 'ssa_m2_g', 'flake_size_um', 'pore_diameter_nm', 'h2so4_M', 'layer_class___missing__', 'layer_class_delaminated', 'layer_class_multilayer', 'layer_class_single_or_few_layer', 'composition_family_doped_mxene', 'composition_family_mxene_carbon_composite', 'composition_family_mxene_inorganic_composite', 'composition_family_mxene_polymer_composite', 'composition_family_pristine_mxene', 'composition_family_structured_pristine_mxene', 'electrolyte_is_gel_False', 'electrolyte_is_gel_True'], ohe_to_source_={'interlayer_A': 'interlayer_A', 'scan_rate_mV_s': 'scan_rate_mV_s', 'current_density_A_g': 'current_density_A_g', 'mass_loading_mg_cm2': 'mass_loading_mg_cm2', 'electrode_thickness_um': 'electrode_thickness_um', 'ssa_m2_g': 'ssa_m2_g', 'flake_size_um': 'flake_size_um', 'pore_diameter_nm': 'pore_diameter_nm', 'h2so4_M': 'h2so4_M', 'layer_class___missing__': 'layer_class', 'layer_class_delaminated': 'layer_class', 'layer_class_multilayer': 'layer_class', 'layer_class_single_or_few_layer': 'layer_class', 'composition_family_doped_mxene': 'composition_family', 'composition_family_mxene_carbon_composite': 'composition_family', 'composition_family_mxene_inorganic_composite': 'composition_family', 'composition_family_mxene_polymer_composite': 'composition_family', 'composition_family_pristine_mxene': 'composition_family', 'composition_family_structured_pristine_mxene': 'composition_family', 'electrolyte_is_gel_False': 'electrolyte_is_gel', 'electrolyte_is_gel_True': 'electrolyte_is_gel'})",
+    "X": "     interlayer_A  ...  electrolyte_is_gel_True\n0           14.20  ...                      0.0\n1             NaN  ...                      0.0\n2           11.50  ...                      0.0\n3           12.58  ...                      0.0\n4           12.80  ...                      0.0\n..            ...  ...                      ...\n113         13.50  ...                      0.0\n114         10.95  ...                      0.0\n115         12.80  ...                      0.0\n116         12.13  ...                      0.0\n117         13.85  ...                      0.0\n\n[118 rows x 21 columns]",
+    "y": "[ 424.    358.    330.    201.    239.    425.7   243.    221.    122.\n  356.    166.    234.    340.    227.    238.    307.    311.    385.\n  303.    340.    353.    325.    325.    489.3  1609.5   278.    378.\n  414.    362.    280.    292.    289.    300.    277.    100.    286.\n  261.    240.    234.    330.2   308.    335.4   329.9   140.      7.26\n  390.    245.    416.    249.    241.    216.    286.    288.    438.\n  231.    153.    169.    192.    110.    234.5   146.9   219.1   192.\n  226.    214.    230.    239.    240.77  200.    197.    258.8   325.7\n  381.5   396.4   360.3   294.     74.    105.    208.    151.    164.6\n  200.4   211.7   270.5   376.    287.9   289.    658.    245.    182.\n  161.    450.    380.    370.    354.    310.    280.    125.    252.5\n   31.    295.    197.    206.    265.    236.    256.    268.    258.\n  198.    223.    532.    258.2   281.    298.    401.    213.8   315.5\n  436.  ]",
+    "groups": "['10.1016/j.carbon.2025.120021' '10.1016/j.carbon.2025.120021'\n '10.1016/j.carbon.2025.120021' '10.1016/j.electacta.2022.139871'\n '10.1016/j.electacta.2022.139871' '10.1016/j.electacta.2022.139871'\n '10.1016/j.electacta.2022.139871' '10.1016/j.carbpol.2022.120519'\n '10.1016/j.carbpol.2022.120519' '10.1016/j.carbpol.2022.120519'\n '10.1016/j.apsusc.2019.144250' '10.1016/j.ceramint.2020.05.247'\n '10.1016/j.ceramint.2020.05.247' '10.1016/j.jallcom.2021.161304'\n '10.1016/j.jallcom.2021.161304' '10.1016/j.jallcom.2021.161304'\n '10.1016/j.jallcom.2022.166647' '10.1016/j.jallcom.2022.166647'\n '10.1016/j.jallcom.2022.166647' '10.1016/j.jallcom.2022.166647'\n '10.1016/j.jallcom.2022.166647' '10.1016/j.jallcom.2022.166647'\n '10.1016/j.jallcom.2022.166647' '10.1016/j.jallcom.2023.173355'\n '10.1016/j.jallcom.2023.173355' '10.1016/j.apmt.2019.06.013'\n '10.1016/j.apmt.2019.06.013' '10.1016/j.apmt.2019.06.013'\n '10.1016/j.jobab.2021.10.001' '10.1016/j.ensm.2023.103148'\n '10.1016/j.ensm.2023.103148' '10.1016/j.ensm.2023.103148'\n '10.1016/j.ensm.2023.103148' '10.1016/j.ensm.2023.103148'\n '10.1016/j.ensm.2023.103148' '10.1016/j.ensm.2023.103148'\n '10.1016/j.ensm.2023.103148' '10.1016/j.ensm.2023.103148'\n '10.1002/batt.201800014' '10.1002/adma.201701264'\n '10.1002/adma.201701264' '10.1002/adma.201701264'\n '10.1002/adma.201701264' '10.1021/acsnano.9b10066'\n '10.1002/adma.202304757' '10.1021/acsanm.4c01912'\n '10.1002/adma.201504705' '10.1002/adma.201504705'\n '10.1002/adma.201504705' '10.1039/c8dt04374d' '10.1039/c8dt04374d'\n '10.1039/c8dt04374d' '10.1039/c8nr01550c' '10.1039/c8nr06014b'\n '10.1039/c8nr06014b' '10.1002/celc.202100558' '10.1002/celc.202100558'\n '10.1002/celc.202100558' '10.1002/celc.202100558' '10.1039/d5ta06789h'\n '10.1039/d5ta06789h' '10.1039/d5ta06789h' '10.1039/d6ta00010j'\n '10.1039/d6ta00010j' '10.1039/d6ta00010j' '10.1039/d6ta00010j'\n '10.1039/d6ta00010j' '10.1039/d6ta00010j' '10.1039/d6ta00010j'\n '10.1039/d6ta00010j' '10.20517/energymater.2024.45'\n '10.20517/energymater.2024.45' '10.20517/energymater.2024.45'\n '10.20517/energymater.2024.45' '10.20517/energymater.2024.45'\n '10.1002/eem2.12876' '10.1002/eem2.12876' '10.1002/eem2.12876'\n '10.1002/eem2.12876' '10.1002/eem2.12876' '10.1002/slct.202200690'\n '10.1002/slct.202200690' '10.1002/slct.202200690'\n '10.1002/slct.202200690' '10.1002/smll.202202203'\n '10.1021/acsnano.2c03351' '10.3390/molecules30020241'\n '10.3390/molecules30020241' '10.1038/nature13970' '10.1038/nature13970'\n '10.1038/nature13970' '10.1038/nenergy.2017.105'\n '10.1038/nenergy.2017.105' '10.1038/nenergy.2017.105'\n '10.1038/nenergy.2017.105' '10.1038/nenergy.2017.105'\n '10.1038/nenergy.2017.105' '10.1038/nenergy.2017.105'\n '10.1021/acsnano.3c11551' '10.1002/adfm.202102874'\n '10.1002/adfm.202102874' '10.1002/adfm.202102874'\n '10.1002/adfm.202102874' '10.1038/s41586-018-0109-z'\n '10.1038/s41586-018-0109-z' '10.1038/s41586-018-0109-z'\n '10.1038/s41586-018-0109-z' '10.1002/smll.202205947'\n '10.1002/smll.202205947' '10.1002/smll.202205947'\n '10.1002/smll.201802225' '10.1002/smll.201804732' 'ssrn-5211970.pdf'\n 'ssrn-5211970.pdf' 'ssrn-5211970.pdf' '10.1002/sus2.61'\n '10.25259/ajc_264_2024' '10.25259/ajc_264_2024']",
+    "params": {
+      "subsample": 0.85,
+      "reg_lambda": 3.0,
+      "reg_alpha": 0.1,
+      "n_estimators": 150,
+      "min_child_weight": 2,
+      "max_depth": 4,
+      "learning_rate": 0.02,
+      "colsample_bytree": 0.6
+    },
+    "features": [
+      "interlayer_A",
+      "scan_rate_mV_s",
+      "current_density_A_g",
+      "mass_loading_mg_cm2",
+      "electrode_thickness_um",
+      "ssa_m2_g",
+      "flake_size_um",
+      "pore_diameter_nm",
+      "h2so4_M",
+      "layer_class",
+      "composition_family",
+      "electrolyte_is_gel"
+    ],
+    "num_cols": [
+      "interlayer_A",
+      "scan_rate_mV_s",
+      "current_density_A_g",
+      "mass_loading_mg_cm2",
+      "electrode_thickness_um",
+      "ssa_m2_g",
+      "flake_size_um",
+      "pore_diameter_nm",
+      "h2so4_M"
+    ],
+    "cat_cols": [
+      "layer_class",
+      "composition_family",
+      "electrolyte_is_gel"
+    ],
+    "in_sample": {
+      "r2": 0.6239643077657596,
+      "mae": 45.03372869459248,
+      "rmse": 96.46250994097102,
+      "n_test": 118
+    }
+  },
+  "shap": {
+    "shap_df": "     interlayer_A  ...  electrolyte_is_gel_True\n0       -1.771452  ...                 1.030015\n1       -6.664372  ...                 1.030015\n2       13.889262  ...                 1.055858\n3        5.986690  ...                 0.701732\n4       -6.964941  ...                 0.742812\n..            ...  ...                      ...\n113      4.813668  ...                 0.734769\n114     25.155497  ...                 0.736747\n115     -6.111503  ...                 0.722086\n116      0.401554  ...                 0.947431\n117     -1.582576  ...                 0.982509\n\n[118 rows x 21 columns]",
+    "encoded": "    rank  ... normalized_importance\n0      1  ...              0.199276\n1      2  ...              0.159175\n2      3  ...              0.115594\n3      4  ...              0.104948\n4      5  ...              0.080453\n5      6  ...              0.069895\n6      7  ...              0.045783\n7      8  ...              0.045185\n8      9  ...              0.028723\n9     10  ...              0.025272\n10    11  ...              0.021522\n11    12  ...              0.020966\n12    13  ...              0.020725\n13    14  ...              0.014139\n14    15  ...              0.012715\n15    16  ...              0.010797\n16    17  ...              0.008424\n17    18  ...              0.007852\n18    19  ...              0.004383\n19    20  ...              0.004173\n20    21  ...              0.000000\n\n[21 rows x 7 columns]",
+    "grouped": "    rank              descriptor  mean_abs_shap  normalized_importance\n0      1      composition_family      25.051792               0.223119\n1      2                 h2so4_M      22.374712               0.199276\n2      3          scan_rate_mV_s      17.872129               0.159175\n3      4            interlayer_A      11.783567               0.104948\n4      5             layer_class      10.312594               0.091847\n5      6                ssa_m2_g       7.847812               0.069895\n6      7  electrode_thickness_um       5.140522               0.045783\n7      8      electrolyte_is_gel       4.425093               0.039411\n8      9     current_density_A_g       3.225020               0.028723\n9     10     mass_loading_mg_cm2       2.327002               0.020725\n10    11        pore_diameter_nm       1.427590               0.012715\n11    12           flake_size_um       0.492141               0.004383",
+    "grouped_rows": "     composition_family  current_density_A_g  ...  scan_rate_mV_s   ssa_m2_g\n0             14.897664             1.275190  ...       18.861401   1.291198\n1             14.890498             1.367091  ...       19.439232   1.407227\n2             18.065540             0.244674  ...       16.516657   0.367634\n3             18.750612             6.185736  ...       15.859593  14.163475\n4             18.581383             4.001407  ...        4.840861   8.699081\n..                  ...                  ...  ...             ...        ...\n113           12.450683             7.976813  ...       17.243336   7.279120\n114           13.754710             7.646184  ...       14.881869   5.683655\n115           13.995335             2.316412  ...       11.559937   6.194436\n116           20.455202             4.001906  ...       23.484240  13.572211\n117           18.134192             7.612456  ...       25.552784  25.229527\n\n[118 rows x 12 columns]",
+    "explainer": "<shap.explainers._tree.TreeExplainer object at 0x000001D4B4A25E80>"
+  },
+  "final_features": [
+    "interlayer_A",
+    "scan_rate_mV_s",
+    "current_density_A_g",
+    "mass_loading_mg_cm2",
+    "electrode_thickness_um",
+    "ssa_m2_g",
+    "flake_size_um",
+    "pore_diameter_nm",
+    "h2so4_M",
+    "layer_class",
+    "composition_family",
+    "electrolyte_is_gel"
+  ],
+  "dropped_features": [
+    "synthesis_family"
+  ],
+  "cat_a": [
+    "interlayer_A",
+    "scan_rate_mV_s",
+    "mass_loading_mg_cm2",
+    "electrode_thickness_um",
+    "h2so4_M"
+  ],
+  "cat_b": [
+    "layer_class",
+    "composition_family",
+    "electrolyte_is_gel"
+  ],
+  "cat_c": [
+    "current_density_A_g",
+    "ssa_m2_g",
+    "flake_size_um",
+    "pore_diameter_nm",
+    "synthesis_family"
+  ],
+  "dependence_feats": [
+    "h2so4_M",
+    "scan_rate_mV_s",
+    "interlayer_A",
+    "ssa_m2_g"
+  ]
+}

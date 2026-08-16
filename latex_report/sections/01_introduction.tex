@@ -1,0 +1,39 @@
+\section{Introduction}\label{sec:intro}
+
+Two-dimensional Ti\textsubscript{3}C\textsubscript{2}T\textsubscript{x} MXene is among the most
+studied electrode materials for aqueous supercapacitors~\cite{naguib2011,ghidiu2014}, and a
+large body of work reports
+gravimetric capacitance in H\textsubscript{2}SO\textsubscript{4} electrolyte. The
+accumulated literature is an attractive target for data-driven analysis: if the reported
+capacitances could be related to the structural and processing descriptors that accompany
+them, the resulting model would both rank the descriptors worth optimising and supply a
+data-driven prior for a subsequent physics-informed model.
+
+That programme faces three obstacles that this study addresses directly. First, a corpus
+assembled from independent publications is not an experimental design. Cell geometry,
+reference electrode, mass-normalisation convention, potential window and reporting rate
+differ from paper to paper, and several descriptors are reported at most once per
+publication, so the unit of independent information is the paper rather than the row.
+Second, such corpora are small: after discarding every entry whose capacitance is reported
+only as a range or an inequality, 118 usable observations remain, drawn from 40
+publications. Third, the descriptors of greatest physical interest --- interlayer spacing,
+surface area, mass loading --- are exactly those most often omitted.
+
+Synthetic data augmentation is a natural response to the second obstacle. A recent study of
+flow-capacitive deionisation expanded 32 experimental observations to 200 using the
+correlated-attribute (Bayesian-network) mode of \textsc{DataSynthesizer} and reported
+improved model performance~\cite{fcdi_augmentation}. Whether that strategy transfers to a
+corpus whose limiting factor is heterogeneity rather than row count is an open and
+practically important question, and it is the question this work tests.
+
+The contributions are as follows. (i) A leakage-controlled, paper-grouped evaluation of
+gravimetric capacitance prediction on the compiled corpus. (ii) A pre-registered test of
+Bayesian-network augmentation at four ratios, three network degrees and three independent
+generator seeds, in which the generator is fitted inside each training fold only.
+(iii) A fidelity audit establishing that the generator reproduces the training distribution
+it was shown, so that the augmentation result can be interpreted rather than dismissed as a
+generator failure. (iv) A variance decomposition that locates the bottleneck in
+between-study heterogeneity. (v) A SHAP descriptor analysis~\cite{shap2017,treeshap2020} whose ranking is shown to be
+stable under Bayesian resampling, together with an explicit assessment --- rejecting a
+classical PINN~\cite{pinn2019} and specifying the physics-constrained alternative the data
+do support.

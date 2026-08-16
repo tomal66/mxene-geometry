@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\caption{Composition of the literature-derived H\textsubscript{2}SO\textsubscript{4} MXene corpus after target cleaning and descriptor standardisation.}
+\label{tab:dataset}
+\footnotesize
+\begin{tabular}{lr}
+\toprule
+\textbf{Quantity} & \textbf{Value} \\
+\midrule
+Rows in the raw corpus & 192 \\
+Source publications in the raw corpus & 49 \\
+Rows with a usable single-valued $C_g$ & 118 \\
+Publications represented after cleaning & 40 \\
+Rows dropped: no value reported & 70 \\
+Rows dropped: range or inequality literal & 4 \\
+Approximate values retained and flagged & 2 \\
+Median observations per paper & 3 \\
+Maximum observations from one paper & 9 \\
+Capacitance range (F\,g\textsuperscript{-1}) & 7.3--1609.5 \\
+Capacitance median (F\,g\textsuperscript{-1}) & 266.5 \\
+Standardised descriptors retained & 12 \\
+Raw columns admissible as predictors & 14 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\linewidth}\scriptsize Range and inequality literals (e.g.\ \texttt{300--350}, \texttt{over 200}) were discarded rather than converted to midpoints; every discarded row is logged in \texttt{01\_target\_disposition\_log.csv}.\end{minipage}
+\end{table}

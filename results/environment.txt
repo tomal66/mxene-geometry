@@ -1,0 +1,31 @@
+# Environment
+python                : 3.13.2 (Windows-11-10.0.26200-SP0)
+numpy                 : 2.3.4
+pandas                : 2.3.3
+scipy                 : 1.16.3
+scikit-learn          : 1.9.0
+xgboost               : 3.1.1
+shap                  : 0.52.0
+matplotlib            : 3.11.1
+DataSynthesizer       : 0.1.13
+RANDOM_STATE          : 42
+
+# Compatibility fixes applied
+- DataSynthesizer 0.1.13 + NumPy>=2: `DataGenerator.generate_encoded_dataset`
+  eval()s parent-instance strings that NumPy 2 renders as `[np.int64(...)]`,
+  but the module never imports NumPy -> NameError. Fix: inject `np` into
+  `DataSynthesizer.DataGenerator`'s module globals (src/bayesian_synthesis.py).
+  No algorithmic behaviour is altered; the eval reconstructs the intended indices.
+- DataDescriber is constructed with category_threshold=1 so that the explicit
+  `attribute_to_is_categorical` mapping governs, not the cardinality heuristic.
+- DataDescriber re-reads its input CSV with pandas dtype inference, so a declared
+  STRING attribute whose levels look numeric (1.0, 2.0) returns as float and the
+  bin-index lookup raises `KeyError: 2.0`. Fix: a DataDescriber subclass that reads
+  declared-STRING columns with dtype=str (src/bayesian_synthesis.py).
+
+# Performance patch (results unchanged)
+- PrivBayes.greedy_bayes opens a fresh multiprocessing.Pool() per attribute-loop
+  iteration. Under the Windows spawn start method that is one interpreter start
+  per core per iteration and dominates runtime for a small network (~90 s per fit
+  vs ~1.3 s serial). Pool.map is an ordered map over a pure function, so a serial
+  stand-in returns bit-identical results.

@@ -1,0 +1,13 @@
+rank,descriptor,mean_abs_shap,normalized_importance,feature_type,missingness,number_of_observations,mean_rank_across_folds,rank_SD,foldwise_heldout_mean_abs_shap,foldwise_heldout_rank,top5_frequency,display_name
+1,composition_family,25.051792,0.22311896,categorical,0.0,118,2.4,0.8944271909999159,22.801992,2,1.0,Composition family
+2,h2so4_M,22.374712,0.19927606,numeric,0.059322033898305086,111,1.4,0.8944271909999161,25.66386,1,1.0,H2SO4 concentration (M)
+3,scan_rate_mV_s,17.87213,0.15917468,numeric,0.2542372881355932,88,2.8,1.095445115010332,16.912655,3,1.0,Scan rate (mV/s)
+4,interlayer_A,11.783567,0.10494807,numeric,0.2542372881355932,88,4.0,1.5811388300841898,13.042574,4,0.8,Interlayer spacing (A)
+5,layer_class,10.312594,0.09184714,categorical,0.19491525423728814,95,4.8,0.4472135954999578,9.130016,5,1.0,Layer morphology
+6,ssa_m2_g,7.847812,0.06989503,numeric,0.7033898305084746,35,6.4,1.51657508881031,7.588269,6,0.2,Specific surface area (m2/g)
+7,electrode_thickness_um,5.1405215,0.045783065,numeric,0.5423728813559322,54,7.0,1.0,6.0824265,7,0.0,Electrode thickness (um)
+8,electrolyte_is_gel,4.425093,0.03941124,categorical,0.0,118,10.0,2.0,1.8120998,10,0.0,Gel electrolyte
+9,current_density_A_g,3.2250202,0.028723022,numeric,0.7033898305084746,35,7.8,1.4832396974191326,3.2761807,8,0.0,Current density (A/g)
+10,mass_loading_mg_cm2,2.3270018,0.020724993,numeric,0.5338983050847458,55,9.6,0.8944271909999159,2.1018484,9,0.0,Mass loading (mg/cm2)
+11,pore_diameter_nm,1.4275898,0.012714554,numeric,0.9661016949152542,4,11.0,1.224744871391589,1.0920283,12,0.0,Pore diameter (nm)
+12,flake_size_um,0.49214107,0.00438316,numeric,0.9067796610169492,11,10.8,1.095445115010332,1.1901996,11,0.0,Flake size (um)

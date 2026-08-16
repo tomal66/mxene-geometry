@@ -1,0 +1,9 @@
+candidate,cohort_rows,cohort_papers,accepted
+h2so4_M,111,38,True
+composition_family,111,38,True
+scan_rate_mV_s,83,28,True
+interlayer_A,63,22,True
+layer_class,47,18,True
+electrode_thickness_um,27,10,False
+mass_loading_mg_cm2,22,6,False
+electrolyte_is_gel,47,18,True

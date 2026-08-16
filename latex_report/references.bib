@@ -1,0 +1,191 @@
+% ===========================================================================
+% References actually used in the text.
+%
+% Provenance note: the entries below are standard method/software references
+% whose metadata is well established.  Bibliographic details for the source
+% publications of the corpus itself (48 DOIs) were NOT reconstructed here,
+% because the extraction schema stores DOI, year and an abbreviated author
+% string but no article titles or journal names -- see BIBLIOGRAPHY_TODO.md
+% and results_final/corpus_source_dois.csv.
+% ===========================================================================
+
+% ------------------------------------------------- motivating study (UNVERIFIED)
+@misc{fcdi_augmentation,
+  author = {{[CITATION TO BE SUPPLIED]}},
+  title  = {Bayesian-network synthetic data augmentation applied to
+            flow-capacitive deionisation (32 experimental observations expanded
+            to 200)},
+  note   = {PLACEHOLDER -- bibliographic metadata could not be verified from any
+            file in this repository; see BIBLIOGRAPHY\_TODO.md. Replace before
+            circulation},
+  year   = {n.d.}
+}
+
+% ------------------------------------------------------------------ MXene
+@article{naguib2011,
+  author  = {Naguib, Michael and Kurtoglu, Murat and Presser, Volker and Lu, Jun
+             and Niu, Junjie and Heon, Min and Hultman, Lars and Gogotsi, Yury
+             and Barsoum, Michel W.},
+  title   = {Two-Dimensional Nanocrystals Produced by Exfoliation of {Ti$_3$AlC$_2$}},
+  journal = {Advanced Materials},
+  volume  = {23},
+  number  = {37},
+  pages   = {4248--4253},
+  year    = {2011},
+  doi     = {10.1002/adma.201102306}
+}
+
+@article{ghidiu2014,
+  author  = {Ghidiu, Michael and Lukatskaya, Maria R. and Zhao, Meng-Qiang and
+             Gogotsi, Yury and Barsoum, Michel W.},
+  title   = {Conductive Two-Dimensional Titanium Carbide `Clay' with High
+             Volumetric Capacitance},
+  journal = {Nature},
+  volume  = {516},
+  number  = {7529},
+  pages   = {78--81},
+  year    = {2014},
+  doi     = {10.1038/nature13970}
+}
+
+@article{lukatskaya2017,
+  author  = {Lukatskaya, Maria R. and Kota, Sankalp and Lin, Zifeng and Zhao,
+             Meng-Qiang and Shpigel, Netanel and Levi, Mikhael D. and Halim, Joseph
+             and Taberna, Pierre-Louis and Barsoum, Michel W. and Simon, Patrice
+             and Gogotsi, Yury},
+  title   = {Ultra-High-Rate Pseudocapacitive Energy Storage in Two-Dimensional
+             Transition Metal Carbides},
+  journal = {Nature Energy},
+  volume  = {2},
+  pages   = {17105},
+  year    = {2017},
+  doi     = {10.1038/nenergy.2017.105}
+}
+
+@article{alhabeb2017,
+  author  = {Alhabeb, Mohamed and Maleski, Kathleen and Anasori, Babak and Lelyukh,
+             Pavel and Clark, Leah and Sin, Saleesha and Gogotsi, Yury},
+  title   = {Guidelines for Synthesis and Processing of Two-Dimensional Titanium
+             Carbide ({Ti$_3$C$_2$T$_x$} {MXene})},
+  journal = {Chemistry of Materials},
+  volume  = {29},
+  number  = {18},
+  pages   = {7633--7644},
+  year    = {2017},
+  doi     = {10.1021/acs.chemmater.7b02847}
+}
+
+% ------------------------------------------------------- synthetic data
+@inproceedings{datasynthesizer2017,
+  author    = {Ping, Haoyue and Stoyanovich, Julia and Howe, Bill},
+  title     = {{DataSynthesizer}: Privacy-Preserving Synthetic Datasets},
+  booktitle = {Proceedings of the 29th International Conference on Scientific and
+               Statistical Database Management (SSDBM '17)},
+  year      = {2017},
+  doi       = {10.1145/3085504.3091117}
+}
+
+@article{privbayes2017,
+  author  = {Zhang, Jun and Cormode, Graham and Procopiuc, Cecilia M. and
+             Srivastava, Divesh and Xiao, Xiaokui},
+  title   = {{PrivBayes}: Private Data Release via {Bayesian} Networks},
+  journal = {ACM Transactions on Database Systems},
+  volume  = {42},
+  number  = {4},
+  pages   = {25},
+  year    = {2017},
+  doi     = {10.1145/3134428}
+}
+
+% --------------------------------------------------- models and attribution
+@inproceedings{xgboost2016,
+  author    = {Chen, Tianqi and Guestrin, Carlos},
+  title     = {{XGBoost}: A Scalable Tree Boosting System},
+  booktitle = {Proceedings of the 22nd ACM SIGKDD International Conference on
+               Knowledge Discovery and Data Mining (KDD '16)},
+  pages     = {785--794},
+  year      = {2016},
+  doi       = {10.1145/2939672.2939785}
+}
+
+@inproceedings{shap2017,
+  author    = {Lundberg, Scott M. and Lee, Su-In},
+  title     = {A Unified Approach to Interpreting Model Predictions},
+  booktitle = {Advances in Neural Information Processing Systems 30 (NIPS 2017)},
+  pages     = {4765--4774},
+  year      = {2017}
+}
+
+@article{treeshap2020,
+  author  = {Lundberg, Scott M. and Erion, Gabriel and Chen, Hugh and DeGrave,
+             Alex and Prutkin, Jordan M. and Nair, Bala and Katz, Ronit and
+             Himmelfarb, Jonathan and Bansal, Nisha and Lee, Su-In},
+  title   = {From Local Explanations to Global Understanding with Explainable
+             {AI} for Trees},
+  journal = {Nature Machine Intelligence},
+  volume  = {2},
+  number  = {1},
+  pages   = {56--67},
+  year    = {2020},
+  doi     = {10.1038/s42256-019-0138-9}
+}
+
+@article{pinn2019,
+  author  = {Raissi, Maziar and Perdikaris, Paris and Karniadakis, George E.},
+  title   = {Physics-Informed Neural Networks: A Deep Learning Framework for
+             Solving Forward and Inverse Problems Involving Nonlinear Partial
+             Differential Equations},
+  journal = {Journal of Computational Physics},
+  volume  = {378},
+  pages   = {686--707},
+  year    = {2019},
+  doi     = {10.1016/j.jcp.2018.10.045}
+}
+
+% -------------------------------------------------------------- software
+@article{sklearn2011,
+  author  = {Pedregosa, Fabian and Varoquaux, Ga{\"e}l and Gramfort, Alexandre and
+             Michel, Vincent and Thirion, Bertrand and Grisel, Olivier and
+             Blondel, Mathieu and Prettenhofer, Peter and Weiss, Ron and
+             Dubourg, Vincent and Vanderplas, Jake and Passos, Alexandre and
+             Cournapeau, David and Brucher, Matthieu and Perrot, Matthieu and
+             Duchesnay, {\'E}douard},
+  title   = {Scikit-learn: Machine Learning in {Python}},
+  journal = {Journal of Machine Learning Research},
+  volume  = {12},
+  pages   = {2825--2830},
+  year    = {2011}
+}
+
+@article{numpy2020,
+  author  = {Harris, Charles R. and Millman, K. Jarrod and van der Walt,
+             St{\'e}fan J. and others},
+  title   = {Array Programming with {NumPy}},
+  journal = {Nature},
+  volume  = {585},
+  pages   = {357--362},
+  year    = {2020},
+  doi     = {10.1038/s41586-020-2649-2}
+}
+
+@article{scipy2020,
+  author  = {Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and others},
+  title   = {{SciPy} 1.0: Fundamental Algorithms for Scientific Computing in
+             {Python}},
+  journal = {Nature Methods},
+  volume  = {17},
+  pages   = {261--272},
+  year    = {2020},
+  doi     = {10.1038/s41592-019-0686-2}
+}
+
+@article{matplotlib2007,
+  author  = {Hunter, John D.},
+  title   = {Matplotlib: A {2D} Graphics Environment},
+  journal = {Computing in Science \& Engineering},
+  volume  = {9},
+  number  = {3},
+  pages   = {90--95},
+  year    = {2007},
+  doi     = {10.1109/MCSE.2007.55}
+}

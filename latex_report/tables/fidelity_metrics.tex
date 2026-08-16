@@ -1,0 +1,24 @@
+\begin{table}[htbp]
+\centering
+\caption{Fidelity of the Bayesian-network synthetic observations, computed against the real training rows of the same fold ($k=2$; mean, min and max over folds, augmentation ratios and generator seeds).}
+\label{tab:fidelity}
+\footnotesize
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Fidelity metric} & \textbf{Mean} & \textbf{Min} & \textbf{Max} \\
+\midrule
+Mean KS statistic (continuous) & 0.154 & 0.095 & 0.198 \\
+Continuous variables with KS $p<0.05$ & 0.0 & 0.0 & 0.0 \\
+Mean Jensen--Shannon distance (categorical) & 0.079 & 0.028 & 0.170 \\
+Pearson correlation matrix, mean $|\Delta|$ & 0.047 & 0.002 & 0.346 \\
+Spearman correlation matrix, mean $|\Delta|$ & 0.095 & 0.001 & 0.292 \\
+Mutual-information matrix, mean $|\Delta|$ & 0.055 & 0.025 & 0.093 \\
+Descriptor--target association, mean $|\Delta|$ & 0.065 & 0.010 & 0.263 \\
+Exact duplicates of a real training row & 0.0 & 0.0 & 0.0 \\
+Duplicates within a synthetic set & 0.0 & 0.0 & 0.0 \\
+Synthetic$\rightarrow$real NN distance (median) & 0.0065 & 0.0046 & 0.0086 \\
+Real$\rightarrow$real NN distance (median) & 0.0195 & 0.0130 & 0.0351 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\linewidth}\scriptsize Nearest-neighbour distances use a range-normalised mixed-type (Gower) metric. No synthetic row reproduced a real training row exactly.\end{minipage}
+\end{table}

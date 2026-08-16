@@ -1,0 +1,29 @@
+\begin{table}[htbp]
+\centering
+\caption{Availability of the quantities required by the standard electrochemical capacitance relations, evaluated over the usable real observations.}
+\label{tab:physavail}
+\footnotesize
+\begin{tabular}{llrrl}
+\toprule
+\textbf{Variable} & \textbf{Symbol} & \textbf{$n$} & \textbf{Coverage (\%)} & \textbf{Usable now} \\
+\midrule
+h2so4 M & $c0$ & 111 & 94 & yes \\
+scan rate mV s & $nu$ & 88 & 75 & yes \\
+interlayer A & $d$ & 88 & 75 & yes \\
+volumetric capacitance F cm3 & $C\_V$ & 65 & 55 & yes \\
+mass loading mg cm2 & $m\_A$ & 55 & 47 & partial - only 47\% of rows \\
+electrode thickness um & $t$ & 54 & 46 & partial - only 46\% of rows \\
+areal capacitance F cm2 & $C\_A$ & 46 & 39 & partial - only 39\% of rows \\
+current density A g & $j$ & 35 & 30 & partial - only 30\% of rows \\
+ssa m2 g & $S$ & 35 & 30 & partial - only 30\% of rows \\
+electrode area cm2 & $A$ & 0 & 0 & no - variable is not present in the corpus at all \\
+voltage window V & $dV$ & 0 & 0 & no - variable is not present in the corpus at all \\
+current A & $I$ & 0 & 0 & no - variable is not present in the corpus at all \\
+discharge time s & $dt$ & 0 & 0 & no - variable is not present in the corpus at all \\
+electrode mass g & $m$ & 0 & 0 & no - variable is not present in the corpus at all \\
+testing mode & -- & 0 & 0 & no - variable is not present in the corpus at all \\
+cv current integral & $int(I dV)$ & 0 & 0 & no - variable is not present in the corpus at all \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\linewidth}\scriptsize Coverage is the fraction of usable rows for which the quantity can be parsed with an unambiguous unit. The four quantities required by $C_g = I\,\Delta t/(m\,\Delta V)$ that are entirely absent from the corpus are the reason a classical PDE-based PINN cannot presently be posed.\end{minipage}
+\end{table}

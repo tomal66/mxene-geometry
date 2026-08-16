@@ -1,0 +1,44 @@
+\section{Conclusions}\label{sec:conclusion}
+
+\begin{enumerate}
+\item \textbf{Cross-paper generalisation is weak.} Paper-grouped cross-validation of
+gravimetric capacitance over 118 observations from 40 publications gives
+$R^2 = 0.030 \pm 0.119$ and MAE
+$= 82$\,F\,g\textsuperscript{-1}. A variance decomposition attributes
+this to cross-study heterogeneity: 64\% of the variance in capacitance and a mean of
+87\% of the variance in the descriptors lies between
+publications, and several descriptors are paper-level constants.
+
+\item \textbf{Bayesian-network augmentation does not robustly improve it.} Across four
+ratios, three network degrees and three generator seeds, the best condition improved MAE by
+6.0\,F\,g\textsuperscript{-1}, less than the
+12.3\,F\,g\textsuperscript{-1} produced by re-drawing the synthetic set alone, with
+a non-monotonic response and improvement in only 3 of
+5 folds.
+
+\item \textbf{The generator was nevertheless faithful.} No marginal was rejected by a
+Kolmogorov--Smirnov test, categorical frequencies agreed to a Jensen--Shannon distance of
+0.08, dependency structure was reproduced to
+$\approx0.06$, and no real row was copied. Distributional
+fidelity to the training fold does not imply generalisation to an unseen publication.
+
+\item \textbf{The SHAP descriptor ranking is stable.} Spearman
+$\rho = 0.90$ between real-only and augmented models, with
+3/3 and 5/5 top-$k$ overlap.
+
+\item \textbf{Real-only SHAP is therefore retained for descriptor prioritisation}, with the
+explicit caveat that highly ranked paper-constant descriptors are confounded with publication
+identity.
+
+\item \textbf{A classical PINN is not currently justified; a hybrid physics-constrained
+multi-task regression is.} The corpus contains no potential window, discharge time, current
+or time axis, so no differential residual can be posed. It does contain two exact closure
+identities, verified here to a median relative error below 1\%, which allow areal and
+volumetric capacitance to act as auxiliary supervised outputs under a hard consistency
+constraint.
+
+\item \textbf{Future effort should target experimental-protocol information rather than
+synthetic oversampling.} Recovering the potential window, discharge time and testing mode
+would convert the physics term into the measurement equation itself and would remove known
+sources of between-study scatter, addressing the diagnosed bottleneck directly.
+\end{enumerate}

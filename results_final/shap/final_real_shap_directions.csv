@@ -1,0 +1,9 @@
+descriptor,n_used,spearman_value_vs_shap,direction
+interlayer_A,88,-0.7500421804406388,decreasing
+scan_rate_mV_s,88,-0.9324786713401712,decreasing
+current_density_A_g,35,0.035463975180089695,non-monotone/flat
+mass_loading_mg_cm2,55,-0.07387608328959641,non-monotone/flat
+electrode_thickness_um,54,-0.23182551215584565,decreasing
+ssa_m2_g,35,0.6907563025210084,increasing
+flake_size_um,11,-0.4943350241864834,decreasing
+h2so4_M,111,0.71508543343935,increasing

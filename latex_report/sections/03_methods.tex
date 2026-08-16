@@ -1,0 +1,48 @@
+\section{Machine-learning methodology}\label{sec:methods}
+
+\subsection{Estimator}
+Gradient-boosted regression trees (XGBoost~\cite{xgboost2016}) are used throughout. The estimator handles
+missing values natively, which matters here because several descriptors are reported by a
+minority of papers, and it is robust on the sample sizes involved. Categorical descriptors
+are one-hot encoded with an encoder fitted on the training partition only and
+\texttt{handle\_unknown="ignore"}, so a level appearing solely in a held-out paper cannot
+influence the encoding.
+
+\subsection{Paper-grouped cross-validation}
+Ordinary random splitting is inadmissible here. Multiple rows originate from the same
+publication and share its cell, protocol and often its exact descriptor values, so a random
+split would place near-duplicates on both sides of the partition and report an optimistic
+score. All evaluation therefore uses \texttt{GroupKFold} on \texttt{paper\_id} with five
+folds: rows from one publication are never split across training and test.
+
+\subsection{Hyper-parameter selection}
+Hyper-parameters are chosen by randomised search inside an \emph{inner} paper-grouped
+split of the training partition of each outer fold, implemented with
+scikit-learn~\cite{sklearn2011}. The outer test papers never influence
+model selection, encoding, or any preprocessing statistic. A fixed seed of 42 is used for
+NumPy, Python \texttt{random}, XGBoost, the cross-validation splitters and the synthetic
+generator.
+
+\subsection{Two models with different purposes}
+This is the central methodological distinction of the study and it is maintained throughout.
+
+\begin{itemize}
+\item The \textbf{paper-grouped cross-validation} above estimates \emph{predictive
+transferability} to publications the model has not seen. It is the only number quoted as a
+performance estimate.
+\item A \textbf{final real-only interpretation model} is fitted to all 118 usable
+observations and is used \emph{solely} to characterise multivariate descriptor
+associations within the compiled corpus. Its in-sample fit
+($R^2 = 0.624$) is reported here only for
+completeness and is not a generalisation estimate.
+\end{itemize}
+
+Conflating the two would be the most consequential error available in this analysis, so the
+two models are named, stored and reported separately
+(\texttt{results\_final/models/model\_card.md}).
+
+\subsection{Metrics}
+$R^2$, MAE and RMSE are reported per fold and aggregated as mean, SD and median. Because
+$R^2$ is normalised by the variance of each fold's own held-out targets, folds whose papers
+happen to agree with one another are scored against a very small denominator; pooled metrics
+computed over all held-out predictions jointly are therefore also reported.

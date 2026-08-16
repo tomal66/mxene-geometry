@@ -1,0 +1,6 @@
+feature,real_rank,augmented_rank,rank_change,abs_rank_change,real_mean_abs_shap,augmented_mean_abs_shap,real_norm_shap,augmented_norm_shap,norm_shap_change
+h2so4_M,1,2,1,1,29.656998,35.99794,0.24483739,0.24802767,0.003190279
+composition_family,2,1,-1,1,29.36315,39.05089,0.2424115,0.26906267,0.026651174
+interlayer_A,3,3,0,0,26.022675,33.240032,0.21483374,0.22902554,0.014191806
+scan_rate_mV_s,4,4,0,0,25.957676,28.051512,0.21429713,0.19327636,-0.02102077
+layer_class,5,5,0,0,10.128863,8.796419,0.08362021,0.06060778,-0.023012433

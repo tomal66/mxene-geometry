@@ -1,0 +1,9 @@
+rank,variable,current_coverage,why_physically_needed,why_modeling_needed,expected_value_for_PINN
+1,voltage_window_V,0%,"Every capacitance definition divides by dV. Without it, no reported C_g can be re-derived from raw quantities.",Unlocks the exact galvanostatic relation as a hard constraint instead of the weaker algebraic closures.,very high
+2,discharge_time_s,0%,The second factor in C_g = I dt /(m dV); together with dV it closes the galvanostatic identity.,Would let the model be trained on raw measurements rather than a derived summary.,very high
+3,testing_mode,0%,GCD and CV give systematically different capacitances for the same electrode; without the mode the two are silently pooled.,Removes a known and currently unmodelled source of between-paper scatter.,high
+4,current_density_A_g,30%,Rate condition for galvanostatic rows; already present but only where the reported basis is gravimetric.,Improves coverage of the kinetic input and of the GCD relation.,high
+5,mass_loading_mg_cm2,47%,Enters the verified areal closure directly.,Increases the number of rows on which the physics term can be applied.,high
+6,electrode_thickness_um,46%,With m_A gives electrode density for the volumetric closure.,"Same, for the second closure identity.",medium-high
+7,ssa_m2_g,30%,Area normalisation for the double-layer contribution.,Would allow a double-layer / pseudocapacitive split instead of a single lumped output.,medium
+8,interlayer_A,75%,Confinement length scale; the central geometric descriptor.,Already rank-3 with 25% missing; better coverage sharpens the strongest geometric signal.,medium-high

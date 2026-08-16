@@ -1,0 +1,127 @@
+\section{Implications for physics-informed modelling}\label{sec:pinn}
+
+\subsection{Which quantities the corpus actually contains}
+Table~\ref{tab:physavail} audits the corpus against the quantities required by the standard
+capacitance relations. The galvanostatic definition
+\begin{equation}
+C_g = \frac{I\,\Delta t}{m\,\Delta V}
+\qquad\text{equivalently}\qquad
+C_g = \frac{j\,\Delta t}{\Delta V},
+\label{eq:gcd}
+\end{equation}
+and the cyclic-voltammetry relation
+\begin{equation}
+C_g = \frac{\int I(V)\,\mathrm{d}V}{m\,\nu\,\Delta V},
+\label{eq:cv}
+\end{equation}
+both require a potential window $\Delta V$. That quantity, together with the discharge time
+$\Delta t$, the absolute current $I$, the absolute electrode mass $m$, the electrode area and
+the integrated CV current, is \textbf{entirely absent} from the corpus
+(\texttt{electrode\_area\_cm2}, \texttt{voltage\_window\_V}, \texttt{current\_A}, \texttt{discharge\_time\_s}, all at
+0\% coverage). The corpus does not even record whether a given row is a galvanostatic or a
+voltammetric measurement.
+
+\subsection{Assessment of three candidate model classes}
+\paragraph{(A) Classical PDE/ODE-based PINN --- not justified.}
+A physics-informed neural network in the usual sense~\cite{pinn2019} minimises the residual of
+a differential
+equation at collocation points, which requires a state variable defined over a space or time
+coordinate together with initial and boundary conditions per observation. Every row in this
+corpus is a single scalar summary of a completed experiment: there is no time axis, no
+potential axis, no spatial coordinate and no trajectory. Without $\Delta V$ and $\Delta t$
+even the \emph{algebraic} relation~\eqref{eq:gcd} cannot be evaluated for a single row,
+let alone a differential form. Posing a PDE residual here would mean inventing physics rather
+than enforcing it, and we therefore reject this option explicitly.
+
+\paragraph{(B) Physics-guided neural network --- feasible.}
+Positivity of capacitance, training-domain bounds and dimensionally meaningful inputs are all
+available. Monotonicity constraints, however, should \emph{not} be imposed: the corpus shows
+an interlayer-spacing trend opposite to the naive expectation (Sec.~\ref{sec:shap}), and
+imposing a monotone prior from SHAP would encode a probable confound as physics.
+
+\paragraph{(C) Hybrid physics-constrained multi-task regression --- recommended.}
+Two exact algebraic closure identities relate the target to other measured quantities:
+\begin{align}
+C_A &= C_g\, m_A, \label{eq:areal}\\
+C_V &= C_g\, \rho, \qquad \rho = m_A / t, \label{eq:vol}
+\end{align}
+where $m_A$ is areal mass loading, $t$ electrode thickness and $\rho$ the electrode density.
+We verified both against the values reported in the source publications
+(Table~\ref{tab:closure}). Equation~\eqref{eq:areal} reproduces the reported areal
+capacitance with a median relative error of 0.38\% and holds within
+5\% for 85\% of 39 testable rows;
+Eq.~\eqref{eq:vol} has a median error of 0.87\% and holds within
+5\% for 76\% of 34 rows.
+
+This yields a structural insight that reframes two of the excluded columns. Areal and
+volumetric capacitance cannot be \emph{predictors} --- they are algebraic transforms of the
+target and were correctly removed as leakage --- but they can serve as \textbf{auxiliary
+supervised outputs}, tied to the primary output by Eqs.~\eqref{eq:areal}
+and~\eqref{eq:vol}. Two leakage columns thereby become additional training signal and a
+genuine internal-consistency constraint, with no leakage introduced.
+
+\subsection{Descriptor classification}
+Table~\ref{tab:pinn} classifies every standardised descriptor.
+\textbf{Category A} (physics-grade inputs): interlayer spacing (\AA), scan rate (mV\,s\textsuperscript{-1}), mass loading (mg\,cm\textsuperscript{-2}), electrode thickness ($\upmu$m) and H\textsubscript{2}SO\textsubscript{4} concentration (M). Mass loading and electrode
+thickness qualify despite modest standalone SHAP importance because they appear directly in
+the verified closure identities, entering the physics term rather than the data term.
+\textbf{Category B} (machine-learning covariates only): layer morphology, composition family and gel electrolyte --- informative for
+prediction, but categorical buckets with no counterpart in any governing relation, and
+therefore excluded from every physics term.
+\textbf{Category C} (excluded): current density (A\,g\textsuperscript{-1}), specific surface area (m\textsuperscript{2}\,g\textsuperscript{-1}), flake size ($\upmu$m), pore diameter (nm) and synthesis route, on grounds of
+sparsity, absent variation, or non-convertible units, in addition to all target-derived and
+metadata columns.
+
+\subsection{Proposed formulation}
+The recommended next-stage model (Fig.~\ref{fig:model}) predicts $\hat C_g$ through a
+softplus output head, guaranteeing positivity by construction, with auxiliary heads for
+$\hat C_A$ and $\hat C_V$. The objective is
+\begin{equation}
+\mathcal{L} = \lambda_{d}\mathcal{L}_{\mathrm{data}}
++ \lambda_{p}\mathcal{L}_{\mathrm{phys}}
++ \lambda_{b}\mathcal{L}_{\mathrm{bound}}
++ \lambda_{r}\lVert\theta\rVert^{2},
+\label{eq:loss}
+\end{equation}
+with
+\begin{align}
+\mathcal{L}_{\mathrm{data}} &= \frac{1}{N}\sum_{i}
+  \mathrm{Huber}\!\left(\hat C_{g,i}, C_{g,i}\right)
+  + \sum_{o \in \{A,V\}} \frac{w_o}{|S_o|}\sum_{i \in S_o}
+  \mathrm{Huber}\!\left(\hat C_{o,i}, C_{o,i}\right), \\
+\mathcal{L}_{\mathrm{phys}} &= \frac{1}{|S_A|}\sum_{i \in S_A}
+  \bigl(\hat C_{A,i} - \hat C_{g,i} m_{A,i}\bigr)^{2}
+  + \frac{1}{|S_V|}\sum_{i \in S_V}
+  \bigl(\hat C_{V,i} - \hat C_{g,i} m_{A,i}/t_i\bigr)^{2}, \\
+\mathcal{L}_{\mathrm{bound}} &= \frac{1}{N}\sum_{i}
+  \bigl[\max(0, -\hat C_{g,i})\bigr]^{2}
+  + \frac{1}{N}\sum_{i} d_{\mathrm{hull}}(\mathbf{x}_i)^{2},
+\end{align}
+where $S_A$ and $S_V$ index the rows for which the required quantities are actually reported.
+All physics residuals are masked in this way, so no value is imputed in order to satisfy a
+constraint. A Huber data term is used rather than squared error because the corpus retains
+genuine extreme values that a quadratic loss would allow to dominate. Evaluation remains
+paper-grouped, and no synthetic rows are used.
+
+\subsection{What would help most}
+Table~\ref{tab:physavail} identifies the binding constraint, and the priority list in
+\texttt{data\_gap\_priorities.csv} ranks the remedies. The two
+highest-value additions are \emph{potential window} and \emph{discharge time}: at 0\%
+coverage they are the only missing terms of Eq.~\eqref{eq:gcd}, and recovering them would
+promote the physics term from a definitional unit closure applicable to a minority of rows to
+the actual measurement equation applicable to every galvanostatic row. Recording the testing
+mode would additionally separate galvanostatic from voltammetric measurements, which are
+currently pooled.
+
+\begin{figure*}[htbp]\centering
+\includegraphics[width=\textwidth]{figures/fig09_proposed_physics_model.pdf}
+\caption{Proposed hybrid physics-constrained multi-task architecture. Category~A descriptors
+enter the predictor; Category~B covariates enter the data term only. Areal and volumetric
+capacitance are auxiliary \emph{outputs}, never inputs, and are tied to the primary output by
+the closure identities of Eqs.~\eqref{eq:areal}--\eqref{eq:vol}, which were verified against
+the published values.}
+\label{fig:model}\end{figure*}
+
+\input{tables/physics_availability}
+\input{tables/closure_identities}
+\input{tables/pinn_descriptors}

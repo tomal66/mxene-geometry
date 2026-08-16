@@ -1,0 +1,17 @@
+variable,symbol,availability_count,availability_fraction,unit_consistency,potential_physics_role,usable_now
+h2so4_M,c0,111,0.9407,normalised by the pipeline,Bulk electrolyte concentration - boundary condition for ion transport,yes
+scan_rate_mV_s,nu,88,0.7458,normalised by the pipeline,CV sweep rate - required by the CV-integral relation,yes
+interlayer_A,d,88,0.7458,normalised by the pipeline,Interlayer spacing - geometric input to any transport model,yes
+volumetric_capacitance_F_cm3,C_V,65,0.5508,normalised here (auxiliary output),"Auxiliary measured output, tied to C_g by C_V = C_g m_A / t",yes
+mass_loading_mg_cm2,m_A,55,0.4661,normalised by the pipeline,Areal mass loading - links gravimetric and areal capacitance,partial - only 47% of rows
+electrode_thickness_um,t,54,0.4576,normalised by the pipeline,Thickness - with m_A gives electrode density for the volumetric closure,partial - only 46% of rows
+areal_capacitance_F_cm2,C_A,46,0.3898,normalised here (auxiliary output),"Auxiliary measured output, tied to C_g by C_A = C_g m_A",partial - only 39% of rows
+current_density_A_g,j,35,0.2966,normalised by the pipeline,Gravimetric current density - substitutes I/m in C_g = j dt / dV,partial - only 30% of rows
+ssa_m2_g,S,35,0.2966,normalised by the pipeline,Specific surface area - enters area-normalised double-layer arguments,partial - only 30% of rows
+electrode_area_cm2,A,0,0.0,absent from the corpus,Geometric area - needed to move between areal and absolute quantities,no - variable is not present in the corpus at all
+voltage_window_V,dV,0,0.0,absent from the corpus,Potential window - required by every capacitance relation,no - variable is not present in the corpus at all
+current_A,I,0,0.0,absent from the corpus,Absolute discharge current - required by C_g = I dt /(m dV),no - variable is not present in the corpus at all
+discharge_time_s,dt,0,0.0,absent from the corpus,Galvanostatic discharge time - required by C_g = I dt /(m dV),no - variable is not present in the corpus at all
+electrode_mass_g,m,0,0.0,absent from the corpus,Absolute active mass - needed by the galvanostatic relation,no - variable is not present in the corpus at all
+testing_mode,-,0,0.0,absent from the corpus,Whether a row is GCD or CV - required to know which relation applies,no - variable is not present in the corpus at all
+cv_current_integral,int(I dV),0,0.0,absent from the corpus,Integrated CV current - required by the CV-integral relation,no - variable is not present in the corpus at all

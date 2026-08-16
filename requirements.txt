@@ -1,2 +1,17 @@
+﻿# Existing project dependencies
 pandas>=2.0.0
 tqdm>=4.66.0
+
+# ---------------------------------------------------------------------------
+# MXene SHAP + Bayesian synthetic-data pipeline (run_pipeline.py)
+# Pinned to the versions the pipeline was executed and validated with.
+# CPU only - no GPU is required anywhere.
+# ---------------------------------------------------------------------------
+numpy==2.3.4
+scipy==1.16.3
+scikit-learn==1.9.0
+xgboost==3.1.1
+shap==0.52.0
+matplotlib==3.11.1
+tabulate==0.9.0
+DataSynthesizer==0.1.13

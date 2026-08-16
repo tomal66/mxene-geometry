@@ -1,0 +1,84 @@
+column,use_as_predictor,reason
+source_file,False,Identifier / grouping key only - not a physical descriptor.
+source_path,False,Filesystem identifier.
+doi,False,"Publication identifier; used to build paper_id, never as a predictor."
+year,False,Publication metadata; a proxy for which paper a row came from (paper-level leakage under grouped CV).
+authors,False,Publication metadata / identifier.
+electrode_label,False,Free-text within-paper label; acts as a row identifier.
+role,False,"Annotation of the electrode's role in its own paper (primary/control/variant); assigned partly BECAUSE of the measured performance - post-hoc, not knowable before the experiment."
+is_primary,False,"Same as `role`: the 'primary' electrode is usually the best-performing one, i.e. selected on the outcome."
+mxene_formula,True,Materials composition known before testing. (Near-constant here - see candidate table.)
+mxene_formula__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+mxene_formula__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+composition,True,Materials composition known before testing.
+composition__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+composition__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+synthesis_method,True,Processing route known before testing.
+synthesis_method__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+synthesis_method__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+layer_no,True,Structural descriptor of the electrode material.
+layer_no__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+layer_no__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+layer_no__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+interlayer_spacing,True,"Structural descriptor (XRD (002)) measured on the electrode, independent of capacitance."
+interlayer_spacing__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+interlayer_spacing__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+interlayer_spacing__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+flake_size,True,Morphological descriptor.
+flake_size__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+flake_size__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+flake_size__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+porosity,True,Structural descriptor.
+porosity__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+porosity__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+porosity__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+pore_diameter,True,Structural descriptor.
+pore_diameter__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+pore_diameter__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+pore_diameter__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+tortuosity,False,Completely empty in this corpus.
+tortuosity__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+tortuosity__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+electrode_thickness,True,"Electrode geometry, set during fabrication."
+electrode_thickness__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+electrode_thickness__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+electrode_thickness__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+mass_loading,True,"Electrode geometry, set during fabrication."
+mass_loading__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+mass_loading__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+mass_loading__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+electrolyte,True,"Test condition, set before measurement (source of h2so4_M)."
+electrolyte__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+electrolyte__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+ssa,True,"Textural descriptor from gas sorption, independent of the capacitance test."
+ssa__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+ssa__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+ssa__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+scan_rate,True,"CV test condition, chosen by the experimenter."
+scan_rate__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+scan_rate__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+scan_rate__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+current_density,True,"GCD test condition, chosen by the experimenter."
+current_density__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+current_density__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+current_density__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+gravimetric_capacitance,False,THIS IS THE TARGET.
+gravimetric_capacitance__unit,False,Directly attached to the target column (`gravimetric_capacitance`).
+gravimetric_capacitance__conf,False,Directly attached to the target column (`gravimetric_capacitance`).
+gravimetric_capacitance__src,False,Directly attached to the target column (`gravimetric_capacitance`).
+volumetric_capacitance,False,LEAKAGE: C_vol = C_grav x electrode density - a direct algebraic transform of the target.
+volumetric_capacitance__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+volumetric_capacitance__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+volumetric_capacitance__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+areal_capacitance,False,LEAKAGE: C_areal = C_grav x mass loading - a direct algebraic transform of the target.
+areal_capacitance__unit,False,"Unit string; consumed during normalisation, then discarded (a raw unit column would encode which paper a row came from)."
+areal_capacitance__conf,False,"Extraction-confidence metadata about the target/descriptor, not a physical property; target-confidence in particular is annotated with knowledge of the reported value."
+areal_capacitance__src,False,Provenance string (table/figure/text location); pure metadata that can quote the value.
+formula_match,False,"Extraction-QA metadata about the LLM parse, not physics."
+formula_reasoning,False,Free-text extraction rationale; may quote the capacitance value verbatim.
+synthesis_match,False,Extraction-QA metadata.
+synthesis_reasoning,False,Free-text extraction rationale; may quote the capacitance value verbatim.
+electrolyte_match,False,Extraction-QA metadata.
+electrolyte_reasoning,False,Free-text extraction rationale; may quote the capacitance value verbatim.
+overall,False,Extraction-QA verdict (constant 'PASS').
+overall_reasoning,False,Free-text extraction rationale; may quote the capacitance value verbatim.

@@ -1,0 +1,17 @@
+feature,shap_rank,mean_abs_shap,sd_abs_shap,mean_rank,rank_sd,n_folds_top5,n_folds,source_feature,level
+composition_family,1,39.05089,23.110128,2.466666666666667,1.0600988273786194,15,15,composition_family,source
+h2so4_M,2,35.99794,18.319687,2.1333333333333333,0.9154754164341269,15,15,h2so4_M,source
+interlayer_A,3,33.240032,29.378109,2.6,1.5491933384829668,15,15,interlayer_A,source
+scan_rate_mV_s,4,28.051512,19.810223,3.2,1.3201731488169053,15,15,scan_rate_mV_s,source
+layer_class,5,8.796419,10.091506,4.6,0.7367883976130072,15,15,layer_class,source
+h2so4_M,1,35.99794,18.319687,1.9333333333333333,1.0997835284835873,15,15,h2so4_M,encoded
+interlayer_A,2,33.240036,29.378109,3.2,2.336052836975837,12,15,interlayer_A,encoded
+scan_rate_mV_s,3,28.051512,19.810223,3.1333333333333333,1.1872336794093274,15,15,scan_rate_mV_s,encoded
+composition_family_doped_mxene,4,18.575838,15.935874,4.2,2.242447642325552,11,15,composition_family,encoded
+composition_family_pristine_mxene,5,15.528119,8.984606,4.0,1.7320508075688772,12,15,composition_family,encoded
+layer_class_single_or_few_layer,6,6.2771525,7.6561775,6.333333333333333,1.5886502207249789,6,15,layer_class,encoded
+composition_family_mxene_carbon_composite,7,3.0859885,3.7551234,7.2,1.5675276256394517,1,15,composition_family,encoded
+composition_family_mxene_polymer_composite,8,1.7745765,1.2804208,7.666666666666667,1.7994708216848745,3,15,composition_family,encoded
+layer_class_delaminated,9,1.7349434,2.646532,8.266666666666667,1.667618775665584,0,15,layer_class,encoded
+layer_class_multilayer,10,0.78432596,1.1302469,8.533333333333333,1.245945806357946,0,15,layer_class,encoded
+composition_family_structured_pristine_mxene,11,0.08636987,0.22743861,9.866666666666667,1.5976172734359606,0,15,composition_family,encoded

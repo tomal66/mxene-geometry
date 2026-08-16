@@ -1,0 +1,83 @@
+\documentclass[10pt,twoside]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage[a4paper,margin=2.2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{amsmath,amssymb}
+\usepackage{upgreek}
+\usepackage{siunitx}
+\usepackage[table]{xcolor}
+\usepackage{caption}
+\usepackage{microtype}
+\usepackage{authblk}
+\usepackage[hidelinks]{hyperref}
+\usepackage{cleveref}
+\emergencystretch=2.5em
+
+\sisetup{detect-all, per-mode=symbol, group-separator={,}}
+\captionsetup{font=small, labelfont=bf, width=0.95\textwidth}
+\setlength{\parskip}{0.25em}
+\graphicspath{{figures/}}
+
+\title{\bfseries Machine-Learning Descriptor Analysis and Bayesian Data
+Augmentation for MXene Supercapacitor Capacitance Prediction:\\
+Implications for Physics-Guided Modelling}
+
+\author{}
+\date{\today}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+\input{sections/00_abstract}
+
+\input{sections/01_introduction}
+\input{sections/02_dataset}
+\input{sections/03_methods}
+\input{sections/04_bayesian_augmentation}
+\input{sections/05_grouped_results}
+\input{sections/06_augmentation_results}
+\input{sections/07_synthetic_fidelity}
+\input{sections/08_shap}
+\input{sections/09_shap_stability}
+\input{sections/10_pinn_design}
+\input{sections/11_discussion}
+\input{sections/12_limitations}
+\input{sections/13_conclusion}
+
+\section*{Data and code availability}
+The full pipeline is reproducible from a clean environment with
+\texttt{python run\_pipeline.py} followed by \texttt{python run\_final\_stage.py}.
+All numerical results quoted in this report are read directly from the generated
+CSV artefacts under \texttt{results/} and \texttt{results\_final/}; package versions
+and the compatibility patches applied to \textsc{DataSynthesizer} are recorded in
+\texttt{results/environment.txt}. A fixed random seed of 42 is used throughout.
+
+\section*{Nomenclature}
+\begin{tabular}{ll}
+\toprule
+$C_g$ & gravimetric capacitance (\si{\farad\per\gram}) \\
+$C_A$ & areal capacitance (\si{\farad\per\square\centi\meter}) \\
+$C_V$ & volumetric capacitance (\si{\farad\per\cubic\centi\meter}) \\
+$m_A$ & areal mass loading (\si{\milli\gram\per\square\centi\meter}) \\
+$t$ & electrode thickness (\si{\micro\meter}) \\
+$\rho$ & electrode density (\si{\gram\per\cubic\centi\meter}) \\
+$\nu$ & voltammetric scan rate (\si{\milli\volt\per\second}) \\
+$j$ & gravimetric current density (\si{\ampere\per\gram}) \\
+$\Delta V$ & potential window (\si{\volt}) \\
+$\Delta t$ & discharge time (\si{\second}) \\
+$d$ & interlayer spacing (\si{\angstrom}) \\
+$\eta^2$ & between-group share of total sum of squares \\
+ICC(1) & one-way intraclass correlation \\
+$k$ & maximum in-degree of the Bayesian network \\
+\bottomrule
+\end{tabular}
+
+\bibliographystyle{unsrt}
+\bibliography{references}
+
+\end{document}

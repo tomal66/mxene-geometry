@@ -1,0 +1,23 @@
+\begin{table}[htbp]
+\centering
+\caption{Descriptor-level SHAP attribution of the final real-only interpretation model fitted to all usable real observations. $\overline{|\mathrm{SHAP}|}$ in F\,g\textsuperscript{-1}; share, missingness and top-5 frequency in per cent.}
+\label{tab:shap}
+\footnotesize
+\begin{tabular}{rlrrrrrrr}
+\toprule
+\textbf{Rank} & \textbf{Descriptor} & \textbf{$\overline{|\mathrm{SHAP}|}$} & \textbf{Share} & \textbf{Miss.} & \textbf{Fold rank} & \textbf{Rank SD} & \textbf{Top-5} & \textbf{$\rho$} \\
+\midrule
+1 & Composition family & 25.05 & 22.3 & 0 & 2.4 & 0.89 & 100 & -- \\
+2 & H\textsubscript{2}SO\textsubscript{4} conc.\ (M) & 22.37 & 19.9 & 6 & 1.4 & 0.89 & 100 & 0.72 \\
+3 & Scan rate (mV\,s$^{-1}$) & 17.87 & 15.9 & 25 & 2.8 & 1.10 & 100 & -0.93 \\
+4 & Interlayer spacing (\AA) & 11.78 & 10.5 & 25 & 4.0 & 1.58 & 80 & -0.75 \\
+5 & Layer morphology & 10.31 & 9.2 & 19 & 4.8 & 0.45 & 100 & -- \\
+6 & Specific surface area (m$^2$\,g$^{-1}$) & 7.85 & 7.0 & 70 & 6.4 & 1.52 & 20 & 0.69 \\
+7 & Electrode thickness ($\upmu$m) & 5.14 & 4.6 & 54 & 7.0 & 1.00 & 0 & -0.23 \\
+8 & Gel electrolyte & 4.43 & 3.9 & 0 & 10.0 & 2.00 & 0 & -- \\
+9 & Current density (A\,g$^{-1}$) & 3.23 & 2.9 & 70 & 7.8 & 1.48 & 0 & 0.04 \\
+10 & Mass loading (mg\,cm$^{-2}$) & 2.33 & 2.1 & 53 & 9.6 & 0.89 & 0 & -0.07 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\linewidth}\scriptsize ``Fold rank'' and ``Rank SD'' come from the independent held-out SHAP computation of the paper-grouped cross-validation; ``Top-5'' is the fraction of folds in which the descriptor entered the five most important. $\rho$ is the Spearman correlation between a descriptor's value and its own SHAP value (direction of the association, not a causal claim); it is defined for continuous descriptors only.\end{minipage}
+\end{table}

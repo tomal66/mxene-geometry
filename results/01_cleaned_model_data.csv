@@ -1,0 +1,119 @@
+paper_id,source_file,doi,interlayer_A,scan_rate_mV_s,current_density_A_g,mass_loading_mg_cm2,electrode_thickness_um,ssa_m2_g,flake_size_um,pore_diameter_nm,h2so4_M,layer_class,composition_family,synthesis_family,electrolyte_is_gel,target_cap_F_g,target_is_approximate,target_outlier_flag
+10.1016/j.carbon.2025.120021,1-s2.0-S0008622325000375-main.pdf,10.1016/j.carbon.2025.120021,14.2,2.0,,1.69,7.0,,,,2.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,424.0,False,False
+10.1016/j.carbon.2025.120021,1-s2.0-S0008622325000375-main.pdf,10.1016/j.carbon.2025.120021,,2.0,,2.12,8.0,,,,2.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,358.0,False,False
+10.1016/j.carbon.2025.120021,1-s2.0-S0008622325000375-main.pdf,10.1016/j.carbon.2025.120021,11.5,2.0,,1.2,5.02,,,,2.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,330.0,False,False
+10.1016/j.electacta.2022.139871,1-s2.0-S0013468622000433-main.pdf,10.1016/j.electacta.2022.139871,12.58,,1.0,,,2.95,,,1.0,multilayer,pristine_mxene,LiF_HCl_MILD,False,201.0,False,False
+10.1016/j.electacta.2022.139871,1-s2.0-S0013468622000433-main.pdf,10.1016/j.electacta.2022.139871,12.8,,1.0,,19.88,,,,1.0,multilayer,mxene_polymer_composite,LiF_HCl_MILD,False,239.0,False,False
+10.1016/j.electacta.2022.139871,1-s2.0-S0013468622000433-main.pdf,10.1016/j.electacta.2022.139871,13.14,10.0,,,30.76,5.97,,,1.0,multilayer,mxene_polymer_composite,LiF_HCl_MILD,False,425.7,False,False
+10.1016/j.electacta.2022.139871,1-s2.0-S0013468622000433-main.pdf,10.1016/j.electacta.2022.139871,12.88,,1.0,,31.73,,,,1.0,multilayer,mxene_polymer_composite,LiF_HCl_MILD,False,243.0,False,False
+10.1016/j.carbpol.2022.120519,1-s2.0-S0144861722014242-main.pdf,10.1016/j.carbpol.2022.120519,,,,,,,,,1.0,delaminated,pristine_mxene,LiF_HCl_MILD,False,221.0,False,False
+10.1016/j.carbpol.2022.120519,1-s2.0-S0144861722014242-main.pdf,10.1016/j.carbpol.2022.120519,,,,,,,,,1.0,delaminated,mxene_carbon_composite,LiF_HCl_MILD,False,122.0,False,False
+10.1016/j.carbpol.2022.120519,1-s2.0-S0144861722014242-main.pdf,10.1016/j.carbpol.2022.120519,,,,,,,,,1.0,delaminated,mxene_carbon_composite,LiF_HCl_MILD,False,356.0,False,False
+10.1016/j.apsusc.2019.144250,1-s2.0-S0169433219330661-main.pdf,10.1016/j.apsusc.2019.144250,12.54,,1.0,1.67,4.6,,,,3.0,delaminated,pristine_mxene,LiF_HCl_MILD,False,166.0,False,False
+10.1016/j.ceramint.2020.05.247,1-s2.0-S0272884220315613-main.pdf,10.1016/j.ceramint.2020.05.247,,2.0,,1.35,,,,,1.0,,pristine_mxene,LiF_HCl_MILD,False,234.0,False,False
+10.1016/j.ceramint.2020.05.247,1-s2.0-S0272884220315613-main.pdf,10.1016/j.ceramint.2020.05.247,,2.0,,1.35,5.0,,,,1.0,multilayer,doped_mxene,LiF_HCl_MILD,False,340.0,False,False
+10.1016/j.jallcom.2021.161304,1-s2.0-S0925838821027134-main.pdf,10.1016/j.jallcom.2021.161304,10.9,2.0,,,,14.0,,,1.0,,pristine_mxene,LiF_HCl_MILD,False,227.0,False,False
+10.1016/j.jallcom.2021.161304,1-s2.0-S0925838821027134-main.pdf,10.1016/j.jallcom.2021.161304,,2.0,,,,,,,1.0,,pristine_mxene,LiF_HCl_MILD,False,238.0,False,False
+10.1016/j.jallcom.2021.161304,1-s2.0-S0925838821027134-main.pdf,10.1016/j.jallcom.2021.161304,13.0,2.0,,,,72.0,,,1.0,,structured_pristine_mxene,LiF_HCl_MILD,False,307.0,False,False
+10.1016/j.jallcom.2022.166647,1-s2.0-S0925838822030389-main.pdf,10.1016/j.jallcom.2022.166647,13.09,,1.0,3.0,,,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,311.0,False,False
+10.1016/j.jallcom.2022.166647,1-s2.0-S0925838822030389-main.pdf,10.1016/j.jallcom.2022.166647,14.24,,1.0,3.0,,48.3,,3.0,1.0,single_or_few_layer,structured_pristine_mxene,LiF_HCl_MILD,False,385.0,False,False
+10.1016/j.jallcom.2022.166647,1-s2.0-S0925838822030389-main.pdf,10.1016/j.jallcom.2022.166647,,,1.0,3.0,,,,,1.0,single_or_few_layer,structured_pristine_mxene,LiF_HCl_MILD,False,303.0,False,False
+10.1016/j.jallcom.2022.166647,1-s2.0-S0925838822030389-main.pdf,10.1016/j.jallcom.2022.166647,13.67,,1.0,3.0,,42.5,,,1.0,single_or_few_layer,structured_pristine_mxene,LiF_HCl_MILD,False,340.0,False,False
+10.1016/j.jallcom.2022.166647,1-s2.0-S0925838822030389-main.pdf,10.1016/j.jallcom.2022.166647,,,1.0,3.0,,46.3,,,1.0,single_or_few_layer,structured_pristine_mxene,LiF_HCl_MILD,False,353.0,False,False
+10.1016/j.jallcom.2022.166647,1-s2.0-S0925838822030389-main.pdf,10.1016/j.jallcom.2022.166647,14.72,,1.0,3.0,,77.7,,,1.0,single_or_few_layer,structured_pristine_mxene,LiF_HCl_MILD,False,325.0,False,False
+10.1016/j.jallcom.2022.166647,1-s2.0-S0925838822030389-main.pdf,10.1016/j.jallcom.2022.166647,,,1.0,3.0,,79.8,,,1.0,single_or_few_layer,structured_pristine_mxene,LiF_HCl_MILD,False,325.0,False,False
+10.1016/j.jallcom.2023.173355,1-s2.0-S0925838823046583-main.pdf,10.1016/j.jallcom.2023.173355,12.6,2.0,,,,,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,489.3,False,False
+10.1016/j.jallcom.2023.173355,1-s2.0-S0925838823046583-main.pdf,10.1016/j.jallcom.2023.173355,12.7,2.0,,,,,,,3.0,single_or_few_layer,doped_mxene,LiF_HCl_MILD,False,1609.5,False,True
+10.1016/j.apmt.2019.06.013,1-s2.0-S2352940719303622-main.pdf,10.1016/j.apmt.2019.06.013,12.8,1.0,1.0,,12.0,8.2,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,278.0,False,False
+10.1016/j.apmt.2019.06.013,1-s2.0-S2352940719303622-main.pdf,10.1016/j.apmt.2019.06.013,11.0,1.0,1.0,,74.0,45.1,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,378.0,False,False
+10.1016/j.apmt.2019.06.013,1-s2.0-S2352940719303622-main.pdf,10.1016/j.apmt.2019.06.013,11.0,1.0,1.0,,,177.6,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,414.0,False,False
+10.1016/j.jobab.2021.10.001,1-s2.0-S2369969821000785-main.pdf,10.1016/j.jobab.2021.10.001,,,0.5,,,1649.0,,,1.0,single_or_few_layer,mxene_carbon_composite,LiF_HCl_MILD,False,362.0,False,False
+10.1016/j.ensm.2023.103148,1-s2.0-S2405829723005251-main.pdf,10.1016/j.ensm.2023.103148,5.3,100.0,,2.1,200.0,,,,0.5,delaminated,pristine_mxene,LiF_HCl_MILD,False,280.0,True,False
+10.1016/j.ensm.2023.103148,1-s2.0-S2405829723005251-main.pdf,10.1016/j.ensm.2023.103148,5.3,5.0,,3.2,2000.0,,,,0.5,delaminated,pristine_mxene,LiF_HCl_MILD,False,292.0,False,False
+10.1016/j.ensm.2023.103148,1-s2.0-S2405829723005251-main.pdf,10.1016/j.ensm.2023.103148,5.3,5.0,,3.2,500.0,,,,0.5,delaminated,pristine_mxene,LiF_HCl_MILD,False,289.0,False,False
+10.1016/j.ensm.2023.103148,1-s2.0-S2405829723005251-main.pdf,10.1016/j.ensm.2023.103148,5.3,5.0,,3.2,200.0,,,,0.5,delaminated,pristine_mxene,LiF_HCl_MILD,False,300.0,False,False
+10.1016/j.ensm.2023.103148,1-s2.0-S2405829723005251-main.pdf,10.1016/j.ensm.2023.103148,5.3,5.0,,3.2,100.0,,,,0.5,delaminated,pristine_mxene,LiF_HCl_MILD,False,277.0,False,False
+10.1016/j.ensm.2023.103148,1-s2.0-S2405829723005251-main.pdf,10.1016/j.ensm.2023.103148,5.3,5.0,,3.2,50.0,,,,0.5,delaminated,pristine_mxene,LiF_HCl_MILD,False,100.0,False,False
+10.1016/j.ensm.2023.103148,1-s2.0-S2405829723005251-main.pdf,10.1016/j.ensm.2023.103148,5.3,5.0,,4.4,200.0,,,,0.5,delaminated,pristine_mxene,LiF_HCl_MILD,False,286.0,False,False
+10.1016/j.ensm.2023.103148,1-s2.0-S2405829723005251-main.pdf,10.1016/j.ensm.2023.103148,5.3,,20.0,5.8,200.0,,,,0.5,delaminated,pristine_mxene,LiF_HCl_MILD,False,261.0,False,False
+10.1016/j.ensm.2023.103148,1-s2.0-S2405829723005251-main.pdf,10.1016/j.ensm.2023.103148,5.3,200.0,,7.2,200.0,,,,0.5,delaminated,pristine_mxene,LiF_HCl_MILD,False,240.0,False,False
+10.1002/batt.201800014,10.1002@batt.201800014.pdf,10.1002/batt.201800014,12.5,2.0,,,10000.0,,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,234.0,False,False
+10.1002/adma.201701264,1399231.pdf,10.1002/adma.201701264,13.100000000000001,2.0,,,,19.6,,,3.0,delaminated,pristine_mxene,LiF_HCl_MILD,False,330.2,False,False
+10.1002/adma.201701264,1399231.pdf,10.1002/adma.201701264,14.6,2.0,,,,,,,3.0,,mxene_carbon_composite,LiF_HCl_MILD,False,308.0,False,False
+10.1002/adma.201701264,1399231.pdf,10.1002/adma.201701264,15.1,2.0,,,,68.1,,,3.0,,mxene_carbon_composite,LiF_HCl_MILD,False,335.4,False,False
+10.1002/adma.201701264,1399231.pdf,10.1002/adma.201701264,16.7,2.0,,,,,,,3.0,,mxene_carbon_composite,LiF_HCl_MILD,False,329.9,False,False
+10.1021/acsnano.9b10066,acsnano.9b10066.pdf,10.1021/acsnano.9b10066,,,1.0,0.35,1.0,,,,1.0,single_or_few_layer,mxene_carbon_composite,LiF_HCl_MILD,False,140.0,True,False
+10.1002/adma.202304757,Advanced Materials - 2023 - Arslanoglu - 3D Assembly of MXene Networks using a Ceramic Backbone with Controlled Porosity.pdf,10.1002/adma.202304757,,10.0,,2.43,1000.0,,1.0,50000.0,3.0,delaminated,mxene_inorganic_composite,LiF_HCl_MILD,True,7.26,False,True
+10.1021/acsanm.4c01912,an4c01912.pdf,10.1021/acsanm.4c01912,13.3,,1.0,,,19.5,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,390.0,False,False
+10.1002/adma.201504705,boota2015.pdf,10.1002/adma.201504705,13.8,5.0,,,,,,,1.0,delaminated,pristine_mxene,LiF_HCl_MILD,False,245.0,False,False
+10.1002/adma.201504705,boota2015.pdf,10.1002/adma.201504705,10.0,5.0,,0.93,13.0,,,,1.0,delaminated,mxene_polymer_composite,LiF_HCl_MILD,False,416.0,False,False
+10.1002/adma.201504705,boota2015.pdf,10.1002/adma.201504705,,5.0,,,,,,,1.0,delaminated,mxene_polymer_composite,LiF_HCl_MILD,False,249.0,False,False
+10.1039/c8dt04374d,c8dt04374d.pdf,10.1039/c8dt04374d,12.8,2.0,,,,16.2,,,1.0,,pristine_mxene,LiF_HCl_MILD,False,241.0,False,False
+10.1039/c8dt04374d,c8dt04374d.pdf,10.1039/c8dt04374d,14.24,2.0,,,,,,,1.0,,mxene_polymer_composite,LiF_HCl_MILD,False,216.0,False,False
+10.1039/c8dt04374d,c8dt04374d.pdf,10.1039/c8dt04374d,15.1,2.0,,,,73.7,,,1.0,,mxene_polymer_composite,LiF_HCl_MILD,False,286.0,False,False
+10.1039/c8nr01550c,c8nr01550c.pdf,10.1039/c8nr01550c,12.4,,0.5,1.0,13.0,1.5,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,288.0,False,False
+10.1039/c8nr06014b,c8nr06014b.pdf,10.1039/c8nr06014b,,10.0,,0.14,,108.0,,3.9,3.0,,doped_mxene,LiF_HCl_MILD,False,438.0,False,False
+10.1039/c8nr06014b,c8nr06014b.pdf,10.1039/c8nr06014b,,10.0,,,,,,,3.0,,pristine_mxene,LiF_HCl_MILD,False,231.0,False,False
+10.1002/celc.202100558,ChemElectroChem - 2021 - Abdolhosseinzadeh - Coating Porous MXene Films with Tunable Porosity for High‐Performance.pdf,10.1002/celc.202100558,12.1,5.0,,1.26,,10.5,,,,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,True,153.0,False,False
+10.1002/celc.202100558,ChemElectroChem - 2021 - Abdolhosseinzadeh - Coating Porous MXene Films with Tunable Porosity for High‐Performance.pdf,10.1002/celc.202100558,12.1,5.0,,1.26,,24.3,,,,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,True,169.0,False,False
+10.1002/celc.202100558,ChemElectroChem - 2021 - Abdolhosseinzadeh - Coating Porous MXene Films with Tunable Porosity for High‐Performance.pdf,10.1002/celc.202100558,12.1,5.0,,1.26,,62.1,,,,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,True,192.0,False,False
+10.1002/celc.202100558,ChemElectroChem - 2021 - Abdolhosseinzadeh - Coating Porous MXene Films with Tunable Porosity for High‐Performance.pdf,10.1002/celc.202100558,12.1,5.0,,1.26,,95.6,,,,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,True,110.0,False,False
+10.1039/d5ta06789h,d5ta06789h.pdf,10.1039/d5ta06789h,13.7,5.0,1.0,1.0,,,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,234.5,False,False
+10.1039/d5ta06789h,d5ta06789h.pdf,10.1039/d5ta06789h,13.3,5.0,1.0,1.0,,,,,1.0,single_or_few_layer,mxene_polymer_composite,LiF_HCl_MILD,False,146.9,False,False
+10.1039/d5ta06789h,d5ta06789h.pdf,10.1039/d5ta06789h,16.0,5.0,1.0,1.0,,,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,219.1,False,False
+10.1039/d6ta00010j,d6ta00010j.pdf,10.1039/d6ta00010j,13.6,2.0,,,5.3,4.79,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,192.0,False,False
+10.1039/d6ta00010j,d6ta00010j.pdf,10.1039/d6ta00010j,13.6,2.0,,,129.1,7.42,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,226.0,False,False
+10.1039/d6ta00010j,d6ta00010j.pdf,10.1039/d6ta00010j,17.1,2.0,,,4.8,,,,1.0,single_or_few_layer,mxene_polymer_composite,LiF_HCl_MILD,False,214.0,False,False
+10.1039/d6ta00010j,d6ta00010j.pdf,10.1039/d6ta00010j,13.9,2.0,,,,,,,1.0,single_or_few_layer,mxene_polymer_composite,LiF_HCl_MILD,False,230.0,False,False
+10.1039/d6ta00010j,d6ta00010j.pdf,10.1039/d6ta00010j,13.8,2.0,,,,,,,1.0,single_or_few_layer,mxene_polymer_composite,LiF_HCl_MILD,False,239.0,False,False
+10.1039/d6ta00010j,d6ta00010j.pdf,10.1039/d6ta00010j,13.8,2.0,,1.1,121.8,,,,,single_or_few_layer,mxene_polymer_composite,LiF_HCl_MILD,True,240.77,False,False
+10.1039/d6ta00010j,d6ta00010j.pdf,10.1039/d6ta00010j,13.9,2.0,,,,,,,1.0,single_or_few_layer,mxene_polymer_composite,LiF_HCl_MILD,False,200.0,False,False
+10.1039/d6ta00010j,d6ta00010j.pdf,10.1039/d6ta00010j,14.3,2.0,,,,,,,1.0,single_or_few_layer,mxene_polymer_composite,LiF_HCl_MILD,False,197.0,False,False
+10.20517/energymater.2024.45,em4045_down.pdf,10.20517/energymater.2024.45,12.6,5.0,1.0,1.22,4.47,,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,258.8,False,False
+10.20517/energymater.2024.45,em4045_down.pdf,10.20517/energymater.2024.45,11.8,5.0,1.0,1.22,3.17,,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,325.7,False,False
+10.20517/energymater.2024.45,em4045_down.pdf,10.20517/energymater.2024.45,11.9,5.0,1.0,1.22,3.47,,,,3.0,single_or_few_layer,mxene_carbon_composite,LiF_HCl_MILD,False,381.5,False,False
+10.20517/energymater.2024.45,em4045_down.pdf,10.20517/energymater.2024.45,13.4,5.0,1.0,1.33,4.65,,,,3.0,single_or_few_layer,mxene_carbon_composite,LiF_HCl_MILD,False,396.4,False,False
+10.20517/energymater.2024.45,em4045_down.pdf,10.20517/energymater.2024.45,13.8,5.0,1.0,1.27,4.66,,,,3.0,single_or_few_layer,mxene_carbon_composite,LiF_HCl_MILD,False,360.3,False,False
+10.1002/eem2.12876,Energy   Environ Materials - 2025 - Mehdi - Enhanced Electrochemical Performance and Theoretical Insights of.pdf,10.1002/eem2.12876,11.799999999999999,10.0,,,,16.3,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,294.0,False,False
+10.1002/eem2.12876,Energy   Environ Materials - 2025 - Mehdi - Enhanced Electrochemical Performance and Theoretical Insights of.pdf,10.1002/eem2.12876,12.8,10.0,,,,,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,74.0,False,False
+10.1002/eem2.12876,Energy   Environ Materials - 2025 - Mehdi - Enhanced Electrochemical Performance and Theoretical Insights of.pdf,10.1002/eem2.12876,13.0,10.0,,,,,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,105.0,False,False
+10.1002/eem2.12876,Energy   Environ Materials - 2025 - Mehdi - Enhanced Electrochemical Performance and Theoretical Insights of.pdf,10.1002/eem2.12876,13.3,10.0,,,0.75,13.4,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,208.0,False,False
+10.1002/eem2.12876,Energy   Environ Materials - 2025 - Mehdi - Enhanced Electrochemical Performance and Theoretical Insights of.pdf,10.1002/eem2.12876,,,,,,,,,1.0,,pristine_mxene,LiF_HCl_MILD,False,151.0,False,False
+10.1002/slct.202200690,liu2022.pdf,10.1002/slct.202200690,16.21,5.0,,,,,,,1.0,,pristine_mxene,LiF_HCl_MILD,False,164.6,False,False
+10.1002/slct.202200690,liu2022.pdf,10.1002/slct.202200690,14.15,5.0,,,,,,,1.0,,pristine_mxene,LiF_HCl_MILD,False,200.4,False,False
+10.1002/slct.202200690,liu2022.pdf,10.1002/slct.202200690,16.53,5.0,,,,,,,1.0,,mxene_carbon_composite,LiF_HCl_MILD,False,211.7,False,False
+10.1002/slct.202200690,liu2022.pdf,10.1002/slct.202200690,14.58,5.0,,,,,,,1.0,,mxene_carbon_composite,LiF_HCl_MILD,False,270.5,False,False
+10.1002/smll.202202203,lv2022.pdf,10.1002/smll.202202203,13.6,2.0,,,,,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,376.0,False,False
+10.1021/acsnano.2c03351,ma2022.pdf,10.1021/acsnano.2c03351,13.600000000000001,5.0,,,,,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,287.9,False,False
+10.3390/molecules30020241,molecules-30-00241.pdf,10.3390/molecules30020241,13.2,,1.0,1.6,,12.082,1.3,,,delaminated,pristine_mxene,LiF_HCl_MILD,False,289.0,False,False
+10.3390/molecules30020241,molecules-30-00241.pdf,10.3390/molecules30020241,13.2,,1.0,1.6,,19.898,0.25,4.81,,delaminated,pristine_mxene,LiF_HCl_MILD,False,658.0,False,False
+10.1038/nature13970,nature13970.pdf,10.1038/nature13970,,2.0,,1.85,5.0,,,,1.0,multilayer,pristine_mxene,LiF_HCl_MILD,False,245.0,False,False
+10.1038/nature13970,nature13970.pdf,10.1038/nature13970,,2.0,,8.8,30.0,,,,1.0,multilayer,pristine_mxene,LiF_HCl_MILD,False,182.0,False,False
+10.1038/nature13970,nature13970.pdf,10.1038/nature13970,,2.0,,16.5,75.0,,,,1.0,multilayer,pristine_mxene,LiF_HCl_MILD,False,161.0,False,False
+10.1038/nenergy.2017.105,nenergy2017105.pdf,10.1038/nenergy.2017.105,,,,,0.09,,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,450.0,False,False
+10.1038/nenergy.2017.105,nenergy2017105.pdf,10.1038/nenergy.2017.105,,2.0,,1.2,3.0,,,,3.0,single_or_few_layer,structured_pristine_mxene,LiF_HCl_MILD,False,380.0,False,False
+10.1038/nenergy.2017.105,nenergy2017105.pdf,10.1038/nenergy.2017.105,,2.0,10.0,5.3,13.0,,,,3.0,single_or_few_layer,structured_pristine_mxene,LiF_HCl_MILD,False,370.0,False,False
+10.1038/nenergy.2017.105,nenergy2017105.pdf,10.1038/nenergy.2017.105,,5.0,,11.3,40.0,,,,3.0,single_or_few_layer,structured_pristine_mxene,LiF_HCl_MILD,False,354.0,False,False
+10.1038/nenergy.2017.105,nenergy2017105.pdf,10.1038/nenergy.2017.105,26.8,10.0,,0.43,13.0,,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,310.0,False,False
+10.1038/nenergy.2017.105,nenergy2017105.pdf,10.1038/nenergy.2017.105,26.8,1000.0,,0.9,25.0,,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,280.0,False,False
+10.1038/nenergy.2017.105,nenergy2017105.pdf,10.1038/nenergy.2017.105,26.8,1000.0,,4.3,180.0,,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,125.0,False,False
+10.1021/acsnano.3c11551,nn3c11551.pdf,10.1021/acsnano.3c11551,14.0,10.0,,,,20.0,,,3.0,delaminated,structured_pristine_mxene,LiF_HCl_MILD,False,252.5,False,False
+10.1002/adfm.202102874,Reassembly-of-MXene-Hydrogels-into-Flexible-Films-towards-Compact-and-Ultrafast-Supercapacitors.pdf,10.1002/adfm.202102874,14.8,2000.0,,1.19,3.0,8.4,,,3.0,,pristine_mxene,LiF_HCl_MILD,False,31.0,False,False
+10.1002/adfm.202102874,Reassembly-of-MXene-Hydrogels-into-Flexible-Films-towards-Compact-and-Ultrafast-Supercapacitors.pdf,10.1002/adfm.202102874,13.899999999999999,10.0,,1.16,3.5,,,,3.0,,pristine_mxene,LiF_HCl_MILD,False,295.0,False,False
+10.1002/adfm.202102874,Reassembly-of-MXene-Hydrogels-into-Flexible-Films-towards-Compact-and-Ultrafast-Supercapacitors.pdf,10.1002/adfm.202102874,13.899999999999999,2000.0,,,,,,,3.0,,pristine_mxene,LiF_HCl_MILD,False,197.0,False,False
+10.1002/adfm.202102874,Reassembly-of-MXene-Hydrogels-into-Flexible-Films-towards-Compact-and-Ultrafast-Supercapacitors.pdf,10.1002/adfm.202102874,13.799999999999999,2000.0,,,,65.4,0.5700000000000001,,3.0,,mxene_carbon_composite,LiF_HCl_MILD,False,206.0,False,False
+10.1038/s41586-018-0109-z,s41586-018-0109-z.pdf,10.1038/s41586-018-0109-z,,10.0,,,6.0,,0.219,,3.0,delaminated,mxene_carbon_composite,LiF_HCl_MILD,False,265.0,False,False
+10.1038/s41586-018-0109-z,s41586-018-0109-z.pdf,10.1038/s41586-018-0109-z,,10.0,,,35.0,,0.219,,3.0,delaminated,mxene_carbon_composite,LiF_HCl_MILD,False,236.0,False,False
+10.1038/s41586-018-0109-z,s41586-018-0109-z.pdf,10.1038/s41586-018-0109-z,,10.0,,3.6,245.0,,0.219,,3.0,delaminated,mxene_carbon_composite,LiF_HCl_MILD,False,256.0,False,False
+10.1038/s41586-018-0109-z,s41586-018-0109-z.pdf,10.1038/s41586-018-0109-z,,10.0,,6.16,320.0,,0.219,,3.0,delaminated,mxene_carbon_composite,LiF_HCl_MILD,False,268.0,False,False
+10.1002/smll.202205947,Small_2022_Guo_Thickness80_90Independent_Capacitive_Performance_of_Holey_Ti3C2Tx_Film_Prepared_through_a_Mild_Oxidation.pdf,10.1002/smll.202205947,14.1,,0.5,,25.0,,,,3.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,258.0,False,False
+10.1002/smll.202205947,Small_2022_Guo_Thickness80_90Independent_Capacitive_Performance_of_Holey_Ti3C2Tx_Film_Prepared_through_a_Mild_Oxidation.pdf,10.1002/smll.202205947,,10.0,,,10.0,,0.28,,3.0,,pristine_mxene,LiF_HCl_MILD,False,198.0,False,False
+10.1002/smll.202205947,Small_2022_Guo_Thickness80_90Independent_Capacitive_Performance_of_Holey_Ti3C2Tx_Film_Prepared_through_a_Mild_Oxidation.pdf,10.1002/smll.202205947,,10.0,,,10.0,,0.24,,3.0,,pristine_mxene,LiF_HCl_MILD,False,223.0,False,False
+10.1002/smll.201802225,smll.201802225.pdf,10.1002/smll.201802225,12.6,,,,,,,,3.0,delaminated,mxene_carbon_composite,LiF_HCl_MILD,False,532.0,False,False
+10.1002/smll.201804732,smll.201804732.pdf,10.1002/smll.201804732,39.3,5.0,,,,,1.3,,1.0,delaminated,mxene_polymer_composite,LiF_HCl_MILD,False,258.2,False,False
+ssrn-5211970.pdf,ssrn-5211970.pdf,,14.8,,1.0,,,,,,1.0,delaminated,pristine_mxene,LiF_HCl_MILD,False,281.0,False,False
+ssrn-5211970.pdf,ssrn-5211970.pdf,,13.5,,1.0,,,,,,1.0,delaminated,pristine_mxene,LiF_HCl_MILD,False,298.0,False,False
+ssrn-5211970.pdf,ssrn-5211970.pdf,,10.95,,1.0,,,,,,1.0,delaminated,pristine_mxene,LiF_HCl_MILD,False,401.0,False,False
+10.1002/sus2.61,SusMat - 2022 - Chu - Boosting the energy density of aqueous MXene‐based supercapacitor by integrating 3D conducting.pdf,10.1002/sus2.61,12.8,,,,1.5,,,,1.0,single_or_few_layer,pristine_mxene,LiF_HCl_MILD,False,213.8,False,False
+10.25259/ajc_264_2024,UmNiN2dEUVBhcGowc2U1aUxJSk9aQT09.pdf,10.25259/AJC_264_2024,12.13,2.0,,,,29.69,,,3.0,multilayer,pristine_mxene,LiF_HCl_MILD,False,315.5,False,False
+10.25259/ajc_264_2024,UmNiN2dEUVBhcGowc2U1aUxJSk9aQT09.pdf,10.25259/AJC_264_2024,13.85,,1.0,,,35.57,,,3.0,multilayer,mxene_carbon_composite,LiF_HCl_MILD,False,436.0,False,False

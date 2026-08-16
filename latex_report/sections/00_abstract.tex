@@ -1,0 +1,41 @@
+\begin{abstract}
+\noindent
+Literature-derived datasets are an appealing route to data-driven design of MXene
+supercapacitor electrodes, but they are small and heterogeneous. We compile 118 usable
+gravimetric-capacitance observations for Ti\textsubscript{3}C\textsubscript{2}T\textsubscript{x}
+in H\textsubscript{2}SO\textsubscript{4} from 40 publications, standardise thirteen
+structural and processing descriptors with unit-aware parsing, and evaluate prediction under
+strict publication-grouped cross-validation with a full target-leakage audit. Cross-paper
+transferability is weak
+($R^2 = 0.03 \pm 0.12$, MAE
+$= 82$\,F\,g\textsuperscript{-1}). A variance decomposition localises
+the cause: 64\% of the variance in capacitance and a mean of
+87\% of the variance in the descriptors lies \emph{between}
+publications, and several descriptors are constant within each publication
+(ICC$(1)\approx1$). We then test whether Bayesian-network augmentation
+(\textsc{DataSynthesizer}, correlated-attribute mode) relieves the small-sample constraint,
+fitting the generator inside each training fold only and sweeping four augmentation ratios,
+three network degrees and three generator seeds. It does not: the best condition improves MAE
+by 6.0\,F\,g\textsuperscript{-1}, less than the
+12.3\,F\,g\textsuperscript{-1} obtained by re-drawing the synthetic set alone, with
+a non-monotonic response in the amount of synthetic data. The generator itself was faithful
+--- no marginal rejected by a Kolmogorov--Smirnov test, Jensen--Shannon distance
+0.08 on categorical frequencies, dependency structure
+reproduced to $\approx0.06$, and no memorisation of real rows
+--- so the null result reflects the nature of the bottleneck rather than a generator failure:
+resampling a learned joint distribution cannot supply information about experimental domains
+the source papers never visited. SHAP attribution is nevertheless highly stable under this
+resampling (Spearman $\rho = 0.90$, top-5 overlap
+5/5), which licenses using the real-only ranking for descriptor
+prioritisation. Finally we assess what physics the corpus can enforce. A classical
+PDE-based physics-informed neural network is not justified --- potential window, discharge
+time, current and any time axis are entirely absent --- but two algebraic capacitance closure
+identities hold to a median relative error below 1\%, allowing areal and volumetric
+capacitance to serve as auxiliary supervised outputs under a hard consistency constraint. We
+therefore recommend a hybrid physics-constrained multi-task regression, and identify the
+potential window and discharge time as the highest-value missing measurements.
+\end{abstract}
+
+\vspace{4pt}
+\noindent\textbf{Keywords:} MXene; supercapacitor; gravimetric capacitance; SHAP; Bayesian
+network; synthetic data augmentation; domain shift; physics-guided machine learning.

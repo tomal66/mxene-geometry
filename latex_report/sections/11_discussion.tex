@@ -1,0 +1,59 @@
+\section{Discussion}\label{sec:discussion}
+
+\subsection{More rows are not more information}
+The central finding of this study is a distinction between sample size and independent
+information. The corpus contains 118 rows but only 40 independent experimental contexts,
+and 64\% of the variance in capacitance lies between those contexts rather than
+within them. Bayesian-network resampling multiplies rows while holding the number of contexts
+fixed. Since the generator's joint distribution is estimated from the training papers alone,
+every synthetic observation is a recombination of dependencies those papers already exhibit.
+When the test partition is a \emph{different} publication --- with its own protocol, its own
+mass-normalisation convention and, as Sec.~\ref{sec:domainshift} shows, frequently its own
+unique descriptor settings --- no amount of resampling can supply the missing information.
+The augmentation null result and the fidelity success are therefore two aspects of the same
+fact rather than a contradiction.
+
+This also delimits when the motivating FCDI-style strategy should be expected to work. Where
+observations are exchangeable draws from one experimental campaign, resampling the joint
+distribution is a reasonable regulariser. Where they are clustered by study and evaluation is
+across studies, it addresses the wrong bottleneck.
+
+\subsection{Four purposes that must not be mixed}
+The analysis maintains four separate roles, and much of the interpretive risk in this problem
+comes from conflating them. \emph{Predictive assessment} uses paper-grouped
+cross-validation. \emph{Descriptor interpretation} uses the final real-only model fitted to
+all observations. \emph{Robustness testing} uses Bayesian augmentation and SHAP-ranking
+stability. \emph{Physics-model design} uses descriptors supported by all three. In
+particular, the in-sample fit of the interpretation model is never quoted as performance, and
+the stability of the SHAP ranking is never taken as evidence that the model predicts well ---
+it does not.
+
+\subsection{Attribution, association and causation}
+SHAP quantifies how a fitted model distributes credit among its inputs. Within this corpus
+that attribution is stable and reproducible, which makes it a defensible basis for
+prioritising descriptors. It is not evidence of causation, and Sec.~\ref{sec:shap} gives a
+quantitative reason for caution specific to this dataset: several highly ranked descriptors
+are paper-level constants (ICC$(1) \approx 1$), so their attribution is statistically
+entangled with publication identity. The interlayer-spacing trend, which runs opposite to the
+naive physical expectation, is the clearest symptom. The appropriate conclusion is that these
+descriptors organise the corpus and the model uses them, not that changing them would change
+measured capacitance.
+
+\subsection{What the physics analysis changes}
+Rejecting a classical PINN is a substantive result rather than a negative one. It redirects
+effort from constructing a differential residual the data cannot support towards two things
+the data do support: enforcing the verified closure identities of
+Eqs.~\eqref{eq:areal}--\eqref{eq:vol} as internal-consistency constraints, and extending
+the extraction schema to recover the potential window and discharge time. The second is the
+higher-value action. It converts the physics term from a unit-consistency relation applicable
+to a minority of rows into the measurement equation itself, and it simultaneously addresses
+the heterogeneity diagnosis, because knowing $\Delta V$ and the testing mode removes two known
+and currently unmodelled sources of between-study scatter.
+
+\subsection{Implications for reporting practice}
+The rows discarded during cleaning are themselves a finding. Capacitance reported only as a
+range or an inequality, current densities given on incompatible bases, mass loadings without
+an area, and flake sizes given qualitatively together removed a substantial fraction of
+otherwise usable records. Standardised reporting of the potential window, testing mode,
+discharge time and normalisation basis would improve the value of the literature for
+data-driven analysis more than any modelling refinement available on the present corpus.

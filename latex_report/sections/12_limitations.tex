@@ -1,0 +1,48 @@
+\section{Limitations}\label{sec:limitations}
+
+\begin{itemize}
+\item \textbf{Literature-derived, heterogeneous data.} Every row is a structured extraction
+from a different publication with its own cell geometry, reference electrode, normalisation
+convention and reporting rate. Two rows with identical descriptors may legitimately differ by
+a hundred F\,g\textsuperscript{-1}.
+
+\item \textbf{Few independent studies.} 40 publications provide 118 rows. Five grouped
+folds is the practical maximum, and paired significance testing at that scale is underpowered
+by construction: the smallest attainable two-sided Wilcoxon $p$-value is 0.0625.
+
+\item \textbf{Unequal observations per paper.} Cluster sizes range from 1 to 9 rows, so
+folds differ in effective sample size and a single unusual publication can dominate its fold.
+
+\item \textbf{Extensive missingness.} Specific surface area, gravimetric current density,
+flake size and pore diameter are reported by a minority of publications. Requiring complete
+cases for the Bayesian-network experiment reduced the corpus from 118 to
+47 rows, so that experiment describes a sub-population.
+
+\item \textbf{Protocol inconsistency and unmeasured confounders.} Testing mode, potential
+window and binder or current-collector details are absent, yet all affect measured
+capacitance. Some publications report an interlayer \emph{gap} rather than a (002)
+$d$-spacing. The closure-identity check found
+3 areal and 4
+volumetric rows violating an exact definitional relation by more than 50\%, which is direct
+evidence that normalisation conventions differ between publications.
+
+\item \textbf{Weak cross-paper predictive transferability.} Mean grouped $R^2$ is
+0.030, with negative values on individual folds. The models presented here
+should not be used to predict the capacitance of an electrode from an unseen laboratory.
+
+\item \textbf{Descriptor--paper confounding.} Several descriptors are constant within each
+publication (ICC$(1) \approx 1$), so their SHAP attribution cannot be separated from
+publication identity by any analysis of this corpus.
+
+\item \textbf{Synthetic observations are not experiments.} Bayesian-resampled rows carry no
+new experimental information and are never treated as independent evidence; they appear in no
+test partition.
+
+\item \textbf{SHAP is model attribution, not causality.} All descriptor statements are
+associations within the compiled corpus.
+
+\item \textbf{The enforceable physics is definitional.} Equations~\eqref{eq:areal}
+and~\eqref{eq:vol} are unit-normalisation identities, not transport dynamics. Enforcing them
+constrains internal consistency; it does not inject electrochemical mechanism, and it applies
+only to the minority of rows reporting areal or volumetric capacitance.
+\end{itemize}

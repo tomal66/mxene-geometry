@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\caption{Real-only versus Bayesian-augmented training, evaluated on the identical set of held-out real papers in every condition ($k=2$, five grouped folds, three independent generator seeds averaged per fold). Errors in F\,g\textsuperscript{-1}; $\pm$ denotes the fold-to-fold SD.}
+\label{tab:augmentation}
+\footnotesize
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{Training set} & \textbf{$n_{\mathrm{syn}}$} & \textbf{$R^2$} & \textbf{MAE} & \textbf{RMSE} & \textbf{Pooled MAE} & \textbf{Seed SD} \\
+\midrule
+Real only & 0 & -1.91 $\pm$ 2.67 & 129.6 $\pm$ 68.0 & 189.1 $\pm$ 149.3 & 129.5 & -- \\
+Real $+\,1\times$ & 38 & -1.88 $\pm$ 2.27 & 130.9 $\pm$ 65.4 & 190.2 $\pm$ 148.6 & 130.8 & 11.1 \\
+Real $+\,3\times$ & 113 & -2.53 $\pm$ 3.43 & 138.7 $\pm$ 69.8 & 200.8 $\pm$ 150.3 & 138.6 & 18.9 \\
+Real $+\,5.25\times$ & 198 & -1.38 $\pm$ 1.48 & 123.6 $\pm$ 65.5 & 186.1 $\pm$ 153.5 & 122.8 & 6.9 \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\linewidth}\scriptsize ``Seed SD'' is the within-fold MAE standard deviation across the three generator seeds, i.e.\ the score movement produced by re-drawing the synthetic set alone. It is of the same magnitude as the entire spread between augmentation ratios, and for the $+3\times$ condition it exceeds it.\end{minipage}
+\end{table}

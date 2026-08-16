@@ -1,0 +1,193 @@
+row_index,paper_id,raw_value,raw_unit,parsed_kind,disposition,target_cap_F_g
+0,10.1016/j.carbon.2025.120021,424,F g−1,exact,kept:exact,424.0
+1,10.1016/j.carbon.2025.120021,358,F g−1,exact,kept:exact,358.0
+2,10.1016/j.carbon.2025.120021,330,F g−1,exact,kept:exact,330.0
+3,10.1016/j.electacta.2022.139871,201,F g−1,exact,kept:exact,201.0
+4,10.1016/j.electacta.2022.139871,239,F g−1,exact,kept:exact,239.0
+5,10.1016/j.electacta.2022.139871,425.7,F g−1,exact,kept:exact,425.7
+6,10.1016/j.electacta.2022.139871,243,F g−1,exact,kept:exact,243.0
+7,10.1016/j.carbpol.2022.120519,221,F g−1,exact,kept:exact,221.0
+8,10.1016/j.carbpol.2022.120519,122,F g−1,exact,kept:exact,122.0
+9,10.1016/j.carbpol.2022.120519,356,F g−1,exact,kept:exact,356.0
+10,10.1016/j.apsusc.2019.144250,166,F g−1,exact,kept:exact,166.0
+11,10.1016/j.ceramint.2020.05.247,234,F g−1,exact,kept:exact,234.0
+12,10.1016/j.ceramint.2020.05.247,340,F g−1,exact,kept:exact,340.0
+13,10.1016/j.jallcom.2021.161304,227,F/g,exact,kept:exact,227.0
+14,10.1016/j.jallcom.2021.161304,238,F/g,exact,kept:exact,238.0
+15,10.1016/j.jallcom.2021.161304,307,F/g,exact,kept:exact,307.0
+16,10.1016/j.jallcom.2021.161304,,,missing,dropped:no_value_reported,
+17,10.1016/j.jallcom.2022.166647,311,F/g,exact,kept:exact,311.0
+18,10.1016/j.jallcom.2022.166647,,,missing,dropped:no_value_reported,
+19,10.1016/j.jallcom.2022.166647,385,F/g,exact,kept:exact,385.0
+20,10.1016/j.jallcom.2022.166647,,,missing,dropped:no_value_reported,
+21,10.1016/j.jallcom.2022.166647,303,F/g,exact,kept:exact,303.0
+22,10.1016/j.jallcom.2022.166647,340,F/g,exact,kept:exact,340.0
+23,10.1016/j.jallcom.2022.166647,353,F/g,exact,kept:exact,353.0
+24,10.1016/j.jallcom.2022.166647,325,F/g,exact,kept:exact,325.0
+25,10.1016/j.jallcom.2022.166647,325,F/g,exact,kept:exact,325.0
+26,10.1016/j.jallcom.2023.173355,489.3,F g-1,exact,kept:exact,489.3
+27,10.1016/j.jallcom.2023.173355,,,missing,dropped:no_value_reported,
+28,10.1016/j.jallcom.2023.173355,,,missing,dropped:no_value_reported,
+29,10.1016/j.jallcom.2023.173355,1609.5,F g-1,exact,kept:exact,1609.5
+30,10.1016/j.jallcom.2023.173355,,,missing,dropped:no_value_reported,
+31,10.1016/j.apmt.2019.06.013,278,F g−1,exact,kept:exact,278.0
+32,10.1016/j.apmt.2019.06.013,378,F g−1,exact,kept:exact,378.0
+33,10.1016/j.apmt.2019.06.013,414,F g−1,exact,kept:exact,414.0
+34,10.1016/j.jobab.2021.10.001,362,F/g,exact,kept:exact,362.0
+35,10.1016/j.ensm.2023.103148,~280,F g−1,approximate,kept:approximate,280.0
+36,10.1016/j.ensm.2023.103148,292,F g−1,exact,kept:exact,292.0
+37,10.1016/j.ensm.2023.103148,289,F g−1,exact,kept:exact,289.0
+38,10.1016/j.ensm.2023.103148,300,F g−1,exact,kept:exact,300.0
+39,10.1016/j.ensm.2023.103148,277,F g−1,exact,kept:exact,277.0
+40,10.1016/j.ensm.2023.103148,100,F g−1,exact,kept:exact,100.0
+41,10.1016/j.ensm.2023.103148,286,F g−1,exact,kept:exact,286.0
+42,10.1016/j.ensm.2023.103148,261,F g−1,exact,kept:exact,261.0
+43,10.1016/j.ensm.2023.103148,240,F g−1,exact,kept:exact,240.0
+44,10.1002/batt.201800014,234,F g−1,exact,kept:exact,234.0
+45,10.1002/adma.201701264,330.2,F g-1,exact,kept:exact,330.2
+46,10.1002/adma.201701264,308.0,F g-1,exact,kept:exact,308.0
+47,10.1002/adma.201701264,335.4,F g-1,exact,kept:exact,335.4
+48,10.1002/adma.201701264,329.9,F g-1,exact,kept:exact,329.9
+49,10.1002/aelm.201800179,,,missing,dropped:no_value_reported,
+50,10.1002/aelm.201800179,,,missing,dropped:no_value_reported,
+51,10.1002/aelm.201800179,,,missing,dropped:no_value_reported,
+52,10.1002/aelm.201800179,,,missing,dropped:no_value_reported,
+53,10.1021/acsnano.9b10066,,,missing,dropped:no_value_reported,
+54,10.1021/acsnano.9b10066,~140,F/g,approximate,kept:approximate,140.0
+55,10.1002/adma.202304757,7.26,F g−1,exact,kept:exact,7.26
+56,10.1002/adma.202304757,,,missing,dropped:no_value_reported,
+57,10.1002/adma.202304757,,,missing,dropped:no_value_reported,
+58,10.1002/adma.202304757,,,missing,dropped:no_value_reported,
+59,10.1002/advs.202305991,,,missing,dropped:no_value_reported,
+60,10.1002/advs.202305991,,,missing,dropped:no_value_reported,
+61,10.1002/advs.202305991,,,missing,dropped:no_value_reported,
+62,10.1002/advs.202305991,,,missing,dropped:no_value_reported,
+63,10.1002/advs.202305991,,,missing,dropped:no_value_reported,
+64,10.1002/advs.202305991,,,missing,dropped:no_value_reported,
+65,10.1002/advs.202305991,,,missing,dropped:no_value_reported,
+66,10.1002/advs.202305991,,,missing,dropped:no_value_reported,
+67,10.1021/acsanm.4c01912,390,F g−1,exact,kept:exact,390.0
+68,10.1002/adma.201504705,245,F/g,exact,kept:exact,245.0
+69,10.1002/adma.201504705,416,F g−1,exact,kept:exact,416.0
+70,10.1002/adma.201504705,249,F/g,exact,kept:exact,249.0
+71,10.1039/c8dt04374d,241,F g−1,exact,kept:exact,241.0
+72,10.1039/c8dt04374d,,,missing,dropped:no_value_reported,
+73,10.1039/c8dt04374d,,,missing,dropped:no_value_reported,
+74,10.1039/c8dt04374d,,,missing,dropped:no_value_reported,
+75,10.1039/c8dt04374d,216,F g−1,exact,kept:exact,216.0
+76,10.1039/c8dt04374d,286,F g−1,exact,kept:exact,286.0
+77,10.1039/c8dt04374d,,,missing,dropped:no_value_reported,
+78,10.1039/c8dt04374d,,,missing,dropped:no_value_reported,
+79,10.1039/c8nr01550c,288,F g−1,exact,kept:exact,288.0
+80,10.1039/c8nr06014b,438,F g−1,exact,kept:exact,438.0
+81,10.1039/c8nr06014b,231,F g−1,exact,kept:exact,231.0
+82,10.1002/celc.202100558,153,F/g,exact,kept:exact,153.0
+83,10.1002/celc.202100558,169,F/g,exact,kept:exact,169.0
+84,10.1002/celc.202100558,192,F/g,exact,kept:exact,192.0
+85,10.1002/celc.202100558,110,F/g,exact,kept:exact,110.0
+86,10.1002/aelm.201700339,,,missing,dropped:no_value_reported,
+87,10.1002/aelm.201700339,,,missing,dropped:no_value_reported,
+88,10.1002/aelm.201700339,,,missing,dropped:no_value_reported,
+89,10.1039/d5ta06789h,234.5,F g−1,exact,kept:exact,234.5
+90,10.1039/d5ta06789h,146.9,F g−1,exact,kept:exact,146.9
+91,10.1039/d5ta06789h,219.1,F g−1,exact,kept:exact,219.1
+92,10.1039/d6ta00010j,192,F/g,exact,kept:exact,192.0
+93,10.1039/d6ta00010j,,,missing,dropped:no_value_reported,
+94,10.1039/d6ta00010j,226,F/g,exact,kept:exact,226.0
+95,10.1039/d6ta00010j,,,missing,dropped:no_value_reported,
+96,10.1039/d6ta00010j,,,missing,dropped:no_value_reported,
+97,10.1039/d6ta00010j,,,missing,dropped:no_value_reported,
+98,10.1039/d6ta00010j,,,missing,dropped:no_value_reported,
+99,10.1039/d6ta00010j,214,F/g,exact,kept:exact,214.0
+100,10.1039/d6ta00010j,,,missing,dropped:no_value_reported,
+101,10.1039/d6ta00010j,,,missing,dropped:no_value_reported,
+102,10.1039/d6ta00010j,230,F/g,exact,kept:exact,230.0
+103,10.1039/d6ta00010j,239,F/g,exact,kept:exact,239.0
+104,10.1039/d6ta00010j,240.77,F g−1,exact,kept:exact,240.77
+105,10.1039/d6ta00010j,200,F/g,exact,kept:exact,200.0
+106,10.1039/d6ta00010j,197,F/g,exact,kept:exact,197.0
+107,10.20517/energymater.2024.45,258.8,F g-1,exact,kept:exact,258.8
+108,10.20517/energymater.2024.45,325.7,F g-1,exact,kept:exact,325.7
+109,10.20517/energymater.2024.45,381.5,F g-1,exact,kept:exact,381.5
+110,10.20517/energymater.2024.45,396.4,F g-1,exact,kept:exact,396.4
+111,10.20517/energymater.2024.45,360.3,F g-1,exact,kept:exact,360.3
+112,10.1002/eem2.12876,294,F g−1,exact,kept:exact,294.0
+113,10.1002/eem2.12876,74,F g−1,exact,kept:exact,74.0
+114,10.1002/eem2.12876,105,F g−1,exact,kept:exact,105.0
+115,10.1002/eem2.12876,208,F g−1,exact,kept:exact,208.0
+116,10.1002/eem2.12876,151,F g−1,exact,kept:exact,151.0
+117,10.1002/aenm.201601372,,,missing,dropped:no_value_reported,
+118,10.1002/slct.202200690,164.6,F/g,exact,kept:exact,164.6
+119,10.1002/slct.202200690,,,missing,dropped:no_value_reported,
+120,10.1002/slct.202200690,200.4,F/g,exact,kept:exact,200.4
+121,10.1002/slct.202200690,,,missing,dropped:no_value_reported,
+122,10.1002/slct.202200690,211.7,F/g,exact,kept:exact,211.7
+123,10.1002/slct.202200690,,,missing,dropped:no_value_reported,
+124,10.1002/slct.202200690,270.5,F/g,exact,kept:exact,270.5
+125,10.1002/slct.202200690,,,missing,dropped:no_value_reported,
+126,10.1002/smll.202202203,376,F g−1,exact,kept:exact,376.0
+127,10.1021/acsnano.2c03351,287.9,F g−1,exact,kept:exact,287.9
+128,10.3390/molecules30020241,289,F g−1,exact,kept:exact,289.0
+129,10.3390/molecules30020241,,,missing,dropped:no_value_reported,
+130,10.3390/molecules30020241,,,missing,dropped:no_value_reported,
+131,10.3390/molecules30020241,658,F g−1,exact,kept:exact,658.0
+132,10.1038/nature13970,245,F g−1,exact,kept:exact,245.0
+133,10.1038/nature13970,182,F g−1,exact,kept:exact,182.0
+134,10.1038/nature13970,161,F g−1,exact,kept:exact,161.0
+135,10.1038/nenergy.2017.105,450,F g−1,exact,kept:exact,450.0
+136,10.1038/nenergy.2017.105,380,F g−1,exact,kept:exact,380.0
+137,10.1038/nenergy.2017.105,370,F g−1,exact,kept:exact,370.0
+138,10.1038/nenergy.2017.105,354,F g−1,exact,kept:exact,354.0
+139,10.1038/nenergy.2017.105,310,F g−1,exact,kept:exact,310.0
+140,10.1038/nenergy.2017.105,280,F g−1,exact,kept:exact,280.0
+141,10.1038/nenergy.2017.105,125,F g−1,exact,kept:exact,125.0
+142,10.1038/nenergy.2017.105,,,missing,dropped:no_value_reported,
+143,10.1021/acsnano.3c11551,252.5,F g−1,exact,kept:exact,252.5
+144,10.1021/acsnano.9b07325,,,missing,dropped:no_value_reported,
+145,10.1021/acsnano.9b07325,,,missing,dropped:no_value_reported,
+146,10.1021/acsnano.9b07325,,,missing,dropped:no_value_reported,
+147,10.1021/acsnano.9b07325,,,missing,dropped:no_value_reported,
+148,10.1021/acsnano.9b07325,,,missing,dropped:no_value_reported,
+149,10.1021/acsnano.9b07325,,,missing,dropped:no_value_reported,
+150,10.1021/acsnano.9b07325,,,missing,dropped:no_value_reported,
+151,10.1021/acsnano.9b07325,,,missing,dropped:no_value_reported,
+152,10.1021/acsnano.9b07325,,,missing,dropped:no_value_reported,
+153,10.1002/adfm.202102874,31,F g-1,exact,kept:exact,31.0
+154,10.1002/adfm.202102874,,,missing,dropped:no_value_reported,
+155,10.1002/adfm.202102874,295,F g-1,exact,kept:exact,295.0
+156,10.1002/adfm.202102874,197,F g-1,exact,kept:exact,197.0
+157,10.1002/adfm.202102874,206,F g-1,exact,kept:exact,206.0
+158,10.1007/s40820-024-01567-2,,,missing,dropped:no_value_reported,
+159,10.1007/s40820-024-01567-2,,,missing,dropped:no_value_reported,
+160,10.1038/s41586-018-0109-z,265,F g−1,exact,kept:exact,265.0
+161,10.1038/s41586-018-0109-z,236,F g−1,exact,kept:exact,236.0
+162,10.1038/s41586-018-0109-z,over 200,F g−1,inequality,dropped:inequality,
+163,10.1038/s41586-018-0109-z,over 200,F g−1,inequality,dropped:inequality,
+164,10.1038/s41586-018-0109-z,over 200,F g−1,inequality,dropped:inequality,
+165,10.1038/s41586-018-0109-z,256,F g−1,exact,kept:exact,256.0
+166,10.1038/s41586-018-0109-z,268,F g−1,exact,kept:exact,268.0
+167,10.1038/s41586-018-0109-z,,,missing,dropped:no_value_reported,
+168,10.1002/smtd.202500499,,,missing,dropped:no_value_reported,
+169,10.1002/smtd.202500499,,,missing,dropped:no_value_reported,
+170,10.1002/smsc.202500367,exceeding 100,F g-1,inequality,dropped:inequality,
+171,10.1002/smll.202205947,258,F g−1,exact,kept:exact,258.0
+172,10.1002/smll.202205947,198,F g−1,exact,kept:exact,198.0
+173,10.1002/smll.202205947,223,F g−1,exact,kept:exact,223.0
+174,10.1002/smll.201802225,,,missing,dropped:no_value_reported,
+175,10.1002/smll.201802225,,,missing,dropped:no_value_reported,
+176,10.1002/smll.201802225,532,F g−1,exact,kept:exact,532.0
+177,10.1002/smll.201804732,,,missing,dropped:no_value_reported,
+178,10.1002/smll.201804732,,,missing,dropped:no_value_reported,
+179,10.1002/smll.201804732,,,missing,dropped:no_value_reported,
+180,10.1002/smll.201804732,258.2,F g-1,exact,kept:exact,258.2
+181,ssrn-5211970.pdf,281,F g-1,exact,kept:exact,281.0
+182,ssrn-5211970.pdf,298,F g-1,exact,kept:exact,298.0
+183,ssrn-5211970.pdf,401,F g-1,exact,kept:exact,401.0
+184,10.1002/sus2.61,213.8,F/g,exact,kept:exact,213.8
+185,10.25259/ajc_264_2024,315.5,F g-1,exact,kept:exact,315.5
+186,10.25259/ajc_264_2024,436,F g-1,exact,kept:exact,436.0
+187,10.1002/adfm.201705506,,,missing,dropped:no_value_reported,
+188,10.1002/adfm.201705506,,,missing,dropped:no_value_reported,
+189,10.1002/adfm.201705506,,,missing,dropped:no_value_reported,
+190,10.1002/adfm.201705506,,,missing,dropped:no_value_reported,
+191,10.1002/adfm.201705506,,,missing,dropped:no_value_reported,

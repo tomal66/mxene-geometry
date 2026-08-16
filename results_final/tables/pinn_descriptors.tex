@@ -1,0 +1,26 @@
+\begin{table}[htbp]
+\centering
+\caption{Classification of every standardised descriptor for the next-stage physics-guided model. Category A: physically meaningful, well-covered and stable inputs. Category B: informative machine-learning covariates that are categorical proxies rather than physical parameters. Category C: excluded.}
+\label{tab:pinn}
+\footnotesize
+\begin{tabular}{lrrlll}
+\toprule
+\textbf{Descriptor} & \textbf{SHAP rank} & \textbf{Miss.\ (\%)} & \textbf{Stability} & \textbf{Category} & \textbf{PINN input?} \\
+\midrule
+H\textsubscript{2}SO\textsubscript{4} conc.\ (M) & 2 & 6 & stable & A & yes \\
+Scan rate (mV\,s$^{-1}$) & 3 & 25 & moderately stable & A & yes \\
+Interlayer spacing (\AA) & 4 & 25 & moderately stable & A & yes \\
+Electrode thickness ($\upmu$m) & 7 & 54 & stable & A & yes (closure) \\
+Mass loading (mg\,cm$^{-2}$) & 10 & 53 & stable & A & yes (closure) \\
+Composition family & 1 & 0 & stable & B & not directly \\
+Layer morphology & 5 & 19 & stable & B & not directly \\
+Gel electrolyte & 8 & 0 & unstable & B & not directly \\
+Specific surface area (m$^2$\,g$^{-1}$) & 6 & 70 & moderately stable & C & no \\
+Current density (A\,g$^{-1}$) & 9 & 70 & moderately stable & C & no \\
+Pore diameter (nm) & 11 & 97 & moderately stable & C & no \\
+Flake size ($\upmu$m) & 12 & 91 & moderately stable & C & no \\
+Synthesis route & -- & 0 & not assessed & C & no \\
+\bottomrule
+\end{tabular}
+\par\vspace{2pt}\begin{minipage}{\linewidth}\scriptsize Stability combines the cross-fold SHAP rank spread with the rank change observed between the real-only and Bayesian-augmented models. Full reasoning is in \texttt{results\_final/pinn/descriptor\_classification.csv}.\end{minipage}
+\end{table}
